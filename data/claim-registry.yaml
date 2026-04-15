@@ -371,3 +371,41 @@ claims:
       - wiki/sources/reuters_dnr_2025.md
       - wiki/themes/news_ecosystem.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_video_level_ideology_estimation
+    text: "Cross-platform linking patterns plus text metadata can produce scalable video-level ideology estimates for political YouTube videos."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "Political subreddit-video data from 2011-2021; validated on held-out videos and 2020 browsing histories."
+    primary_sources:
+      - lai_et_al_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current validation is strongest for U.S. political videos with Reddit-link structure and informative text metadata."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/lai_et_al_2024.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
+  - id: claim_recommendation_radicalization_media_diets_congruence
+    text: "Observed YouTube political media diets are ideologically congruent on average, but overlap and within-party variation remain substantial."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Browsing histories collected May-July 2020."
+    primary_sources:
+      - lai_et_al_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Based on 345 YouGov respondents who viewed News & Politics videos; descriptive rather than causal about recommendations."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/lai_et_al_2024.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
