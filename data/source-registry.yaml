@@ -29,4 +29,165 @@
 #
 # Registry is seeded empty. Populated during Phase 1 ingest.
 
-sources: []
+sources:
+  - id: mcgrady_2023
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Dialing for Videos: A Random Sample of YouTube"
+    authors:
+      - "McGrady, Ryan"
+      - "Zheng, Kevin"
+      - "Curran, Rebecca"
+      - "Baumgartner, Jason"
+      - "Zuckerman, Ethan"
+    year: 2023
+    venue: "Journal of Quantitative Description: Digital Media"
+    doi: "10.51685/jqd.2023.022"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/mcgrady_2023.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+      - cross-linguistic-variation
+    themes:
+      - descriptive-deficit
+      - cross-linguistic-variation
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study5-cross-language
+    temporal_scope: "Publicly searchable videos sampled October-December 2022; uploads from 2005-2022"
+    notes: "Random sample covers public videos only. Language-distribution estimates are directionally useful but the paper cautions against treating them as precise language shares."
+  - id: munger_2024
+    type: book_chapter
+    evidence_tier: primary_empirical
+    title: "The YouTube Apparatus"
+    authors:
+      - "Munger, Kevin"
+    year: 2024
+    venue: "Cambridge Elements in Politics and Communication"
+    doi: "10.1017/9781009359795"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/munger_2024.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Fifteen-year political YouTube time series ending in 2022, with discussion of API conditions through March 2023"
+    notes: "Cambridge Element monograph slotted into registry type `book_chapter` because the current schema lacks a dedicated monograph/element type."
+  - id: munger_et_al_2025
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Pressing Play on Politics: Quantitative Description of YouTube"
+    authors:
+      - "Munger, Kevin"
+      - "Bisbee, James"
+      - "Yalcin, Omer"
+      - "Phillips, Joseph"
+      - "Hindman, Matthew"
+    year: 2025
+    venue: "Journal of Quantitative Description: Digital Media"
+    doi: "10.51685/jqd.2025.006"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/munger_et_al_2025.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "June 2020-February 2023 observation window for anglophone US politics channels built from a 2019 curated seed list"
+    notes: "Peer-reviewed and published; treated as `primary_empirical` despite project coauthorship because it is external scholarship rather than project-internal documentation."
+  - id: norton_shapiro_2024
+    type: policy_essay
+    evidence_tier: policy_research
+    title: "How to better study - and then improve - today's corrupted information environment"
+    authors:
+      - "Norton, Sean"
+      - "Shapiro, Jacob N."
+    year: 2024
+    venue: "Bulletin of the Atomic Scientists"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/norton_shapiro_2024.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+      - governance-data-access
+    themes:
+      - descriptive-deficit
+      - governance-data-access
+    census_relevance: medium
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Literature survey of 2017-2021 research with infrastructure discussion current to March 2024"
+    notes: "Assigned `policy_research` (added post-Batch-1) because the article is an academically-authored piece in a non-peer-reviewed venue that presents original bibliometric audit results and original interview data with 48 researchers. `news_commentary` was considered but is too restrictive — it is reserved for journalism/opinion with no original analysis. The policy_research tier allows the bibliometric statistics and field audit to be cited as the authors' own findings while still flagging the non-peer-reviewed venue."
+  - id: mcgrady_2025
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "One Platform, Four Languages: Comparing English, Spanish, Hindi, and Russian YouTube"
+    authors:
+      - "McGrady, Ryan"
+      - "Zheng, Kevin"
+      - "Zuckerman, Ethan"
+    year: 2025
+    venue: "Social Media + Society"
+    doi: "10.1177/20563051251363216"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/mcgrady_2025.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+      - cross-linguistic-variation
+    themes:
+      - descriptive-deficit
+      - cross-linguistic-variation
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study5-cross-language
+    temporal_scope: "Random samples collected in 2023-2024 describing uploads from 2006-2023 across four language communities"
+    notes: "Cross-linguistic paper tagged to `cross-linguistic-variation`, but only the `descriptive-deficit` theme was refreshed in this Batch 1 workflow."

@@ -62,3 +62,235 @@ quality calibration after Batch 1 before continuing.
    needed.
 4. Trigger Batch 1 ingest, either via Codex or via an interactive
    Claude Code session using the `ingest-from-review` skill.
+
+## 2026-04-15 — Ingest mcgrady_2023
+**Operation:** ingest-source
+**Branch:** ingest/mcgrady_2023
+**By:** Codex (GPT-5)
+
+Ingested `mcgrady_2023` via the `ingest-from-review` workflow. Created
+`wiki/sources/mcgrady_2023.md` and updated `data/source-registry.yaml`,
+`data/claim-registry.yaml`, `wiki/themes/descriptive_deficit.md`, and
+`wiki/index.md`.
+
+Literature-review cross-check note:
+
+- The review states that recommendation-based collections are already
+  shown to be systematically biased toward more popular videos. In the
+  original article, the authors frame that comparison more cautiously:
+  they say they believe this is true and will demonstrate it in
+  forthcoming work (p. 4), rather than presenting the comparison as a
+  completed result in this paper.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused existing theme tags `descriptive-deficit` and
+  `cross-linguistic-variation`; no taxonomy additions proposed.
+
+Human attention requested:
+
+- The language-distribution discussion is useful for establishing that
+  YouTube is more multilingual than many English-speaking users
+  experience, but the paper itself cautions against treating the
+  classifier outputs as precise language-share estimates (pp. 46-49,
+  61).
+
+## 2026-04-15 — Ingest munger_2024
+**Operation:** ingest-source
+**Branch:** ingest/munger_2024
+**By:** Codex (GPT-5)
+
+Ingested `munger_2024` via the `ingest-from-review` workflow. Created
+`wiki/sources/munger_2024.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/descriptive_deficit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced between the review summary and the
+  book's argument. The review's emphasis on agenda-setting, reciprocal
+  supply-demand feedback, and the priority of quantitative description
+  matches the original text.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused existing theme tag `descriptive-deficit`; no taxonomy changes
+  proposed.
+- Registry `type` was set to `book_chapter` because the current schema
+  has no dedicated type for a Cambridge Element / short monograph.
+
+Human attention requested:
+
+- The source is unusually hybrid: part agenda-setting essay, part
+  original descriptive analysis of political YouTube. The evidence tier
+  feels right at `primary_empirical`, but the registry schema likely
+  needs a better source-type slot than `book_chapter` for future
+  monographs.
+
+## 2026-04-15 — Ingest munger_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/munger_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `munger_et_al_2025` via the `ingest-from-review` workflow.
+Created `wiki/sources/munger_et_al_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/descriptive_deficit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review accurately captures
+  the paper's field-level understudy claim, the priority of
+  quantitative description, the extreme inequality in commenter
+  activity, and the API-quota constraint.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`, consistent with the user's instruction
+  to treat this coauthored but peer-reviewed publication as external
+  scholarship rather than `project_internal`.
+- Reused the existing theme tag `descriptive-deficit`; no taxonomy
+  additions proposed.
+
+Human attention requested:
+
+- The strongest representativeness claim in this paper is about visible
+  commenting behavior on anglophone US political YouTube, not about all
+  viewers or all of YouTube. The theme page keeps that scope explicit.
+
+## 2026-04-15 — Ingest norton_shapiro_2024
+**Operation:** ingest-source
+**Branch:** ingest/norton_shapiro_2024
+**By:** Codex (GPT-5)
+
+Ingested `norton_shapiro_2024` via the `ingest-from-review` workflow.
+Created `wiki/sources/norton_shapiro_2024.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/descriptive_deficit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review accurately reports the
+  article's platform, geography, and method biases, as well as the
+  data-access and tooling bottlenecks it highlights.
+
+Tier and taxonomy decisions:
+
+- Assigned `news_commentary` rather than `secondary_analytical`
+  because the venue is commentary, even though the article includes a
+  useful literature audit and interview-based diagnosis.
+- Reused existing theme tags `descriptive-deficit` and
+  `governance-data-access`; no taxonomy additions proposed.
+
+Human attention requested:
+
+- The article is valuable for framing the research-infrastructure
+  problem, but theme usage should stay disciplined: it supports context
+  about why YouTube is understudied, not empirical claims about
+  YouTube's behavior or effects.
+
+## 2026-04-15 — Ingest mcgrady_2025
+**Operation:** ingest-source
+**Branch:** ingest/mcgrady_2025
+**By:** Codex (GPT-5)
+
+Ingested `mcgrady_2025` via the `ingest-from-review` workflow.
+Created `wiki/sources/mcgrady_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/descriptive_deficit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review accurately reports
+  the Anglocentric bias claim, the Hindi/TikTok divergence, the lack
+  of published language distributions, and the use of random sampling
+  as a partial methodological corrective.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused existing theme tags `descriptive-deficit` and
+  `cross-linguistic-variation`; no taxonomy additions proposed.
+- Per the Batch 1 instruction, only `wiki/themes/descriptive_deficit.md`
+  was updated here. The source is also tagged to
+  `cross-linguistic-variation`, but that theme was not refreshed in
+  this PR.
+
+## 2026-04-15 — Refresh descriptive_deficit
+**Operation:** refresh-theme
+**Branch:** refresh/descriptive_deficit
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/descriptive_deficit.md` after Batch 1 ingest
+using the five current source cards (`mcgrady_2023`, `munger_2024`,
+`munger_et_al_2025`, `norton_shapiro_2024`, `mcgrady_2025`). Rewrote
+the consensus, disagreement, evidence-inventory, methods, project
+implications, and open-holes sections so the page reflects the full
+current source set rather than the rolling per-paper ingest updates.
+
+Refresh decisions:
+
+- Kept every substantive theme-page claim at `[🤖]` per the
+  `refresh-theme` rule; no refresh claim was upgraded to `[✓]`.
+- Preserved the absence of a direct empirical contradiction while
+  making the source-set differences in diagnosis explicit:
+  denominator/sampling, agenda-setting, infrastructure, and
+  multilingual heterogeneity.
+- No claim-registry text changes were needed for this refresh.
+- No debate-page split is proposed at this stage; the refreshed page
+  remains well under the 400-line split threshold and the five sources
+  still cohere as one theme.
+
+Human attention requested:
+
+- The page now relies on a stronger distinction between direct
+  empirical evidence about platform distributions and commentary about
+  why the field lacks that evidence. Reviewers should confirm that
+  Norton and Shapiro remains confined to framing/infrastructure use.
+- The outstanding literature-review discrepancy on `mcgrady_2023`
+  still stands: the review overstates recommendation-sample bias as a
+  demonstrated finding in that paper rather than a claim deferred to
+  future work.
+
+Human attention requested:
+
+- The paper's strongest generalization is comparative, not exhaustive:
+  it shows that English, Spanish, Hindi, and Russian YouTube differ
+  sharply, but it does not by itself establish what all other language
+  communities on the platform look like.
+
+## 2026-04-15 — Batch 1 calibration fixes
+**Operation:** fix
+**Branch:** refresh/descriptive_deficit
+**By:** Claude Code (Opus 4.6)
+
+Applied two calibration fixes to the Batch 1 output before PR review,
+matching durable changes made on `main` (commit 7907bb5):
+
+1. **Norton & Shapiro 2024 retiered from `news_commentary` to
+   `policy_research`.** The `policy_research` tier was added on main
+   specifically for academically-authored pieces in non-peer-reviewed
+   venues that present original analysis. Updated:
+   - `wiki/sources/norton_shapiro_2024.md` — evidence_tier and the
+     limitations section explaining the tier rationale.
+   - `data/source-registry.yaml` — evidence_tier, type (`policy_essay`),
+     and notes.
+   - `wiki/themes/descriptive_deficit.md` — the paragraph that
+     previously justified downweighting N&S now explains that the
+     `policy_research` tier allows its bibliometric audit to be cited
+     as the authors' own descriptive findings about the field, while
+     still flagging the non-peer-reviewed venue.
+
+2. **Claim registry verification levels demoted.** All 6 entries were
+   marked `verification: human_checked` during Batch 1, but claim-
+   registry entries are agent-authored synthesis and not cross-checked
+   at a specific passage. The updated `ingest-from-review` skill
+   clarifies that the `[✓]` starting marker applies only to inline
+   source-card markers, not to claim-registry entries. All 6 entries
+   now start at `machine_extracted`; a human will upgrade as part of
+   PR review or the calibration pause.
+
+No source card body content or theme-page substantive claims were
+changed. This is a tier/metadata correction only.
