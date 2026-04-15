@@ -62,3 +62,32 @@ quality calibration after Batch 1 before continuing.
    needed.
 4. Trigger Batch 1 ingest, either via Codex or via an interactive
    Claude Code session using the `ingest-from-review` skill.
+
+## 2026-04-15 — Refresh news_ecosystem
+**Operation:** refresh-theme
+**Branch:** refresh/news_ecosystem
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/news_ecosystem.md` after the Batch 2
+ingests. This synthesis was built from pushed source cards on
+`ingest/newman_et_al_2025` and `ingest/reuters_dnr_2025`.
+
+Key synthesis decisions:
+
+- Kept the page explicitly marked as supported only by non-peer-
+  reviewed sources, because the current evidence base here is two
+  Reuters Institute reports rather than peer-reviewed research.
+- Preserved the core tension between creator-led attention gains
+  and the continuing role of traditional news brands in some
+  markets and in verification behavior.
+- Kept all claims at `[🤖]` and limited this branch to the theme
+  page plus log entry, per the Batch 2 refresh instruction.
+
+Split evaluation:
+
+- No split proposed yet. The page remains compact and the current
+  disagreements still fit inside a single news-ecosystem theme.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20the%20Batch%202%20source%20cards.%0A-%20Preserved%20tension%20between%20creator-led%20attention%20gains%20and%20the%20continued%20role%20of%20traditional%20news%20brands.%0A-%20Kept%20this%20branch%20limited%20to%20the%20theme%20page%20and%20ops%20log.%0A%0A%23%23%20Sources%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20ops/log.md
