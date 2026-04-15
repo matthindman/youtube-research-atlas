@@ -137,6 +137,18 @@ evidence_tiers:
     can_support: >
       Synthesis claims. Must trace specific empirical findings back
       to the underlying primary sources.
+  policy_research:
+    description: >
+      Academically-authored essays, audits, or reports in non-peer-
+      reviewed venues (e.g., Bulletin of the Atomic Scientists,
+      Brookings, academic think-tank reports) that nevertheless
+      present original analysis, a documented literature audit, or
+      original survey data.
+    can_support: >
+      The author's own descriptive findings, methodological critiques,
+      and field audits, with the venue flagged as non-peer-reviewed.
+      Cannot be treated as scholarly consensus. Not a stand-in for
+      primary evidence about YouTube content or effects.
   industry_report:
     description: Reuters DNR, Pew, Ofcom, platform transparency reports.
     can_support: >
@@ -151,7 +163,10 @@ evidence_tiers:
     description: YouTube API docs, help pages, policy announcements.
     can_support: Technical and policy facts only.
   news_commentary:
-    description: Journalism, opinion pieces.
+    description: >
+      Journalism, trade press, opinion pieces with no original
+      analysis. Not for academic policy essays — use policy_research
+      for academically-authored work in non-peer-reviewed venues.
     can_support: Context and framing only. Rarely cited in synthesis.
 
 claim_types:

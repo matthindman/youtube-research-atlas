@@ -40,12 +40,32 @@ Same as `ingest-source`.
 5. **Proceed with steps 2–12 of the standard `ingest-source`
    workflow** (determine tier, update registries, create source card,
    update theme/method/dossier pages, commit).
-6. **Verification markers:** Claims that you cross-checked against
-   the original in step 3 and verified as accurate can start at
-   `[✓]` rather than `[🤖]`, because a human authored the literature
-   review and you have now verified the original. Claims that the
-   literature review did not cover, or that you introduce beyond
-   what the review states, still start at `[🤖]`.
+6. **Verification markers — narrow scope.** Claims that you
+   cross-checked against the original in step 3 and verified as
+   accurate can start at `[✓]` rather than `[🤖]`, because a human
+   authored the literature review and you have now verified the
+   original. Claims the literature review did not cover, or that you
+   introduce beyond what the review states, still start at `[🤖]`.
+
+   **The `[✓]` starting marker applies ONLY to inline claim markers
+   inside the source card you are creating.** It does NOT apply to:
+
+   - **`data/claim-registry.yaml` entries.** Claim-registry `verification`
+     fields always start at `machine_extracted`. Upgrading a registry
+     entry to `human_checked` or `publication_ready` is a human action
+     during PR review, not an ingest action.
+   - **Theme, method, or debate page synthesis.** Anything you write
+     on those pages uses `[🤖]` regardless of whether it was traceable
+     to the literature review. Synthesis across multiple sources is an
+     agent-authored rewrite, not a cross-check.
+   - **Paper dossier content.** Dossier pages are reviewed separately
+     under `build-paper-dossier`.
+
+   The underlying rule: cross-checking a specific paper-level claim
+   against its source is a verification act; abstracting, synthesizing,
+   or re-stating that claim in any other location is an authoring act
+   and starts at `[🤖]`.
+
 7. **Record verification counts honestly** in the source card's
    frontmatter. Do not mark claims `[✓]` unless you actually
    cross-checked them.

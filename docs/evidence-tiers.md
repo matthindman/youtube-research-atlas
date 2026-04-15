@@ -10,10 +10,11 @@ synthesis.
 |------|--------------|-------------|
 | `primary_empirical` | Peer-reviewed journal articles, published working papers with original data, preregistered reports. | Any empirical, methodological, or theoretical claim. |
 | `secondary_analytical` | Systematic reviews, meta-analyses, book chapters, handbooks. | Synthesis claims. Must trace specific empirical findings back to the underlying primary source. |
+| `policy_research` | Academically-authored essays, audits, or reports published in **non-peer-reviewed** venues that nevertheless present **original analysis or data** — e.g., Bulletin of the Atomic Scientists policy pieces by academic authors, think-tank reports authored by credentialed researchers, white papers with a documented methodology. | The author's own descriptive findings, methodological critiques, and field audits, with the venue flagged as non-peer-reviewed. **Cannot** be treated as scholarly consensus. Must not be used as a stand-in for primary evidence about YouTube content or effects. |
 | `industry_report` | Reuters Digital News Report, Pew Research, Ofcom, platform transparency reports, Oxford Economics reports. | Usage statistics, descriptive trends, platform policy facts. **Cannot** support causal claims or scholarly consensus. |
 | `project_internal` | Census project memos, internal methods notes, draft literature reviews authored by project members. | Project-context claims **only** — what the project plans, believes, or needs. Never cited as evidence about YouTube or the broader literature. |
 | `platform_documentation` | YouTube API docs, help pages, policy announcements, Terms of Service versions. | Technical facts about the platform (what an endpoint returns, what a policy says). Not evidence about behavior or effects. |
-| `news_commentary` | Journalism, trade-press coverage, opinion pieces. | Context and framing only. Rarely cited in wiki synthesis; when cited, the tier must be explicit. |
+| `news_commentary` | Journalism, trade-press coverage, opinion pieces. Use this tier for journalistic accounts and opinion, **not** for academic policy essays — those belong in `policy_research`. | Context and framing only. Rarely cited in wiki synthesis; when cited, the tier must be explicit. |
 
 ## Agent enforcement rules
 
@@ -87,13 +88,20 @@ tier based on venue and provenance:
 - Published working paper with original data (e.g., NBER, SSRN with
   clear author affiliations and methods section) → `primary_empirical`.
 - A review that does not introduce new data → `secondary_analytical`.
+- **Academically authored piece in a non-peer-reviewed venue that
+  presents original analysis, a documented audit, or original survey
+  data** (e.g., Norton & Shapiro in *Bulletin of the Atomic Scientists*,
+  a Brookings report with a documented methodology and academic
+  authors) → `policy_research`. Do not default to `news_commentary`
+  for these — academics presenting original work deserve a middle tier.
 - Authored by a research-adjacent industry org (Reuters Institute,
   Pew, Ofcom, Oxford Economics) → `industry_report`.
 - Authored by the Census project or its collaborators, internal use
   → `project_internal`.
 - Issued by YouTube/Google itself as platform-of-record documentation
   → `platform_documentation`.
-- Journalism or op-ed → `news_commentary`.
+- Journalism, trade press, or op-ed with no original analysis
+  → `news_commentary`.
 
 Edge cases (e.g., a Pew report that presents novel survey methodology;
 a preprint that has not yet been peer reviewed) should be flagged in

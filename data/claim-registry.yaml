@@ -22,6 +22,13 @@
 #   verification:          machine_extracted | human_checked
 #                          | publication_ready
 #
+# VERIFICATION DEFAULT: every new or updated claim-registry entry
+# starts at `verification: machine_extracted`, regardless of how the
+# underlying source card is marked. Upgrading a registry entry to
+# `human_checked` or `publication_ready` is a HUMAN action performed
+# during PR review or the quality calibration pause. Agents must not
+# upgrade these fields, even when ingesting via ingest-from-review.
+#
 # Populated during and after Phase 1 ingest. Target: ~30 entries after
 # Phase 1 completes.
 

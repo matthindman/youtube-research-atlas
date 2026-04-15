@@ -6,8 +6,13 @@
 # Fields:
 #   id:                  short slug, matches source card filename
 #   type:                journal_article | working_paper | book_chapter
-#                        | systematic_review | industry_report
-#                        | internal_memo | platform_doc | news
+#                        | monograph | systematic_review | industry_report
+#                        | policy_essay | internal_memo | platform_doc
+#                        | news
+#                        (monograph = standalone book or Cambridge
+#                        Element; book_chapter = chapter in an edited
+#                        volume; policy_essay = academically-authored
+#                        piece in a non-peer-reviewed venue)
 #   evidence_tier:       see docs/evidence-tiers.md
 #   title, authors, year, venue, doi
 #   canonical_format:    pdf | markdown

@@ -68,9 +68,25 @@ description: Ingest a new paper, report, or internal memo into the
 12. **Commit to branch** `ingest/<source_id>` and open a PR. The PR
     body must list every page created or modified.
 
+    **Every ingest branch must be created from the current tip of
+    `main`**, not from another ingest branch. When multiple sources
+    are ingested in the same batch, each branch starts fresh from
+    `main`. Do not stack ingest branches on top of each other.
+
+    When multiple ingests in a batch touch shared files (registries,
+    index, theme pages, log), merge conflicts will surface in PR
+    review. That is expected and correct — the conflicts are resolved
+    in the review rather than hidden via stacking. Do not reorder or
+    bundle commits to avoid them.
+
 ## Constraints
 
 - No direct quote without a page number. Ever.
+- **When truncating a direct quote, mark the omission with an
+  ellipsis (…).** Never silently drop words from a quote, and never
+  end a quote mid-sentence without marking it — even when the source
+  card's context makes the truncation obvious. Faithful quotation is
+  load-bearing for the verification system.
 - Never overwrite mature synthesis unless the new source requires it
   (and then record the change explicitly in `ops/log.md`).
 - Preserve disagreement.

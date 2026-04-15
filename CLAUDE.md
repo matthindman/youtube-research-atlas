@@ -32,6 +32,11 @@ Read these files in order:
    duplicate. If genuinely new, add to the taxonomy file first.
 7. **No direct commits to `main`.** Work on a branch named after the
    operation (e.g., `ingest/mcgrady_2023`, `refresh/descriptive_deficit`).
+   **Every branch must be created from the current tip of `main` —
+   never stack ingest branches on top of each other.** When multiple
+   ingests in a batch touch shared files (registries, index, theme
+   pages, log), merge conflicts in PR review are expected and correct;
+   resolve them in review rather than hiding them via stacking.
 8. **Distinguish `[LIT]`, `[PROJECT]`, and `[DRAFT]`** in paper dossier
    pages. These labels are load-bearing — they determine what's
    citable, what's project reasoning, and what's draft manuscript
