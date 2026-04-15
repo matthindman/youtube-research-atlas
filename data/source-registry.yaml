@@ -284,3 +284,32 @@ sources:
       - paper2-mobility
     temporal_scope: "Initial API sampling frame 2006-2019; final channel coding and monetization snapshot in summer 2019"
     notes: "The paper is strong on strategic heterogeneity and taxonomy design but uses a purposive sample rather than a population-representative one."
+  - id: ormen_gregersen_2023_engagement
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Towards the Engagement Economy: Interconnected Processes of Commodification on YouTube"
+    authors:
+      - "Ørmen, Jacob"
+      - "Gregersen, Andreas"
+    year: 2023
+    venue: "Media, Culture & Society"
+    doi: "10.1177/01634437221111951"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/ormen_gregersen_2023_engagement.md
+      - wiki/themes/creator_economy.md
+      - wiki/index.md
+    tags:
+      - creator-economy
+    themes:
+      - creator-economy
+    census_relevance: medium
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    temporal_scope: "Document analysis of YouTube public communication and platform features current around 2021-2022"
+    notes: "The paper is strongest as a political-economic account of platform monetization design. It does not provide creator-level behavioral or payout data."

@@ -255,3 +255,41 @@ claims:
       - wiki/sources/ormen_gregersen_2023_polymorphism.md
       - wiki/themes/creator_economy.md
     verification: machine_extracted
+  - id: claim_creator_economy_engagement_commodification
+    text: "YouTube is shifting from an attention economy centered on advertising toward an engagement economy that monetizes transactions across producers, users, and brands."
+    claim_type: theoretical
+    evidence_strength: single-source
+    temporal_scope: "Platform documents and product architecture current around 2021-2022."
+    primary_sources:
+      - ormen_gregersen_2023_engagement
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from document analysis of platform communication rather than observed platform behavior."
+    themes:
+      - creator-economy
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    appears_in:
+      - wiki/sources/ormen_gregersen_2023_engagement.md
+      - wiki/themes/creator_economy.md
+    verification: machine_extracted
+  - id: claim_creator_economy_platform_as_active_editor
+    text: "YouTube increasingly acts as an active commercial editor, using vetting and curated partner programs to shape which creators and connections become most valuable."
+    claim_type: theoretical
+    evidence_strength: single-source
+    temporal_scope: "Platform documents and product architecture current around 2021-2022."
+    primary_sources:
+      - ormen_gregersen_2023_engagement
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The claim is about platform strategy and design rather than direct causal measurement of creator outcomes."
+    themes:
+      - creator-economy
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    appears_in:
+      - wiki/sources/ormen_gregersen_2023_engagement.md
+      - wiki/themes/creator_economy.md
+    verification: machine_extracted

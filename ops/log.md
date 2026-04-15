@@ -332,6 +332,28 @@ Literature-review cross-check note:
   of diversification over convergence, the sampling challenge, and
   the weakness of YouTube's native categories matches the
   article's methods and conclusions (pp. 432-437, 444-448).
+## 2026-04-15 — Ingest ormen_gregersen_2023_engagement
+**Operation:** ingest-source
+**Branch:** ingest/ormen_gregersen_2023_engagement
+**By:** Codex (GPT-5)
+
+Ingested `ormen_gregersen_2023_engagement` using the
+`ingest-from-review` workflow conservatively. Created
+`wiki/sources/ormen_gregersen_2023_engagement.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/creator_economy.md`, and `wiki/index.md`.
+
+Literature-review cross-check discrepancy:
+
+- I could not locate a dedicated section for this paper in
+  `sources/internal/literature_review_2022_2026.md`, despite the
+  Batch 2 instruction that the review covers all six sources.
+  Because of that mismatch, I did **not** bootstrap any inline
+  source-card claims to `[✓]`.
+- There is a short internal summary for this paper in
+  `sources/internal/research_questions_report.md`, but per the
+  updated skill I treated that as project context only, not as a
+  substitute verification scaffold.
 
 Tier and taxonomy decisions:
 
@@ -374,3 +396,10 @@ Claims not fully verifiable from this source alone:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ormen_gregersen_2023_polymorphism?quick_pull=1&title=%5Bingest-from-review%5D%20%C3%98rmen%20and%20Gregersen%202023%20%28Institutional%20Polymorphism%29&body=%23%23%20Summary%0A-%20Ingested%20%60ormen_gregersen_2023_polymorphism%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20creator-economy%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ormen_gregersen_2023_polymorphism.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md
+- The paper is a document analysis of platform communication,
+  not a behavioral or payout study, so claims about direct creator
+  outcomes remain inferential rather than measured here.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ormen_gregersen_2023_engagement?quick_pull=1&title=%5Bingest-from-review%5D%20%C3%98rmen%20and%20Gregersen%202023%20%28Towards%20the%20Engagement%20Economy%29&body=%23%23%20Summary%0A-%20Ingested%20%60ormen_gregersen_2023_engagement%60%20via%20%60ingest-from-review%60%20with%20all%20source-card%20claims%20left%20at%20%60%5B%F0%9F%A4%96%5D%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20creator-economy%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ormen_gregersen_2023_engagement.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md
