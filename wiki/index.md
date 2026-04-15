@@ -29,7 +29,7 @@ _(none yet; created when theme pages need splitting)_
 
 ## Source cards
 
-_(none yet; populated during Phase 1 ingest)_
+- [[rieder_et_al_2023]] — creator-economy inequality, linking practices, and off-platform monetization
 
 ## Paper dossiers
 
