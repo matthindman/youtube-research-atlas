@@ -95,3 +95,36 @@ Human attention requested:
   experience, but the paper itself cautions against treating the
   classifier outputs as precise language-share estimates (pp. 46-49,
   61).
+
+## 2026-04-15 — Ingest munger_2024
+**Operation:** ingest-source
+**Branch:** ingest/munger_2024
+**By:** Codex (GPT-5)
+
+Ingested `munger_2024` via the `ingest-from-review` workflow. Created
+`wiki/sources/munger_2024.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/descriptive_deficit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced between the review summary and the
+  book's argument. The review's emphasis on agenda-setting, reciprocal
+  supply-demand feedback, and the priority of quantitative description
+  matches the original text.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused existing theme tag `descriptive-deficit`; no taxonomy changes
+  proposed.
+- Registry `type` was set to `book_chapter` because the current schema
+  has no dedicated type for a Cambridge Element / short monograph.
+
+Human attention requested:
+
+- The source is unusually hybrid: part agenda-setting essay, part
+  original descriptive analysis of political YouTube. The evidence tier
+  feels right at `primary_empirical`, but the registry schema likely
+  needs a better source-type slot than `book_chapter` for future
+  monographs.

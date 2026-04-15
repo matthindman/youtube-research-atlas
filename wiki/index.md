@@ -30,6 +30,7 @@ _(none yet; created when theme pages need splitting)_
 ## Source cards
 
 - [[mcgrady_2023]] — random-video sampling, denominator problems, and YouTube's long tail
+- [[munger_2024]] — agenda-setting critique and supply-demand framework for YouTube politics
 
 ## Paper dossiers
 

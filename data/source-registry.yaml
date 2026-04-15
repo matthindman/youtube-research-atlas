@@ -60,3 +60,32 @@ sources:
       - study5-cross-language
     temporal_scope: "Publicly searchable videos sampled October-December 2022; uploads from 2005-2022"
     notes: "Random sample covers public videos only. Language-distribution estimates are directionally useful but the paper cautions against treating them as precise language shares."
+  - id: munger_2024
+    type: book_chapter
+    evidence_tier: primary_empirical
+    title: "The YouTube Apparatus"
+    authors:
+      - "Munger, Kevin"
+    year: 2024
+    venue: "Cambridge Elements in Politics and Communication"
+    doi: "10.1017/9781009359795"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/munger_2024.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Fifteen-year political YouTube time series ending in 2022, with discussion of API conditions through March 2023"
+    notes: "Cambridge Element monograph slotted into registry type `book_chapter` because the current schema lacks a dedicated monograph/element type."
