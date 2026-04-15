@@ -32,4 +32,42 @@
 # Populated during and after Phase 1 ingest. Target: ~30 entries after
 # Phase 1 completes.
 
-claims: []
+claims:
+  - id: claim_news_ecosystem_global_south_youtube_news_use
+    text: "YouTube is an especially important news platform in parts of the Global South, with weekly news use above 50% in India, Thailand, and Kenya."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "2025 survey wave across 48 markets."
+    primary_sources:
+      - reuters_dnr_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Based on self-reported weekly news use in the Reuters Institute survey; not a direct measure of total exposure time or content quality."
+    themes:
+      - news-ecosystem
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/reuters_dnr_2025.md
+      - wiki/themes/news_ecosystem.md
+    verification: machine_extracted
+  - id: claim_news_ecosystem_creator_led_video_shift
+    text: "On video networks such as YouTube, creator-led and personality-led content is increasingly displacing institutional journalism in news attention."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "2025 survey wave with trend comparisons back to 2020 or 2021."
+    primary_sources:
+      - reuters_dnr_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Survey-based attention measures rather than direct observation of viewed content or algorithmic causes."
+    themes:
+      - news-ecosystem
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/reuters_dnr_2025.md
+      - wiki/themes/news_ecosystem.md
+    verification: machine_extracted

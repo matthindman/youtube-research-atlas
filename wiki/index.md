@@ -29,7 +29,7 @@ _(none yet; created when theme pages need splitting)_
 
 ## Source cards
 
-_(none yet; populated during Phase 1 ingest)_
+- [[reuters_dnr_2025]] — YouTube news use, video-first consumption, and creator-led pressure on journalism
 
 ## Paper dossiers
 
