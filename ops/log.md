@@ -493,6 +493,23 @@ Key synthesis decisions:
   tags `creator-economy`, but treated it as supplementary evidence
   about a news-adjacent creator niche rather than as a direct
   earnings or labor study.
+## 2026-04-15 — Refresh news_ecosystem
+**Operation:** refresh-theme
+**Branch:** refresh/news_ecosystem
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/news_ecosystem.md` after the Batch 2
+ingests. This synthesis was built from pushed source cards on
+`ingest/newman_et_al_2025` and `ingest/reuters_dnr_2025`.
+
+Key synthesis decisions:
+
+- Kept the page explicitly marked as supported only by non-peer-
+  reviewed sources, because the current evidence base here is two
+  Reuters Institute reports rather than peer-reviewed research.
+- Preserved the core tension between creator-led attention gains
+  and the continuing role of traditional news brands in some
+  markets and in verification behavior.
 - Kept all claims at `[🤖]` and limited this branch to the theme
   page plus log entry, per the Batch 2 refresh instruction.
 
@@ -505,3 +522,9 @@ Split evaluation:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/creator_economy?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20creator_economy&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/creator_economy.md%60%20from%20the%20Batch%202%20source%20cards.%0A-%20Preserved%20disagreement%20between%20diversification%20and%20engagement-market%20standardization.%0A-%20Kept%20this%20branch%20limited%20to%20the%20theme%20page%20and%20ops%20log.%0A%0A%23%23%20Sources%0A-%20rieder_et_al_2023%0A-%20verwiebe_et_al_2025%0A-%20ormen_gregersen_2023_polymorphism%0A-%20ormen_gregersen_2023_engagement%0A-%20newman_et_al_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/creator_economy.md%0A-%20ops/log.md
+- No split proposed yet. The page remains compact and the current
+  disagreements still fit inside a single news-ecosystem theme.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20the%20Batch%202%20source%20cards.%0A-%20Preserved%20tension%20between%20creator-led%20attention%20gains%20and%20the%20continued%20role%20of%20traditional%20news%20brands.%0A-%20Kept%20this%20branch%20limited%20to%20the%20theme%20page%20and%20ops%20log.%0A%0A%23%23%20Sources%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20ops/log.md

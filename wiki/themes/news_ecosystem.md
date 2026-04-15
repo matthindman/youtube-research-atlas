@@ -7,11 +7,13 @@ temporal_scope: "Particularly attentive to the 2020+ period as news-creator coho
 themes: [news-ecosystem]
 census_papers: [paper1-attention-economy]
 last_refreshed: 2026-04-15
-source_count: 1
-key_sources: [reuters_dnr_2025]
+source_count: 2
+key_sources:
+  - newman_et_al_2025
+  - reuters_dnr_2025
 split_candidates: []
 verification:
-  machine_extracted: 15
+  machine_extracted: 20
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -25,91 +27,112 @@ verification:
 
 ## Why This Theme Matters
 
-The Reuters Digital News Report provides one of the clearest
-comparative audience-side baselines for how far news attention
-has shifted toward YouTube and other video networks, making it
-directly useful for scoping the contemporary public-affairs
-environment the atlas is trying to explain (pp. 10, 17-21). [🤖]
+Taken together, Newman et al. and the Reuters Digital News Report
+provide a cross-national audience-side baseline for how YouTube
+is functioning as a news platform in 2024-2025: they map both
+who occupies the space and how much attention video-platform news
+now commands. [🤖]
 
 *[Note: supported only by non-peer-reviewed sources.]*
 
 ## Current Consensus
 
-- Social and video networks are taking a larger share of news
-  attention, and YouTube remains one of the biggest platforms in
-  that shift, with especially heavy news use in India, Thailand,
-  and Kenya (pp. 10, 16). [🤖]
-- On YouTube, creator-led and personality-led formats now compete
-  directly with traditional journalists for attention, especially
-  in the selected market cases the report highlights (pp. 17-19).
+- YouTube is a core news platform rather than a marginal add-on.
+  Reuters shows high overall reach and especially heavy use in
+  parts of the Global South, while Newman shows that YouTube is
+  central to the current news-creator layer. [🤖]
+- Commentary and personality-led formats are central to the
+  contemporary YouTube news ecosystem. Both sources describe a
+  field where creator-led commentary often outcompetes or
+  bypasses traditional journalistic forms. [🤖]
+- The ecosystem is highly uneven across countries, but it is often
+  male-skewed and in some markets shaped by cross-border flows of
+  influential US commentators. [🤖]
+- Traditional news brands still matter, especially when users seek
+  verification, but they increasingly compete inside a fragmented
+  environment where creators command attention on video networks.
   [🤖]
-- Video and podcast convergence further expands YouTube's role in
-  the news ecosystem: in the United States it is described as the
-  main channel for news podcast distribution (pp. 20-21). [🤖]
 
 ## Main Disagreements
 
-The report does not show a uniform global pattern. Traditional
-news brands still retain stronger positions in some countries and
-networks, while creator-led ecosystems are much more prominent in
-others. It also stresses that the line between news creators and
-personalities is blurry, so category boundaries themselves are
-part of the disagreement (pp. 17-19). [🤖]
+The current evidence base does not support a simple story that
+creators have displaced institutional journalism everywhere.
+Reuters shows that traditional brands still retain stronger
+positions in some markets and remain important for verification,
+while Newman also emphasizes substantial cross-country variation
+in how central creators are. [🤖]
+
+There is also an unresolved category disagreement. Newman uses a
+more elaborate creator typology, whereas Reuters separates news
+creators from personalities but explicitly notes that the
+boundary is blurry. That means part of the disagreement is about
+classification, not just substantive change in the ecosystem.
+[🤖]
 
 ## Evidence Inventory
 
 | Claim | Source | Evidence | Strength | Period | Verified |
 |-------|--------|----------|----------|--------|----------|
-| YouTube is especially important for news use in parts of the Global South. | Reuters Institute 2025 | Cross-market survey data showing weekly news use above 50% in India, Thailand, and Kenya | single-source | 2025 survey wave | [🤖] |
-| On YouTube, creator-led attention is putting pressure on institutional journalism. | Reuters Institute 2025 | Network-specific attention questions plus India and Brazil case illustrations | single-source | 2025 survey wave, with selected trend context | [🤖] |
+| Commentary and personality-led creators are central to YouTube's current news-creator ecosystem. | Newman et al. 2025 | Open-text survey responses plus creator typology across 24 countries | single-source | 2024-2025 | [🤖] |
+| YouTube is a high-reach news platform and video-network growth is increasing pressure on institutional journalism. | Reuters Institute 2025 | 48-market survey data plus network-specific attention questions and trend comparisons | single-source | 2025 with 2020/2021 trend context | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
-- The report is survey-based and self-reported, so it measures
-  stated news use and attention rather than actual watch logs or
-  recommendation paths on YouTube (pp. 10, 17-22). [🤖]
-- The report explicitly says the distinction between news creators
-  and personalities is blurry for many respondents, which limits
-  classification precision (p. 17). [🤖]
-- The most detailed YouTube examples come from selected markets
-  such as India and Brazil rather than a full comparative roster
-  for all 48 countries (pp. 18-19). [🤖]
+- Both sources are audience-side survey projects, so they capture
+  reported attention and perception rather than direct exposure
+  logs, recommendation paths, or content supply on YouTube. [🤖]
+- Newman relies on open-text creator naming and manual typology
+  building across 24 countries, whereas Reuters relies more on
+  structured platform-use and attention questions across 48
+  markets. [🤖]
+- The reports are close in time but not identical in scope:
+  Newman focuses specifically on creators and influencers, while
+  Reuters situates YouTube within a broader platform-news shift.
+  [🤖]
+- Both sources acknowledge unstable category boundaries between
+  journalism, commentary, explanation, personality, and politics.
+  [🤖]
 
 ## Measures and Variables Used in the Literature
 
-The report measures weekly news use by platform, where users pay
-attention when consuming news on specific networks, preferred
-news modality (read/watch/listen), concerns about misinformation,
-verification practices, and podcast/video consumption trends
-(pp. 10-22, 39). [🤖]
+The current evidence base uses open-text mentions of creators and
+brands, creator categories, follower counts, gender balance,
+platform-specific news use, where users pay attention on specific
+networks, preferred news modality, misinformation concern, and
+verification practices. [🤖]
 
 ## What This Means for Our Project
 
-- For `paper1-attention-economy`, the report provides high-value
-  demand-side evidence that YouTube remains central to public-
-  affairs attention as audiences move toward video-first news
-  consumption (pp. 10, 19-21). [🤖]
-- For `study3-media-system`, it offers a comparative scaffold for
-  thinking about creator-led displacement, platform-specific news
-  attention, and the weakening hold of institutional journalism
-  in some markets (pp. 17-19). [🤖]
+- For `paper1-attention-economy`, news and public-affairs
+  attention on YouTube cannot be modeled as legacy journalism
+  alone; creator-led commentary is part of the core ecosystem.
+  [🤖]
+- For `study3-media-system`, these sources provide a comparative
+  scaffold for distinguishing commentary, explanation,
+  investigation, and personality-led public-affairs channels.
+  [🤖]
+- For the methods companion, both reports reinforce that
+  classification and boundary-setting are central problems in
+  public-affairs YouTube research. [🤖]
 
 ## Open Holes / Next Sources to Acquire
 
-- We still need channel-level and video-level evidence showing
-  what people actually encounter on YouTube, not just what they
-  report using or paying attention to (pp. 17-22, 39). [🤖]
-- The report cannot tell us whether YouTube's recommendation
-  systems, creator incentives, or content quality are driving the
-  observed shift toward creator-led news ecosystems (pp. 17, 22,
-  39). [🤖]
+- We still need direct channel-level and video-level evidence
+  about what people actually watch on YouTube, not just whom they
+  recall or say they attend to. [🤖]
+- Neither report can tell us whether recommendation systems are
+  amplifying creator-led news attention or merely reflecting
+  audience demand. [🤖]
+- We also need stronger evidence on the reliability, durability,
+  and business sustainability of news creators on YouTube. [🤖]
 
 ## Sources Consulted
 
+- [[newman_et_al_2025]]
 - [[reuters_dnr_2025]]
 
 ## Cross-References
 
 - **Methods:** _(none yet)_
 - **Debates:** _(none yet)_
-- **Papers:** [[paper1_attention_economy_dossier]]
+- **Papers:** [[methods_companion_dossier]], [[paper1_attention_economy_dossier]]
