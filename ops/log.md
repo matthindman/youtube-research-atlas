@@ -128,3 +128,34 @@ Human attention requested:
   feels right at `primary_empirical`, but the registry schema likely
   needs a better source-type slot than `book_chapter` for future
   monographs.
+
+## 2026-04-15 — Ingest munger_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/munger_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `munger_et_al_2025` via the `ingest-from-review` workflow.
+Created `wiki/sources/munger_et_al_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/descriptive_deficit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review accurately captures
+  the paper's field-level understudy claim, the priority of
+  quantitative description, the extreme inequality in commenter
+  activity, and the API-quota constraint.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`, consistent with the user's instruction
+  to treat this coauthored but peer-reviewed publication as external
+  scholarship rather than `project_internal`.
+- Reused the existing theme tag `descriptive-deficit`; no taxonomy
+  additions proposed.
+
+Human attention requested:
+
+- The strongest representativeness claim in this paper is about visible
+  commenting behavior on anglophone US political YouTube, not about all
+  viewers or all of YouTube. The theme page keeps that scope explicit.

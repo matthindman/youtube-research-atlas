@@ -68,11 +68,12 @@ claims:
   - id: claim_descriptive_deficit_quantitative_description_priority
     text: "Rigorous quantitative description of what YouTube is should be treated as a core research task, not as a secondary afterthought to causal studies."
     claim_type: methodological
-    evidence_strength: single-source
+    evidence_strength: multi-source
     temporal_scope: "Early-2020s diagnosis of the YouTube research agenda."
     primary_sources:
       - munger_2024
-    supporting_sources: []
+    supporting_sources:
+      - munger_et_al_2025
     conflicting_sources: []
     scope_conditions: "This is an agenda-setting claim rather than a full-platform empirical estimate."
     themes:
@@ -82,16 +83,18 @@ claims:
       - paper1-attention-economy
     appears_in:
       - wiki/sources/munger_2024.md
+      - wiki/sources/munger_et_al_2025.md
       - wiki/themes/descriptive_deficit.md
     verification: human_checked
   - id: claim_descriptive_deficit_understudied_platform
     text: "YouTube is understudied relative to its social and political importance."
     claim_type: theoretical
-    evidence_strength: single-source
+    evidence_strength: multi-source
     temporal_scope: "Early-2020s state of the field."
     primary_sources:
       - munger_2024
-    supporting_sources: []
+    supporting_sources:
+      - munger_et_al_2025
     conflicting_sources: []
     scope_conditions: "Current support here is agenda-setting and comparative rather than a formal bibliometric census."
     themes:
@@ -102,5 +105,6 @@ claims:
       - study3-media-system
     appears_in:
       - wiki/sources/munger_2024.md
+      - wiki/sources/munger_et_al_2025.md
       - wiki/themes/descriptive_deficit.md
     verification: human_checked

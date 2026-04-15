@@ -89,3 +89,36 @@ sources:
       - study3-media-system
     temporal_scope: "Fifteen-year political YouTube time series ending in 2022, with discussion of API conditions through March 2023"
     notes: "Cambridge Element monograph slotted into registry type `book_chapter` because the current schema lacks a dedicated monograph/element type."
+  - id: munger_et_al_2025
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Pressing Play on Politics: Quantitative Description of YouTube"
+    authors:
+      - "Munger, Kevin"
+      - "Bisbee, James"
+      - "Yalcin, Omer"
+      - "Phillips, Joseph"
+      - "Hindman, Matthew"
+    year: 2025
+    venue: "Journal of Quantitative Description: Digital Media"
+    doi: "10.51685/jqd.2025.006"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/munger_et_al_2025.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "June 2020-February 2023 observation window for anglophone US politics channels built from a 2019 curated seed list"
+    notes: "Peer-reviewed and published; treated as `primary_empirical` despite project coauthorship because it is external scholarship rather than project-internal documentation."

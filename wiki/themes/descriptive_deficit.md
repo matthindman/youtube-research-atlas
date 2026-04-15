@@ -7,12 +7,12 @@ temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-15
-source_count: 2
-key_sources: [mcgrady_2023, munger_2024]
+source_count: 3
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025]
 split_candidates: []
 verification:
   machine_extracted: 7
-  human_checked: 7
+  human_checked: 10
   publication_ready: 0
   needs_citation: 0
 ---
@@ -33,6 +33,7 @@ McGrady et al. show why this theme is foundational: without denominator and dist
 - The current ingested evidence base points to a basic descriptive failure: core facts about total video count, growth, view distributions, and language composition are not publicly available, and YouTube does not provide a random-sampling mechanism for researchers (McGrady et al. 2023, pp. 4-7). [✓]
 - The first random-video source card in this theme suggests that the long tail is massive: late-2022 public YouTube likely contained roughly 9.88 billion publicly searchable videos, and most sampled videos drew very little attention relative to the small head of highly viewed content (McGrady et al. 2023, pp. 15-21, 61). [🤖]
 - Munger adds an agenda-setting claim on top of those measurement gaps: YouTube scholarship has over-focused on narrow algorithmic-radicalization questions and underinvested in rigorous quantitative description of what the platform is and how much of it there is (Munger 2024, pp. 2, 24). [✓]
+- Munger et al. make the same point in a peer-reviewed article with new data: descriptive knowledge is necessary for deciding whether any YouTube causal claim matters, and the platform remains dramatically understudied relative to its usage (Munger et al. 2025, pp. 2-3). [✓]
 
 ## Main Disagreements
 
@@ -45,12 +46,14 @@ _No cross-source disagreement is documented yet; only `mcgrady_2023` has been in
 | Prevalence claims on YouTube require explicit denominators and representative sampling frames. | McGrady et al. 2023 | Random sample of 10,016 public videos plus hand-coded subsample | single-source | Public videos sampled Oct.-Dec. 2022 | [✓] |
 | English-language or user-experienced views of YouTube misstate the broader platform. | McGrady et al. 2023 | Audio-based language detection plus discussion of multilingual exposure limits | single-source | Public videos sampled Oct.-Dec. 2022 | [🤖] |
 | Quantitative description is a core YouTube research task, not just background scene-setting. | Munger 2024 | Agenda-setting synthesis plus fifteen-year political-channel dataset | single-source | Fifteen-year series ending in 2022 | [✓] |
+| Visible participation in political YouTube comments is highly unequal and not representative of the wider audience. | Munger et al. 2025 | 320M-comment dataset on anglophone US politics channels | single-source | June 2020-Feb. 2023 | [✓] |
 
 ## Methodological Reasons for Disagreement
 
 - Existing YouTube studies often start from known channels, known videos, keyword searches, or recommendation traces, which can support focused analysis but not platform-wide prevalence claims (McGrady et al. 2023, pp. 4-7). [✓]
 - One review/source mismatch already matters for later synthesis: the literature review describes recommendation-based samples as already shown to skew toward popularity, while McGrady et al. present that comparison as a belief they will demonstrate in forthcoming work rather than as a completed finding in this article (McGrady et al. 2023, p. 4). [🤖]
 - Munger identifies a second source of distortion before researchers even touch data: agenda-setting processes reward salient "rabbit hole" questions over slower descriptive work, which can leave the field asking narrower questions than the platform warrants (Munger 2024, pp. 2, 13-14, 63-64). [✓]
+- Munger et al. identify a third structural obstacle: post-2019 API quota cuts make large-scale descriptive work materially harder, which helps explain why the empirical map of YouTube still lags the object of study (Munger et al. 2025, pp. 3, 8). [✓]
 
 ## Measures and Variables Used in the Literature
 
@@ -64,12 +67,13 @@ The first ingested source uses total video counts, upload year, views, likes, co
 
 ## Open Holes / Next Sources to Acquire
 
-- Batch 1 still needs the remaining descriptive-deficit sources: Munger et al. (2025), Norton and Shapiro (2024), and McGrady et al. (2025).
+- Batch 1 still needs the remaining descriptive-deficit sources: Norton and Shapiro (2024) and McGrady et al. (2025).
 
 ## Sources Consulted
 
 - [[mcgrady_2023]]
 - [[munger_2024]]
+- [[munger_et_al_2025]]
 
 ## Cross-References
 

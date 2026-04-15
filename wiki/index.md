@@ -31,6 +31,7 @@ _(none yet; created when theme pages need splitting)_
 
 - [[mcgrady_2023]] — random-video sampling, denominator problems, and YouTube's long tail
 - [[munger_2024]] — agenda-setting critique and supply-demand framework for YouTube politics
+- [[munger_et_al_2025]] — descriptive map of political YouTube channels, comments, and participation inequality
 
 ## Paper dossiers
 
