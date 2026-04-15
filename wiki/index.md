@@ -21,7 +21,7 @@ executive synthesis.
 
 ## Methods
 
-_(none yet; populated during Phase 1 ingest)_
+- [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
 
 ## Debates
 
