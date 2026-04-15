@@ -95,6 +95,7 @@ claims:
       - munger_2024
     supporting_sources:
       - munger_et_al_2025
+      - norton_shapiro_2024
     conflicting_sources: []
     scope_conditions: "Current support here is agenda-setting and comparative rather than a formal bibliometric census."
     themes:
@@ -106,5 +107,27 @@ claims:
     appears_in:
       - wiki/sources/munger_2024.md
       - wiki/sources/munger_et_al_2025.md
+      - wiki/sources/norton_shapiro_2024.md
+      - wiki/themes/descriptive_deficit.md
+    verification: human_checked
+  - id: claim_descriptive_deficit_infrastructure_constraints
+    text: "Data access limits and insufficient shared tooling or compute capacity materially constrain large-scale YouTube research."
+    claim_type: methodological
+    evidence_strength: multi-source
+    temporal_scope: "Early-2020s research environment."
+    primary_sources:
+      - munger_et_al_2025
+    supporting_sources:
+      - norton_shapiro_2024
+    conflicting_sources: []
+    scope_conditions: "Anchored by primary empirical evidence on API constraints and supplemented by commentary on wider tooling and infrastructure deficits."
+    themes:
+      - descriptive-deficit
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/norton_shapiro_2024.md
       - wiki/themes/descriptive_deficit.md
     verification: human_checked

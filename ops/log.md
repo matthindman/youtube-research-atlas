@@ -159,3 +159,34 @@ Human attention requested:
 - The strongest representativeness claim in this paper is about visible
   commenting behavior on anglophone US political YouTube, not about all
   viewers or all of YouTube. The theme page keeps that scope explicit.
+
+## 2026-04-15 — Ingest norton_shapiro_2024
+**Operation:** ingest-source
+**Branch:** ingest/norton_shapiro_2024
+**By:** Codex (GPT-5)
+
+Ingested `norton_shapiro_2024` via the `ingest-from-review` workflow.
+Created `wiki/sources/norton_shapiro_2024.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/descriptive_deficit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review accurately reports the
+  article's platform, geography, and method biases, as well as the
+  data-access and tooling bottlenecks it highlights.
+
+Tier and taxonomy decisions:
+
+- Assigned `news_commentary` rather than `secondary_analytical`
+  because the venue is commentary, even though the article includes a
+  useful literature audit and interview-based diagnosis.
+- Reused existing theme tags `descriptive-deficit` and
+  `governance-data-access`; no taxonomy additions proposed.
+
+Human attention requested:
+
+- The article is valuable for framing the research-infrastructure
+  problem, but theme usage should stay disciplined: it supports context
+  about why YouTube is understudied, not empirical claims about
+  YouTube's behavior or effects.

@@ -7,12 +7,12 @@ temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-15
-source_count: 3
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025]
+source_count: 4
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024]
 split_candidates: []
 verification:
   machine_extracted: 7
-  human_checked: 10
+  human_checked: 13
   publication_ready: 0
   needs_citation: 0
 ---
@@ -34,6 +34,7 @@ McGrady et al. show why this theme is foundational: without denominator and dist
 - The first random-video source card in this theme suggests that the long tail is massive: late-2022 public YouTube likely contained roughly 9.88 billion publicly searchable videos, and most sampled videos drew very little attention relative to the small head of highly viewed content (McGrady et al. 2023, pp. 15-21, 61). [🤖]
 - Munger adds an agenda-setting claim on top of those measurement gaps: YouTube scholarship has over-focused on narrow algorithmic-radicalization questions and underinvested in rigorous quantitative description of what the platform is and how much of it there is (Munger 2024, pp. 2, 24). [✓]
 - Munger et al. make the same point in a peer-reviewed article with new data: descriptive knowledge is necessary for deciding whether any YouTube causal claim matters, and the platform remains dramatically understudied relative to its usage (Munger et al. 2025, pp. 2-3). [✓]
+- Norton and Shapiro broaden the diagnosis from YouTube alone to the research ecosystem around it: the current literature overweights Twitter, Western democracies, English, and text-based methods, which helps explain why video-first platforms remain poorly mapped (Norton and Shapiro 2024, pp. 3-5). [✓]
 
 ## Main Disagreements
 
@@ -47,6 +48,7 @@ _No cross-source disagreement is documented yet; only `mcgrady_2023` has been in
 | English-language or user-experienced views of YouTube misstate the broader platform. | McGrady et al. 2023 | Audio-based language detection plus discussion of multilingual exposure limits | single-source | Public videos sampled Oct.-Dec. 2022 | [🤖] |
 | Quantitative description is a core YouTube research task, not just background scene-setting. | Munger 2024 | Agenda-setting synthesis plus fifteen-year political-channel dataset | single-source | Fifteen-year series ending in 2022 | [✓] |
 | Visible participation in political YouTube comments is highly unequal and not representative of the wider audience. | Munger et al. 2025 | 320M-comment dataset on anglophone US politics channels | single-source | June 2020-Feb. 2023 | [✓] |
+| The existing information-environment literature is structurally biased away from video-first global platforms. | Norton and Shapiro 2024 | Literature audit plus researcher interviews | context-only | Literature sample 2017-2021; interviews current to 2024 | [✓] |
 
 ## Methodological Reasons for Disagreement
 
@@ -54,6 +56,7 @@ _No cross-source disagreement is documented yet; only `mcgrady_2023` has been in
 - One review/source mismatch already matters for later synthesis: the literature review describes recommendation-based samples as already shown to skew toward popularity, while McGrady et al. present that comparison as a belief they will demonstrate in forthcoming work rather than as a completed finding in this article (McGrady et al. 2023, p. 4). [🤖]
 - Munger identifies a second source of distortion before researchers even touch data: agenda-setting processes reward salient "rabbit hole" questions over slower descriptive work, which can leave the field asking narrower questions than the platform warrants (Munger 2024, pp. 2, 13-14, 63-64). [✓]
 - Munger et al. identify a third structural obstacle: post-2019 API quota cuts make large-scale descriptive work materially harder, which helps explain why the empirical map of YouTube still lags the object of study (Munger et al. 2025, pp. 3, 8). [✓]
+- Norton and Shapiro show that this obstacle is not just a YouTube API story: the broader field also lacks standardized measurements, shared datasets, video-analysis capacity, and equitable access to compute and technical staff (Norton and Shapiro 2024, pp. 2-6). [✓]
 
 ## Measures and Variables Used in the Literature
 
@@ -67,13 +70,14 @@ The first ingested source uses total video counts, upload year, views, likes, co
 
 ## Open Holes / Next Sources to Acquire
 
-- Batch 1 still needs the remaining descriptive-deficit sources: Norton and Shapiro (2024) and McGrady et al. (2025).
+- Batch 1 still needs the remaining descriptive-deficit source: McGrady et al. (2025).
 
 ## Sources Consulted
 
 - [[mcgrady_2023]]
 - [[munger_2024]]
 - [[munger_et_al_2025]]
+- [[norton_shapiro_2024]]
 
 ## Cross-References
 
