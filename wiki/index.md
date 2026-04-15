@@ -29,7 +29,7 @@ _(none yet; created when theme pages need splitting)_
 
 ## Source cards
 
-_(none yet; populated during Phase 1 ingest)_
+- [[ormen_gregersen_2023_engagement]] — engagement economy, platform marketplaces, and the commercial expansion of creator labor
 
 ## Paper dossiers
 
