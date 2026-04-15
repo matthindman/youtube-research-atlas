@@ -160,3 +160,41 @@ claims:
       - wiki/sources/mcgrady_2025.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
+  - id: claim_creator_economy_extreme_inequality
+    text: "YouTube's creator economy is extremely unequal, with a tiny fraction of channels capturing a disproportionate share of views and revenue opportunity."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Late-2019 elite-channel ecosystem."
+    primary_sources:
+      - rieder_et_al_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from channels with at least 100,000 subscribers and from the paper's broader view-distribution framing."
+    themes:
+      - creator-economy
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    appears_in:
+      - wiki/sources/rieder_et_al_2023.md
+      - wiki/themes/creator_economy.md
+    verification: machine_extracted
+  - id: claim_creator_economy_off_platform_diversification
+    text: "Visible creator monetization on YouTube is often organized through cross-platform networking and off-platform revenue links rather than YouTube-native advertising alone."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Elite channels through 2019."
+    primary_sources:
+      - rieder_et_al_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The evidence comes from URL traces in video descriptions and does not capture sponsorships or other non-linked income."
+    themes:
+      - creator-economy
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    appears_in:
+      - wiki/sources/rieder_et_al_2023.md
+      - wiki/themes/creator_economy.md
+    verification: machine_extracted

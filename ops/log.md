@@ -294,3 +294,36 @@ matching durable changes made on `main` (commit 7907bb5):
 
 No source card body content or theme-page substantive claims were
 changed. This is a tier/metadata correction only.
+## 2026-04-15 — Ingest rieder_et_al_2023
+**Operation:** ingest-source
+**Branch:** ingest/rieder_et_al_2023
+**By:** Codex (GPT-5)
+
+Ingested `rieder_et_al_2023` via the `ingest-from-review`
+workflow. Created `wiki/sources/rieder_et_al_2023.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/creator_economy.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material discrepancy found. The literature review's emphasis
+  on extreme inequality, creator precarity, and the growth of
+  external linking matches the paper's framing and findings (pp.
+  1-4, 15-16).
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` and `journal_article`.
+- Reused existing theme tag `creator-economy`; no taxonomy
+  addition proposed on this branch.
+
+Claims not fully verifiable from this source alone:
+
+- The paper clearly shows visible URL-based diversification among
+  elite channels, but it cannot observe sponsorships, direct brand
+  deals, or other non-linked income streams. Treat any stronger
+  claim about total creator income diversification as provisional.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/rieder_et_al_2023?quick_pull=1&title=%5Bingest-from-review%5D%20Rieder%20et%20al.%202023%20%28Making%20a%20Living%20in%20the%20Creator%20Economy%29&body=%23%23%20Summary%0A-%20Ingested%20%60rieder_et_al_2023%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20creator-economy%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/rieder_et_al_2023.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md
