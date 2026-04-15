@@ -29,7 +29,7 @@ _(none yet; created when theme pages need splitting)_
 
 ## Source cards
 
-_(none yet; populated during Phase 1 ingest)_
+- [[newman_et_al_2025]] — news creators, commentary dominance, and cross-national creator ecosystems
 
 ## Paper dossiers
 
