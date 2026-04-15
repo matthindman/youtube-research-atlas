@@ -190,3 +190,37 @@ Human attention requested:
   problem, but theme usage should stay disciplined: it supports context
   about why YouTube is understudied, not empirical claims about
   YouTube's behavior or effects.
+
+## 2026-04-15 — Ingest mcgrady_2025
+**Operation:** ingest-source
+**Branch:** ingest/mcgrady_2025
+**By:** Codex (GPT-5)
+
+Ingested `mcgrady_2025` via the `ingest-from-review` workflow.
+Created `wiki/sources/mcgrady_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/descriptive_deficit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review accurately reports
+  the Anglocentric bias claim, the Hindi/TikTok divergence, the lack
+  of published language distributions, and the use of random sampling
+  as a partial methodological corrective.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused existing theme tags `descriptive-deficit` and
+  `cross-linguistic-variation`; no taxonomy additions proposed.
+- Per the Batch 1 instruction, only `wiki/themes/descriptive_deficit.md`
+  was updated here. The source is also tagged to
+  `cross-linguistic-variation`, but that theme was not refreshed in
+  this PR.
+
+Human attention requested:
+
+- The paper's strongest generalization is comparative, not exhaustive:
+  it shows that English, Spanish, Hindi, and Russian YouTube differ
+  sharply, but it does not by itself establish what all other language
+  communities on the platform look like.

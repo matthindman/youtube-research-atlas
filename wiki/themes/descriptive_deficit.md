@@ -7,12 +7,12 @@ temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-15
-source_count: 4
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024]
+source_count: 5
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025]
 split_candidates: []
 verification:
-  machine_extracted: 7
-  human_checked: 13
+  machine_extracted: 8
+  human_checked: 16
   publication_ready: 0
   needs_citation: 0
 ---
@@ -35,6 +35,7 @@ McGrady et al. show why this theme is foundational: without denominator and dist
 - Munger adds an agenda-setting claim on top of those measurement gaps: YouTube scholarship has over-focused on narrow algorithmic-radicalization questions and underinvested in rigorous quantitative description of what the platform is and how much of it there is (Munger 2024, pp. 2, 24). [✓]
 - Munger et al. make the same point in a peer-reviewed article with new data: descriptive knowledge is necessary for deciding whether any YouTube causal claim matters, and the platform remains dramatically understudied relative to its usage (Munger et al. 2025, pp. 2-3). [✓]
 - Norton and Shapiro broaden the diagnosis from YouTube alone to the research ecosystem around it: the current literature overweights Twitter, Western democracies, English, and text-based methods, which helps explain why video-first platforms remain poorly mapped (Norton and Shapiro 2024, pp. 3-5). [✓]
+- Cross-language random samples now make the English-bias warning concrete: English YouTube is not a safe stand-in for the platform, and Hindi YouTube in particular looks structurally different from English, Spanish, and Russian in growth, duration, and use patterns (McGrady et al. 2025, pp. 1, 7, 15-18). [✓]
 
 ## Main Disagreements
 
@@ -49,6 +50,7 @@ _No cross-source disagreement is documented yet; only `mcgrady_2023` has been in
 | Quantitative description is a core YouTube research task, not just background scene-setting. | Munger 2024 | Agenda-setting synthesis plus fifteen-year political-channel dataset | single-source | Fifteen-year series ending in 2022 | [✓] |
 | Visible participation in political YouTube comments is highly unequal and not representative of the wider audience. | Munger et al. 2025 | 320M-comment dataset on anglophone US politics channels | single-source | June 2020-Feb. 2023 | [✓] |
 | The existing information-environment literature is structurally biased away from video-first global platforms. | Norton and Shapiro 2024 | Literature audit plus researcher interviews | context-only | Literature sample 2017-2021; interviews current to 2024 | [✓] |
+| English-language YouTube research should not be assumed to generalize across the platform. | McGrady et al. 2025 | Random samples of English, Spanish, Hindi, and Russian videos | single-source | Samples collected 2023-2024; uploads through 2023 | [✓] |
 
 ## Methodological Reasons for Disagreement
 
@@ -57,6 +59,7 @@ _No cross-source disagreement is documented yet; only `mcgrady_2023` has been in
 - Munger identifies a second source of distortion before researchers even touch data: agenda-setting processes reward salient "rabbit hole" questions over slower descriptive work, which can leave the field asking narrower questions than the platform warrants (Munger 2024, pp. 2, 13-14, 63-64). [✓]
 - Munger et al. identify a third structural obstacle: post-2019 API quota cuts make large-scale descriptive work materially harder, which helps explain why the empirical map of YouTube still lags the object of study (Munger et al. 2025, pp. 3, 8). [✓]
 - Norton and Shapiro show that this obstacle is not just a YouTube API story: the broader field also lacks standardized measurements, shared datasets, video-analysis capacity, and equitable access to compute and technical staff (Norton and Shapiro 2024, pp. 2-6). [✓]
+- McGrady et al. add a fourth obstacle specific to multilingual description: YouTube does not publish language distributions, and language detection for video requires calibration because metadata and auto-captions are incomplete or noisy (McGrady et al. 2025, pp. 2-6). [✓]
 
 ## Measures and Variables Used in the Literature
 
@@ -67,10 +70,11 @@ The first ingested source uses total video counts, upload year, views, likes, co
 - Any atlas claim about the prevalence of political, harmful, or public-affairs content should stay explicit about its denominator and about whether it covers public-only YouTube or the broader platform. [🤖]
 - This theme now directly feeds [[methods_companion_dossier]] and [[paper1_attention_economy_dossier]] because both projects depend on making denominator problems legible rather than treating them as background caveats. [🤖]
 - The atlas should keep descriptive-deficit questions analytically separate from recommendation-radicalization debates so that platform baselines are not treated as mere preliminaries to a more fashionable causal story. [🤖]
+- Cross-language generalization should be treated as an empirical question, not an assumption, and multilingual sampling should be a priority whenever the project makes platform-wide claims. [🤖]
 
 ## Open Holes / Next Sources to Acquire
 
-- Batch 1 still needs the remaining descriptive-deficit source: McGrady et al. (2025).
+_Batch 1 descriptive-deficit ingest is complete. Next step: refresh this theme on `refresh/descriptive_deficit`._
 
 ## Sources Consulted
 
@@ -78,6 +82,7 @@ The first ingested source uses total video counts, upload year, views, likes, co
 - [[munger_2024]]
 - [[munger_et_al_2025]]
 - [[norton_shapiro_2024]]
+- [[mcgrady_2025]]
 
 ## Cross-References
 

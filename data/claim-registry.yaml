@@ -48,11 +48,12 @@ claims:
   - id: claim_descriptive_deficit_multilingual_misrepresentation
     text: "English-centric or user-experienced views of YouTube are not representative of the platform's broader linguistic composition."
     claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "Late-2022 public-video sample; precise language shares remain uncertain."
+    evidence_strength: multi-source
+    temporal_scope: "Late-2022 through 2024 random-sample evidence; precise language shares remain uncertain."
     primary_sources:
       - mcgrady_2023
-    supporting_sources: []
+    supporting_sources:
+      - mcgrady_2025
     conflicting_sources: []
     scope_conditions: "Current support is directional because the paper flags meaningful language-detection error."
     themes:
@@ -63,6 +64,7 @@ claims:
       - study5-cross-language
     appears_in:
       - wiki/sources/mcgrady_2023.md
+      - wiki/sources/mcgrady_2025.md
       - wiki/themes/descriptive_deficit.md
     verification: human_checked
   - id: claim_descriptive_deficit_quantitative_description_priority
@@ -129,5 +131,25 @@ claims:
       - study3-media-system
     appears_in:
       - wiki/sources/norton_shapiro_2024.md
+      - wiki/themes/descriptive_deficit.md
+    verification: human_checked
+  - id: claim_cross_linguistic_youtube_not_one_platform
+    text: "Different linguistic communities use YouTube differently enough that English-language findings should not be assumed to generalize across the platform."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Cross-language random samples describing uploads through 2023."
+    primary_sources:
+      - mcgrady_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current evidence comes from English, Spanish, Hindi, and Russian random samples rather than all languages on the platform."
+    themes:
+      - descriptive-deficit
+      - cross-linguistic-variation
+    census_papers:
+      - paper1-attention-economy
+      - study5-cross-language
+    appears_in:
+      - wiki/sources/mcgrady_2025.md
       - wiki/themes/descriptive_deficit.md
     verification: human_checked
