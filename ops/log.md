@@ -472,3 +472,36 @@ Claims not fully verifiable from this source alone:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/reuters_dnr_2025?quick_pull=1&title=%5Bingest-from-review%5D%20Reuters%20Institute%202025%20%28Digital%20News%20Report%202025%29&body=%23%23%20Summary%0A-%20Ingested%20%60reuters_dnr_2025%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20news-ecosystem%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/reuters_dnr_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-15 — Refresh creator_economy
+**Operation:** refresh-theme
+**Branch:** refresh/creator_economy
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/creator_economy.md` after the Batch 2
+ingests. This synthesis was built from pushed source cards on
+`ingest/rieder_et_al_2023`, `ingest/verwiebe_et_al_2025`,
+`ingest/ormen_gregersen_2023_polymorphism`,
+`ingest/ormen_gregersen_2023_engagement`, and
+`ingest/newman_et_al_2025`.
+
+Key synthesis decisions:
+
+- Preserved the central disagreement between diversification at
+  the strategic level and an overarching engagement-market logic
+  at the platform level.
+- Kept Newman et al. in scope because its source card explicitly
+  tags `creator-economy`, but treated it as supplementary evidence
+  about a news-adjacent creator niche rather than as a direct
+  earnings or labor study.
+- Kept all claims at `[🤖]` and limited this branch to the theme
+  page plus log entry, per the Batch 2 refresh instruction.
+
+Split evaluation:
+
+- No split proposed yet. The page remains comfortably below the
+  400-line threshold and the disagreements still cohere within a
+  single creator-economy synthesis.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/creator_economy?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20creator_economy&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/creator_economy.md%60%20from%20the%20Batch%202%20source%20cards.%0A-%20Preserved%20disagreement%20between%20diversification%20and%20engagement-market%20standardization.%0A-%20Kept%20this%20branch%20limited%20to%20the%20theme%20page%20and%20ops%20log.%0A%0A%23%23%20Sources%0A-%20rieder_et_al_2023%0A-%20verwiebe_et_al_2025%0A-%20ormen_gregersen_2023_polymorphism%0A-%20ormen_gregersen_2023_engagement%0A-%20newman_et_al_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/creator_economy.md%0A-%20ops/log.md
