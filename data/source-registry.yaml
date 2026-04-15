@@ -1,0 +1,27 @@
+# Source registry for the YouTube Scholarship Atlas.
+#
+# Every source the agents touch must have an entry here. The registry
+# is updated by the ingest-source skill and read by every other skill.
+#
+# Fields:
+#   id:                  short slug, matches source card filename
+#   type:                journal_article | working_paper | book_chapter
+#                        | systematic_review | industry_report
+#                        | internal_memo | platform_doc | news
+#   evidence_tier:       see docs/evidence-tiers.md
+#   title, authors, year, venue, doi
+#   canonical_format:    pdf | markdown
+#   formats_available:   list of formats in sources/papers/
+#   status:              pending | ingested | needs_update
+#   date_ingested:       YYYY-MM-DD or null
+#   wiki_pages_touched:  list of wiki/ page paths
+#   tags:                concept tags from project-taxonomy.yaml
+#   themes:              theme slugs
+#   census_relevance:    high | medium | low
+#   census_papers:       list of paper_targets
+#   temporal_scope:      data collection period
+#   notes:               anything worth remembering
+#
+# Registry is seeded empty. Populated during Phase 1 ingest.
+
+sources: []

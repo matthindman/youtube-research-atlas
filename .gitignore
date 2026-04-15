@@ -1,0 +1,33 @@
+# PDFs, MHTML archives, and other binary sources — canonical raw
+# materials live in the external paper archive, not this repo.
+sources/papers/
+sources/papers
+*.pdf
+*.mhtml
+*.PDF
+
+# Lint outputs that shouldn't accrue in git
+ops/lint-reports/*.md
+!ops/lint-reports/.gitkeep
+
+# OS junk
+.DS_Store
+Thumbs.db
+.Trash-*
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+.env.local

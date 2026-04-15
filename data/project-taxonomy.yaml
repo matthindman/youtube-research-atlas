@@ -1,0 +1,199 @@
+# Controlled vocabulary for the YouTube Scholarship Atlas.
+#
+# Agents MUST consult this file before creating new pages. If a concept
+# matches an existing alias, update the existing page. If genuinely new,
+# add to this file FIRST, then create the page.
+#
+# This file is the canonical ontology. When in doubt, prefer alignment
+# with existing entries over creating new ones.
+
+themes:
+  descriptive-deficit:
+    aliases:
+      - denominator problem
+      - distribution problem
+      - descriptive gap
+      - quantitative description
+      - population-level description
+      - YouTube at scale
+    scope: >
+      Basic unknown facts about YouTube — total size, distribution of
+      views across channels, coverage of existing samples, representativeness
+      of convenience datasets. Anything that makes prevalence or "share of
+      attention" claims hard to defend.
+    split_candidates: []
+    temporal_scoping_required: false
+
+  recommendation-radicalization:
+    aliases:
+      - rabbit hole
+      - algorithmic radicalization
+      - filter bubble
+      - echo chamber
+      - recommendation audit
+      - algorithmic bias in recommendations
+    scope: >
+      Effects of YouTube's recommendation algorithm on exposure, attitudes,
+      and behavior. Covers audit studies, experiments, observational
+      consumption studies, and theoretical accounts of algorithmic effects.
+    split_candidates:
+      - rabbit_hole_debate
+      - filter_bubble_evidence
+      - interest_bias
+      - pre_2019_vs_post_2019_algorithm
+    temporal_scoping_required: true
+
+  creator-economy:
+    aliases:
+      - creator inequality
+      - aspirational curve
+      - winner-take-all
+      - creator earnings
+      - platform labor
+      - monetization
+    scope: >
+      Concentration of views, earnings, and opportunity among creators.
+      Platform labor dynamics, monetization mechanics, and how the
+      creator economy structures who can produce content and for whom.
+    split_candidates: []
+    temporal_scoping_required: false
+
+  news-ecosystem:
+    aliases:
+      - news creators
+      - platform journalism
+      - news influencers
+      - public affairs YouTube
+      - political information
+    scope: >
+      YouTube as a news and public-affairs information source. Role of
+      independent news creators, relationship to legacy journalism,
+      public-affairs supply and demand.
+    split_candidates: []
+    temporal_scoping_required: true
+
+  cross-linguistic-variation:
+    aliases:
+      - multilingual YouTube
+      - language distribution
+      - non-English YouTube
+      - cross-national YouTube
+    scope: >
+      Cross-language and cross-national variation in YouTube content,
+      audiences, and effects. How much of the platform is non-English,
+      how language affects measurement, how findings from English YouTube
+      generalize (or fail to).
+    split_candidates: []
+    temporal_scoping_required: false
+
+  governance-data-access:
+    aliases:
+      - platform governance
+      - content moderation
+      - API access
+      - researcher access
+      - DSA compliance
+      - platform transparency
+    scope: >
+      YouTube's governance systems, content moderation practices, data
+      access policies, and researcher access regimes. Includes the
+      meta-question of what we can study given the access we have.
+    split_candidates: []
+    temporal_scoping_required: true
+
+project_modules:
+  - denominator
+  - discovery-completeness
+  - activity-tail
+  - below-threshold-sampling
+  - taxonomy
+  - public-affairs
+  - mobility
+  - shorts
+  - api-compliance
+  - classification-llm
+
+paper_targets:
+  - methods-companion
+  - paper1-attention-economy
+  - paper2-mobility
+  - study3-media-system
+  - study4-event-attention
+  - study5-cross-language
+  - study6-subscriber-loyalty
+  - study7-platform-substitutability
+  - study8-deplatforming-spillovers
+  - study9-inauthentic-networks
+  - study10-shorts-vs-long-form
+
+evidence_tiers:
+  primary_empirical:
+    description: >
+      Peer-reviewed articles, published working papers with original
+      data, preregistered reports.
+    can_support: Any empirical, methodological, or theoretical claim.
+  secondary_analytical:
+    description: Systematic reviews, meta-analyses, book chapters.
+    can_support: >
+      Synthesis claims. Must trace specific empirical findings back
+      to the underlying primary sources.
+  industry_report:
+    description: Reuters DNR, Pew, Ofcom, platform transparency reports.
+    can_support: >
+      Usage statistics, descriptive trends, platform policy facts.
+      Cannot support causal claims or scholarly consensus.
+  project_internal:
+    description: Census project memos, internal methods notes.
+    can_support: >
+      Project-context claims only. Never cited as evidence about
+      YouTube or the broader literature.
+  platform_documentation:
+    description: YouTube API docs, help pages, policy announcements.
+    can_support: Technical and policy facts only.
+  news_commentary:
+    description: Journalism, opinion pieces.
+    can_support: Context and framing only. Rarely cited in synthesis.
+
+claim_types:
+  - empirical-descriptive
+  - empirical-causal
+  - methodological
+  - theoretical
+  - normative
+
+page_statuses:
+  - machine-draft
+  - citation-checked
+  - human-reviewed
+  - stable
+
+verification_markers:
+  machine_extracted: "[🤖]"
+  human_checked: "[✓]"
+  publication_ready: "[✓✓]"
+  needs_citation: "[NEEDS CITATION]"
+
+method_families:
+  - descriptive
+  - audit
+  - experiment
+  - panel
+  - review
+  - comparative
+  - sampling
+  - estimation
+  - classification
+
+# Page creation rules (enforced by agents and lint):
+#
+# 1. Before creating any page, check aliases in this file.
+# 2. If a concept matches an existing alias, update the existing page.
+# 3. If genuinely new, add to this file FIRST, then create the page.
+# 4. Theme split rule: when a theme page exceeds 400 lines, OR covers
+#    debates with distinct evidence bases and different conclusions,
+#    split into separate debate pages. Add new entries to this file.
+# 5. No two pages may share a canonical_name. The source_id of a
+#    source card must match the key in data/source-registry.yaml.
+# 6. Temporal scoping is mandatory for themes flagged
+#    temporal_scoping_required: true. Theme and debate pages must
+#    carry a temporal_scope field in frontmatter.

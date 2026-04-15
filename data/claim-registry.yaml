@@ -1,0 +1,28 @@
+# Claim registry for the YouTube Scholarship Atlas.
+#
+# Lightweight index of the ~30-50 most important cross-cutting claims
+# that appear across multiple pages. NOT a comprehensive claim database.
+# The purpose is to prevent silent duplication, track contradictions,
+# and ensure that core propositions are stated consistently.
+#
+# Fields:
+#   id:                    slug
+#   text:                  canonical statement of the claim
+#   claim_type:            empirical-descriptive | empirical-causal
+#                          | methodological | theoretical | normative
+#   evidence_strength:     single-source | multi-source | contested
+#   temporal_scope:        when does this claim hold?
+#   primary_sources:       list of source_ids driving the claim
+#   supporting_sources:    list of source_ids with consistent findings
+#   conflicting_sources:   list of source_ids with contrary findings
+#   scope_conditions:      boundary conditions / limitations
+#   themes:                theme slugs from project-taxonomy.yaml
+#   census_papers:         paper_targets this claim feeds
+#   appears_in:            list of wiki page paths where this claim lives
+#   verification:          machine_extracted | human_checked
+#                          | publication_ready
+#
+# Populated during and after Phase 1 ingest. Target: ~30 entries after
+# Phase 1 completes.
+
+claims: []

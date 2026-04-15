@@ -1,0 +1,93 @@
+---
+name: ingest-source
+description: Ingest a new paper, report, or internal memo into the
+  YouTube Scholarship Atlas. Creates or updates source card, claim
+  registry, theme pages, method pages, paper dossiers, index, and log.
+---
+
+# Ingest Source
+
+## Before starting
+
+1. Read `AGENTS.md` (or `CLAUDE.md`).
+2. Read `data/project-taxonomy.yaml`.
+3. Read `docs/evidence-tiers.md`.
+4. Read `docs/review-policy.md`.
+
+## Inputs
+
+- Path to raw source (typically under `sources/papers/`, which is a
+  symlink to the external PDF archive).
+- Basic citation metadata (author, year, title, venue, DOI if known).
+- Whether the source is external scholarship or internal project
+  material.
+
+## Procedure
+
+1. **Read the full source** before editing any wiki page. Do not
+   summarize from the title or abstract alone.
+2. **Determine evidence tier** per `docs/evidence-tiers.md`.
+3. **Create or update `data/source-registry.yaml`** with the source's
+   metadata, evidence tier, canonical format, themes, census relevance,
+   and initial notes. Set `status: ingested` and `date_ingested` to
+   today.
+4. **Create the source card** at `wiki/sources/<source_id>.md` using
+   `templates/source-card.md`. Every substantive claim carries a
+   `[🤖]` marker and a page citation. No quote without a page number.
+5. **Check `data/project-taxonomy.yaml` aliases** for every concept
+   you plan to tag. If a concept matches an existing alias, use the
+   canonical name. If genuinely new, add to the taxonomy file first
+   (on the same branch), then use it.
+6. **Extract reusable cross-cutting claims.**
+   - For claims already in `data/claim-registry.yaml`, update the
+     existing entry: add this source to `supporting_sources` or
+     `conflicting_sources` as appropriate, update `evidence_strength`,
+     and add this source card to `appears_in`.
+   - For genuinely new cross-cutting claims (ones that will appear in
+     multiple future pages), add a new registry entry.
+   - Do NOT create registry entries for narrow, source-specific
+     findings. The registry is for cross-cutting claims only.
+7. **Update the minimum necessary theme and method pages.**
+   - Add new information with inline citations and `[🤖]` markers.
+   - If the new source contradicts existing content, record the
+     contradiction explicitly: do not silently replace prior claims.
+   - Update the page's YAML frontmatter (`source_count`,
+     `key_sources`, `last_refreshed`, verification counts).
+8. **Evaluate theme split rules.** If a theme page now exceeds 400
+   lines or covers distinct debates, consult `split_candidates` in
+   `data/project-taxonomy.yaml` and propose a debate page split.
+   Debate-page creation is a separate PR.
+9. **Update paper dossier sections** only if the source is materially
+   relevant to a target paper. Label additions with `[LIT]`,
+   `[PROJECT]`, or `[DRAFT]`. Do not create `[DRAFT]` content in a
+   dossier whose status is below `citation-checked`.
+10. **Update `wiki/index.md`** with the new page(s).
+11. **Append to `ops/log.md`** with a dated entry: what was ingested,
+    what pages were touched, any tier or taxonomy decisions that
+    merit human review.
+12. **Commit to branch** `ingest/<source_id>` and open a PR. The PR
+    body must list every page created or modified.
+
+## Constraints
+
+- No direct quote without a page number. Ever.
+- Never overwrite mature synthesis unless the new source requires it
+  (and then record the change explicitly in `ops/log.md`).
+- Preserve disagreement.
+- Leave page status at `machine-draft`. Only humans promote.
+- Respect evidence tier rules: `project_internal` sources cannot be
+  cited as evidence about YouTube; `industry_report` sources cannot
+  support causal claims or scholarly consensus.
+- Never ingest anything under `sources/papers/model_papers/`. Those
+  are structural exemplars for our own drafting, not YouTube evidence.
+
+## Expected output
+
+- One new `wiki/sources/<source_id>.md` source card.
+- Updated `data/source-registry.yaml`.
+- Updated `data/claim-registry.yaml` (when cross-cutting claims
+  surface).
+- Updated theme/method/debate/dossier pages as relevant.
+- Updated `wiki/index.md`.
+- New entry in `ops/log.md`.
+- One PR on branch `ingest/<source_id>`.
