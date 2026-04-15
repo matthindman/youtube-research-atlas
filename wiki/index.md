@@ -38,6 +38,7 @@ _(none yet; created when theme pages need splitting)_
 - [[verwiebe_et_al_2025]] — creator earnings inequality, winner-take-all dynamics, and platform versus sociostructural predictors
 - [[ormen_gregersen_2023_polymorphism]] — institutional polymorphism, organizational identity, and strategic responses to platform pressure
 - [[ormen_gregersen_2023_engagement]] — engagement economy, platform marketplaces, and the commercial expansion of creator labor
+- [[newman_et_al_2025]] — news creators, commentary dominance, and cross-national creator ecosystems
 
 ## Paper dossiers
 

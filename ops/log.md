@@ -403,3 +403,39 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ormen_gregersen_2023_engagement?quick_pull=1&title=%5Bingest-from-review%5D%20%C3%98rmen%20and%20Gregersen%202023%20%28Towards%20the%20Engagement%20Economy%29&body=%23%23%20Summary%0A-%20Ingested%20%60ormen_gregersen_2023_engagement%60%20via%20%60ingest-from-review%60%20with%20all%20source-card%20claims%20left%20at%20%60%5B%F0%9F%A4%96%5D%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20creator-economy%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ormen_gregersen_2023_engagement.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-15 — Ingest newman_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/newman_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `newman_et_al_2025` via the `ingest-from-review`
+workflow. Created `wiki/sources/newman_et_al_2025.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/news_ecosystem.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material discrepancy found. The literature review's
+  discussion of commentary dominance, fuzzy category boundaries,
+  cross-border export of right-leaning US commentators, and the
+  85% male figure matches the report's own findings (pp. 10,
+  13-14).
+
+Tier and taxonomy decisions:
+
+- Assigned `industry_report` rather than `policy_research`, per
+  the updated Batch 2 instruction. This is the canonical
+  `industry_report` case: original data and analysis housed in a
+  research-adjacent institute rather than a peer-reviewed venue.
+- Tagged to both `news-ecosystem` and `creator-economy`, but
+  limited this branch's theme update to `wiki/themes/news_ecosystem.md`.
+
+Claims not fully verifiable from this source alone:
+
+- The report maps audience-reported attention and creator
+  categories, but it does not directly measure actual exposure,
+  reliability, or business sustainability.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/newman_et_al_2025?quick_pull=1&title=%5Bingest-from-review%5D%20Newman%20et%20al.%202025%20%28Mapping%20News%20Creators%20and%20Influencers%29&body=%23%23%20Summary%0A-%20Ingested%20%60newman_et_al_2025%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20news-ecosystem%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/newman_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md

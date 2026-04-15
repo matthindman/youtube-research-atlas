@@ -313,3 +313,36 @@ sources:
       - paper2-mobility
     temporal_scope: "Document analysis of YouTube public communication and platform features current around 2021-2022"
     notes: "The paper is strongest as a political-economic account of platform monetization design. It does not provide creator-level behavioral or payout data."
+  - id: newman_et_al_2025
+    type: industry_report
+    evidence_tier: industry_report
+    title: "Mapping News Creators and Influencers in Social and Video Networks"
+    authors:
+      - "Newman, Nic"
+      - "Ross Arguedas, Amy"
+      - "Mukherjee, Mitali"
+      - "Fletcher, Richard"
+    year: 2025
+    venue: "Reuters Institute for the Study of Journalism"
+    doi: "10.60625/risj-44pf-1k13"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/newman_et_al_2025.md
+      - wiki/themes/news_ecosystem.md
+      - wiki/index.md
+    tags:
+      - news-ecosystem
+      - creator-economy
+    themes:
+      - news-ecosystem
+      - creator-economy
+    census_relevance: high
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Audience survey data from 2024 and 2025 across 24 countries"
+    notes: "Canonical `industry_report` case. The evidence is strongest on audience-reported attention and typology, not on actual exposure logs or creator business outcomes."

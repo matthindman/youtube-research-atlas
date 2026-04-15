@@ -293,3 +293,43 @@ claims:
       - wiki/sources/ormen_gregersen_2023_engagement.md
       - wiki/themes/creator_economy.md
     verification: machine_extracted
+  - id: claim_news_ecosystem_commentary_dominance
+    text: "News creator ecosystems on social and video platforms are dominated by commentary formats rather than original reporting."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Audience survey snapshot in 2024-2025 across 24 countries."
+    primary_sources:
+      - newman_et_al_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from audience-reported attention and creator typology rather than direct exposure logs."
+    themes:
+      - news-ecosystem
+      - creator-economy
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/newman_et_al_2025.md
+      - wiki/themes/news_ecosystem.md
+    verification: machine_extracted
+  - id: claim_news_ecosystem_creator_gender_imbalance
+    text: "Top news creator and influencer ecosystems are overwhelmingly male across countries."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Audience survey snapshot in 2024-2025 across 24 countries."
+    primary_sources:
+      - newman_et_al_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The underlying top-15 lists are indicative and survey-based, not exhaustive rosters of all creators."
+    themes:
+      - news-ecosystem
+      - creator-economy
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/newman_et_al_2025.md
+      - wiki/themes/news_ecosystem.md
+    verification: machine_extracted
