@@ -218,6 +218,42 @@ Tier and taxonomy decisions:
   `cross-linguistic-variation`, but that theme was not refreshed in
   this PR.
 
+## 2026-04-15 — Refresh descriptive_deficit
+**Operation:** refresh-theme
+**Branch:** refresh/descriptive_deficit
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/descriptive_deficit.md` after Batch 1 ingest
+using the five current source cards (`mcgrady_2023`, `munger_2024`,
+`munger_et_al_2025`, `norton_shapiro_2024`, `mcgrady_2025`). Rewrote
+the consensus, disagreement, evidence-inventory, methods, project
+implications, and open-holes sections so the page reflects the full
+current source set rather than the rolling per-paper ingest updates.
+
+Refresh decisions:
+
+- Kept every substantive theme-page claim at `[🤖]` per the
+  `refresh-theme` rule; no refresh claim was upgraded to `[✓]`.
+- Preserved the absence of a direct empirical contradiction while
+  making the source-set differences in diagnosis explicit:
+  denominator/sampling, agenda-setting, infrastructure, and
+  multilingual heterogeneity.
+- No claim-registry text changes were needed for this refresh.
+- No debate-page split is proposed at this stage; the refreshed page
+  remains well under the 400-line split threshold and the five sources
+  still cohere as one theme.
+
+Human attention requested:
+
+- The page now relies on a stronger distinction between direct
+  empirical evidence about platform distributions and commentary about
+  why the field lacks that evidence. Reviewers should confirm that
+  Norton and Shapiro remains confined to framing/infrastructure use.
+- The outstanding literature-review discrepancy on `mcgrady_2023`
+  still stands: the review overstates recommendation-sample bias as a
+  demonstrated finding in that paper rather than a claim deferred to
+  future work.
+
 Human attention requested:
 
 - The paper's strongest generalization is comparative, not exhaustive:
