@@ -528,3 +528,55 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20the%20Batch%202%20source%20cards.%0A-%20Preserved%20tension%20between%20creator-led%20attention%20gains%20and%20the%20continued%20role%20of%20traditional%20news%20brands.%0A-%20Kept%20this%20branch%20limited%20to%20the%20theme%20page%20and%20ops%20log.%0A%0A%23%23%20Sources%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20ops/log.md
+
+## 2026-04-15 — Ingest munger_phillips_2022
+**Operation:** ingest-source
+**Branch:** ingest/munger_phillips_2022
+**By:** Codex (GPT-5)
+
+Ingested `munger_phillips_2022` via the `ingest-from-review`
+workflow. Created `wiki/sources/munger_phillips_2022.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`,
+`wiki/themes/creator_economy.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review's emphasis on
+  YouTube's political-science blind spot, the supply-and-demand
+  framework, creator-centered community formation, and the 2017
+  far-right peak matches the article (pp. 3-6, 28-34).
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` and `journal_article`.
+- Reused existing theme tags `recommendation-radicalization`,
+  `creator-economy`, and `news-ecosystem`; no taxonomy addition
+  proposed.
+- Updated the existing `claim_descriptive_deficit_understudied_platform`
+  registry entry to add this paper as supporting evidence.
+
+Theme-scope decisions:
+
+- Added a single evidence-inventory row to
+  `wiki/themes/creator_economy.md` because the paper contributes a
+  useful creator-community mechanism without requiring a rewrite.
+- I did **not** make a parallel incremental edit to
+  `wiki/themes/news_ecosystem.md`. That page currently frames its
+  evidence base as non-peer-reviewed Reuters-only material; changing
+  that framing responsibly would require a deliberate future refresh,
+  not a one-row Batch 3 drive-by.
+
+Claims not fully verifiable from this source alone:
+
+- The paper is descriptive and theoretical, not a direct
+  recommendation audit, so it cannot isolate the algorithm's causal
+  role.
+- The evidence is about a right-wing political subsystem rather than
+  platform-wide political YouTube.
+- The May 2020 update cannot fully reconstruct when later views were
+  accrued and is affected by nonrandom missingness in removed videos.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/munger_phillips_2022?quick_pull=1&title=%5Bingest-from-review%5D%20Munger%20and%20Phillips%202022%20%28Right-Wing%20YouTube%29&body=%23%23%20Summary%0A-%20Ingested%20%60munger_phillips_2022%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20registries%2C%20creator-economy%20theme%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/munger_phillips_2022.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md

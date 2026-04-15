@@ -7,7 +7,7 @@ temporal_scope: "Post-Partner-Program era; particularly post-2018"
 themes: [creator-economy]
 census_papers: [paper1-attention-economy]
 last_refreshed: 2026-04-15
-source_count: 5
+source_count: 6
 key_sources:
   - rieder_et_al_2023
   - verwiebe_et_al_2025
@@ -16,7 +16,7 @@ key_sources:
   - newman_et_al_2025
 split_candidates: []
 verification:
-  machine_extracted: 23
+  machine_extracted: 24
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -81,6 +81,7 @@ income outcomes. [🤖]
 | Creator strategies diversify rather than converge, and organizational identity mediates monetization choices. | Ørmen and Gregersen 2023 (Polymorphism) | Purposive channel sample plus case-based qualitative typology | single-source | 2019 snapshot | [🤖] |
 | YouTube is becoming an interconnected set of marketplaces that privileges commercially valuable engagement. | Ørmen and Gregersen 2023 (Engagement Economy) | Critical document analysis of platform communication and product design | single-source | 2021-2022 documents and features | [🤖] |
 | Commentary-driven creator niches, especially in news, are personality-led and strongly male-skewed. | Newman et al. 2025 | Audience survey plus creator typology across 24 countries | single-source | 2024-2025 | [🤖] |
+| Low production costs, recommendation-driven audience matching, and niche community formation help political creators scale devoted publics on YouTube. | Munger and Phillips 2022 | Affordance framework plus descriptive analysis of right-wing political channels | single-source | 2008-2018 with 2020 update | [🤖] |
 
 ## Methodological Reasons for Disagreement
 

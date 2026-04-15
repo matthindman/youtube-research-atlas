@@ -103,6 +103,7 @@ claims:
     primary_sources:
       - munger_2024
     supporting_sources:
+      - munger_phillips_2022
       - munger_et_al_2025
       - norton_shapiro_2024
     conflicting_sources: []
@@ -115,6 +116,7 @@ claims:
       - study3-media-system
     appears_in:
       - wiki/sources/munger_2024.md
+      - wiki/sources/munger_phillips_2022.md
       - wiki/sources/munger_et_al_2025.md
       - wiki/sources/norton_shapiro_2024.md
       - wiki/themes/descriptive_deficit.md
@@ -370,4 +372,46 @@ claims:
     appears_in:
       - wiki/sources/reuters_dnr_2025.md
       - wiki/themes/news_ecosystem.md
+    verification: machine_extracted
+  - id: claim_recommendation_radicalization_supply_demand_community
+    text: "The main risk from right-wing YouTube is better understood through creator-audience community formation and supply-demand dynamics than through a simple algorithmic rabbit-hole model."
+    claim_type: theoretical
+    evidence_strength: single-source
+    temporal_scope: "Right-wing YouTube through 2018, with framing current to 2022."
+    primary_sources:
+      - munger_phillips_2022
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The argument is grounded in a right-wing subsystem and descriptive trend analysis rather than a platform-wide causal audit."
+    themes:
+      - recommendation-radicalization
+      - creator-economy
+      - news-ecosystem
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/munger_phillips_2022.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
+  - id: claim_recommendation_radicalization_far_right_pre2019_peak
+    text: "Far-right YouTube viewership peaked around 2017 and declined before YouTube's January 2019 demotion of far-right content."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Monthly viewership trends from January 2013 through October 2018, with an update through May 2020."
+    primary_sources:
+      - munger_phillips_2022
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from a right-wing political subsystem rather than platform-wide viewing data."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/munger_phillips_2022.md
+      - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
