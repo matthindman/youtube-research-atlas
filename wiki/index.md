@@ -39,6 +39,7 @@ _(none yet; created when theme pages need splitting)_
 - [[ormen_gregersen_2023_polymorphism]] — institutional polymorphism, organizational identity, and strategic responses to platform pressure
 - [[ormen_gregersen_2023_engagement]] — engagement economy, platform marketplaces, and the commercial expansion of creator labor
 - [[newman_et_al_2025]] — news creators, commentary dominance, and cross-national creator ecosystems
+- [[reuters_dnr_2025]] — YouTube news use, video-first consumption, and creator-led pressure on journalism
 
 ## Paper dossiers
 

@@ -346,3 +346,37 @@ sources:
       - study3-media-system
     temporal_scope: "Audience survey data from 2024 and 2025 across 24 countries"
     notes: "Canonical `industry_report` case. The evidence is strongest on audience-reported attention and typology, not on actual exposure logs or creator business outcomes."
+  - id: reuters_dnr_2025
+    type: industry_report
+    evidence_tier: industry_report
+    title: "Digital News Report 2025"
+    authors:
+      - "Newman, Nic"
+      - "Ross Arguedas, Amy"
+      - "Robertson, Craig T."
+      - "Nielsen, Rasmus Kleis"
+      - "Fletcher, Richard"
+    year: 2025
+    venue: "Reuters Institute for the Study of Journalism"
+    doi: "10.60625/risj-8qqf-jt36"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/reuters_dnr_2025.md
+      - wiki/themes/news_ecosystem.md
+      - wiki/index.md
+    tags:
+      - news-ecosystem
+      - public-affairs
+      - video
+    themes:
+      - news-ecosystem
+    census_relevance: high
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "2025 survey wave across 48 markets, with trend comparisons back to 2020 or 2021 for selected video and platform measures"
+    notes: "Scoped here to the report's YouTube, video-news, creator-attention, podcast, and verification sections rather than the entire annual report."

@@ -410,6 +410,13 @@ Prefilled compare URL:
 
 Ingested `newman_et_al_2025` via the `ingest-from-review`
 workflow. Created `wiki/sources/newman_et_al_2025.md` and
+## 2026-04-15 — Ingest reuters_dnr_2025
+**Operation:** ingest-source
+**Branch:** ingest/reuters_dnr_2025
+**By:** Codex (GPT-5)
+
+Ingested `reuters_dnr_2025` via the `ingest-from-review`
+workflow. Created `wiki/sources/reuters_dnr_2025.md` and
 updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
 `wiki/themes/news_ecosystem.md`, and `wiki/index.md`.
 
@@ -439,3 +446,29 @@ Claims not fully verifiable from this source alone:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/newman_et_al_2025?quick_pull=1&title=%5Bingest-from-review%5D%20Newman%20et%20al.%202025%20%28Mapping%20News%20Creators%20and%20Influencers%29&body=%23%23%20Summary%0A-%20Ingested%20%60newman_et_al_2025%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20news-ecosystem%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/newman_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md
+- No material discrepancy found. The literature review's account
+  of YouTube's 30% weekly news use, especially heavy use in India,
+  Thailand, and Kenya, creator-led pressure on institutional
+  journalism, and YouTube's role in video-podcast distribution is
+  consistent with the report itself (pp. 10, 16-21).
+
+Tier and taxonomy decisions:
+
+- Assigned `industry_report`, not `policy_research`. The Digital
+  News Report is a Reuters Institute annual survey report and is
+  the canonical `industry_report` case for this atlas.
+- Scoped the source card to the report's YouTube, video-news,
+  creator-attention, podcast, and verification sections rather
+  than attempting to summarize the entire annual report.
+
+Claims not fully verifiable from this source alone:
+
+- The report does not show what users actually watched on YouTube
+  or whether recommendation systems causally amplified creator-led
+  news attention.
+- It also cannot determine the epistemic quality of the creator-
+  led news ecosystem it describes.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/reuters_dnr_2025?quick_pull=1&title=%5Bingest-from-review%5D%20Reuters%20Institute%202025%20%28Digital%20News%20Report%202025%29&body=%23%23%20Summary%0A-%20Ingested%20%60reuters_dnr_2025%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20news-ecosystem%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/reuters_dnr_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md
