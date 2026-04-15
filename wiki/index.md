@@ -35,6 +35,7 @@ _(none yet; created when theme pages need splitting)_
 - [[munger_et_al_2025]] — descriptive map of political YouTube channels, comments, and participation inequality
 - [[norton_shapiro_2024]] — research-infrastructure critique explaining why YouTube remains understudied
 - [[rieder_et_al_2023]] — creator-economy inequality, linking practices, and off-platform monetization
+- [[verwiebe_et_al_2025]] — creator earnings inequality, winner-take-all dynamics, and platform versus sociostructural predictors
 
 ## Paper dossiers
 

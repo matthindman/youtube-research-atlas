@@ -301,6 +301,13 @@ changed. This is a tier/metadata correction only.
 
 Ingested `rieder_et_al_2023` via the `ingest-from-review`
 workflow. Created `wiki/sources/rieder_et_al_2023.md` and
+## 2026-04-15 — Ingest verwiebe_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/verwiebe_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `verwiebe_et_al_2025` via the `ingest-from-review`
+workflow. Created `wiki/sources/verwiebe_et_al_2025.md` and
 updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
 `wiki/themes/creator_economy.md`, and `wiki/index.md`.
 
@@ -310,6 +317,9 @@ Literature-review cross-check note:
   on extreme inequality, creator precarity, and the growth of
   external linking matches the paper's framing and findings (pp.
   1-4, 15-16).
+  on extreme earnings inequality, the under-studied role of
+  sociostructural variables, and the winner-take-all framing
+  matches the article's results and discussion (pp. 2-3, 12-20).
 
 Tier and taxonomy decisions:
 
@@ -327,3 +337,13 @@ Claims not fully verifiable from this source alone:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/rieder_et_al_2023?quick_pull=1&title=%5Bingest-from-review%5D%20Rieder%20et%20al.%202023%20%28Making%20a%20Living%20in%20the%20Creator%20Economy%29&body=%23%23%20Summary%0A-%20Ingested%20%60rieder_et_al_2023%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20creator-economy%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/rieder_et_al_2023.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md
+- The paper estimates YPP earnings rather than observing payout
+  ledgers directly, so exact income magnitudes should be treated
+  as modeled estimates rather than audited creator accounts.
+- Because the sample is limited to monetized German-speaking
+  channels, any broader claim about the global creator economy
+  remains provisional.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/verwiebe_et_al_2025?quick_pull=1&title=%5Bingest-from-review%5D%20Verwiebe%20et%20al.%202025%20%28Unequal%20Earnings%20on%20YouTube%29&body=%23%23%20Summary%0A-%20Ingested%20%60verwiebe_et_al_2025%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20creator-economy%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/verwiebe_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md

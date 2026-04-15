@@ -222,3 +222,36 @@ sources:
       - paper2-mobility
     temporal_scope: "Elite channels retrieved at the end of 2019; linking histories analyzed across videos posted through 2019"
     notes: "The paper covers channels with at least 100,000 subscribers and uses visible URL traces, so it captures cross-platform strategy better than it captures the full income mix of smaller or less visible creators."
+  - id: verwiebe_et_al_2025
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Working on an Algorithm-Controlled Platform as a Content Creator: What Explains Unequal Earnings on YouTube?"
+    authors:
+      - "Verwiebe, Roland"
+      - "Osorio-Krauter, Chiara"
+      - "Fritsch, Nina-Sophie"
+      - "Weißmann, Sarah"
+      - "Philipp, Aaron"
+      - "Buder, Claudia"
+    year: 2025
+    venue: "European Societies"
+    doi: "10.1162/EUSO.a.42"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/verwiebe_et_al_2025.md
+      - wiki/themes/creator_economy.md
+      - wiki/index.md
+    tags:
+      - creator-economy
+    themes:
+      - creator-economy
+    census_relevance: medium
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    temporal_scope: "Channels retrieved December 2022; monetization status scraped March 2023; sociostructural coding March-September 2023"
+    notes: "The evidence is limited to monetized German-speaking channels and relies on estimated platform earnings, so it is strongest on inequality structure rather than exact payout levels."

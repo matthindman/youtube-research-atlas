@@ -8,10 +8,10 @@ themes: [creator-economy]
 census_papers: [paper1-attention-economy]
 last_refreshed: 2026-04-15
 source_count: 1
-key_sources: [rieder_et_al_2023]
+key_sources: [verwiebe_et_al_2025]
 split_candidates: []
 verification:
-  machine_extracted: 13
+  machine_extracted: 14
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -23,82 +23,85 @@ verification:
 
 ## Why This Theme Matters
 
-Rieder et al. show that creator-economy questions on YouTube
-cannot be reduced to ad revenue inside the platform because even
-elite channels organize survival through outward links to other
-platforms, marketplaces, and crowdfunding infrastructures (pp.
-1, 8-11). [🤖]
+Verwiebe et al. bring earnings directly into the creator-economy
+literature by showing how sharply platform income is stratified
+even among already monetized creators, and by asking whether
+that stratification follows platform metrics, social
+characteristics, or both (pp. 1-3, 15-20). [🤖]
 
 ## Current Consensus
 
-- Within the current one-source evidence base, the clearest point
-  is that the creator economy is highly unequal: a tiny fraction of
-  channels capture a disproportionate share of attention, while
-  most creators face weak prospects of earning a living wage (pp.
-  2, 4). [🤖]
-- Visible monetization on YouTube is tightly connected to
-  cross-platform brand building, with creators using video
-  descriptions to send audiences toward social accounts,
-  marketplaces, and crowdfunding tools rather than relying only on
-  YouTube-native ads (pp. 8-11). [🤖]
+- Within the current one-source branch, the strongest conclusion
+  is that YouTube earnings are extremely unequal, with a tiny top
+  tier capturing a disproportionate share of platform income (pp.
+  12-13, 19). [🤖]
+- The paper also indicates that platform-side variables such as
+  subscribers, lifetime views, upload volume, and topic explain
+  more of the observed variation than most coded
+  sociostructural variables (pp. 15-20). [🤖]
 
 ## Main Disagreements
 
-This branch does not yet contain a source-level disagreement
-about whether creators diversify or conform, but Rieder et al.
-leave unresolved how much apparent off-platform diversification
-reflects genuine autonomy versus dependence created by YouTube's
-own monetization pressure (pp. 15-16). [🤖]
+This branch does not yet contain an inter-source disagreement,
+but Verwiebe et al. leave open whether YouTube should be read
+as a winner-take-all market, a long-tail market, or both at
+different parts of the distribution; the paper ultimately leans
+toward the winner-take-all reading while acknowledging the
+heavy tail below (pp. 3-5, 19). [🤖]
 
 ## Evidence Inventory
 
 | Claim | Source | Evidence | Strength | Period | Verified |
 |-------|--------|----------|----------|--------|----------|
-| A tiny fraction of channels capture a disproportionate share of attention. | Rieder et al. 2023 | Near-complete sample of 153,000 channels plus prior platform-scale view estimates | single-source | End-2019 snapshot; some comparisons back to 2006 | [🤖] |
-| Creators depend heavily on cross-platform linking and off-platform monetization. | Rieder et al. 2023 | 137 million video descriptions coded by link type, tier, category, and country | single-source | 2006-2019 linking histories | [🤖] |
+| YouTube creator earnings are extremely unequal even among monetized channels. | Verwiebe et al. 2025 | Full sample of 22,466 monetized channels plus a random coded sample of 795 creators | single-source | Data retrieved 2022-2023 | [🤖] |
+| Platform metrics explain more earnings variation than most coded sociostructural attributes. | Verwiebe et al. 2025 | EDA plus regression on views, subscribers, uploads, topic, age, education, gender, and race | single-source | Data retrieved 2022-2023 | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
-- The paper studies channels with at least 100,000 subscribers, so
-  it is well suited to visible commercial strategies at the top of
-  the hierarchy but not to the millions of smaller channels below
-  that threshold (pp. 1, 16). [🤖]
-- Link analysis captures visible URL-based monetization and
-  networking, but it cannot see sponsorships, direct deals, or
-  other income streams that do not appear in video descriptions
-  (pp. 15-16). [🤖]
+- The paper studies monetized channels only, which may exclude
+  the most precarious or already demonetized creators and thus
+  compress inequality at the bottom of the distribution (pp. 10,
+  21). [🤖]
+- Earnings are estimated rather than directly observed from
+  YouTube's internal accounts, so payout levels depend on model
+  assumptions and unobserved CPM variation (p. 21). [🤖]
+- The evidence is regional rather than platform-wide, covering
+  German-speaking creators in four countries rather than the
+  global creator economy (pp. 1, 9). [🤖]
 
 ## Measures and Variables Used in the Literature
 
-Key measures include channel subscriber tier, volume and type of
-outbound links, content categories, country comparisons, and
-estimated ad-revenue tiers derived from prior platform-scale view
-distributions (pp. 4-5, 8-15). [🤖]
+Key measures include estimated average monthly earnings,
+subscribers, all-time views, upload counts, median likes per
+video, audience strength, channel topic, and coded creator
+attributes including age, education, gender, and race (pp.
+10-18). [🤖]
 
 ## What This Means for Our Project
 
-- For `paper1-attention-economy`, creator inequality should be
-  framed as both attention concentration and monetization
-  concentration; view shares alone miss how creators convert
-  audience into revenue across multiple infrastructures (pp. 2,
-  8-11). [🤖]
-- For `paper2-mobility`, the paper sharpens the precarity
-  baseline: many channels may be structurally below viable
-  earnings even before we ask who moves up or down the hierarchy
-  over time (pp. 4, 16). [🤖]
+- For `paper1-attention-economy`, this branch suggests that view
+  concentration should not be treated as a complete proxy for
+  income concentration, because topic and monetization dynamics
+  also structure who converts attention into revenue (pp. 13,
+  18-20). [🤖]
+- For `paper2-mobility`, the paper gives a strong baseline claim
+  about precarity: even after monetization thresholds are crossed,
+  most creators still appear far from stable professional income
+  (pp. 12-13, 19). [🤖]
 
 ## Open Holes / Next Sources to Acquire
 
-- We still lack comparable evidence for smaller channels below the
-  100,000-subscriber cutoff, where crowdfunding and community
-  support may matter differently (p. 16). [🤖]
-- The current branch does not yet connect this creator-economy
-  evidence to news and public-affairs creators specifically, which
-  matters for later overlap with `news_ecosystem` (pp. 10, 15). [🤖]
+- We still need evidence on creators who do not qualify for or do
+  not retain monetization, since this paper may understate
+  inequality at the bottom of the hierarchy (pp. 10, 21). [🤖]
+- The current branch does not show whether these earnings
+  dynamics generalize beyond German-speaking Europe or to
+  platform segments where informal and off-platform revenue are
+  more central (pp. 1, 21). [🤖]
 
 ## Sources Consulted
 
-- [[rieder_et_al_2023]]
+- [[verwiebe_et_al_2025]]
 
 ## Cross-References
 

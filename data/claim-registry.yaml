@@ -198,3 +198,22 @@ claims:
       - wiki/sources/rieder_et_al_2023.md
       - wiki/themes/creator_economy.md
     verification: machine_extracted
+  - id: claim_creator_economy_winner_take_all_precarity
+    text: "Creator earnings on YouTube follow winner-take-all dynamics that leave most creators with unstable or insufficient platform income."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "German-speaking monetized channels in 2022-2023."
+    primary_sources:
+      - verwiebe_et_al_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The evidence is strongest for YPP-based earnings and may understate precarity among creators who do not qualify for monetization."
+    themes:
+      - creator-economy
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    appears_in:
+      - wiki/sources/verwiebe_et_al_2025.md
+      - wiki/themes/creator_economy.md
+    verification: machine_extracted
