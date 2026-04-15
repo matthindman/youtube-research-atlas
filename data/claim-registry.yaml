@@ -32,4 +32,42 @@
 # Populated during and after Phase 1 ingest. Target: ~30 entries after
 # Phase 1 completes.
 
-claims: []
+claims:
+  - id: claim_creator_economy_polymorphism_over_isomorphism
+    text: "YouTube's creator economy shows diversification in content and monetization strategies rather than simple platform-induced convergence."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Channels sampled through 2019; coding in summer 2019."
+    primary_sources:
+      - ormen_gregersen_2023_polymorphism
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from a purposive mixed-method sample rather than a representative population estimate."
+    themes:
+      - creator-economy
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    appears_in:
+      - wiki/sources/ormen_gregersen_2023_polymorphism.md
+      - wiki/themes/creator_economy.md
+    verification: machine_extracted
+  - id: claim_creator_economy_platform_strategic_response
+    text: "Creator responses to YouTube's platform pressures are strategically differentiated, including conformity, compromise, avoidance, and defiance."
+    claim_type: theoretical
+    evidence_strength: single-source
+    temporal_scope: "Channels sampled through 2019; coding in summer 2019."
+    primary_sources:
+      - ormen_gregersen_2023_polymorphism
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The typology is derived from mixed-method analysis of active channels and is not a frequency estimate for the whole platform."
+    themes:
+      - creator-economy
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    appears_in:
+      - wiki/sources/ormen_gregersen_2023_polymorphism.md
+      - wiki/themes/creator_economy.md
+    verification: machine_extracted

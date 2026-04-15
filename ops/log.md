@@ -62,3 +62,41 @@ quality calibration after Batch 1 before continuing.
    needed.
 4. Trigger Batch 1 ingest, either via Codex or via an interactive
    Claude Code session using the `ingest-from-review` skill.
+
+## 2026-04-15 — Ingest ormen_gregersen_2023_polymorphism
+**Operation:** ingest-source
+**Branch:** ingest/ormen_gregersen_2023_polymorphism
+**By:** Codex (GPT-5)
+
+Ingested `ormen_gregersen_2023_polymorphism` via the
+`ingest-from-review` workflow. Created
+`wiki/sources/ormen_gregersen_2023_polymorphism.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/creator_economy.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material discrepancy found. The literature review's framing
+  of diversification over convergence, the sampling challenge, and
+  the weakness of YouTube's native categories matches the
+  article's methods and conclusions (pp. 432-437, 444-448).
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` and `journal_article`.
+- Reused existing theme tag `creator-economy`; no taxonomy
+  addition proposed on this branch, but the paper reinforces the
+  need for careful institutional-form coding in later project
+  taxonomy work.
+
+Claims not fully verifiable from this source alone:
+
+- The paper is strong on strategic heterogeneity but does not
+  provide platform-wide prevalence estimates for the four
+  strategic types.
+- Monetization comparisons rely on visible and threshold-based
+  signals rather than internal watch-time or payout records.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ormen_gregersen_2023_polymorphism?quick_pull=1&title=%5Bingest-from-review%5D%20%C3%98rmen%20and%20Gregersen%202023%20%28Institutional%20Polymorphism%29&body=%23%23%20Summary%0A-%20Ingested%20%60ormen_gregersen_2023_polymorphism%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20creator-economy%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ormen_gregersen_2023_polymorphism.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md
