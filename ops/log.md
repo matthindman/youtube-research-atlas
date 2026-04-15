@@ -62,3 +62,36 @@ quality calibration after Batch 1 before continuing.
    needed.
 4. Trigger Batch 1 ingest, either via Codex or via an interactive
    Claude Code session using the `ingest-from-review` skill.
+
+## 2026-04-15 — Ingest mcgrady_2023
+**Operation:** ingest-source
+**Branch:** ingest/mcgrady_2023
+**By:** Codex (GPT-5)
+
+Ingested `mcgrady_2023` via the `ingest-from-review` workflow. Created
+`wiki/sources/mcgrady_2023.md` and updated `data/source-registry.yaml`,
+`data/claim-registry.yaml`, `wiki/themes/descriptive_deficit.md`, and
+`wiki/index.md`.
+
+Literature-review cross-check note:
+
+- The review states that recommendation-based collections are already
+  shown to be systematically biased toward more popular videos. In the
+  original article, the authors frame that comparison more cautiously:
+  they say they believe this is true and will demonstrate it in
+  forthcoming work (p. 4), rather than presenting the comparison as a
+  completed result in this paper.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused existing theme tags `descriptive-deficit` and
+  `cross-linguistic-variation`; no taxonomy additions proposed.
+
+Human attention requested:
+
+- The language-distribution discussion is useful for establishing that
+  YouTube is more multilingual than many English-speaking users
+  experience, but the paper itself cautions against treating the
+  classifier outputs as precise language-share estimates (pp. 46-49,
+  61).

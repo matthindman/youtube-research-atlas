@@ -25,4 +25,43 @@
 # Populated during and after Phase 1 ingest. Target: ~30 entries after
 # Phase 1 completes.
 
-claims: []
+claims:
+  - id: claim_descriptive_deficit_denominator_problem
+    text: "Without platform-wide denominators or representative samples, prevalence claims about YouTube content cannot be interpreted credibly."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "Persistent platform-level problem documented in late-2022 scholarship."
+    primary_sources:
+      - mcgrady_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Especially acute for studies built from convenience, seed-based, or recommendation-based samples."
+    themes:
+      - descriptive-deficit
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+    appears_in:
+      - wiki/sources/mcgrady_2023.md
+      - wiki/themes/descriptive_deficit.md
+    verification: human_checked
+  - id: claim_descriptive_deficit_multilingual_misrepresentation
+    text: "English-centric or user-experienced views of YouTube are not representative of the platform's broader linguistic composition."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "Late-2022 public-video sample; precise language shares remain uncertain."
+    primary_sources:
+      - mcgrady_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support is directional because the paper flags meaningful language-detection error."
+    themes:
+      - descriptive-deficit
+      - cross-linguistic-variation
+    census_papers:
+      - methods-companion
+      - study5-cross-language
+    appears_in:
+      - wiki/sources/mcgrady_2023.md
+      - wiki/themes/descriptive_deficit.md
+    verification: human_checked

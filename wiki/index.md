@@ -29,7 +29,7 @@ _(none yet; created when theme pages need splitting)_
 
 ## Source cards
 
-_(none yet; populated during Phase 1 ingest)_
+- [[mcgrady_2023]] — random-video sampling, denominator problems, and YouTube's long tail
 
 ## Paper dossiers
 
