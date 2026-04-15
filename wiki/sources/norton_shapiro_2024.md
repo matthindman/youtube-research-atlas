@@ -2,7 +2,7 @@
 source_id: norton_shapiro_2024
 type: source-card
 status: machine-draft
-evidence_tier: news_commentary
+evidence_tier: policy_research
 title: "How to better study - and then improve - today's corrupted information environment"
 authors:
   - "Norton, Sean"
@@ -62,7 +62,7 @@ Norton and Shapiro combine a scoping review of major information-environment pub
 
 ## Limitations / Scope Conditions
 
-This is a commentary article rather than a peer-reviewed systematic review, so it is best used for field framing and infrastructure context rather than as direct evidence about YouTube behavior (pp. 2-6). [🤖]
+The venue (*Bulletin of the Atomic Scientists*) is a policy magazine rather than a peer-reviewed journal, so the original bibliometric audit and interview analysis should be cited as `policy_research`-tier evidence: the authors' own findings about the state of the field are usable, but the article cannot carry the weight of a systematic review or a peer-reviewed empirical study (pp. 2-6). [🤖]
 
 The article summarizes the literature audit at a fairly high level, so some operational details that would matter for replication or adjudicating edge cases are not fully reported in the text itself (pp. 3-6). [🤖]
 

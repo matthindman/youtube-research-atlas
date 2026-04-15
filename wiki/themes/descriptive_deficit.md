@@ -76,13 +76,16 @@ do not answer the same representativeness question (McGrady et al.
 2023, pp. 10-13; Munger 2024, pp. 46-54; Munger et al. 2025, pp.
 8-10, 20-21). [🤖]
 
-Norton and Shapiro should also be weighted differently from the other
-four sources because their article is commentary supported by a
-literature audit and interviews rather than a peer-reviewed
-platform-measurement study. In this theme, it is strongest as framing
-for why descriptive gaps persist, not as direct evidence about
-YouTube's content or audience distributions (Norton and Shapiro 2024,
-pp. 2-6). [🤖]
+Norton and Shapiro is a `policy_research`-tier source (academically
+authored, non-peer-reviewed venue, original bibliometric audit and
+original interview data with 48 researchers). Its findings about the
+state of the field — platform coverage, geographic bias,
+methodological narrowness, infrastructure constraints — are usable as
+the authors' own descriptive claims about the research literature,
+not as peer-reviewed evidence about YouTube's content or audience
+distributions. In this theme, treat its audit statistics as primary
+evidence about the field and its platform-level claims as framing
+(Norton and Shapiro 2024, pp. 2-6). [🤖]
 
 ## Evidence Inventory
 

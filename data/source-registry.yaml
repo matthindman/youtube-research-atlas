@@ -123,8 +123,8 @@ sources:
     temporal_scope: "June 2020-February 2023 observation window for anglophone US politics channels built from a 2019 curated seed list"
     notes: "Peer-reviewed and published; treated as `primary_empirical` despite project coauthorship because it is external scholarship rather than project-internal documentation."
   - id: norton_shapiro_2024
-    type: news
-    evidence_tier: news_commentary
+    type: policy_essay
+    evidence_tier: policy_research
     title: "How to better study - and then improve - today's corrupted information environment"
     authors:
       - "Norton, Sean"
@@ -152,7 +152,7 @@ sources:
       - methods-companion
       - study3-media-system
     temporal_scope: "Literature survey of 2017-2021 research with infrastructure discussion current to March 2024"
-    notes: "Assigned `news_commentary` because the venue is commentary rather than peer-reviewed scholarship; use for framing and infrastructure context, not as direct evidence about YouTube behavior."
+    notes: "Assigned `policy_research` (added post-Batch-1) because the article is an academically-authored piece in a non-peer-reviewed venue that presents original bibliometric audit results and original interview data with 48 researchers. `news_commentary` was considered but is too restrictive — it is reserved for journalism/opinion with no original analysis. The policy_research tier allows the bibliometric statistics and field audit to be cited as the authors' own findings while still flagging the non-peer-reviewed venue."
   - id: mcgrady_2025
     type: journal_article
     evidence_tier: primary_empirical

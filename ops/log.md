@@ -260,3 +260,37 @@ Human attention requested:
   it shows that English, Spanish, Hindi, and Russian YouTube differ
   sharply, but it does not by itself establish what all other language
   communities on the platform look like.
+
+## 2026-04-15 — Batch 1 calibration fixes
+**Operation:** fix
+**Branch:** refresh/descriptive_deficit
+**By:** Claude Code (Opus 4.6)
+
+Applied two calibration fixes to the Batch 1 output before PR review,
+matching durable changes made on `main` (commit 7907bb5):
+
+1. **Norton & Shapiro 2024 retiered from `news_commentary` to
+   `policy_research`.** The `policy_research` tier was added on main
+   specifically for academically-authored pieces in non-peer-reviewed
+   venues that present original analysis. Updated:
+   - `wiki/sources/norton_shapiro_2024.md` — evidence_tier and the
+     limitations section explaining the tier rationale.
+   - `data/source-registry.yaml` — evidence_tier, type (`policy_essay`),
+     and notes.
+   - `wiki/themes/descriptive_deficit.md` — the paragraph that
+     previously justified downweighting N&S now explains that the
+     `policy_research` tier allows its bibliometric audit to be cited
+     as the authors' own descriptive findings about the field, while
+     still flagging the non-peer-reviewed venue.
+
+2. **Claim registry verification levels demoted.** All 6 entries were
+   marked `verification: human_checked` during Batch 1, but claim-
+   registry entries are agent-authored synthesis and not cross-checked
+   at a specific passage. The updated `ingest-from-review` skill
+   clarifies that the `[✓]` starting marker applies only to inline
+   source-card markers, not to claim-registry entries. All 6 entries
+   now start at `machine_extracted`; a human will upgrade as part of
+   PR review or the calibration pause.
+
+No source card body content or theme-page substantive claims were
+changed. This is a tier/metadata correction only.

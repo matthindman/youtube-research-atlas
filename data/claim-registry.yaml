@@ -44,7 +44,7 @@ claims:
     appears_in:
       - wiki/sources/mcgrady_2023.md
       - wiki/themes/descriptive_deficit.md
-    verification: human_checked
+    verification: machine_extracted
   - id: claim_descriptive_deficit_multilingual_misrepresentation
     text: "English-centric or user-experienced views of YouTube are not representative of the platform's broader linguistic composition."
     claim_type: methodological
@@ -66,7 +66,7 @@ claims:
       - wiki/sources/mcgrady_2023.md
       - wiki/sources/mcgrady_2025.md
       - wiki/themes/descriptive_deficit.md
-    verification: human_checked
+    verification: machine_extracted
   - id: claim_descriptive_deficit_quantitative_description_priority
     text: "Rigorous quantitative description of what YouTube is should be treated as a core research task, not as a secondary afterthought to causal studies."
     claim_type: methodological
@@ -87,7 +87,7 @@ claims:
       - wiki/sources/munger_2024.md
       - wiki/sources/munger_et_al_2025.md
       - wiki/themes/descriptive_deficit.md
-    verification: human_checked
+    verification: machine_extracted
   - id: claim_descriptive_deficit_understudied_platform
     text: "YouTube is understudied relative to its social and political importance."
     claim_type: theoretical
@@ -111,7 +111,7 @@ claims:
       - wiki/sources/munger_et_al_2025.md
       - wiki/sources/norton_shapiro_2024.md
       - wiki/themes/descriptive_deficit.md
-    verification: human_checked
+    verification: machine_extracted
   - id: claim_descriptive_deficit_infrastructure_constraints
     text: "Data access limits and insufficient shared tooling or compute capacity materially constrain large-scale YouTube research."
     claim_type: methodological
@@ -132,7 +132,7 @@ claims:
     appears_in:
       - wiki/sources/norton_shapiro_2024.md
       - wiki/themes/descriptive_deficit.md
-    verification: human_checked
+    verification: machine_extracted
   - id: claim_cross_linguistic_youtube_not_one_platform
     text: "Different linguistic communities use YouTube differently enough that English-language findings should not be assumed to generalize across the platform."
     claim_type: empirical-descriptive
@@ -152,4 +152,4 @@ claims:
     appears_in:
       - wiki/sources/mcgrady_2025.md
       - wiki/themes/descriptive_deficit.md
-    verification: human_checked
+    verification: machine_extracted
