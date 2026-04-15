@@ -29,7 +29,7 @@ _(none yet; created when theme pages need splitting)_
 
 ## Source cards
 
-_(none yet; populated during Phase 1 ingest)_
+- [[verwiebe_et_al_2025]] — creator earnings inequality, winner-take-all dynamics, and platform versus sociostructural predictors
 
 ## Paper dossiers
 

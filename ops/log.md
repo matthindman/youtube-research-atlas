@@ -62,3 +62,39 @@ quality calibration after Batch 1 before continuing.
    needed.
 4. Trigger Batch 1 ingest, either via Codex or via an interactive
    Claude Code session using the `ingest-from-review` skill.
+
+## 2026-04-15 — Ingest verwiebe_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/verwiebe_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `verwiebe_et_al_2025` via the `ingest-from-review`
+workflow. Created `wiki/sources/verwiebe_et_al_2025.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/creator_economy.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material discrepancy found. The literature review's emphasis
+  on extreme earnings inequality, the under-studied role of
+  sociostructural variables, and the winner-take-all framing
+  matches the article's results and discussion (pp. 2-3, 12-20).
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` and `journal_article`.
+- Reused existing theme tag `creator-economy`; no taxonomy
+  addition proposed on this branch.
+
+Claims not fully verifiable from this source alone:
+
+- The paper estimates YPP earnings rather than observing payout
+  ledgers directly, so exact income magnitudes should be treated
+  as modeled estimates rather than audited creator accounts.
+- Because the sample is limited to monetized German-speaking
+  channels, any broader claim about the global creator economy
+  remains provisional.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/verwiebe_et_al_2025?quick_pull=1&title=%5Bingest-from-review%5D%20Verwiebe%20et%20al.%202025%20%28Unequal%20Earnings%20on%20YouTube%29&body=%23%23%20Summary%0A-%20Ingested%20%60verwiebe_et_al_2025%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20creator-economy%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/verwiebe_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md
