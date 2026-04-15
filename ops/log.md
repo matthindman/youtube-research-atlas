@@ -528,3 +528,41 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20the%20Batch%202%20source%20cards.%0A-%20Preserved%20tension%20between%20creator-led%20attention%20gains%20and%20the%20continued%20role%20of%20traditional%20news%20brands.%0A-%20Kept%20this%20branch%20limited%20to%20the%20theme%20page%20and%20ops%20log.%0A%0A%23%23%20Sources%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20ops/log.md
+
+## 2026-04-15 — Ingest haroon_et_al_2023
+**Operation:** ingest-source
+**Branch:** ingest/haroon_et_al_2023
+**By:** Codex (GPT-5)
+
+Ingested `haroon_et_al_2023` via the `ingest-from-review`
+workflow. Created `wiki/sources/haroon_et_al_2023.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`, and
+`wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review's emphasis on
+  100,000 trained sock puppets, congenial recommendations, limited
+  extremization, and low-rate/high-reach problematic exposure
+  matches the article (pp. 1-8).
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` and `journal_article`.
+- Reused existing theme tag `recommendation-radicalization`; no
+  taxonomy addition proposed.
+
+Claims not fully verifiable from this source alone:
+
+- The audit does not observe what real users click, search for, or
+  ignore after seeing recommendations.
+- The main text is clear that the evidence is post-2019, but it does
+  not foreground an exact collection window with the same clarity.
+- The problematic-channel share depends on prior labeled lists and
+  likely understates exposure deeper in the trail where more channels
+  are uncategorized.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/haroon_et_al_2023?quick_pull=1&title=%5Bingest-from-review%5D%20Haroon%20et%20al.%202023%20%28Auditing%20YouTube%27s%20Recommendation%20System%29&body=%23%23%20Summary%0A-%20Ingested%20%60haroon_et_al_2023%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/haroon_et_al_2023.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md

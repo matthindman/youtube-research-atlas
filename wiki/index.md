@@ -31,6 +31,7 @@ _(none yet; created when theme pages need splitting)_
 
 - [[mcgrady_2023]] — random-video sampling, denominator problems, and YouTube's long tail
 - [[mcgrady_2025]] — cross-language random sampling showing English is not the platform
+- [[haroon_et_al_2023]] — large-scale audit of ideologically congenial, limited-extremity, and problematic recommendations
 - [[munger_2024]] — agenda-setting critique and supply-demand framework for YouTube politics
 - [[munger_et_al_2025]] — descriptive map of political YouTube channels, comments, and participation inequality
 - [[norton_shapiro_2024]] — research-infrastructure critique explaining why YouTube remains understudied
