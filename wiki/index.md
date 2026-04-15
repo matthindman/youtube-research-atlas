@@ -36,6 +36,7 @@ _(none yet; created when theme pages need splitting)_
 - [[norton_shapiro_2024]] — research-infrastructure critique explaining why YouTube remains understudied
 - [[rieder_et_al_2023]] — creator-economy inequality, linking practices, and off-platform monetization
 - [[verwiebe_et_al_2025]] — creator earnings inequality, winner-take-all dynamics, and platform versus sociostructural predictors
+- [[ormen_gregersen_2023_polymorphism]] — institutional polymorphism, organizational identity, and strategic responses to platform pressure
 
 ## Paper dossiers
 
