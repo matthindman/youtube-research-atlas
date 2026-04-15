@@ -528,3 +528,45 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20the%20Batch%202%20source%20cards.%0A-%20Preserved%20tension%20between%20creator-led%20attention%20gains%20and%20the%20continued%20role%20of%20traditional%20news%20brands.%0A-%20Kept%20this%20branch%20limited%20to%20the%20theme%20page%20and%20ops%20log.%0A%0A%23%23%20Sources%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20ops/log.md
+
+## 2026-04-15 — Refresh recommendation_radicalization
+**Operation:** refresh-theme
+**Branch:** refresh/recommendation_radicalization
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/recommendation_radicalization.md` after the
+Batch 3 ingests. This synthesis was built from the pushed source
+cards on `ingest/lai_et_al_2024`, `ingest/haroon_et_al_2023`, and
+`ingest/munger_phillips_2022`, plus the already-merged
+`munger_2024` source card as canon for the field's agenda-setting
+critique.
+
+Key synthesis decisions:
+
+- Explicitly separated the page into pre-2019, post-2019, and
+  post-2022 evidence buckets. The post-2022 bucket remains thin and
+  is called out as such.
+- Preserved the tension between limited post-2019 extremization in
+  audit work and continuing concerns about problematic-channel reach.
+- Treated Lai et al. primarily as measurement infrastructure for the
+  debate rather than as a direct recommendation test.
+
+Split evaluation:
+
+- Proposed `rabbit_hole_debate`, `filter_bubble_evidence`, and
+  `pre_2019_vs_post_2019_algorithm` as split candidates in the page
+  frontmatter.
+- Did not create the debate pages in this branch.
+
+Human attention requested:
+
+- This branch correctly starts from `origin/main`, so the refreshed
+  theme references Batch 3 source cards that live on separate ingest
+  PRs. Merge order or conflict resolution will matter in review.
+- If reviewers want a stronger post-2022 section, the atlas needs
+  additional sources; the current evidence base should not be
+  stretched forward.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/recommendation_radicalization?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20recommendation_radicalization&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/recommendation_radicalization.md%60%20from%20the%20Batch%203%20source%20cards.%0A-%20Explicitly%20separated%20pre-2019%2C%20post-2019%2C%20and%20post-2022%20evidence%20regimes.%0A-%20Proposed%20split%20candidates%20without%20creating%20debate%20pages%20in%20this%20PR.%0A%0A%23%23%20Sources%0A-%20munger_phillips_2022%0A-%20haroon_et_al_2023%0A-%20lai_et_al_2024%0A-%20munger_2024%0A%0A%23%23%20Pages%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20ops/log.md
