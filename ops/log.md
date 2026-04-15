@@ -528,3 +528,36 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20the%20Batch%202%20source%20cards.%0A-%20Preserved%20tension%20between%20creator-led%20attention%20gains%20and%20the%20continued%20role%20of%20traditional%20news%20brands.%0A-%20Kept%20this%20branch%20limited%20to%20the%20theme%20page%20and%20ops%20log.%0A%0A%23%23%20Sources%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20ops/log.md
+
+## 2026-04-15 — Create ideology_estimation method page
+**Operation:** scaffold
+**Branch:** method/ideology_estimation
+**By:** Codex (GPT-5)
+
+Created `wiki/methods/ideology_estimation.md` as the first
+atlas method page for ideology-scaling designs. The page treats
+`lai_et_al_2024` as the canonical exemplar and places
+`munger_2024` plus `munger_et_al_2025` in the "Where It Has Been
+Used" table to clarify how they rely on channel-level rather than
+video-level ideology choices.
+
+Structural choices:
+
+- Updated `wiki/index.md` on this branch so the new page is visible
+  from the atlas catalog, even though the parallel
+  `method/recommendation_audit` branch will make an overlapping
+  change.
+- Referenced Batch 3 source IDs that are not present on
+  `origin/main` yet because this branch correctly starts from
+  `origin/main` rather than stacking on the ingest branches.
+
+Human attention requested:
+
+- The method-page template does not specify whether pages should
+  restrict themselves to already-merged source cards. I chose to
+  reference the pushed Batch 3 source IDs directly and flag the merge-
+  order dependency here.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...method/ideology_estimation?quick_pull=1&title=%5Bscaffold%5D%20Create%20ideology_estimation%20method%20page&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/ideology_estimation.md%60.%0A-%20Added%20the%20new%20method%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/methods/ideology_estimation.md%0A-%20wiki/index.md%0A-%20ops/log.md

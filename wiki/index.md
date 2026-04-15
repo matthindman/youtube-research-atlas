@@ -21,7 +21,7 @@ executive synthesis.
 
 ## Methods
 
-_(none yet; populated during Phase 1 ingest)_
+- [[ideology_estimation]] — video-level and channel-level approaches for placing political YouTube content in ideological space
 
 ## Debates
 
