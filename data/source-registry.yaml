@@ -1580,3 +1580,37 @@ sources:
   temporal_scope: U.S. adult platform-use survey fielded February 5-June 18, 2025 plus daily-use survey fielded February 24-March 2, 2025
   notes: U.S.-specific Pew baseline on platform adoption and daily use. Valuable for national scale and demographic comparisons, but not for content, exposure, or causal claims. The report cautions that
     the 2023 survey-mode shift complicates longer-run trend comparisons.
+- id: youtube_2024
+  type: platform_doc
+  evidence_tier: platform_documentation
+  title: Exploring YouTube's U.S. Impact in 2024
+  authors:
+  - YouTube
+  year: 2024
+  venue: YouTube
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/youtube_2024.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/themes/creator_economy.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  - creator-economy
+  themes:
+  - descriptive-deficit
+  - creator-economy
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - paper2-mobility
+  temporal_scope: Platform self-report centered on 2024 impact figures, with Oxford Economics surveys fielded in January-February 2025 and some internal metrics current to January-April 2025
+  notes: Assigned `platform_documentation` because this is YouTube's own impact report rather than independent research. Useful for platform-asserted monetization architecture, creator-program scale, and
+    self-described economic footprint, but not for independent empirical claims. PDF metadata is dated October 2025 even though the report is branded around 2024 impact figures, so the atlas keeps the prompt's
+    stable `youtube_2024` identifier.

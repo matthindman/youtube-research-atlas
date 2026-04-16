@@ -1371,3 +1371,23 @@ claims:
   - wiki/themes/descriptive_deficit.md
   - wiki/themes/governance_data_access.md
   verification: machine_extracted
+- id: claim_creator_economy_platform_documented_monetization_stack
+  text: YouTube publicly documents a multi-route creator monetization stack in which ad and subscription revenue sharing sits alongside fan funding, shopping, memberships, ticketing, gifts, and related
+    program features.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Platform self-description current to December 2024 with report materials released under 2024 impact branding.
+  primary_sources:
+  - youtube_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: This is a platform self-description of monetization architecture and reported payout scale, not independent evidence about average creator earnings, reach, or causal creator outcomes.
+  themes:
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  appears_in:
+  - wiki/sources/youtube_2024.md
+  - wiki/themes/creator_economy.md
+  verification: machine_extracted

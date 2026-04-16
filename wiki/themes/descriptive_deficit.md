@@ -8,10 +8,10 @@ themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-16
 source_count: 10
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, pew_2025]
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024]
 split_candidates: []
 verification:
-  machine_extracted: 37
+  machine_extracted: 39
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -47,12 +47,12 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   focused on other platforms, Western democracies, English, and text
   (Munger 2024, p. 2; Munger et al. 2025, p. 2; Norton and Shapiro
   2024, pp. 3-5). [🤖]
-- U.S. usage baselines point in the same direction: Pew's 2025 survey
-  still places YouTube at the top of the U.S. platform landscape with
-  84% adult adoption and 48% daily use overall, but those figures are
-  national survey baselines rather than platform-wide denominators.
-  *[Note: supported only by non-peer-reviewed sources.]* (Pew Research
-  Center 2025, pp. 4, 9-11). [🤖]
+- YouTube's own commissioned impact report underscores the scale side
+  of the denominator problem without solving it: the company says the
+  platform hosts more than 20 billion videos, receives more than 20
+  million uploads per day, and reaches 2 billion viewers worldwide.
+  *[Note: platform self-report, not independently verified.]* (YouTube
+  2024, pp. 7-9). [🤖]
 - Large-scale YouTube description is constrained not only by
   conceptual gaps but also by infrastructure problems: post-2019 API
   limits, insufficient tooling, uneven compute access, and the
@@ -232,7 +232,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[reveilhac_2024]]
 - [[zaitsev_clark_2025]]
 - [[violot_et_al_2024]]
-- [[pew_2025]]
+- [[youtube_2024]]
 
 ## Cross-References
 
