@@ -65,13 +65,52 @@ description: Ingest a new paper, report, or internal memo into the
 11. **Append to `ops/log.md`** with a dated entry: what was ingested,
     what pages were touched, any tier or taxonomy decisions that
     merit human review.
-12. **Commit to branch** `ingest/<source_id>` and open a PR. The PR
-    body must list every page created or modified.
+12. **Create, commit, verify, and push.**
+
+    **Branch creation (mandatory protocol):**
+    ```
+    git fetch origin
+    git switch -c ingest/<source_id> origin/main
+    ```
+    Always use `git switch -c` (or `git checkout -b`) to create a
+    **named branch**. **NEVER use `git switch --detach` or
+    `git checkout --detach`.** Detached HEAD does not track commits
+    to a branch ref — pushing from detached HEAD silently creates
+    an empty branch. This has caused data loss in practice.
 
     **Every ingest branch must be created from the current tip of
     `main`**, not from another ingest branch. When multiple sources
     are ingested in the same batch, each branch starts fresh from
     `main`. Do not stack ingest branches on top of each other.
+
+    **Commit (mandatory — never skip):**
+    ```
+    git add <files>
+    git commit -m "<message>"
+    ```
+    Never run `git push` without a preceding `git commit`. The
+    sequence is always: edit → add → commit → verify → push.
+
+    **Pre-push verification (mandatory — run all three):**
+    ```
+    git log --oneline -2
+    # Line 1 = YOUR new commit. Line 2 = main's tip.
+    # If line 1 IS main's tip, you forgot to commit.
+
+    git diff --stat HEAD~1
+    # Must show 5+ files changed, 150+ insertions.
+    # If empty or shows only 1 file, something went wrong.
+
+    git show HEAD:wiki/sources/<source_id>.md | head -3
+    # Must show YAML frontmatter. If it errors, the card
+    # was never committed.
+    ```
+    If ANY check fails, do not push. Diagnose and fix first.
+
+    **Push:**
+    ```
+    git push -u origin ingest/<source_id>
+    ```
 
     When multiple ingests in a batch touch shared files (registries,
     index, theme pages, log), merge conflicts will surface in PR

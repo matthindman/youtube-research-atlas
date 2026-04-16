@@ -37,6 +37,23 @@ Read these files in order:
    ingests in a batch touch shared files (registries, index, theme
    pages, log), merge conflicts in PR review are expected and correct;
    resolve them in review rather than hiding them via stacking.
+
+   **Git branching protocol (non-negotiable):**
+   - **Always create a named branch.** Use `git switch -c <name> origin/main`
+     or `git checkout -b <name> origin/main`. **Never use
+     `git switch --detach` or `git checkout --detach`.** A detached HEAD
+     does not track commits to a branch ref; pushing from detached HEAD
+     creates an empty branch pointing at the wrong commit.
+   - **Always commit before pushing.** The sequence is: edit → `git add` →
+     `git commit` → verify → `git push`. Never run `git push` without a
+     preceding `git commit` on the current branch.
+   - **Verify every branch before pushing.** Run these three checks:
+     ```
+     git log --oneline -2          # YOUR commit first, then main
+     git diff --stat HEAD~1        # should show 5+ files changed
+     git show HEAD:wiki/sources/<source_id>.md | head -3  # frontmatter
+     ```
+     If any check fails, the branch is broken. Fix before pushing.
 8. **Distinguish `[LIT]`, `[PROJECT]`, and `[DRAFT]`** in paper dossier
    pages. These labels are load-bearing — they determine what's
    citable, what's project reasoning, and what's draft manuscript
