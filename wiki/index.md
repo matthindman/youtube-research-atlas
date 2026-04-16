@@ -84,6 +84,7 @@ executive synthesis.
 - [[hosseinmardi_et_al_2021]] — real-user desktop panel study finding far-right consumption concentrated among a small predisposed minority rather than system-wide rabbit-hole drift
 - [[hussein_et_al_2020]] — audit of YouTube search, Up Next, and Top 5 recommendations showing topic-specific misinformation exposure and stronger personalization after watch history develops
 - [[chae_lee_2024]] — comment-classification study showing mainstream-news videos host more cross-cutting discussion than political-vlogger videos in a 2019 U.S. event window
+- [[kumar_2019]] — Adpocalypse case study arguing that monetization policy acted as algorithmic gatekeeping over creator revenue and visibility
 
 ## Paper dossiers
 

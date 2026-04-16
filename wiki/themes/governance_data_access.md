@@ -7,9 +7,10 @@ temporal_scope: "Particularly attentive to the post-DSA, post-API-restriction er
 themes: [governance-data-access]
 census_papers: [methods-companion]
 last_refreshed: 2026-04-16
-source_count: 8
+source_count: 9
 key_sources:
   - norton_shapiro_2024
+  - kumar_2019
   - hallinan_et_al_2025
   - hallinan_reynolds_2024
   - reynolds_hallinan_2024
@@ -19,7 +20,7 @@ key_sources:
   - rieder_2020
 split_candidates: []
 verification:
-  machine_extracted: 38
+  machine_extracted: 39
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -58,6 +59,10 @@ pathway. [🤖]
 - When official channels feel weak, creators use public videos,
   callouts, audits, and signal boosting as informal accountability
   tactics. [🤖]
+- Governance also operates through monetization policy. Kumar's
+  Adpocalypse case shows that advertiser-safety and YPP rules can act
+  as indirect content governance by tying classification decisions to
+  creator revenue and likely visibility. [🤖]
 - Those creator-facing tactics provide visibility, solidarity, and
   agenda setting more reliably than guaranteed influence over policy.
   [🤖]
@@ -197,6 +202,7 @@ what YouTube governance "is." [🤖]
 ## Sources Consulted
 
 - [[norton_shapiro_2024]]
+- [[kumar_2019]]
 - [[hallinan_et_al_2025]]
 - [[hallinan_reynolds_2024]]
 - [[reynolds_hallinan_2024]]

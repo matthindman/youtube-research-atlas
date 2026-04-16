@@ -2158,3 +2158,39 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/chae_lee_2024?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20chae_lee_2024&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/chae_lee_2024.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/news_ecosystem.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20news-theme%20notes%20showing%20that%20mainstream-news%20videos%20hosted%20more%20cross-cutting%20discussion%20than%20political-vlogger%20videos%20in%20the%202019%20Mueller-report%20window.%0A%0A%23%23%20Pages%0A-%20wiki/sources/chae_lee_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest kumar_2019
+**Operation:** ingest-source
+**Branch:** ingest/kumar_2019
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/kumar_2019.md` and updated the creator-economy
+and governance themes, registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived article is the peer-reviewed *Internet Policy
+  Review* version with DOI `10.14763/2019.2.1417`.
+- Confirmed the paper centers the March 2017 Adpocalypse aftermath,
+  later YPP threshold changes, and creator testimony about
+  demonetization and suppressed viewership.
+- Added one new cross-cutting claim on monetization policy functioning
+  as cultural gatekeeping.
+
+Tier decision:
+
+- Assigned `primary_empirical` rather than `policy_research` because
+  the paper is a peer-reviewed journal article with original
+  qualitative analysis, despite its essay-like framing.
+
+Human attention requested:
+
+- This is not a platform-wide effect-size estimate. Its value is
+  conceptual and qualitative: it explains how governance can happen
+  through monetization infrastructure.
+- It should pair especially well with `abou_el_komboz_et_al_2023`,
+  which estimates one slice of the same Adpocalypse-era shock
+  causally.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/kumar_2019?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20kumar_2019&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/kumar_2019.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/creator_economy.md%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20theme%20notes%20showing%20that%20Adpocalypse-era%20monetization%20policy%20functioned%20as%20a%20form%20of%20platform%20gatekeeping%20over%20creator%20revenue%20and%20visibility.%0A%0A%23%23%20Pages%0A-%20wiki/sources/kumar_2019.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
