@@ -1834,3 +1834,30 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/wu_resnick_2021?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20wu_resnick_2021&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/wu_resnick_2021.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/themes/news_ecosystem.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20theme%20notes%20showing%20that%20cross-partisan%20discussion%20on%20YouTube%20is%20real%20but%20asymmetric%20and%20not%20uniformly%20civil.%0A%0A%23%23%20Pages%0A-%20wiki/sources/wu_resnick_2021.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Refresh recommendation_radicalization
+**Operation:** refresh-theme
+**Branch:** refresh/recommendation_radicalization
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/recommendation_radicalization.md` and all three
+linked debate pages from the enlarged recommendation corpus, while
+keeping the six new Batch 6 source cards and their registry
+infrastructure on-branch so the refresh remains self-contained before
+the ingest branches merge.
+
+Refresh note:
+
+- The refresh now treats the literature as four periods rather than
+  two: pre-2018 ecosystem formation, the 2019 transition, 2020
+  real-user/comment evidence, and the thinner 2022-2024 intervention
+  literature.
+- The debate pages now make the transition-period disagreement
+  explicit: Ledwich, Ribeiro, and Faddoul no longer permit a simple
+  one-line story about what the 2019 break did.
+- The filter-bubble page now distinguishes ideological narrowing,
+  news-to-entertainment diversion, and comment-layer hostility instead
+  of treating them as one outcome.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/recommendation_radicalization?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20recommendation_radicalization&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/recommendation_radicalization.md%60%20and%20all%20three%20debate%20pages%3A%20%60wiki/debates/rabbit_hole_debate.md%60%2C%20%60wiki/debates/filter_bubble_evidence.md%60%2C%20and%20%60wiki/debates/pre_2019_vs_post_2019_algorithm.md%60.%0A-%20Included%20the%20six%20new%20radicalization-relevant%20source%20cards%20and%20registry%20infrastructure%20on-branch%20so%20the%20refresh%20remains%20self-contained%20before%20the%20ingest%20branches%20merge.%0A-%20Reframed%20the%20corpus%20around%20pre-2018%20growth%2C%202019%20transition%20audits%2C%202020%20real-user/comment%20evidence%2C%20and%20thinner%202022-2024%20intervention%20work.%0A%0A%23%23%20Sources%0A-%20ledwich_zaitsev_2020%0A-%20ribeiro_et_al_2020%0A-%20faddoul_et_al_2020%0A-%20ribeiro_veselovsky_west_2023%0A-%20huang_yang_2024%0A-%20wu_resnick_2021%0A%0A%23%23%20Pages%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/debates/rabbit_hole_debate.md%0A-%20wiki/debates/filter_bubble_evidence.md%0A-%20wiki/debates/pre_2019_vs_post_2019_algorithm.md%0A-%20wiki/index.md%0A-%20ops/log.md
