@@ -11,10 +11,10 @@ source_count: 3
 key_sources:
   - norton_shapiro_2024
   - hallinan_et_al_2025
-  - european_commission_2025
+  - hallinan_reynolds_2024
 split_candidates: []
 verification:
-  machine_extracted: 17
+  machine_extracted: 20
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -28,37 +28,46 @@ verification:
 
 ## Why This Theme Matters
 
-This theme now combines evidence about creator-side opacity,
-field-level access constraints, and a formal policy breakpoint.
-Norton frames the research bottleneck, Hallinan et al. show how opaque
-moderation produces creator accusations of bias, and the European
-Commission announcement marks a new DSA pathway for qualified
-researchers to request previously unavailable platform data as of
-October 29, 2025. [🤖]
+This theme sits at the intersection of two unknowns: how YouTube
+actually governs creators through opaque moderation systems, and how
+little creators or researchers can verify when data access,
+explanations, and participation channels are limited. Norton frames
+the field-level infrastructure bottleneck, while Hallinan et al. show
+the same opacity from the creator side during a visible moderation
+controversy. Hallinan, Reynolds, and Rothenstein extend that creator-
+side picture into copyright governance, where public complaints can
+police peers and appeal upward to the platform without creating formal
+participation rights. [🤖]
 
 ## Current Consensus
 
-- External researchers and creators alike face major information
-  deficits when evaluating platform governance, which makes confident
-  diagnosis difficult even when grievances are public. [🤖]
-- Research access has been a central bottleneck for YouTube
-  scholarship, and the DSA now creates a formal post-2025 mechanism
-  that could alter those conditions. [🤖]
-- The new DSA access route is a policy fact, not yet an evaluated
-  outcome: the current source set can identify the mechanism but not
-  whether it works smoothly in practice. [🤖]
-- Temporal scoping is mandatory because the theme now spans at least
-  two clearly different access environments: the restrictive early-
-  2020s period and the post-October-29-2025 DSA regime. [🤖]
+- External researchers and creators alike face an information deficit
+  around moderation decisions and platform bias, which makes confident
+  diagnosis difficult even when grievances are widespread. [🤖]
+- Public creator discussions can surface shared experiences,
+  comparisons, and grievances, but they are indirect forms of
+  participation rather than formal governance rights. [🤖]
+- Creator callouts are not all the same: some work horizontally to
+  enforce peer norms, while others work vertically to pressure
+  platforms or corporate rights holders. [🤖]
+- The post-2019, post-API-restriction period should be treated as a
+  distinct governance regime because access constraints are part of the
+  substantive story, not just a background methods footnote. [🤖]
 
 ## Main Disagreements
 
-The current three-source set cannot yet tell us whether the new DSA
-mechanism materially solves the access problem or merely formalizes a
-new review process with uncertain payoff. Hallinan et al. emphasize
-opaque moderation and aspirational participation under the earlier
-regime, while the Commission announcement describes the new legal
-route without implementation evidence. [🤖]
+The current two-source set is still too thin to adjudicate whether
+creator publicity meaningfully changes YouTube policy or mostly
+legitimates the platform by appealing to it for redress. Hallinan et
+al. argue that aspirational participation without guaranteed leverage
+is the dominant pattern, while Norton is more concerned with the
+structural research-access problem than with creator influence per se.
+[🤖]
+
+The copyright-callout paper sharpens this dispute rather than solving
+it. It provides stronger evidence that creator publicity can articulate
+community norms and mobilize collective attention, but it still treats
+vertical appeals to YouTube as reactive and institutionally weak. [🤖]
 
 ## Evidence Inventory
 
@@ -66,53 +75,59 @@ route without implementation evidence. [🤖]
 |-------|--------|----------|----------|--------|----------|
 | Opaque moderation and restricted access make platform-bias claims hard to verify from the outside. | [[norton_shapiro_2024]], [[hallinan_et_al_2025]] | Literature audit, researcher interviews, and creator-discourse content analysis | Moderate | Early 2020s through 2025 | [🤖] |
 | Creators use public videos as informal accountability mechanisms, but these efforts lack formal decision rights and guaranteed policy impact. | [[hallinan_et_al_2025]] | 115-video content analysis around the CoryxKenshin controversy | Moderate | August 2022 controversy analyzed in 2025 | [🤖] |
-| As of October 29, 2025, the DSA creates a qualified-researcher mechanism for requesting previously unavailable data from VLOPs/VLOSEs. | [[european_commission_2025]] | Official policy announcement summarizing the delegated-act access route | Moderate | Post-October 2025 | [🤖] |
+| Copyright callouts do two governance jobs: horizontal peer policing and vertical appeals toward YouTube or corporate rights holders. | [[hallinan_reynolds_2024]] | 135-video content analysis of English-language copyright callouts | Moderate | Videos published 2019-2023; analyzed in 2024 | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
-The three sources describe different points in the same governance
-timeline. Norton and Shapiro diagnose the access problem from the
-field level, Hallinan et al. show what opacity looks like in creator
-practice, and the Commission announcement states that a new legal
-mechanism now exists. The live methodological question is whether
-future researchers can actually use that mechanism at scale. [🤖]
+The three current sources operate at different levels of analysis.
+Norton offers a field-level diagnosis of access, tooling, and capacity
+constraints; Hallinan et al. examine one creator-centered moderation
+controversy; and Hallinan, Reynolds, and Rothenstein analyze a broader
+copyright-callout corpus built from targeted keyword searches. Those
+designs are complementary, but they do not yet tell us whether outside
+pressure reliably changes policy. [🤖]
 
 ## Measures and Variables Used in the Literature
 
-- Norton and Shapiro track platform coverage, geographic coverage,
-  method mix, and researcher-reported bottlenecks in access, compute,
-  staffing, and tooling. [🤖]
+- Norton and Shapiro track platform shares, country coverage,
+  methodological composition, and researcher-reported bottlenecks in
+  access, staffing, compute, and storage. [🤖]
 - Hallinan et al. code creator identity, channel size, genre,
-  geography, claims about racism and bias, and the evidentiary styles
+  geography, positions on racism and bias, and the evidentiary styles
   used in public callout videos. [🤖]
-- The Commission document emphasizes legal eligibility, systemic-risk
-  relevance, Digital Services Coordinator review, and formal
-  compliance obligations for covered platforms. [🤖]
+- Hallinan, Reynolds, and Rothenstein code copyright-claim type,
+  problem definitions, targets of responsibility, proposed solutions,
+  and video stances toward YouTube and copyright law. [🤖]
 
 ## What This Means for Our Project
 
-- The atlas can now mark October 29, 2025 as a meaningful breakpoint in
-  the governance-data-access timeline. [🤖]
-- Until implementation evidence arrives, the atlas should distinguish
-  sharply between the existence of a formal DSA access mechanism and
-  evidence that the mechanism materially improves YouTube research.
+- Governance claims in the atlas need explicit period labels because
+  post-2019 API restrictions and post-DSA access rules change the
+  background conditions for what researchers and creators can know.
   [🤖]
+- The atlas can already say that opaque governance is itself part of
+  the methodological problem, but it cannot yet make strong claims
+  about which external pressures reliably move YouTube policy. [🤖]
+- The atlas should distinguish creator-to-creator norm enforcement
+  from creator-to-platform appeals rather than collapsing both into a
+  single bucket of "callouts." [🤖]
 
 ## Open Holes / Next Sources to Acquire
 
-- We now need empirical evidence about how often DSA data-access
-  requests are approved, how uniformly they are assessed across Member
-  States, and what kinds of YouTube data researchers actually receive.
-  [🤖]
-- The remaining Batch 5 governance papers should add creator-side,
-  user-accountability, and media-pressure evidence so this theme is
-  not reduced to access policy alone. [🤖]
+- The remaining Batch 5 governance papers should clarify creator
+  callouts, user-generated accountability, media-pressure effects,
+  comparative governance change, and DSA researcher access. [🤖]
+- Direct evidence on how the October 2025 DSA researcher-access regime
+  works in practice is still absent from the current source set. [🤖]
+- The current governance corpus still lacks strong evidence on when
+  vertical creator appeals produce durable policy change rather than
+  temporary case-by-case relief. [🤖]
 
 ## Sources Consulted
 
 - [[norton_shapiro_2024]]
 - [[hallinan_et_al_2025]]
-- [[european_commission_2025]]
+- [[hallinan_reynolds_2024]]
 
 ## Cross-References
 

@@ -647,3 +647,22 @@ claims:
       - wiki/sources/european_commission_2025.md
       - wiki/themes/governance_data_access.md
     verification: machine_extracted
+  - id: claim_governance_data_access_horizontal_vertical_callouts
+    text: "Creator copyright callouts do at least two governance jobs: horizontal peer policing inside creator communities and vertical appeals toward platforms or rights holders."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "English-language copyright callout videos published from 2019-2023."
+    primary_sources:
+      - hallinan_reynolds_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from a targeted keyword-based corpus of 135 English-language copyright callout videos rather than a representative platform sample."
+    themes:
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/hallinan_reynolds_2024.md
+      - wiki/themes/governance_data_access.md
+    verification: machine_extracted

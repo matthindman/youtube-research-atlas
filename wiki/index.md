@@ -55,6 +55,7 @@ executive synthesis.
 - [[hallinan_et_al_2025]] — creator callouts, contradictory bias accusations, and aspirational platform governance
 - [[ribeiro_west_2021]] — large English-language metadata infrastructure and the limits of English-centric coverage
 - [[european_commission_2025]] — official DSA announcement creating a post-2025 researcher-access route
+- [[hallinan_reynolds_2024]] — copyright callouts, horizontal versus vertical accountability, and creator-driven platform governance
 
 ## Paper dossiers
 
