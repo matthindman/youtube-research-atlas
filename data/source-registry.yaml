@@ -898,3 +898,33 @@ sources:
       - study3-media-system
     temporal_scope: "Twitter/X information quality before and after the October 27, 2022 ownership transition, using January 2022-April 2023 data with access ending in May 2023"
     notes: "Comparative platform-governance evidence from Twitter/X rather than YouTube. Included for the governance theme because it shows how ownership and policy changes can affect information quality, while also foregrounding how access restrictions truncate follow-up analysis."
+  - id: abou_el_komboz_et_al_2023
+    type: working_paper
+    evidence_tier: primary_empirical
+    title: "Platform Partnership Programs and Content Supply: Evidence from the YouTube 'Adpocalypse'"
+    authors:
+      - "Abou El-Komboz, Lena"
+      - "Kerkhof, Anna"
+      - "Loh, Johannes"
+    year: 2023
+    venue: "CESifo Working Paper No. 10363; prompt cites later Information Economics and Policy publication"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/abou_el_komboz_et_al_2023.md
+      - wiki/themes/creator_economy.md
+      - wiki/index.md
+    tags:
+      - creator-economy
+    themes:
+      - creator-economy
+    census_relevance: high
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    temporal_scope: "German YouTube creators observed around the February 2018 YPP eligibility shock, with six-month pre/post outcomes and a follow-up API snapshot in 2020"
+    notes: "Best current causal estimate in the archive for how YouTube monetization policy changes affect creator behavior. The archived source is a working paper, but the design and findings are original empirical research."

@@ -436,6 +436,25 @@ claims:
       - wiki/sources/ormen_gregersen_2023_engagement.md
       - wiki/themes/creator_economy.md
     verification: machine_extracted
+  - id: claim_creator_economy_ypp_access_loss_reduces_supply_quality_diversity
+    text: "Creators who lost YouTube Partner Program access in the February 2018 rule change uploaded less frequently and produced lower-quality, less diverse content than comparable creators who remained just above the threshold."
+    claim_type: empirical-causal
+    evidence_strength: single-source
+    temporal_scope: "German creators observed around the February 2018 YPP rule change, with six-month pre/post outcome windows."
+    primary_sources:
+      - abou_el_komboz_et_al_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The estimate is local to small German creators near the 1,000-subscriber cutoff who stayed active long enough to be observed in the second wave; it should not be generalized mechanically to larger creators or all countries."
+    themes:
+      - creator-economy
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    appears_in:
+      - wiki/sources/abou_el_komboz_et_al_2023.md
+      - wiki/themes/creator_economy.md
+    verification: machine_extracted
   - id: claim_news_ecosystem_commentary_dominance
     text: "News creator ecosystems on social and video platforms are dominated by commentary formats rather than original reporting."
     claim_type: empirical-descriptive
