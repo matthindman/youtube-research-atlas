@@ -39,6 +39,7 @@ _(none yet; created when theme pages need splitting)_
 - [[haroon_et_al_2023]] — large-scale audit of ideologically congenial, limited-extremity, and problematic recommendations
 - [[hosseinmardi_et_al_2024]] — counterfactual bots showing limited post-2019 recommender effects relative to user preferences
 - [[liu_et_al_2025]] — naturalistic experiments finding strong behavioral effects but limited short-term polarization from manipulated recommendation environments
+- [[yesilada_lewandowsky_2022]] — systematic review of the pre-2022 recommendation-problematic-content literature and its methodological limits
 - [[munger_phillips_2022]] — supply-demand framework, pre-2019 far-right peak, and creator-community dynamics on political YouTube
 - [[munger_2024]] — agenda-setting critique and supply-demand framework for YouTube politics
 - [[munger_et_al_2025]] — descriptive map of political YouTube channels, comments, and participation inequality

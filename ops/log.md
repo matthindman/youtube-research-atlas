@@ -929,3 +929,59 @@ Claims not fully verifiable from this source alone:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/yu_et_al_2024?quick_pull=1&title=%5Bingest-from-review%5D%20Yu%20et%20al.%202024%20%28Nudging%20Recommendation%20Algorithms%29&body=%23%23%20Summary%0A-%20Ingested%20%60yu_et_al_2024%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20recommendation_audit%20method%20page%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/yu_et_al_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-15 — Ingest yesilada_lewandowsky_2022
+**Operation:** ingest-source
+**Branch:** ingest/yesilada_lewandowsky_2022
+**By:** Codex (GPT-5)
+
+Ingested `yesilada_lewandowsky_2022` via the `ingest-from-review`
+workflow. Created `wiki/sources/yesilada_lewandowsky_2022.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced between the internal literature
+  review and the article. The review summary correctly captures the
+  headline 14/7/2 split and the paper's main caution that restricted
+  access and incomplete knowledge of the recommender limit what can
+  be inferred about actual mechanisms (pp. 1, 9, 17-18).
+- The article is clearer than the internal review about the exact
+  coverage window: database searches were run in November-December
+  2020 and the included studies range from 2013-2021, so this source
+  should be treated as a synthesis of pre-2022 literature rather than
+  as evidence about the current recommender state (pp. 7-9, 17-18).
+
+Tier and taxonomy decisions:
+
+- Assigned `secondary_analytical` and `systematic_review`.
+- Reused the existing `recommendation-radicalization` theme tag; no
+  taxonomy addition was needed.
+- Used the review only for synthesis and methods-diagnosis claims.
+  I did not use it as a substitute for missing primary evidence about
+  specific rabbit-hole or filter-bubble mechanisms.
+
+Underlying primary sources cited by the review that are not yet in
+`data/source-registry.yaml` and look like future-ingest candidates:
+
+- `ledwich_zaitsev_2019`
+- `ribeiro_et_al_2020`
+- `faddoul_chaslot_farid_2020`
+- `ocallaghan_et_al_2015`
+- `alfano_et_al_2021`
+- `papadamou_et_al_2020`
+- `hosseinmardi_et_al_2020`
+- `chen_et_al_2021_adl_report`
+
+Claims not fully verifiable from this source alone:
+
+- The review's substantive 14/7/2 summary depends on a set of
+  underlying primaries that are mostly not yet ingested in the atlas.
+- The included studies use inconsistent definitions of problematic
+  content and often weak personalization controls.
+- Because the coverage window ends with studies available through
+  2021, the review cannot adjudicate post-2022 platform changes.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/yesilada_lewandowsky_2022?quick_pull=1&title=%5Bingest-from-review%5D%20Yesilada%20and%20Lewandowsky%202022%20%28Systematic%20Review%3A%20YouTube%20Recommendations%20and%20Problematic%20Content%29&body=%23%23%20Summary%0A-%20Ingested%20%60yesilada_lewandowsky_2022%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A-%20Registered%20it%20as%20a%20%60secondary_analytical%60%20source%20and%20used%20it%20only%20for%20synthesis/methods%20claims%2C%20not%20as%20a%20substitute%20for%20missing%20primary%20evidence.%0A%0A%23%23%20Pages%0A-%20wiki/sources/yesilada_lewandowsky_2022.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
