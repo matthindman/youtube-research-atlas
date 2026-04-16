@@ -26,7 +26,7 @@ executive synthesis.
 
 ## Debates
 
-_(none yet; created when theme pages need splitting)_
+- [[rabbit_hole_debate]] — whether recommendation trails radicalize users or whether non-algorithmic pathways do more of the work
 
 ## Source cards
 
