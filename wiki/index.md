@@ -22,6 +22,7 @@ executive synthesis.
 ## Methods
 
 - [[ideology_estimation]] — video-level and channel-level approaches for placing political YouTube content in ideological space
+- [[channel_classification]] — scalable approaches for discovering and classifying YouTube channels under changing data-access regimes
 - [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
 
 ## Debates

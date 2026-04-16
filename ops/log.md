@@ -1992,3 +1992,30 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/zaitsev_clark_2025?quick_pull=1&title=%5Bingest-source%5D+Ingest+zaitsev_clark_2025&body=%23%23+Summary%0A-+Created+%60wiki%2Fsources%2Fzaitsev_clark_2025.md%60.%0A-+Updated+%60data%2Fsource-registry.yaml%60%2C+%60data%2Fclaim-registry.yaml%60%2C+%60wiki%2Fthemes%2Fdescriptive_deficit.md%60%2C+%60wiki%2Findex.md%60%2C+and+%60ops%2Flog.md%60.%0A-+Added+provisional+theme+notes+showing+that+head-only+political+YouTube+samples+miss+substantial+small-channel+right+and+conspiracy+content+and+that+the+enabling+subscription-visibility+regime+was+historical.%0A%0A%23%23+Pages%0A-+wiki%2Fsources%2Fzaitsev_clark_2025.md%0A-+data%2Fsource-registry.yaml%0A-+data%2Fclaim-registry.yaml%0A-+wiki%2Fthemes%2Fdescriptive_deficit.md%0A-+wiki%2Findex.md%0A-+ops%2Flog.md
+## 2026-04-16 — Refresh channel_classification_methods
+**Operation:** refresh-theme
+**Branch:** refresh/channel_classification_methods
+**By:** Codex (GPT-5)
+
+Created `wiki/methods/channel_classification.md` and kept the branch
+self-contained by carrying `rieder_2020`, `boesinger_et_al_2024`, and
+`zaitsev_clark_2025` plus the needed source-registry and
+claim-registry infrastructure on-branch before those ingest branches
+merge.
+
+Refresh note:
+
+- The new methods page treats channel classification as a stack:
+  access regime, discovery universe, representation, classifier, and
+  evaluation all need to be separated.
+- Rieder anchors the historical access regime, Boesinger provides the
+  embedding comparison, and Zaitsev/Clark provides the strongest
+  end-to-end discovery-plus-classification pipeline in the current
+  archive.
+- The page explicitly cross-references `ideology_estimation` rather
+  than collapsing channel classification into a one-dimensional
+  partisan measurement problem.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/channel_classification_methods?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20channel_classification_methods&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/channel_classification.md%60.%0A-%20Included%20%60rieder_2020%60%2C%20%60boesinger_et_al_2024%60%2C%20and%20%60zaitsev_clark_2025%60%20plus%20the%20needed%20source-registry%20and%20claim-registry%20infrastructure%20on-branch%20so%20the%20methods%20page%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Synthesized%20the%20method%20family%20around%20historical%20access%20regimes%2C%20embedding-based%20versus%20metadata/subscription-based%20classification%2C%20evaluation%20choices%2C%20and%20implications%20for%20the%20project%27s%20own%20pipeline.%0A%0A%23%23%20Sources%0A-%20rieder_2020%0A-%20boesinger_et_al_2024%0A-%20zaitsev_clark_2025%0A%0A%23%23%20Pages%0A-%20wiki/methods/channel_classification.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/sources/rieder_2020.md%0A-%20wiki/sources/boesinger_et_al_2024.md%0A-%20wiki/sources/zaitsev_clark_2025.md%0A-%20wiki/index.md%0A-%20ops/log.md
