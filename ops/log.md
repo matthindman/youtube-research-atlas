@@ -1696,6 +1696,13 @@ Prefilled compare URL:
 
 Ingested `huang_yang_2024` via the `ingest-source`
 workflow. Created `wiki/sources/huang_yang_2024.md` and
+## 2026-04-16 — Ingest wu_resnick_2021
+**Operation:** ingest-source
+**Branch:** ingest/wu_resnick_2021
+**By:** Codex (GPT-5)
+
+Ingested `wu_resnick_2021` via the `ingest-source`
+workflow. Created `wiki/sources/wu_resnick_2021.md` and
 updated `data/source-registry.yaml`,
 `data/claim-registry.yaml`,
 `wiki/themes/recommendation_radicalization.md`,
@@ -1799,3 +1806,31 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/abou_el_komboz_et_al_2023?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20abou_el_komboz_et_al_2023&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/abou_el_komboz_et_al_2023.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/creator_economy.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20creator-economy%20note%20showing%20that%20losing%20YPP%20access%20causally%20reduced%20small-creator%20output%2C%20quality%2C%20and%20diversity.%0A%0A%23%23%20Pages%0A-%20wiki/sources/abou_el_komboz_et_al_2023.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md
+  existing debate framing rather than against a project
+  summary.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`; this is an original
+  large-scale observational study of YouTube political
+  discussion using platform data and inferred user ideology.
+- Reused the existing theme tags
+  `recommendation-radicalization` and `news-ecosystem`;
+  no taxonomy additions proposed.
+- Added two cross-cutting claims: one on common but
+  asymmetric cross-partisan commenting, and one on reduced
+  cross-partisan visibility plus higher toxicity in reply
+  threads.
+
+Human attention requested:
+
+- This source is crucial for the filter-bubble debate, but it
+  should not be mistaken for direct recommender evidence; it
+  studies comment interaction on partisan channels.
+- The key takeaway is mixed: ideological isolation is weaker
+  than a pure echo-chamber story implies, but cross-partisan
+  contact is asymmetric and often not constructive.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/wu_resnick_2021?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20wu_resnick_2021&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/wu_resnick_2021.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/themes/news_ecosystem.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20theme%20notes%20showing%20that%20cross-partisan%20discussion%20on%20YouTube%20is%20real%20but%20asymmetric%20and%20not%20uniformly%20civil.%0A%0A%23%23%20Pages%0A-%20wiki/sources/wu_resnick_2021.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md

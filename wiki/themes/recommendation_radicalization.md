@@ -9,7 +9,7 @@ census_papers: [methods-companion, paper1-attention-economy, study3-media-system
 last_refreshed: 2026-04-16
 source_count: 11
 key_sources:
-  - huang_yang_2024
+  - wu_resnick_2021
   - munger_2024
   - munger_phillips_2022
   - haroon_et_al_2023
@@ -65,7 +65,7 @@ Recommendation-radicalization remains the most publicly salient story about YouT
 
 ## Main Disagreements
 
-- Huang and Yang show that recommendation effects need not look ideologically extreme to matter: their 2019 incognito audit finds a systematic news-to-entertainment drift in Up Next recommendations, which can narrow public-affairs exposure without moving users toward fringe politics (pp. 3, 11-16). [🤖]
+- Wu and Resnick complicate the echo-chamber narrative at the discussion layer: cross-partisan commenting on U.S. partisan YouTube was common, but asymmetric, somewhat down-ranked in visible comment slots, and often more hostile in reply threads (pp. 1-2, 6-9). [🤖]
 - [[rabbit_hole_debate]] carries the dispute over whether the key mechanism is algorithmic escalation or a broader supply-demand and community process with only limited algorithmic amplification. [🤖]
 - [[filter_bubble_evidence]] carries the dispute over whether ideological sorting should itself count as the central harm, or whether the more important question is demonstrable attitude change and polarization. [🤖]
 - [[pre_2019_vs_post_2019_algorithm]] carries the dispute over how much older pathway studies still describe the current system after the 2019 ranking changes and later 2022-era shifts. [🤖]
@@ -91,7 +91,7 @@ Recommendation-radicalization remains the most publicly salient story about YouT
 
 ## Sources Consulted
 
-- [[huang_yang_2024]]
+- [[wu_resnick_2021]]
 - [[munger_2024]]
 - [[munger_phillips_2022]]
 - [[haroon_et_al_2023]]
