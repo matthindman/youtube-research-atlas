@@ -131,6 +131,7 @@ claims:
     supporting_sources:
       - norton_shapiro_2024
       - hallinan_et_al_2025
+      - padilla_2026
       - rieder_2020
       - zaitsev_clark_2025
     conflicting_sources: []
@@ -144,10 +145,34 @@ claims:
     appears_in:
       - wiki/sources/norton_shapiro_2024.md
       - wiki/sources/hallinan_et_al_2025.md
+      - wiki/sources/padilla_2026.md
       - wiki/sources/rieder_2020.md
       - wiki/sources/zaitsev_clark_2025.md
       - wiki/themes/descriptive_deficit.md
       - wiki/themes/governance_data_access.md
+    verification: machine_extracted
+  - id: claim_descriptive_deficit_partial_relational_data_channel_mapping
+    text: "Because YouTube exposes only partial public relational data, channel and community mapping often has to combine sparse formal traces with qualitative interpretation to define boundaries."
+    claim_type: methodological
+    evidence_strength: multi-source
+    temporal_scope: "Late-2019 through 2025 YouTube channel-mapping studies."
+    primary_sources:
+      - padilla_2026
+    supporting_sources:
+      - rieder_2020
+      - zaitsev_clark_2025
+    conflicting_sources: []
+    scope_conditions: "Evidence comes from large-scale mapping studies that rely on public subscriptions, featured channels, or public commenter traces; it shows that hidden relational data constrain coverage and interpretation, not that network mapping is impossible."
+    themes:
+      - descriptive-deficit
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/padilla_2026.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/methods/channel_classification.md
     verification: machine_extracted
   - id: claim_governance_data_access_historical_public_research_affordances
     text: "Late-2010s YouTube research could use public channel subscriptions, featured-channel links, and high-quota Data API access to map channels at scale, but those affordances later became materially harder to obtain or replicate."
