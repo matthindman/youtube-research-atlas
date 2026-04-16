@@ -80,6 +80,7 @@ executive synthesis.
 - [[rieder_2020]] — historical large-scale channel crawl documenting late-2019 API affordances, platform hierarchy, and the limits of YouTube's own category system
 - [[boesinger_et_al_2024]] — released channel embeddings showing how public traces can scale semantic and social classification of large YouTube channels
 - [[zaitsev_clark_2025]] — public-subscription channel mapping showing that head-only political YouTube samples undercount smaller partisan-right and conspiracy channels
+- [[hosseinmardi_et_al_2021]] — real-user desktop panel study finding far-right consumption concentrated among a small predisposed minority rather than system-wide rabbit-hole drift
 
 ## Paper dossiers
 

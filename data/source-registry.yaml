@@ -1237,3 +1237,37 @@ sources:
       - study3-media-system
     temporal_scope: "Data collected in 2020 using then-visible public subscription pages, with yearly views examined from 2017-2020"
     notes: "The prompt named 'Justin Clark', but the archived paper credits Sam Clark. Method is historically important because it depends on public commenter subscriptions that the paper says later became less visible."
+  - id: hosseinmardi_et_al_2021
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Examining the Consumption of Radical Content on YouTube"
+    authors:
+      - "Hosseinmardi, Homa"
+      - "Ghasemian, Amir"
+      - "Clauset, Aaron"
+      - "Mobius, Markus"
+      - "Rothschild, David M."
+      - "Watts, Duncan J."
+    year: 2021
+    venue: "Proceedings of the National Academy of Sciences 118(32): e2101967118"
+    doi: "10.1073/pnas.2101967118"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/hosseinmardi_et_al_2021.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Nationally representative U.S. desktop browsing panel covering January 2016-December 2019"
+    notes: "Foundational real-user behavioral complement to `hosseinmardi_et_al_2024`. Strongest on late-2010s desktop consumption and entry pathways; it should not be treated as a measurement of post-2022 or mobile-first YouTube."
