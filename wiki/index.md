@@ -53,6 +53,7 @@ executive synthesis.
 - [[newman_et_al_2025]] — news creators, commentary dominance, and cross-national creator ecosystems
 - [[reuters_dnr_2025]] — YouTube news use, video-first consumption, and creator-led pressure on journalism
 - [[hallinan_et_al_2025]] — creator callouts, contradictory bias accusations, and aspirational platform governance
+- [[european_commission_2025]] — official DSA announcement creating a post-2025 researcher-access route
 
 ## Paper dossiers
 

@@ -1162,3 +1162,44 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hallinan_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hallinan_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hallinan_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%20plus%20the%20new%20Hallinan%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hallinan_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest european_commission_2025
+**Operation:** ingest-source
+**Branch:** ingest/european_commission_2025
+**By:** Codex (GPT-5)
+
+Ingested `european_commission_2025` via the `ingest-from-review`
+workflow. Created `wiki/sources/european_commission_2025.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/governance_data_access.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review accurately captures
+  the document's core claims about the October 29, 2025 start date, the
+  role of Digital Services Coordinators, and the fact that the access
+  regime is new rather than evaluated.
+
+Tier and taxonomy decisions:
+
+- Assigned `platform_documentation`, not `policy_research`, because the
+  document announces policy and procedure but contains no original
+  analysis.
+- Reused the existing theme tag `governance-data-access`; no taxonomy
+  additions proposed.
+- Added one methodological claim for the formal DSA access mechanism and
+  kept its scope explicitly limited to policy facts rather than
+  implementation success.
+
+Human attention requested:
+
+- This source can support policy facts about the DSA access route, but
+  not evidence that the route materially improves YouTube research in
+  practice.
+- It also creates the clearest temporal breakpoint in the governance
+  theme so far: `October 29, 2025` now needs to be treated as a distinct
+  post-DSA access era.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/european_commission_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20european_commission_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/european_commission_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%2C%20%60hallinan_et_al_2025%60%2C%20and%20the%20new%20DSA%20access-policy%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/european_commission_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
