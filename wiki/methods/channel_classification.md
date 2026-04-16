@@ -27,39 +27,43 @@ verification:
 [LIT] Channel-classification methods try to discover and sort large
 sets of YouTube channels into meaningful categories without manually
 reviewing every channel one by one. In the current atlas, the method
-appears in three linked forms: Rieder's historical large-scale crawl of
+appears in four linked forms: Simonet's historical internal
+video-to-entity-to-taxonomy pipeline, Rieder's large-scale crawl of
 channel relations and metadata, Boesinger et al.'s embedding-based
 reconstruction of channel similarity from public traces, and Zaitsev
 and Clark's commenter-subscription discovery plus KNN classification
-pipeline (Rieder et al. 2020, § 2.1; Boesinger et al. 2024, pp.
-2084-2087; Zaitsev and Clark 2025, § III; Appendix B-C). [🤖]
+pipeline (Simonet 2013, pp. 1295-1296; Rieder et al. 2020, § 2.1;
+Boesinger et al. 2024, pp. 2084-2087; Zaitsev and Clark 2025, § III;
+Appendix B-C). [🤖]
 
 ## Where It Has Been Used
 
-[LIT] The three sources in this branch cover distinct access regimes and
-classification logics. Rieder shows what late-2019 crawling could do
-when public subscriptions, featured channels, and high API quotas were
-still available; Boesinger shows how to replace exhaustive manual
-channel discovery with embeddings from public relational traces; and
-Zaitsev and Clark show how co-subscription embeddings can support both
-channel discovery and supervised political classification when a labeled
-seed set is available (Rieder et al. 2020, § 2.1-§ 2.3; Boesinger et
-al. 2024, pp. 2084-2087; Zaitsev and Clark 2025, § III-§ VI). [🤖]
+[LIT] The four sources in this branch cover distinct access regimes and
+classification logics. Simonet shows how YouTube itself operationalized
+taxonomy-based channel discovery in 2013; Rieder shows what late-2019
+crawling could still do when public subscriptions, featured channels,
+and high API quotas were available; Boesinger shows how to replace
+exhaustive manual channel discovery with embeddings from public
+relational traces; and Zaitsev and Clark show how co-subscription
+embeddings can support both channel discovery and supervised political
+classification when a labeled seed set is available (Simonet 2013, pp.
+1295-1302; Rieder et al. 2020, § 2.1-§ 2.3; Boesinger et al. 2024, pp.
+2084-2087; Zaitsev and Clark 2025, § III-§ VI). [🤖]
 
 | Source | Data | Sample | Key Design Choice | Verified |
 |--------|------|--------|-------------------|----------|
+| simonet_2013 | Video/channel metadata, Freebase entities and properties, search logs, co-watch sessions, and uploader history | Whole YouTube corpus of the period, deployed in 8 languages | Starts from a platform-internal semantic-entity layer and uses a three-step pipeline tuned for discovery-product precision and coverage | [🤖] |
 | rieder_2020 | `channels` / `playlistItems` / `videos` endpoints plus public featured-channel and subscription links | 36.3M channels discovered; 4.4M above 1k subscribers | Uses a breadth-first crawl organized around YouTube's creator tiers and treats platform-native categories as an object of analysis rather than as ground truth | [🤖] |
-| padilla_2026 | Search API results, keyword matching, public subscriptions, featured-channel links, and graph filtering | 153,795 keyword-matched GNU/Linux videos from 62,092 channels; 24,773 channels with public relational data | Treats community detection as a boundary-setting problem under sparse relational data rather than as pure clustering | [🤖] |
 | boesinger_et_al_2024 | Reddit YouTube links, Data API metadata, recent-video text, and InnerTube recommendations | 7.5M raw channels shared on Reddit; 44k released large English-language channels | Compares social-sharing, content, and recommendation embeddings instead of assuming one public trace is sufficient | [🤖] |
 | zaitsev_clark_2025 | Public commenter subscriptions, Data API video/comment queries, labeled political-channel sets, and Social Blade traffic | 12.6M discovered channels; 7,224 final socio-political channels | Treats subscriptions as sentences for `chan2vec`, then separates high-recall discovery from high-precision final classification | [🤖] |
 
 ## Strengths and Assumptions
 
-[LIT] The main strength of channel classification is scale. All three
-papers show that public traces can map channel ecosystems far beyond the
-small head-channel or keyword-search corpora that dominate a great deal
-of YouTube work (Rieder et al. 2020, § 2.1-§ 2.2; Zaitsev and Clark
-2025, § VI). [🤖]
+[LIT] The main strength of channel classification is scale. The public
+research variants in the current atlas show that observable traces can
+map channel ecosystems far beyond the small head-channel or
+keyword-search corpora that dominate a great deal of YouTube work
+(Rieder et al. 2020, § 2.1-§ 2.2; Zaitsev and Clark 2025, § VI). [🤖]
 
 [LIT] A second strength is that relational traces often recover more
 than one dimension at once. Co-subscription links, Reddit sharing, and
@@ -84,6 +88,13 @@ method family cannot be described apart from the period-specific
 infrastructure that made it possible (Rieder et al. 2020, § 2.1; note
 12; Zaitsev and Clark 2025, § III.2; § VII). [🤖]
 
+[LIT] The oldest source also shows a different kind of opacity:
+Simonet's internal pipeline documents what YouTube itself could do with
+platform-internal data and product signals, but outsiders cannot
+replicate that exact stack, so historical platform-side classification
+should not be confused with public research affordances (Simonet 2013,
+pp. 1296-1302). [🤖]
+
 [LIT] The observed public trace also shapes who gets represented.
 Boesinger's embeddings are strongest for large English-language channels
 shared on Reddit, while Zaitsev and Clark's political map depends on
@@ -91,13 +102,6 @@ English-language socio-political seeds and minimum subscription
 thresholds; neither should be mistaken for a full-platform multilingual
 census (Boesinger et al. 2024, pp. 2085-2087; Zaitsev and Clark 2025,
 Appendix D; § VII). [🤖]
-
-[LIT] Padilla shows a second weakness that is easy to miss in more
-technical papers: when most channels expose no public subscriptions or
-featured-channel links, classification and community mapping become
-boundary-design exercises that depend on explicit filtering choices and
-qualitative interpretation rather than on graph structure alone (Padilla
-2026, pp. 12, 15-18). [🤖]
 
 [LIT] Channel-level classification is also coarse when creators post
 heterogeneous content. The method can map ecosystems and channel
@@ -107,14 +111,16 @@ Clark 2025, § VII; Rieder et al. 2020, § 4). [🤖]
 
 ## Variants in the Literature
 
-[LIT] The current atlas now contains three direct variants. Rieder is a
-historical crawl-and-description design that treats discovery itself as
-a major methodological contribution. Boesinger is an embedding-
-construction design that asks which public trace best captures channel
-similarity. Zaitsev and Clark is a discovery-plus-classification design
-that turns embeddings into a supervised mapping pipeline for a specific
-political universe (Rieder et al. 2020, § 2.1-§ 2.3; Boesinger et al.
-2024, pp. 2085-2087; Zaitsev and Clark 2025, § III-§ VI). [🤖]
+[LIT] The current atlas now contains four direct variants. Simonet is a
+historical internal product-classification design; Rieder is a public
+crawl-and-description design that treats discovery itself as a major
+methodological contribution; Boesinger is an embedding-construction
+design that asks which public trace best captures channel similarity;
+and Zaitsev and Clark is a discovery-plus-classification design that
+turns embeddings into a supervised mapping pipeline for a specific
+political universe (Simonet 2013, pp. 1295-1302; Rieder et al. 2020, §
+2.1-§ 2.3; Boesinger et al. 2024, pp. 2085-2087; Zaitsev and Clark
+2025, § III-§ VI). [🤖]
 
 [LIT] Another key variant is the representation layer. Some approaches
 begin from platform metadata and network links; some from off-platform
@@ -122,12 +128,6 @@ sharing; some from recommendations; and some from co-subscription
 behavior. These are not interchangeable, because each privileges a
 different part of YouTube's public surface (Boesinger et al. 2024, pp.
 2085-2087; Zaitsev and Clark 2025, Appendix B-D). [🤖]
-
-[LIT] Padilla adds a hybrid variant between computational mapping and
-digital-humanities interpretation: instead of assuming that the graph
-defines the community, the method compares strict, open, and productive
-filtering strategies to decide which visible ties should count as
-evidence of communal belonging (Padilla 2026, pp. 15-18). [🤖]
 
 [LIT] Evaluation also varies. The current source set combines coverage
 estimation, classifier accuracy, human semantic judgments, partisan-rank
@@ -159,6 +159,9 @@ than partisan placement alone. [🤖]
 - What current public traces can replace public commenter
   subscriptions without collapsing recall for small or politically
   marginal channels? [🤖]
+- How should the project relate platform-internal taxonomies optimized
+  for discovery products to external research taxonomies optimized for
+  transparency and reproducibility? [🤖]
 - How should the project benchmark English-linked or Reddit-linked
   classification infrastructure against multilingual and channel-tail
   coverage needs? [🤖]
@@ -170,4 +173,4 @@ than partisan placement alone. [🤖]
 
 - **Themes:** [[descriptive_deficit]], [[governance_data_access]]
 - **Related methods:** [[ideology_estimation]]
-- **Papers that use this method:** [[rieder_2020]], [[padilla_2026]], [[boesinger_et_al_2024]], [[zaitsev_clark_2025]]
+- **Papers that use this method:** [[simonet_2013]], [[rieder_2020]], [[boesinger_et_al_2024]], [[zaitsev_clark_2025]]

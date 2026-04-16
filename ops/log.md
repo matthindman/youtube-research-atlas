@@ -2533,3 +2533,40 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ribeiro_jhaver_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20ribeiro_jhaver_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/ribeiro_jhaver_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20cross-cutting%20governance%20claim%20on%20deplatforming%20reducing%20overall%20online%20attention%2C%20plus%20a%20narrow%20recommendation-theme%20note%20keeping%20the%20paper%20scoped%20as%20cross-platform%20attention%20rather%20than%20recommender%20measurement.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ribeiro_jhaver_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest simonet_2013
+**Operation:** ingest-source
+**Branch:** ingest/simonet_2013
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/simonet_2013.md` and updated the channel-
+classification methods page, registries, index, and log.
+- Verified the archived paper is Vincent Simonet's WWW 2013 Companion
+  paper "Classifying YouTube Channels: a Practical System," describing
+  a deployed internal YouTube classification pipeline rather than an
+  external audit or later public-data method.
+- Confirmed the three-step pipeline runs from videos to semantic
+  entities, entities to taxonomy categories, and channels to taxonomy
+  categories, with product metrics reported for both entity and channel
+  classification.
+- Confirmed the reported metrics: 74.4% classified entities, 86.3%
+  subscription-weighted entity coverage, 95.1% relevant entity
+  classifications, 95.7% relevant channel classifications, about 70.0%
+  audience coverage, and an around-100% increase in channels-browser
+  subscription rate after launch.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical` because this is a peer-reviewed WWW
+  Companion conference paper with original system design, deployment,
+  and evaluation evidence.
+- Tagged it under `descriptive-deficit` in the registry because the
+  current controlled vocabulary has no method-page theme slug for
+  channel classification; the main synthesis target on this branch is
+  `wiki/methods/channel_classification.md`.
+- The registry's `type` field lacks a dedicated conference-paper value,
+  so the source is slotted into `journal_article`. Human review may
+  want to decide whether that schema should be expanded.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/simonet_2013?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20simonet_2013&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/simonet_2013.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20historical%20methods%20baseline%20for%20YouTube%27s%20internal%20three-step%20channel-taxonomy%20pipeline%2C%20its%20platform-internal%20data%20dependencies%2C%20and%20its%20reported%20precision%2Fcoverage%20metrics.%0A%0A%23%23%20Pages%0A-%20wiki/sources/simonet_2013.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md

@@ -1651,3 +1651,32 @@ sources:
   temporal_scope: Deplatforming events from January 2016-September 2021 with online-attention traces observed through September 2022
   notes: Peer-reviewed PACM HCI article using platform-agnostic attention outcomes. Most useful as causal evidence about coordinated governance interventions and their aggregate attention effects, with
     only indirect relevance to YouTube recommendation questions.
+- id: simonet_2013
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Classifying YouTube Channels: a Practical System'
+  authors:
+  - Simonet, Vincent
+  year: 2013
+  venue: Proceedings of the 22nd International Conference on World Wide Web Companion (WWW '13 Companion)
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/simonet_2013.md
+  - wiki/methods/channel_classification.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Historical internal channel-classification system described in 2013 and deployed on the whole YouTube corpus of that era
+  notes: The current registry schema lacks a conference-paper type, so this peer-reviewed WWW Companion paper is slotted into `journal_article`. It is most valuable as a historical description of YouTube's
+    internal channel-taxonomy pipeline and the product constraints that shaped it.
