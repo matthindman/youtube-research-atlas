@@ -1087,3 +1087,37 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...debate/filter_bubble_evidence?quick_pull=1&title=%5Bdebate-page%5D%20Create%20filter_bubble_evidence&body=%23%23%20Summary%0A-%20Created%20%60wiki/debates/filter_bubble_evidence.md%60.%0A-%20Split%20ideological%20sorting%20from%20attitude%20effects%20and%20organized%20the%20page%20around%20exposure-sorting%20versus%20limited-effects%20positions.%0A-%20Added%20the%20new%20debate%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/debates/filter_bubble_evidence.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-15 — Create pre_2019_vs_post_2019_algorithm
+**Operation:** debate-page
+**Branch:** debate/pre_2019_vs_post_2019_algorithm
+**By:** Codex (GPT-5)
+
+Created `wiki/debates/pre_2019_vs_post_2019_algorithm.md` and
+updated `wiki/index.md` so the new debate page is visible from the
+atlas catalog.
+
+Key synthesis decisions:
+
+- Treated this as the most temporally scoped page in the split. The
+  page is organized around continuity versus regime-break positions
+  rather than around rabbit-hole versus non-rabbit-hole mechanisms.
+- Let the page lean toward `largely_resolved` without overstating it:
+  pre-2019 evidence remains historically informative, but the newer
+  corpus makes it hard to defend direct transfer of older effect
+  claims into the post-2019 or post-2022 system.
+- Used Munger and Phillips for the historical baseline, then anchored
+  the regime-break side in Hosseinmardi and Liu because they are the
+  clearest newer sources on temporal specificity and limited recent
+  effects.
+
+Human attention requested:
+
+- The template does not spell out how strong a page marked
+  `largely_resolved` should sound. I kept Position A substantive
+  enough to show why the older literature still matters, but the
+  Current Assessment clearly lands on regime change as the more
+  defensible reading.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...debate/pre_2019_vs_post_2019_algorithm?quick_pull=1&title=%5Bdebate-page%5D%20Create%20pre_2019_vs_post_2019_algorithm&body=%23%23%20Summary%0A-%20Created%20%60wiki/debates/pre_2019_vs_post_2019_algorithm.md%60.%0A-%20Split%20the%20regime-change%20question%20away%20from%20the%20theme%20page%20and%20organized%20the%20evidence%20into%20continuity%20versus%20regime-break%20positions.%0A-%20Added%20the%20new%20debate%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/debates/pre_2019_vs_post_2019_algorithm.md%0A-%20wiki/index.md%0A-%20ops/log.md

@@ -28,6 +28,7 @@ executive synthesis.
 
 - [[rabbit_hole_debate]] — whether recommendation trails radicalize users or whether non-algorithmic pathways do more of the work
 - [[filter_bubble_evidence]] — whether ideological sorting on YouTube translates into meaningful polarization effects
+- [[pre_2019_vs_post_2019_algorithm]] — whether older rabbit-hole evidence still describes the current recommender after the 2019 ranking changes
 
 ## Source cards
 
