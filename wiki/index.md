@@ -54,6 +54,7 @@ executive synthesis.
 - [[reuters_dnr_2025]] — YouTube news use, video-first consumption, and creator-led pressure on journalism
 - [[hallinan_et_al_2025]] — creator callouts, contradictory bias accusations, and aspirational platform governance
 - [[hallinan_reynolds_2024]] — copyright callouts, horizontal versus vertical accountability, and creator-driven platform governance
+- [[reynolds_hallinan_2024]] — creator publicity, signal boosting, and user-generated accountability on YouTube
 
 ## Paper dossiers
 

@@ -147,13 +147,14 @@ claims:
     text: "When formal participation and appeal channels are weak, YouTube creators use public videos and callouts as informal accountability mechanisms, but those efforts provide visibility and solidarity more reliably than direct governance power."
     claim_type: empirical-descriptive
     evidence_strength: multi-source
-    temporal_scope: "English-language creator discourse from 2019-2023, including an August 2022 moderation controversy."
+    temporal_scope: "English-language creator discourse from 2015-2023, including an August 2022 moderation controversy."
     primary_sources:
       - hallinan_et_al_2025
     supporting_sources:
       - hallinan_reynolds_2024
+      - reynolds_hallinan_2024
     conflicting_sources: []
-    scope_conditions: "Current support comes from English-language creator-centered studies dominated by gaming, reaction, commentary, and copyright-dispute videos rather than from direct platform records."
+    scope_conditions: "Current support comes from English-language creator-centered studies focused on moderation complaints, accountability videos, and copyright-dispute videos rather than on direct platform records."
     themes:
       - governance-data-access
     census_papers:
@@ -162,6 +163,7 @@ claims:
     appears_in:
       - wiki/sources/hallinan_et_al_2025.md
       - wiki/sources/hallinan_reynolds_2024.md
+      - wiki/sources/reynolds_hallinan_2024.md
       - wiki/themes/governance_data_access.md
     verification: machine_extracted
   - id: claim_governance_data_access_horizontal_vertical_callouts
@@ -181,6 +183,25 @@ claims:
       - study3-media-system
     appears_in:
       - wiki/sources/hallinan_reynolds_2024.md
+      - wiki/themes/governance_data_access.md
+    verification: machine_extracted
+  - id: claim_governance_data_access_user_generated_accountability
+    text: "Creators use publicity, audits, hashtags, and signal boosting as user-generated accountability practices to reveal governance failures and try to force response from YouTube when official channels do not resolve them."
+    claim_type: theoretical
+    evidence_strength: single-source
+    temporal_scope: "English-language YouTube accountability videos from 2015-2023."
+    primary_sources:
+      - reynolds_hallinan_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The concept is derived from creator-made YouTube videos and is strongest as a framework for creator-facing governance disputes rather than a complete theory of all platform accountability."
+    themes:
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/reynolds_hallinan_2024.md
       - wiki/themes/governance_data_access.md
     verification: machine_extracted
   - id: claim_cross_linguistic_youtube_not_one_platform
