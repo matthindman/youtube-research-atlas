@@ -14,7 +14,7 @@ project_modules:
   - public-affairs
 last_refreshed: 2026-04-16
 verification:
-  machine_extracted: 20
+  machine_extracted: 23
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -49,6 +49,7 @@ al. 2024, pp. 2084-2087; Zaitsev and Clark 2025, § III-§ VI). [🤖]
 | Source | Data | Sample | Key Design Choice | Verified |
 |--------|------|--------|-------------------|----------|
 | rieder_2020 | `channels` / `playlistItems` / `videos` endpoints plus public featured-channel and subscription links | 36.3M channels discovered; 4.4M above 1k subscribers | Uses a breadth-first crawl organized around YouTube's creator tiers and treats platform-native categories as an object of analysis rather than as ground truth | [🤖] |
+| padilla_2026 | Search API results, keyword matching, public subscriptions, featured-channel links, and graph filtering | 153,795 keyword-matched GNU/Linux videos from 62,092 channels; 24,773 channels with public relational data | Treats community detection as a boundary-setting problem under sparse relational data rather than as pure clustering | [🤖] |
 | boesinger_et_al_2024 | Reddit YouTube links, Data API metadata, recent-video text, and InnerTube recommendations | 7.5M raw channels shared on Reddit; 44k released large English-language channels | Compares social-sharing, content, and recommendation embeddings instead of assuming one public trace is sufficient | [🤖] |
 | zaitsev_clark_2025 | Public commenter subscriptions, Data API video/comment queries, labeled political-channel sets, and Social Blade traffic | 12.6M discovered channels; 7,224 final socio-political channels | Treats subscriptions as sentences for `chan2vec`, then separates high-recall discovery from high-precision final classification | [🤖] |
 
@@ -91,6 +92,13 @@ thresholds; neither should be mistaken for a full-platform multilingual
 census (Boesinger et al. 2024, pp. 2085-2087; Zaitsev and Clark 2025,
 Appendix D; § VII). [🤖]
 
+[LIT] Padilla shows a second weakness that is easy to miss in more
+technical papers: when most channels expose no public subscriptions or
+featured-channel links, classification and community mapping become
+boundary-design exercises that depend on explicit filtering choices and
+qualitative interpretation rather than on graph structure alone (Padilla
+2026, pp. 12, 15-18). [🤖]
+
 [LIT] Channel-level classification is also coarse when creators post
 heterogeneous content. The method can map ecosystems and channel
 universes well while still missing within-channel variation that later
@@ -114,6 +122,12 @@ sharing; some from recommendations; and some from co-subscription
 behavior. These are not interchangeable, because each privileges a
 different part of YouTube's public surface (Boesinger et al. 2024, pp.
 2085-2087; Zaitsev and Clark 2025, Appendix B-D). [🤖]
+
+[LIT] Padilla adds a hybrid variant between computational mapping and
+digital-humanities interpretation: instead of assuming that the graph
+defines the community, the method compares strict, open, and productive
+filtering strategies to decide which visible ties should count as
+evidence of communal belonging (Padilla 2026, pp. 15-18). [🤖]
 
 [LIT] Evaluation also varies. The current source set combines coverage
 estimation, classifier accuracy, human semantic judgments, partisan-rank
@@ -156,4 +170,4 @@ than partisan placement alone. [🤖]
 
 - **Themes:** [[descriptive_deficit]], [[governance_data_access]]
 - **Related methods:** [[ideology_estimation]]
-- **Papers that use this method:** [[rieder_2020]], [[boesinger_et_al_2024]], [[zaitsev_clark_2025]]
+- **Papers that use this method:** [[rieder_2020]], [[padilla_2026]], [[boesinger_et_al_2024]], [[zaitsev_clark_2025]]

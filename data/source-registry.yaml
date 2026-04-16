@@ -1486,3 +1486,32 @@ sources:
       - study3-media-system
     temporal_scope: "Cross-platform attention data on tweeted YouTube videos from January 1, 2017-April 30, 2018"
     notes: "Strongest as a pre-2019 cross-platform attention study rather than as direct recommendation evidence. The archived paper does not foreground a DOI in the extracted text."
+  - id: padilla_2026
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Networks beyond the links: Methodological challenges in mapping YouTube communities"
+    authors:
+      - "Padilla, Adrián"
+    year: 2026
+    venue: "First Monday 31(1)"
+    doi: "10.5210/fm.v31i1.14633"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/padilla_2026.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/methods/channel_classification.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Video retrieval spans January 1, 2010-January 1, 2025; relational crawling reflects a late-2025 snapshot of public subscriptions and featured channels"
+    notes: "Methodological First Monday article using the GNU/Linux creator ecosystem to show how Search API behavior and sparse public relational data constrain community detection. Especially relevant to the channel-classification methods page because it broadens the evidence base beyond political YouTube."
