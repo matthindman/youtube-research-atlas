@@ -13,7 +13,7 @@ key_sources:
   - haroon_et_al_2023
   - lai_et_al_2024
   - munger_2024
-  - hosseinmardi_et_al_2024
+  - brown_et_al_2022
 split_candidates:
   - rabbit_hole_debate
   - filter_bubble_evidence
@@ -72,12 +72,11 @@ ideology is operationalized in the first place (Munger 2024, pp.
   problematic channels are a low average share of recommendations but
   reach a substantial minority of users as trails deepen (Haroon et
   al. 2023, pp. 1, 6-8). [🤖]
-- Hosseinmardi et al.'s counterfactual-bot experiment adds a more
-  explicitly causal post-2019 comparison and finds that, relative to
-  matched users' own browsing trajectories, relying only on
-  recommendations produces less partisan consumption on average,
-  especially for heavy partisan users (Hosseinmardi et al. 2024, pp.
-  1, 3-4). [🤖]
+- Brown et al.'s fall-2020 real-user traversal experiment finds only
+  mild ideological echo chambers and little rabbit-hole evidence for
+  average users, but it does detect a modest system-wide conservative
+  nudge and narrowing ideological range as users follow more
+  recommendations (Brown et al. 2022, pp. 1, 19-29). [🤖]
 - Lai et al. do not directly audit recommendation trails, but they
   provide the most reusable measurement infrastructure in this batch:
   scalable video-level ideology estimates and 2020 watch-history
@@ -131,7 +130,7 @@ quietly projected into the post-2022 regime. [🤖]
 | The main danger of right-wing YouTube is better understood through supply-demand dynamics and creator-centered communities than through a simple rabbit-hole model. | Munger and Phillips 2022; Munger 2024 | Affordance framework plus descriptive ecosystem analysis and field-level synthesis | multi-source | Pre-2019 ecosystem evidence; framing current to 2024 | [🤖] |
 | Partisan users receive ideologically congenial recommendations in the post-2019 regime, especially on the homepage. | Haroon et al. 2023 | 100,000 trained sock puppets with homepage and up-next capture | single-source | Post-2019 regime, audit current to 2022-2023 | [🤖] |
 | Recommendation trails do not show large increases in ideological extremity, but problematic-channel exposure grows deeper in the trail. | Haroon et al. 2023 | Up-next trails to depth 20 plus problematic-channel lists | single-source | Post-2019 regime, audit current to 2022-2023 | [🤖] |
-| Relative to matched user histories, post-2019 recommendations can moderate rather than intensify partisan consumption, especially for heavy partisan users. | Hosseinmardi et al. 2024 | Counterfactual bots trained on real-user histories and then switched to recommendation-following trajectories | single-source | Desktop histories October 2021-December 2022; experiments in early 2023 | [🤖] |
+| Real-user recommendation-following yields only mild sorting and limited extremist escalation, but a modest conservative nudge and narrowing ideological range over time. | Brown et al. 2022 | Randomized traversal experiment with 527 U.S. users using their real accounts | single-source | Fall 2020 | [🤖] |
 | Video-level ideology estimation is now scalable enough to support finer-grained audit and exposure work, and observed media diets in 2020 were ideologically congruent on average. | Lai et al. 2024 | Correspondence analysis plus BERT classifier and 2020 watch-history application | single-source | Reddit link data 2011-2021; watch histories May-July 2020 | [🤖] |
 
 ## Methodological Reasons for Disagreement
@@ -195,7 +194,7 @@ Haroon et al. 2023, pp. 2-8; Lai et al. 2024, pp. 349-359). [🤖]
 
 - [[munger_phillips_2022]]
 - [[haroon_et_al_2023]]
-- [[hosseinmardi_et_al_2024]]
+- [[brown_et_al_2022]]
 - [[lai_et_al_2024]]
 - [[munger_2024]]
 

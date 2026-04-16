@@ -508,3 +508,22 @@ claims:
       - wiki/sources/hosseinmardi_et_al_2024.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_methodological_heterogeneity
+    text: "The recommendation-radicalization literature is methodologically heterogeneous, often weak on user personalization, and difficult to summarize with a single stable headline claim."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "Systematic review of studies published 2013-2021."
+    primary_sources:
+      - yesilada_lewandowsky_2022
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "This is a review-level diagnosis of the pre-2022 literature and should be revisited as newer causal and post-2022 studies accumulate."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/yesilada_lewandowsky_2022.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted

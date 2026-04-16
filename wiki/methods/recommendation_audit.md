@@ -38,11 +38,17 @@ compared against matched browsing trajectories; Lai et al.
 contributes measurement infrastructure rather than an audit design
 (Haroon et al. 2023, pp. 1-8; Hosseinmardi et al. 2024, pp. 1-3).
 [🤖]
+[LIT] The method appears directly in Haroon et al. and Brown et al.;
+the latter uses real users with randomized traversal rules on their
+own accounts, while Lai et al. supplies ideology measurement
+infrastructure rather than an audit design (Haroon et al. 2023, pp.
+1-8; Brown et al. 2022, pp. 12-14, 26-29). [🤖]
 
 | Source | Data | Sample | Key Design Choice | Verified |
 |--------|------|--------|-------------------|----------|
 | haroon_et_al_2023 | Sock-puppet watch histories, homepage captures, up-next trails, and video slant scores | 100,000 sock puppets; 15,323,930 watched or recommended videos in total; 120,073 channels | Trains five ideological user profiles, distinguishes homepage from up-next recommendations, and tracks problematic-channel exposure separately from ideological extremity | [🤖] |
 | hosseinmardi_et_al_2024 | Nielsen desktop panel histories, logged-in counterfactual bots, and YouTube API metadata | 87,988 panelists in source panel; 4,583 heavy YouTube users; 125 focal users generating 1,304 bot trajectories | Trains bots on exact real-user histories, then compares user-following and rule-based paths to estimate the recommender's causal marginal effect and forgetting time | [🤖] |
+| brown_et_al_2022 | Browser-plugin captures of recommendation lists, survey responses, randomized seed videos, and traversal rules | 527 U.S.-based YouTube users following 20 recommendation traversals on their real accounts | Preserves personalization by using real users, then experimentally constrains navigation so recommendation effects can be isolated from unconstrained user choice | [🤖] |
 | lai_et_al_2024 | Reddit-YouTube links, video metadata, and 2020 watch histories | 61,883 videos with metadata; 345 respondents and 6,012 political videos in the application | Not an audit by itself, but provides reusable video-level ideology estimates that later audits can plug into exposure measures | [🤖] |
 
 ## Strengths and Assumptions
@@ -121,3 +127,4 @@ experience. [🤖]
 - **Themes:** [[recommendation_radicalization]]
 - **Related methods:** [[ideology_estimation]]
 - **Papers that use this method:** [[haroon_et_al_2023]], [[hosseinmardi_et_al_2024]], [[lai_et_al_2024]]
+- **Papers that use this method:** [[haroon_et_al_2023]], [[brown_et_al_2022]], [[lai_et_al_2024]]
