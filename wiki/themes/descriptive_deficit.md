@@ -7,11 +7,11 @@ temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-16
-source_count: 6
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021]
+source_count: 7
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024]
 split_candidates: []
 verification:
-  machine_extracted: 31
+  machine_extracted: 32
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -58,10 +58,15 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   structurally English-centric, so dataset scale alone does not solve
   the platform's multilingual coverage problem (Ribeiro and West 2021,
   pp. 1, 6-7). [🤖]
+- Reveilhac shows that direct descriptive mapping is possible for a
+  bounded current subsystem, but also underlines how much of the
+  existing descriptive literature remains country-specific, niche-
+  specific, and built from top-performing public traces rather than
+  platform-wide frames (Reveilhac 2024, pp. 1, 8-9). [🤖]
 
 ## Main Disagreements
 
-The six current sources do not directly disagree about whether a
+The seven current sources do not directly disagree about whether a
 descriptive deficit exists, but they do disagree in emphasis about
 what layer of the problem is most fundamental. McGrady et al. center
 sampling frames and denominators (McGrady et al. 2023, pp. 4-7);
@@ -101,6 +106,7 @@ evidence about the field and its platform-level claims as framing
 | The field's platform coverage and research infrastructure are biased away from video-first global platforms. | Norton and Shapiro 2024 | Literature audit plus interviews with 48 researchers | multi-source | Literature 2017-2021; infrastructure diagnosis current to 2024 | [🤖] |
 | English-language YouTube findings should not be assumed to generalize across the platform. | McGrady et al. 2025 | Random samples of English, Spanish, Hindi, and Russian public videos | multi-source | Samples collected 2023-2024; uploads through 2023 | [🤖] |
 | Large public YouTube metadata infrastructure can still be English-centric. | Ribeiro and West 2021 | 136k-channel English-language metadata corpus with explicit weighting caveats | single-source | 2019 collection covering uploads through October 2019 | [🤖] |
+| Descriptive mapping can illuminate a current YouTube subsystem while still remaining too bounded for platform-wide inference. | Reveilhac 2024 | 50-channel French alternative-news map built from top videos and commenter overlap | single-source | 2023 | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
@@ -125,6 +131,10 @@ evidence about the field and its platform-level claims as framing
   language classification is noisy, especially when language is used
   as a proxy for broader cultural differences (McGrady et al. 2023,
   pp. 46-49; McGrady et al. 2025, pp. 2-6). [🤖]
+- Even valuable current-era descriptive studies can remain narrow if
+  they focus on one national subsystem, one channel genre, and only a
+  channel's top-performing videos, as in Reveilhac's French
+  alternative-news mapping (Reveilhac 2024, pp. 3-6, 9). [🤖]
 
 ## Measures and Variables Used in the Literature
 
@@ -195,6 +205,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[norton_shapiro_2024]]
 - [[mcgrady_2025]]
 - [[ribeiro_west_2021]]
+- [[reveilhac_2024]]
 
 ## Cross-References
 
