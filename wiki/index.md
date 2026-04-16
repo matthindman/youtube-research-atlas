@@ -34,6 +34,7 @@ _(none yet; created when theme pages need splitting)_
 - [[mcgrady_2025]] — cross-language random sampling showing English is not the platform
 - [[lai_et_al_2024]] — video-level ideology estimation for political YouTube, watch-history congruence, and engagement
 - [[haroon_et_al_2023]] — large-scale audit of ideologically congenial, limited-extremity, and problematic recommendations
+- [[liu_et_al_2025]] — naturalistic experiments finding strong behavioral effects but limited short-term polarization from manipulated recommendation environments
 - [[munger_phillips_2022]] — supply-demand framework, pre-2019 far-right peak, and creator-community dynamics on political YouTube
 - [[munger_2024]] — agenda-setting critique and supply-demand framework for YouTube politics
 - [[munger_et_al_2025]] — descriptive map of political YouTube channels, comments, and participation inequality
