@@ -898,3 +898,33 @@ sources:
       - study3-media-system
     temporal_scope: "Twitter/X information quality before and after the October 27, 2022 ownership transition, using January 2022-April 2023 data with access ending in May 2023"
     notes: "Comparative platform-governance evidence from Twitter/X rather than YouTube. Included for the governance theme because it shows how ownership and policy changes can affect information quality, while also foregrounding how access restrictions truncate follow-up analysis."
+  - id: ribeiro_veselovsky_west_2023
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "The Amplification Paradox in Recommender Systems"
+    authors:
+      - "Ribeiro, Manoel Horta"
+      - "Veselovsky, Veniamin"
+      - "West, Robert"
+    year: 2023
+    venue: "Proceedings of the Seventeenth International AAAI Conference on Web and Social Media (ICWSM 2023)"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/ribeiro_veselovsky_west_2023.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: medium
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "A stylized agent-based model published in 2023; motivated by pre-2023 YouTube audit and navigation-log findings rather than tied to a single observation window"
+    notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. The paper is theoretical rather than observational, but important for interpreting why audit-style recommendation studies and real-user trace studies can diverge."
