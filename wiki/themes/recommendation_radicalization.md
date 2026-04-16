@@ -3,20 +3,22 @@ type: theme-synthesis
 canonical_name: recommendation_radicalization
 title: "Recommendation Algorithms, Exposure, and Radicalization"
 status: machine-draft
-temporal_scope: "Pre-2019 and post-2019 algorithm regimes must be separated"
+temporal_scope: "Pre-2019 right-wing ecosystem evidence, post-2019 audit and watch-history evidence, with major uncertainty after 2022 policy shifts"
 themes: [recommendation-radicalization]
 census_papers: [methods-companion, paper1-attention-economy, study3-media-system]
 last_refreshed: 2026-04-15
-source_count: 1
+source_count: 4
 key_sources:
   - munger_phillips_2022
+  - haroon_et_al_2023
+  - lai_et_al_2024
+  - munger_2024
 split_candidates:
   - rabbit_hole_debate
   - filter_bubble_evidence
-  - interest_bias
   - pre_2019_vs_post_2019_algorithm
 verification:
-  machine_extracted: 19
+  machine_extracted: 28
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -24,111 +26,172 @@ verification:
 
 # Recommendation Algorithms, Exposure, and Radicalization
 
-> **Early Batch 3 population.** This single-source draft is anchored
-> in a pre-2019 descriptive account of right-wing YouTube. Later
-> post-2019 audits should not be collapsed into the same regime.
+> Temporal scoping is mandatory here. The current evidence base does
+> not justify present-tense claims that blend pre-2019 right-wing
+> ecosystem evidence with post-2019 audit findings or with the still-
+> thin post-2022 period.
 
 ## Why This Theme Matters
 
-Munger and Phillips matter because they reframe the
-recommendation-radicalization debate away from a single black-box
-algorithm story and toward a broader supply-demand account of
-creator incentives, audience matching, and creator-centered
-communities. The paper is especially useful for periodizing the
-debate because its strongest evidence is pre-2019 (Munger and
-Phillips 2022, pp. 3-4, 28-34). [🤖]
+Recommendation-radicalization has dominated YouTube's public and
+academic reputation, but the current Batch 3 source set shows that
+the debate is really a bundle of period-specific questions about
+algorithmic exposure, creator-audience community formation, and how
+ideology is operationalized in the first place (Munger 2024, pp.
+13-14, 24; Haroon et al. 2023, pp. 1-8; Lai et al. 2024, pp.
+346-359). [🤖]
 
 ## Current Consensus
 
-- Pre-2019 right-wing YouTube cannot be understood through a simple
-  "rabbit hole" narrative alone; creator incentives, audience
-  demand, and the affordances of video all matter jointly (Munger
-  and Phillips 2022, pp. 3-4, 32-34). [🤖]
-- Far-right viewership peaked in 2017 and was already declining
-  before YouTube's January 2019 demotion of far-right content,
-  which complicates later claims that a 2019 policy shift alone
-  explains the downturn (Munger and Phillips 2022, pp. 3, 28-29,
-  32-33). [🤖]
-- The paper suggests that committed viewer communities, not just
-  recommendation trails, are central to the persistence and danger
-  of fringe political video ecosystems (Munger and Phillips 2022,
-  pp. 3-4, 28-33). [🤖]
+### Pre-2019 algorithm regime and right-wing ecosystem evidence
+
+- The strongest pre-2019 evidence in this source set is descriptive
+  rather than audit-based: Munger and Phillips show that far-right
+  right-wing YouTube viewership peaked in 2017 and was already
+  declining before YouTube's January 2019 demotion of far-right
+  content (Munger and Phillips 2022, pp. 3, 28-29, 32-33). [🤖]
+- In that same pre-2019 ecosystem, the paper's core mechanism is not
+  a simple rabbit-hole model but a supply-demand account in which
+  low production costs, recommendation-enabled discovery, and
+  creator-centered communities make fringe video ecosystems viable
+  (Munger and Phillips 2022, pp. 3-4, 32-34). [🤖]
+
+### Post-2019 audit and exposure evidence
+
+- Haroon et al.'s large-scale audit finds that recommendations are
+  ideologically congenial for partisan users, especially on the
+  homepage and most clearly for the very-right users (Haroon et al.
+  2023, pp. 1, 4-5). [🤖]
+- That post-2019 congeniality does not translate into a strong
+  rabbit-hole result in the audit: trails become only slightly more
+  extreme and the clearest growth is concentrated among very-right
+  users rather than across the whole ideological spectrum (Haroon et
+  al. 2023, pp. 5-7). [🤖]
+- Post-2019 evidence still leaves a platform-risk concern because
+  problematic channels are a low average share of recommendations but
+  reach a substantial minority of users as trails deepen (Haroon et
+  al. 2023, pp. 1, 6-8). [🤖]
+- Lai et al. do not directly audit recommendation trails, but they
+  provide the most reusable measurement infrastructure in this batch:
+  scalable video-level ideology estimates and 2020 watch-history
+  evidence consistent with ideologically congruent media diets (Lai
+  et al. 2024, pp. 346-359). [🤖]
+
+### Post-2022 policy-shift evidence
+
+- None of the ingested sources directly estimates recommendation
+  behavior after the policy and product shifts of 2022+, so the
+  current evidence base becomes thin precisely where present-tense
+  claims are most tempting. [🤖]
 
 ## Main Disagreements
 
-This source openly challenges the strongest journalistic
-radicalization-by-algorithm story, but it does so with descriptive
-trend evidence rather than with a direct recommender audit. The
-paper therefore changes the burden of proof without fully settling
-how much the algorithm itself contributed inside the pre-2019
-period (Munger and Phillips 2022, pp. 3-4, 22-24, 32-34). [🤖]
+### What the main mechanism is
 
-The paper is also substantively narrow: it studies a right-wing
-political subsystem rather than YouTube as a whole. That makes it
-strong on one influential ecosystem but insufficient for claims
-about platform-wide recommendation effects (Munger and Phillips
-2022, pp. 20-24, 32-34). [🤖]
+Munger and Phillips, echoed by Munger 2024, push the field away from
+a pure algorithmic-radicalization story and toward supply-demand and
+community-formation mechanisms (Munger and Phillips 2022, pp. 3-4,
+32-34; Munger 2024, pp. 13-14). Haroon et al. do find algorithmic
+congeniality and growing problematic-channel exposure, so the live
+disagreement is less "does the algorithm matter?" than "how much of
+the causal story can be reduced to it?" (Haroon et al. 2023, pp.
+1-8). [🤖]
+
+### What counts as the most important harm outcome
+
+Haroon weakens the strongest rabbit-hole claim because ideological
+extremity grows only slightly in the trail, yet the same audit shows
+nontrivial exposure to problematic channels. Lai, meanwhile, shows
+ideological sorting in observed media diets but not a direct
+recommendation mechanism. The disagreement therefore persists over
+whether extremization, problematic reach, or observed ideological
+sorting is the right benchmark for harm (Haroon et al. 2023, pp.
+5-8; Lai et al. 2024, pp. 356-359). [🤖]
+
+### How much period differences drive apparent contradiction
+
+The most important disagreement in the current source set may be
+temporal rather than substantive. Pre-2019 descriptive evidence about
+the rise and decline of right-wing ecosystems is not interchangeable
+with post-2019 trained-sock-puppet audits, and neither should be
+quietly projected into the post-2022 regime. [🤖]
 
 ## Evidence Inventory
 
 | Claim | Source | Evidence | Strength | Period | Verified |
 |-------|--------|----------|----------|--------|----------|
-| Creator-audience community formation and supply-demand dynamics are central to understanding right-wing YouTube. | Munger and Phillips 2022 | Affordance framework plus descriptive analysis of channel clusters and engagement | single-source | Framing current to 2022; evidence centered on 2008-2018 with 2020 update | [🤖] |
-| Far-right right-wing YouTube viewership peaked in 2017 before the January 2019 demotion of far-right content. | Munger and Phillips 2022 | Monthly viewership trends across right-wing channel clusters | single-source | January 2013-October 2018; update through May 2020 | [🤖] |
-| Remaining Alt-Lite and Alt-Right audiences show unusually intense comments-to-views ratios, consistent with committed community among the residual audience. | Munger and Phillips 2022 | Comments-to-views ratios across clustered right-wing channels | single-source | 2013-2018 trends with 2020 update | [🤖] |
+| Far-right right-wing YouTube viewership peaked in 2017 before YouTube's January 2019 demotion of far-right content. | Munger and Phillips 2022 | Monthly viewership trends across right-wing channel clusters | single-source | January 2013-October 2018; update through May 2020 | [🤖] |
+| The main danger of right-wing YouTube is better understood through supply-demand dynamics and creator-centered communities than through a simple rabbit-hole model. | Munger and Phillips 2022; Munger 2024 | Affordance framework plus descriptive ecosystem analysis and field-level synthesis | multi-source | Pre-2019 ecosystem evidence; framing current to 2024 | [🤖] |
+| Partisan users receive ideologically congenial recommendations in the post-2019 regime, especially on the homepage. | Haroon et al. 2023 | 100,000 trained sock puppets with homepage and up-next capture | single-source | Post-2019 regime, audit current to 2022-2023 | [🤖] |
+| Recommendation trails do not show large increases in ideological extremity, but problematic-channel exposure grows deeper in the trail. | Haroon et al. 2023 | Up-next trails to depth 20 plus problematic-channel lists | single-source | Post-2019 regime, audit current to 2022-2023 | [🤖] |
+| Video-level ideology estimation is now scalable enough to support finer-grained audit and exposure work, and observed media diets in 2020 were ideologically congruent on average. | Lai et al. 2024 | Correspondence analysis plus BERT classifier and 2020 watch-history application | single-source | Reddit link data 2011-2021; watch histories May-July 2020 | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
-- The paper relies on clustered channel-level description, search
-  visibility, and engagement ratios rather than a direct audit of
-  recommendation exposures, so it is strongest on ecosystem
-  structure and weaker on algorithm isolation (Munger and Phillips
-  2022, pp. 21-24, 28-34). [🤖]
-- Its search analysis uses top-100 `viewCount` results rather than
-  personalized search or recommendation logs, which the authors
-  explicitly flag as a caveat (Munger and Phillips 2022, pp.
-  22-24). [🤖]
-- The evidence base is pre-2019 and right-wing-specific, so later
-  post-2019 audits or cross-ideological studies may disagree for
-  reasons of both period and scope (Munger and Phillips 2022, pp.
-  3-4, 32-34). [🤖]
+- The Batch 3 papers answer different questions with different
+  designs: descriptive channel ecology (Munger and Phillips),
+  trained-sock-puppet auditing (Haroon), and ideology measurement
+  plus observational watch histories (Lai) are not interchangeable
+  forms of evidence. [🤖]
+- Ideology is operationalized at different levels. Lai and Haroon
+  move to video-level ideology, while Munger and Phillips describe
+  channel clusters and ecosystem segments. Those choices affect what
+  counts as congeniality, extremity, and community. [🤖]
+- Scope differences matter. Munger and Phillips focus on a right-wing
+  subsystem; Haroon operationalizes a U.S.-style left-right space for
+  political videos; Lai's strongest validation is also U.S.-politics-
+  centered. None of these are a platform-wide prevalence estimate.
+  [🤖]
+- Period differences are load-bearing. The source set spans pre-2019
+  right-wing growth, a 2020 watch-history application, and post-2019
+  audit evidence, but still leaves the post-2022 period thinly
+  measured. [🤖]
 
 ## Measures and Variables Used in the Literature
 
-Measures here include channel cluster membership, monthly upload
-counts, top-100 search visibility on selected queries, total views,
-comments, likes, dislikes, and comments-to-views intensity as a
-proxy for communal engagement (Munger and Phillips 2022, pp.
-21-24, 28-33). [🤖]
+Across the current source set, the main measures are channel
+clusters, monthly uploads, search visibility, views, comments-to-
+views ratios, continuous video-ideology scores, ideology bins,
+homepage congeniality, trail depth, exposure ratios, problematic-
+channel lists, and respondent-level medians or interquartile ranges
+for political media diets (Munger and Phillips 2022, pp. 21-33;
+Haroon et al. 2023, pp. 2-8; Lai et al. 2024, pp. 349-359). [🤖]
 
 ## What This Means for Our Project
 
-- The refreshed theme should separate pre-2019 right-wing ecosystem
-  evidence from post-2019 recommender audits rather than treating
-  them as one undifferentiated literature. [🤖]
-- The project should track creator-community formation and creator
-  incentives alongside recommendation behavior when studying
-  politically problematic video systems. [🤖]
-- This source makes `pre_2019_vs_post_2019_algorithm` and
-  `rabbit_hole_debate` look like especially plausible split
-  candidates once the later audit papers are integrated. [🤖]
+- The methods companion should treat recommendation-radicalization as
+  a temporally scoped debate, not as a single stable claim about
+  "what the YouTube algorithm does." [🤖]
+- `paper1-attention-economy` and `study3-media-system` should keep
+  creator incentives, audience demand, and community formation in
+  view even when discussing algorithmic exposure. [🤖]
+- Future Census work can combine Lai-style video-level ideology
+  estimation with Haroon-style auditing, but it should also add
+  direct evidence about what users actually click, watch, and search
+  for after exposure. [🤖]
+- The current page now looks split-worthy in principle, especially
+  around `rabbit_hole_debate`, `filter_bubble_evidence`, and
+  `pre_2019_vs_post_2019_algorithm`, but the split itself should wait
+  for a dedicated follow-up PR. [🤖]
 
 ## Open Holes / Next Sources to Acquire
 
-- No direct recommender audit is present here, so the paper cannot
-  by itself adjudicate post-click exposure mechanics. [🤖]
-- The evidence is about one political subsystem rather than
-  platform-wide prevalence. [🤖]
-- The paper leaves open whether post-2019 recommendation changes
-  altered the relative balance between supply-demand dynamics and
-  algorithmic curation. [🤖]
+- No ingested source yet directly measures recommendation behavior or
+  exposure outcomes after the platform changes of 2022+. [🤖]
+- No current source combines audit evidence with real-user clicking,
+  search, or long-term attitudinal outcomes. [🤖]
+- Cross-linguistic and non-U.S. recommendation-radicalization
+  evidence remains largely absent from the atlas. [🤖]
 
 ## Sources Consulted
 
 - [[munger_phillips_2022]]
+- [[haroon_et_al_2023]]
+- [[lai_et_al_2024]]
+- [[munger_2024]]
 
 ## Cross-References
 
-- **Methods:** _(none yet)_
-- **Debates:** _(none yet; expected splits: rabbit_hole_debate, filter_bubble_evidence, interest_bias, pre_2019_vs_post_2019_algorithm)_
+- **Methods:** [[ideology_estimation]], [[recommendation_audit]]
+- **Debates:** _(not yet created; proposed splits: rabbit_hole_debate, filter_bubble_evidence, pre_2019_vs_post_2019_algorithm)_
 - **Papers:** [[methods_companion_dossier]], [[paper1_attention_economy_dossier]]
