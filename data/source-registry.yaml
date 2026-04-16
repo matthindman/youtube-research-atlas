@@ -803,3 +803,32 @@ sources:
       - study3-media-system
     temporal_scope: "English-language copyright callout videos published from 2019-2023 and analyzed in a June 2024 article"
     notes: "Second of three closely related Hallinan/Reynolds governance papers in Batch 5. Distinguishes horizontal creator-to-creator callouts from vertical appeals toward platforms and rights holders."
+  - id: reynolds_hallinan_2024
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "User-Generated Accountability: Public Participation in Algorithmic Governance on YouTube"
+    authors:
+      - "Reynolds, C. J."
+      - "Hallinan, Blake"
+    year: 2024
+    venue: "New Media & Society"
+    doi: "10.1177/14614448241251791"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/reynolds_hallinan_2024.md
+      - wiki/themes/governance_data_access.md
+      - wiki/index.md
+    tags:
+      - governance-data-access
+    themes:
+      - governance-data-access
+    census_relevance: medium
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "English-language accountability videos from 2015-2023, with the corpus concentrated in the post-2019 creator-governance period"
+    notes: "Third of the closely related Hallinan/Reynolds governance papers in Batch 5. Extends from specific callout controversies to a broader creator-publicity account of user-generated accountability."

@@ -666,3 +666,22 @@ claims:
       - wiki/sources/hallinan_reynolds_2024.md
       - wiki/themes/governance_data_access.md
     verification: machine_extracted
+  - id: claim_governance_data_access_user_generated_accountability
+    text: "Creators use publicity, audits, hashtags, and signal boosting as user-generated accountability practices to reveal governance failures and try to force response from YouTube when official channels do not resolve them."
+    claim_type: theoretical
+    evidence_strength: single-source
+    temporal_scope: "English-language YouTube accountability videos from 2015-2023."
+    primary_sources:
+      - reynolds_hallinan_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The concept is derived from creator-made YouTube videos and is strongest as a framework for creator-facing governance disputes rather than a complete theory of all platform accountability."
+    themes:
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/reynolds_hallinan_2024.md
+      - wiki/themes/governance_data_access.md
+    verification: machine_extracted
