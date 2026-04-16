@@ -546,3 +546,22 @@ claims:
       - wiki/sources/liu_et_al_2025.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_nonalgorithmic_exposure_paths
+    text: "In post-2019 U.S. data, subscriptions and external links are major pathways to alternative or extremist YouTube exposure, while unsolicited recommendation-driven rabbit holes are comparatively rare."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "July-December 2020 U.S. browser-tracking and survey study."
+    primary_sources:
+      - chen_et_al_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from weighted browser-tracking data on U.S. desktop browsers and should be treated as a lower-bound estimate of recommendation-driven rabbit holes."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/chen_et_al_2023.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted

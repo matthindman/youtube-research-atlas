@@ -12,8 +12,8 @@ key_sources:
   - munger_phillips_2022
   - haroon_et_al_2023
   - lai_et_al_2024
-  - liu_et_al_2025
   - munger_2024
+  - chen_et_al_2023
 split_candidates:
   - rabbit_hole_debate
   - filter_bubble_evidence
@@ -72,11 +72,12 @@ ideology is operationalized in the first place (Munger 2024, pp.
   problematic channels are a low average share of recommendations but
   reach a substantial minority of users as trails deepen (Haroon et
   al. 2023, pp. 1, 6-8). [🤖]
-- Liu et al. provide the strongest causal evidence in the current
-  source set that heavily slanted recommendation environments change
-  what users choose to watch much more than they change short-term
-  policy attitudes, media trust, or affective polarization (Liu et
-  al. 2025, pp. 1-2, 7-10). [🤖]
+- Chen et al.'s paired behavioral-survey study makes the strongest
+  alternative-mechanism case in the current source set: exposure to
+  alternative and extremist videos is concentrated among resentful
+  users who subscribe to those channels and arrive via external
+  links, while nonsubscribers rarely follow such recommendations
+  (Chen et al. 2023, pp. 1-2, 6-9). [🤖]
 - Lai et al. do not directly audit recommendation trails, but they
   provide the most reusable measurement infrastructure in this batch:
   scalable video-level ideology estimates and 2020 watch-history
@@ -85,11 +86,10 @@ ideology is operationalized in the first place (Munger 2024, pp.
 
 ### Post-2022 policy-shift evidence
 
-- Direct post-2022 evidence is no longer totally absent, but it
-  remains thin: Liu et al.'s four experiments span June 2021-May
-  2024, so only the final rabbit-hole study cleanly reaches 2024 and
-  most of the paper's filter-bubble evidence still reflects 2021-2022
-  conditions (Liu et al. 2025, p. 5). [🤖]
+- None of the ingested sources directly estimates recommendation
+  behavior after the policy and product shifts of 2022+, so the
+  current evidence base becomes thin precisely where present-tense
+  claims are most tempting. [🤖]
 
 ## Main Disagreements
 
@@ -131,7 +131,7 @@ quietly projected into the post-2022 regime. [🤖]
 | The main danger of right-wing YouTube is better understood through supply-demand dynamics and creator-centered communities than through a simple rabbit-hole model. | Munger and Phillips 2022; Munger 2024 | Affordance framework plus descriptive ecosystem analysis and field-level synthesis | multi-source | Pre-2019 ecosystem evidence; framing current to 2024 | [🤖] |
 | Partisan users receive ideologically congenial recommendations in the post-2019 regime, especially on the homepage. | Haroon et al. 2023 | 100,000 trained sock puppets with homepage and up-next capture | single-source | Post-2019 regime, audit current to 2022-2023 | [🤖] |
 | Recommendation trails do not show large increases in ideological extremity, but problematic-channel exposure grows deeper in the trail. | Haroon et al. 2023 | Up-next trails to depth 20 plus problematic-channel lists | single-source | Post-2019 regime, audit current to 2022-2023 | [🤖] |
-| Heavy-handed recommendation manipulations change viewing behavior more than short-term attitudes, with no detectable rabbit-hole effect in the study's 2024 experiment. | Liu et al. 2025 | Four naturalistic experiments manipulating real YouTube recommendations and curated sequences | single-source | Studies launched June 2021, April 2022, and May 2024 | [🤖] |
+| Subscriptions and external links, not unsolicited recommendations, are major paths to alternative and extremist channel exposure in post-2019 U.S. data. | Chen et al. 2023 | Paired browser-tracking and survey data with subscription inference and rabbit-hole event coding | single-source | July-December 2020 | [🤖] |
 | Video-level ideology estimation is now scalable enough to support finer-grained audit and exposure work, and observed media diets in 2020 were ideologically congruent on average. | Lai et al. 2024 | Correspondence analysis plus BERT classifier and 2020 watch-history application | single-source | Reddit link data 2011-2021; watch histories May-July 2020 | [🤖] |
 
 ## Methodological Reasons for Disagreement
@@ -184,10 +184,8 @@ Haroon et al. 2023, pp. 2-8; Lai et al. 2024, pp. 349-359). [🤖]
 
 ## Open Holes / Next Sources to Acquire
 
-- Post-2022 evidence remains thin and partial: Liu et al. reach 2024
-  only in one rabbit-hole experiment, leaving contemporary
-  recommendation behavior and sustained exposure outcomes sparsely
-  measured. [🤖]
+- No ingested source yet directly measures recommendation behavior or
+  exposure outcomes after the platform changes of 2022+. [🤖]
 - No current source combines audit evidence with real-user clicking,
   search, or long-term attitudinal outcomes. [🤖]
 - Cross-linguistic and non-U.S. recommendation-radicalization
@@ -197,7 +195,7 @@ Haroon et al. 2023, pp. 2-8; Lai et al. 2024, pp. 349-359). [🤖]
 
 - [[munger_phillips_2022]]
 - [[haroon_et_al_2023]]
-- [[liu_et_al_2025]]
+- [[chen_et_al_2023]]
 - [[lai_et_al_2024]]
 - [[munger_2024]]
 

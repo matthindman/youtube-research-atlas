@@ -583,3 +583,35 @@ sources:
       - study3-media-system
     temporal_scope: "Four U.S. experiments launched in June 2021, April 2022, and May 2024 using contemporary YouTube recommendation networks"
     notes: "Peer-reviewed experimental study using a custom YouTube-like platform with real recommendation networks. Strongest on short-term causal effects; the field period spans 2021-2024, so it straddles the atlas's post-2022 bucket and does not settle longer-run or susceptible-subpopulation effects."
+  - id: chen_et_al_2023
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Subscriptions and External Links Help Drive Resentful Users to Alternative and Extremist YouTube Channels"
+    authors:
+      - "Chen, Annie Y."
+      - "Nyhan, Brendan"
+      - "Reifler, Jason"
+      - "Robertson, Ronald E."
+      - "Wilson, Christo"
+    year: 2023
+    venue: "Science Advances"
+    doi: "10.1126/sciadv.add8080"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/chen_et_al_2023.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "U.S. browser-tracking and survey study from July-December 2020, interpreted as a post-2019 lower-bound estimate of rabbit-hole exposure"
+    notes: "Peer-reviewed paired behavioral-survey study. Strongest on the post-2019 importance of subscriptions and external links as exposure paths to alternative and extremist channels, and on the rarity of unsolicited rabbit-hole events among nonsubscribers in 2020."
