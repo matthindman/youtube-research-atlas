@@ -13,13 +13,13 @@ key_sources:
   - haroon_et_al_2023
   - lai_et_al_2024
   - munger_2024
-  - chen_et_al_2023
+  - yu_et_al_2024
 split_candidates:
   - rabbit_hole_debate
   - filter_bubble_evidence
   - pre_2019_vs_post_2019_algorithm
 verification:
-  machine_extracted: 30
+  machine_extracted: 29
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -72,12 +72,6 @@ ideology is operationalized in the first place (Munger 2024, pp.
   problematic channels are a low average share of recommendations but
   reach a substantial minority of users as trails deepen (Haroon et
   al. 2023, pp. 1, 6-8). [🤖]
-- Chen et al.'s paired behavioral-survey study makes the strongest
-  alternative-mechanism case in the current source set: exposure to
-  alternative and extremist videos is concentrated among resentful
-  users who subscribe to those channels and arrive via external
-  links, while nonsubscribers rarely follow such recommendations
-  (Chen et al. 2023, pp. 1-2, 6-9). [🤖]
 - Lai et al. do not directly audit recommendation trails, but they
   provide the most reusable measurement infrastructure in this batch:
   scalable video-level ideology estimates and 2020 watch-history
@@ -86,10 +80,11 @@ ideology is operationalized in the first place (Munger 2024, pp.
 
 ### Post-2022 policy-shift evidence
 
-- None of the ingested sources directly estimates recommendation
-  behavior after the policy and product shifts of 2022+, so the
-  current evidence base becomes thin precisely where present-tense
-  claims are most tempting. [🤖]
+- Yu et al. now provide one explicitly post-2022 intervention
+  study: changing recommender inputs in late-2022/early-2023 can
+  increase news exposure and reduce ideological congeniality
+  without detectable short-run attitude effects, but that still
+  leaves the broader post-2022 evidence base thin. [🤖]
 
 ## Main Disagreements
 
@@ -131,8 +126,8 @@ quietly projected into the post-2022 regime. [🤖]
 | The main danger of right-wing YouTube is better understood through supply-demand dynamics and creator-centered communities than through a simple rabbit-hole model. | Munger and Phillips 2022; Munger 2024 | Affordance framework plus descriptive ecosystem analysis and field-level synthesis | multi-source | Pre-2019 ecosystem evidence; framing current to 2024 | [🤖] |
 | Partisan users receive ideologically congenial recommendations in the post-2019 regime, especially on the homepage. | Haroon et al. 2023 | 100,000 trained sock puppets with homepage and up-next capture | single-source | Post-2019 regime, audit current to 2022-2023 | [🤖] |
 | Recommendation trails do not show large increases in ideological extremity, but problematic-channel exposure grows deeper in the trail. | Haroon et al. 2023 | Up-next trails to depth 20 plus problematic-channel lists | single-source | Post-2019 regime, audit current to 2022-2023 | [🤖] |
-| Subscriptions and external links, not unsolicited recommendations, are major paths to alternative and extremist channel exposure in post-2019 U.S. data. | Chen et al. 2023 | Paired browser-tracking and survey data with subscription inference and rabbit-hole event coding | single-source | July-December 2020 | [🤖] |
 | Video-level ideology estimation is now scalable enough to support finer-grained audit and exposure work, and observed media diets in 2020 were ideologically congruent on average. | Lai et al. 2024 | Correspondence analysis plus BERT classifier and 2020 watch-history application | single-source | Reddit link data 2011-2021; watch histories May-July 2020 | [🤖] |
+| A post-2022 recommender intervention can increase news exposure and broaden ideological diversity, while user nudges alone show little effect. | Yu et al. 2024 | Sock-puppet tuning plus month-long browser-extension experiment with frequent YouTube users | single-source | November 2022-January 2023 | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
@@ -195,8 +190,8 @@ Haroon et al. 2023, pp. 2-8; Lai et al. 2024, pp. 349-359). [🤖]
 
 - [[munger_phillips_2022]]
 - [[haroon_et_al_2023]]
-- [[chen_et_al_2023]]
 - [[lai_et_al_2024]]
+- [[yu_et_al_2024]]
 - [[munger_2024]]
 
 ## Cross-References

@@ -565,3 +565,22 @@ claims:
       - wiki/sources/chen_et_al_2023.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_algorithmic_nudges_broaden_news_exposure
+    text: "Interventions that change recommendation inputs can increase news exposure and ideological diversity on YouTube, whereas nudging users alone may have little observable effect."
+    claim_type: empirical-causal
+    evidence_strength: single-source
+    temporal_scope: "Sock-puppet tuning and month-long U.S. user experiment in 2022-2023."
+    primary_sources:
+      - yu_et_al_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from balanced-news injections into watch histories and frequent U.S. YouTube users; the study does not show downstream attitudinal effects over the short treatment window."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/yu_et_al_2024.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted

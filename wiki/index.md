@@ -34,6 +34,7 @@ _(none yet; created when theme pages need splitting)_
 - [[mcgrady_2025]] — cross-language random sampling showing English is not the platform
 - [[brown_et_al_2022]] — real-user recommendation experiment showing mild echo chambers, few rabbit holes, and a modest conservative nudge
 - [[chen_et_al_2023]] — subscriptions and external links as key exposure paths to alternative and extremist YouTube
+- [[yu_et_al_2024]] — recommender intervention showing more news exposure and more diverse news diets after post-2022 nudging
 - [[lai_et_al_2024]] — video-level ideology estimation for political YouTube, watch-history congruence, and engagement
 - [[haroon_et_al_2023]] — large-scale audit of ideologically congenial, limited-extremity, and problematic recommendations
 - [[hosseinmardi_et_al_2024]] — counterfactual bots showing limited post-2019 recommender effects relative to user preferences
