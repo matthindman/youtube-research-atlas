@@ -2330,3 +2330,51 @@ Refresh notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/recommendation_radicalization?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20recommendation_radicalization&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/recommendation_radicalization.md%60%20plus%20%60wiki/debates/rabbit_hole_debate.md%60%2C%20%60wiki/debates/filter_bubble_evidence.md%60%2C%20and%20%60wiki/debates/pre_2019_vs_post_2019_algorithm.md%60.%0A-%20Included%20%60lewis_2018%60%2C%20%60hosseinmardi_et_al_2021%60%2C%20%60hussein_et_al_2020%60%2C%20and%20%60lee_et_al_2022%60%20plus%20the%20needed%20source-registry%2C%20claim-registry%2C%20and%20index%20infrastructure%20on-branch%20so%20the%20refresh%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Reframed%20the%20recommendation%20corpus%20around%20pre-2019%20ecosystem%20formation%2C%20search%20and%20recommendation%20interface%20differences%2C%20late-2010s%20real-user%20behavior%2C%20and%20thinner%20post-2021%20intervention%20evidence.%0A%0A%23%23%20Sources%0A-%20lewis_2018%0A-%20hosseinmardi_et_al_2021%0A-%20hussein_et_al_2020%0A-%20lee_et_al_2022%0A%0A%23%23%20Pages%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/debates/rabbit_hole_debate.md%0A-%20wiki/debates/filter_bubble_evidence.md%0A-%20wiki/debates/pre_2019_vs_post_2019_algorithm.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/sources/lewis_2018.md%0A-%20wiki/sources/hosseinmardi_et_al_2021.md%0A-%20wiki/sources/hussein_et_al_2020.md%0A-%20wiki/sources/lee_et_al_2022.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest youtube_2024
+**Operation:** ingest-source
+**Branch:** ingest/youtube_2024
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/youtube_2024.md` and updated the descriptive and
+creator-economy themes, registries, index, and log.
+
+Cross-check notes:
+
+- Verified that the archived PDF is YouTube's own impact report, not an
+  independent academic or industry study, and that the report itself
+  says its evidence comes from a mix of Oxford Economics research and
+  YouTube internal data.
+- Confirmed the report's main platform-asserted figures: more than $55B
+  U.S. GDP contribution and 490,000 U.S. FTE jobs in 2024, more than
+  $100B paid globally from January 2021 through December 2024, a claim
+  of more than half of ad and subscription revenue shared with
+  creators, and a ten-route monetization menu.
+- Confirmed the report's scale framing claims: 2 billion viewers
+  worldwide, more than 20 million uploads per day, and more than 20
+  billion videos on YouTube.
+
+Tier and citation decisions:
+
+- Assigned `platform_documentation` because this is YouTube's own
+  self-published impact report. The source is usable for platform-
+  asserted facts and self-description, not for independent empirical or
+  evaluative claims.
+- Kept the stable atlas identifier `youtube_2024`, while noting that
+  the PDF metadata is timestamped October 2025 even though the report is
+  branded as a 2024 impact report.
+
+Human attention requested:
+
+- Reviewers should decide how much weight to give Oxford
+  Economics-produced figures once they are embedded inside a YouTube-
+  framed impact report; I treated the whole document conservatively as
+  `platform_documentation`.
+- The source is useful for stage-setting and platform self-description,
+  but it should not be allowed to harden into independent evidence about
+  creator livelihoods or national economic impact without outside
+  corroboration.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/youtube_2024?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20youtube_2024&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/youtube_2024.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/themes/creator_economy.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20explicitly%20attributed%20platform-self-report%20notes%20on%20YouTube%27s%20claimed%20scale%2C%20revenue-sharing%20design%2C%20and%20multi-route%20creator%20monetization%20stack.%0A%0A%23%23%20Pages%0A-%20wiki/sources/youtube_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md

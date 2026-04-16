@@ -7,7 +7,7 @@ temporal_scope: "Post-Partner-Program era; particularly post-2018"
 themes: [creator-economy]
 census_papers: [paper1-attention-economy]
 last_refreshed: 2026-04-16
-source_count: 8
+source_count: 9
 key_sources:
   - abou_el_komboz_et_al_2023
   - kumar_2019
@@ -16,9 +16,10 @@ key_sources:
   - ormen_gregersen_2023_polymorphism
   - ormen_gregersen_2023_engagement
   - newman_et_al_2025
+  - youtube_2024
 split_candidates: []
 verification:
-  machine_extracted: 26
+  machine_extracted: 28
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -58,6 +59,13 @@ development. [🤖]
   marketplace curation, audience metrics, and visibility systems
   all shape which creators can convert attention into durable
   income. [🤖]
+- YouTube's own 2024 impact report describes creator monetization as a
+  ten-route stack and says the company paid more than $100 billion
+  globally to creators, artists, and media companies from January 2021
+  through December 2024. That is useful as a platform statement of
+  monetization design and claimed scale, not as independent evidence
+  about typical creator outcomes. *[Note: platform self-report, not
+  independently verified.]* (YouTube 2024, pp. 7-8). [🤖]
 - Kumar sharpens that governance point by arguing that the
   Adpocalypse turned monetization classification into a form of
   gatekeeping: advertiser-safety decisions affected not only revenue
@@ -156,6 +164,7 @@ BrandConnect, memberships, and shopping integrations. [🤖]
 - [[ormen_gregersen_2023_polymorphism]]
 - [[ormen_gregersen_2023_engagement]]
 - [[newman_et_al_2025]]
+- [[youtube_2024]]
 
 ## Cross-References
 
