@@ -81,6 +81,7 @@ executive synthesis.
 - [[boesinger_et_al_2024]] — released channel embeddings showing how public traces can scale semantic and social classification of large YouTube channels
 - [[zaitsev_clark_2025]] — public-subscription channel mapping showing that head-only political YouTube samples undercount smaller partisan-right and conspiracy channels
 - [[lewis_2018]] — foundational Data & Society map of the Alternative Influence Network and pre-2019 guest-network pathways across reactionary YouTube
+- [[hosseinmardi_et_al_2021]] — real-user desktop panel study finding far-right consumption concentrated among a small predisposed minority rather than system-wide rabbit-hole drift
 
 ## Paper dossiers
 
