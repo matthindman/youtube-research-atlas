@@ -2330,3 +2330,42 @@ Refresh notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/recommendation_radicalization?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20recommendation_radicalization&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/recommendation_radicalization.md%60%20plus%20%60wiki/debates/rabbit_hole_debate.md%60%2C%20%60wiki/debates/filter_bubble_evidence.md%60%2C%20and%20%60wiki/debates/pre_2019_vs_post_2019_algorithm.md%60.%0A-%20Included%20%60lewis_2018%60%2C%20%60hosseinmardi_et_al_2021%60%2C%20%60hussein_et_al_2020%60%2C%20and%20%60lee_et_al_2022%60%20plus%20the%20needed%20source-registry%2C%20claim-registry%2C%20and%20index%20infrastructure%20on-branch%20so%20the%20refresh%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Reframed%20the%20recommendation%20corpus%20around%20pre-2019%20ecosystem%20formation%2C%20search%20and%20recommendation%20interface%20differences%2C%20late-2010s%20real-user%20behavior%2C%20and%20thinner%20post-2021%20intervention%20evidence.%0A%0A%23%23%20Sources%0A-%20lewis_2018%0A-%20hosseinmardi_et_al_2021%0A-%20hussein_et_al_2020%0A-%20lee_et_al_2022%0A%0A%23%23%20Pages%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/debates/rabbit_hole_debate.md%0A-%20wiki/debates/filter_bubble_evidence.md%0A-%20wiki/debates/pre_2019_vs_post_2019_algorithm.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/sources/lewis_2018.md%0A-%20wiki/sources/hosseinmardi_et_al_2021.md%0A-%20wiki/sources/hussein_et_al_2020.md%0A-%20wiki/sources/lee_et_al_2022.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest pew_2025
+**Operation:** ingest-source
+**Branch:** ingest/pew_2025
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/pew_2025.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived report is Pew Research Center's *Americans'
+  Social Media Use 2025* by Jeffrey Gottfried and Eugenie Park.
+- Focused extraction on YouTube's U.S. adoption share, age and
+  demographic patterns, and the separate daily-use estimates rather
+  than summarizing the full methodology appendix.
+- Confirmed the report uses two 2025 surveys: the 5,022-adult NPORS
+  adoption survey and the 5,123-adult ATP daily-use survey.
+- Used the report as a U.S.-specific scale baseline only and kept the
+  non-peer-reviewed evidence tier explicit in the theme update.
+
+Tier decision:
+
+- Assigned `industry_report` because this is a descriptive research
+  report from Pew Research Center, useful for current platform-use
+  baselines but not for causal or mechanism claims.
+
+Human attention requested:
+
+- Pew explicitly warns that the 2023 mode shift complicates comparisons
+  with earlier phone-only waves, so any trend language beyond the
+  report's own wording should stay cautious.
+- Daily-use figures come from a different survey than the adoption
+  figures, so branch reviewers should keep those two measurement frames
+  conceptually separate.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/pew_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20pew_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/pew_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20descriptive-theme%20note%20using%20Pew%27s%20U.S.-specific%20adoption%20and%20daily-use%20baselines%20while%20keeping%20the%20non-peer-reviewed%20evidence%20tier%20explicit.%0A%0A%23%23%20Pages%0A-%20wiki/sources/pew_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/index.md%0A-%20ops/log.md

@@ -107,8 +107,9 @@ claims:
     supporting_sources:
       - munger_et_al_2025
       - norton_shapiro_2024
+      - pew_2025
     conflicting_sources: []
-    scope_conditions: "Current support here is agenda-setting and comparative rather than a formal bibliometric census."
+    scope_conditions: "Current support here is agenda-setting and comparative rather than a formal bibliometric census, with Pew added as a non-peer-reviewed U.S. usage baseline documenting the platform's continued scale."
     themes:
       - descriptive-deficit
     census_papers:
@@ -119,6 +120,7 @@ claims:
       - wiki/sources/munger_2024.md
       - wiki/sources/munger_et_al_2025.md
       - wiki/sources/norton_shapiro_2024.md
+      - wiki/sources/pew_2025.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
   - id: claim_descriptive_deficit_infrastructure_constraints
