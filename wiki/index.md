@@ -83,6 +83,7 @@ executive synthesis.
 - [[lewis_2018]] — foundational Data & Society map of the Alternative Influence Network and pre-2019 guest-network pathways across reactionary YouTube
 - [[hosseinmardi_et_al_2021]] — real-user desktop panel study finding far-right consumption concentrated among a small predisposed minority rather than system-wide rabbit-hole drift
 - [[hussein_et_al_2020]] — audit of YouTube search, Up Next, and Top 5 recommendations showing topic-specific misinformation exposure and stronger personalization after watch history develops
+- [[chae_lee_2024]] — comment-classification study showing mainstream-news videos host more cross-cutting discussion than political-vlogger videos in a 2019 U.S. event window
 
 ## Paper dossiers
 

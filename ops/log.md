@@ -2123,3 +2123,38 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hussein_et_al_2020?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hussein_et_al_2020&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hussein_et_al_2020.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20recommendation-theme%20notes%20showing%20that%20search%2C%20Up%20Next%2C%20and%20Top%205%20recommendation%20surfaces%20produce%20topic-specific%20misinformation%20risks.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hussein_et_al_2020.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest chae_lee_2024
+**Operation:** ingest-source
+**Branch:** ingest/chae_lee_2024
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/chae_lee_2024.md` and updated the news theme,
+registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived article is the *PLoS ONE* paper by Seung Woo
+  Chae and Sung Hyun Lee; these author-name forms differ from the
+  prompt and were taken from the article itself.
+- Confirmed the study window is March 22-April 18, 2019 and that the
+  analysis compares political-vlogger comment threads with mainstream-
+  news comment threads about the Mueller report.
+- Added one new cross-cutting claim on mainstream-news comment threads
+  hosting more cross-cutting discussion than vlogger videos in this
+  sample.
+
+Tier decision:
+
+- Assigned `primary_empirical` because this is a peer-reviewed journal
+  article with original manual coding and NLP classification.
+
+Human attention requested:
+
+- This source is comment-layer evidence, not total-audience evidence.
+- Its strongest value is clarifying that cross-cutting political
+  discussion on YouTube depends on media type and is not automatically
+  deliberative in quality.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/chae_lee_2024?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20chae_lee_2024&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/chae_lee_2024.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/news_ecosystem.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20news-theme%20notes%20showing%20that%20mainstream-news%20videos%20hosted%20more%20cross-cutting%20discussion%20than%20political-vlogger%20videos%20in%20the%202019%20Mueller-report%20window.%0A%0A%23%23%20Pages%0A-%20wiki/sources/chae_lee_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md
