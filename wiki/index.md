@@ -22,6 +22,7 @@ executive synthesis.
 ## Methods
 
 - [[ideology_estimation]] — video-level and channel-level approaches for placing political YouTube content in ideological space
+- [[channel_classification]] — scalable approaches for discovering and classifying YouTube channels under changing data-access regimes
 - [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
 
 ## Debates
@@ -76,6 +77,9 @@ executive synthesis.
 - [[reveilhac_2024]] — French alternative-news mapping showing clustered channel types and overlapping commenter publics
 - [[abou_el_komboz_et_al_2023]] — causal evidence that losing YPP access reduced output, quality, and diversity among small creators
 - [[wu_resnick_2021]] — large-scale comment study showing common but asymmetric cross-partisan discussion on U.S. partisan YouTube
+- [[rieder_2020]] — historical large-scale channel crawl documenting late-2019 API affordances, platform hierarchy, and the limits of YouTube's own category system
+- [[boesinger_et_al_2024]] — released channel embeddings showing how public traces can scale semantic and social classification of large YouTube channels
+- [[zaitsev_clark_2025]] — public-subscription channel mapping showing that head-only political YouTube samples undercount smaller partisan-right and conspiracy channels
 
 ## Paper dossiers
 

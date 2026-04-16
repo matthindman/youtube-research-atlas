@@ -40,7 +40,8 @@ claims:
     temporal_scope: "Persistent platform-level problem documented in late-2022 scholarship."
     primary_sources:
       - mcgrady_2023
-    supporting_sources: []
+    supporting_sources:
+      - zaitsev_clark_2025
     conflicting_sources: []
     scope_conditions: "Especially acute for studies built from convenience, seed-based, or recommendation-based samples."
     themes:
@@ -50,6 +51,8 @@ claims:
       - paper1-attention-economy
     appears_in:
       - wiki/sources/mcgrady_2023.md
+      - wiki/sources/zaitsev_clark_2025.md
+      - wiki/methods/channel_classification.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
   - id: claim_descriptive_deficit_multilingual_misrepresentation
@@ -129,6 +132,8 @@ claims:
     supporting_sources:
       - norton_shapiro_2024
       - hallinan_et_al_2025
+      - rieder_2020
+      - zaitsev_clark_2025
     conflicting_sources: []
     scope_conditions: "Anchored by primary empirical evidence on API constraints and supplemented by field-audit and creator-governance evidence showing that opaque moderation and restricted access limit what outsiders can verify."
     themes:
@@ -140,8 +145,50 @@ claims:
     appears_in:
       - wiki/sources/norton_shapiro_2024.md
       - wiki/sources/hallinan_et_al_2025.md
+      - wiki/sources/rieder_2020.md
+      - wiki/sources/zaitsev_clark_2025.md
+      - wiki/methods/channel_classification.md
       - wiki/themes/descriptive_deficit.md
       - wiki/themes/governance_data_access.md
+    verification: machine_extracted
+  - id: claim_governance_data_access_historical_public_research_affordances
+    text: "Late-2010s YouTube research could use public channel subscriptions, featured-channel links, and high-quota Data API access to map channels at scale, but those affordances later became materially harder to obtain or replicate."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "Late-2019 to early-2020 YouTube research conditions described in a 2020 mapping study."
+    primary_sources:
+      - rieder_2020
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from one large-scale crawl paper describing historical research access conditions; later evidence should distinguish quota changes from the separate restriction of public subscription visibility."
+    themes:
+      - descriptive-deficit
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/rieder_2020.md
+      - wiki/methods/channel_classification.md
+    verification: machine_extracted
+  - id: claim_descriptive_deficit_channel_embeddings_public_traces
+    text: "Public relational and metadata traces can produce scalable channel embeddings that recover both semantic similarity and social dimensions without relying on exhaustive manual channel labeling."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "2010-2022 Reddit-sharing traces and early-2020s recommendation/metadata captures described in a 2024 methods paper."
+    primary_sources:
+      - boesinger_et_al_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from English-language large channels shared on Reddit and from history-less recommendation captures, so the approach inherits the biases of those public traces."
+    themes:
+      - descriptive-deficit
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/boesinger_et_al_2024.md
+      - wiki/methods/channel_classification.md
     verification: machine_extracted
   - id: claim_governance_data_access_informal_creator_accountability
     text: "When formal participation and appeal channels are weak, YouTube creators use public videos and callouts as informal accountability mechanisms, but those efforts provide visibility and solidarity more reliably than direct governance power."

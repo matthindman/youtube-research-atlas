@@ -1887,3 +1887,30 @@ Refresh note:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20a%20five-source%20corpus%20spanning%20recommendation%20structure%2C%20comment%20interaction%2C%20channel%20clustering%2C%20and%20audience%20surveys.%0A-%20Included%20%60huang_yang_2024%60%2C%20%60reveilhac_2024%60%2C%20and%20%60wu_resnick_2021%60%20plus%20their%20registry%20infrastructure%20on-branch%20so%20the%20refresh%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Replaced%20the%20old%20two-report%20scaffold%20with%20a%20periodized%20synthesis%20that%20distinguishes%202019%20recommendation%20drift%2C%202020%20partisan%20discussion%2C%202023%20French%20subsystem%20mapping%2C%20and%202024-2025%20cross-national%20survey%20evidence.%0A%0A%23%23%20Sources%0A-%20huang_yang_2024%0A-%20reveilhac_2024%0A-%20wu_resnick_2021%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Refresh channel_classification_methods
+**Operation:** refresh-theme
+**Branch:** refresh/channel_classification_methods
+**By:** Codex (GPT-5)
+
+Created `wiki/methods/channel_classification.md` and kept the branch
+self-contained by carrying `rieder_2020`, `boesinger_et_al_2024`, and
+`zaitsev_clark_2025` plus the needed source-registry and
+claim-registry infrastructure on-branch before those ingest branches
+merge.
+
+Refresh note:
+
+- The new methods page treats channel classification as a stack:
+  access regime, discovery universe, representation, classifier, and
+  evaluation all need to be separated.
+- Rieder anchors the historical access regime, Boesinger provides the
+  embedding comparison, and Zaitsev/Clark provides the strongest
+  end-to-end discovery-plus-classification pipeline in the current
+  archive.
+- The page explicitly cross-references `ideology_estimation` rather
+  than collapsing channel classification into a one-dimensional
+  partisan measurement problem.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/channel_classification_methods?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20channel_classification_methods&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/channel_classification.md%60.%0A-%20Included%20%60rieder_2020%60%2C%20%60boesinger_et_al_2024%60%2C%20and%20%60zaitsev_clark_2025%60%20plus%20the%20needed%20source-registry%20and%20claim-registry%20infrastructure%20on-branch%20so%20the%20methods%20page%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Synthesized%20the%20method%20family%20around%20historical%20access%20regimes%2C%20embedding-based%20versus%20metadata/subscription-based%20classification%2C%20evaluation%20choices%2C%20and%20implications%20for%20the%20project%27s%20own%20pipeline.%0A%0A%23%23%20Sources%0A-%20rieder_2020%0A-%20boesinger_et_al_2024%0A-%20zaitsev_clark_2025%0A%0A%23%23%20Pages%0A-%20wiki/methods/channel_classification.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/sources/rieder_2020.md%0A-%20wiki/sources/boesinger_et_al_2024.md%0A-%20wiki/sources/zaitsev_clark_2025.md%0A-%20wiki/index.md%0A-%20ops/log.md

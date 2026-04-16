@@ -1144,3 +1144,95 @@ sources:
       - study3-media-system
     temporal_scope: "U.S. partisan-media videos and comments collected from January 1 to August 31, 2020"
     notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Strongest for the comment-layer version of the filter-bubble question rather than for direct recommendation effects."
+  - id: rieder_2020
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Mapping YouTube: A quantitative exploration of a platformed media system"
+    authors:
+      - "Rieder, Bernhard"
+      - "Coromina, Òscar"
+      - "Matamoros-Fernández, Ariadna"
+    year: 2020
+    venue: "First Monday 25(8)"
+    doi: "10.5210/fm.v25i8.10667"
+    canonical_format: mhtml
+    formats_available:
+      - mhtml
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/rieder_2020.md
+      - wiki/methods/channel_classification.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+      - governance-data-access
+    themes:
+      - descriptive-deficit
+      - governance-data-access
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Crawler ran November 26, 2019-January 8, 2020 and documents late-2019 YouTube data-access conditions."
+    notes: "Archived source is an `.mhtml` web capture rather than a PDF. Key methodological value is historical: the paper used public featured-channel links, public channel-subscription data, and `channels`/`playlistItems`/`videos` API access under a 50M-unit/day token that the authors say later became harder to obtain for new projects."
+  - id: boesinger_et_al_2024
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Tube2Vec: Social and Semantic Embeddings of YouTube Channels"
+    authors:
+      - "Boesinger, Léopaul"
+      - "Ribeiro, Manoel Horta"
+      - "Veselovsky, Veniamin"
+      - "West, Robert"
+    year: 2024
+    venue: "Proceedings of the Eighteenth International AAAI Conference on Web and Social Media"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/boesinger_et_al_2024.md
+      - wiki/methods/channel_classification.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Reddit traces from January 2010-August 2022 plus channel metadata and history-less recommendation captures gathered during the study"
+    notes: "Provides released embeddings for 44,000 English-language channels using Reddit sharing, metadata, and recommendation traces. Strongest as reusable classification infrastructure for large channels, not as a platform-wide or multilingual map."
+  - id: zaitsev_clark_2025
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Classifying YouTube Channels: Algorithmic Approach to Channel Mapping"
+    authors:
+      - "Zaitsev, Anna"
+      - "Clark, Sam"
+    year: 2025
+    venue: "First Monday 30(8)"
+    doi: "10.5210/fm.v30i8.13682"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/zaitsev_clark_2025.md
+      - wiki/methods/channel_classification.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Data collected in 2020 using then-visible public subscription pages, with yearly views examined from 2017-2020"
+    notes: "The prompt named 'Justin Clark', but the archived paper credits Sam Clark. Method is historically important because it depends on public commenter subscriptions that the paper says later became less visible."
