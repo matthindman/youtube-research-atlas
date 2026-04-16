@@ -7,9 +7,10 @@ temporal_scope: "Post-Partner-Program era; particularly post-2018"
 themes: [creator-economy]
 census_papers: [paper1-attention-economy]
 last_refreshed: 2026-04-16
-source_count: 7
+source_count: 8
 key_sources:
   - abou_el_komboz_et_al_2023
+  - kumar_2019
   - rieder_et_al_2023
   - verwiebe_et_al_2025
   - ormen_gregersen_2023_polymorphism
@@ -17,7 +18,7 @@ key_sources:
   - newman_et_al_2025
 split_candidates: []
 verification:
-  machine_extracted: 25
+  machine_extracted: 26
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -57,6 +58,11 @@ development. [🤖]
   marketplace curation, audience metrics, and visibility systems
   all shape which creators can convert attention into durable
   income. [🤖]
+- Kumar sharpens that governance point by arguing that the
+  Adpocalypse turned monetization classification into a form of
+  gatekeeping: advertiser-safety decisions affected not only revenue
+  but also the likely visibility and cultural viability of
+  controversial creators. [🤖]
 - The creator economy is institutionally heterogeneous. New media
   channels, legacy media, general-industry channels, and
   commentary-driven news creators occupy different niches rather
@@ -144,6 +150,7 @@ BrandConnect, memberships, and shopping integrations. [🤖]
 ## Sources Consulted
 
 - [[abou_el_komboz_et_al_2023]]
+- [[kumar_2019]]
 - [[rieder_et_al_2023]]
 - [[verwiebe_et_al_2025]]
 - [[ormen_gregersen_2023_polymorphism]]

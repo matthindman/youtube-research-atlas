@@ -1167,3 +1167,25 @@ claims:
       - wiki/sources/boesinger_et_al_2024.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
+  - id: claim_creator_economy_monetization_policy_functions_as_gatekeeping
+    text: "YouTube monetization and advertiser-safety policies can function as cultural gatekeeping by simultaneously shaping revenue eligibility, creator precarity, and likely visibility for controversial content."
+    claim_type: theoretical
+    evidence_strength: single-source
+    temporal_scope: "Adpocalypse-era policy changes from 2017 through 2019."
+    primary_sources:
+      - kumar_2019
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from a qualitative case study of the Adpocalypse and should be read as a mechanism claim about governance and incentives rather than a platform-wide causal estimate."
+    themes:
+      - creator-economy
+      - governance-data-access
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+      - study3-media-system
+    appears_in:
+      - wiki/sources/kumar_2019.md
+      - wiki/themes/creator_economy.md
+      - wiki/themes/governance_data_access.md
+    verification: machine_extracted
