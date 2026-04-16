@@ -2019,3 +2019,39 @@ Refresh note:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/channel_classification_methods?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20channel_classification_methods&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/channel_classification.md%60.%0A-%20Included%20%60rieder_2020%60%2C%20%60boesinger_et_al_2024%60%2C%20and%20%60zaitsev_clark_2025%60%20plus%20the%20needed%20source-registry%20and%20claim-registry%20infrastructure%20on-branch%20so%20the%20methods%20page%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Synthesized%20the%20method%20family%20around%20historical%20access%20regimes%2C%20embedding-based%20versus%20metadata/subscription-based%20classification%2C%20evaluation%20choices%2C%20and%20implications%20for%20the%20project%27s%20own%20pipeline.%0A%0A%23%23%20Sources%0A-%20rieder_2020%0A-%20boesinger_et_al_2024%0A-%20zaitsev_clark_2025%0A%0A%23%23%20Pages%0A-%20wiki/methods/channel_classification.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/sources/rieder_2020.md%0A-%20wiki/sources/boesinger_et_al_2024.md%0A-%20wiki/sources/zaitsev_clark_2025.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest violot_et_al_2024
+**Operation:** ingest-source
+**Branch:** ingest/violot_et_al_2024
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/violot_et_al_2024.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived paper is the peer-reviewed WEBSCI '24 version
+  with DOI `10.1145/3614419.3644023`.
+- Confirmed the main sample covers 70,712 channels, 9,883,770 Shorts,
+  and 6,862,321 regular videos from January 2021 through December
+  2022.
+- Added one new cross-cutting claim on Shorts reshaping both supply and
+  engagement patterns, making regular-video-only description
+  increasingly incomplete.
+
+Tier decision:
+
+- Assigned `primary_empirical` because this is a peer-reviewed
+  conference paper with original large-scale data collection and
+  analysis.
+
+Human attention requested:
+
+- The public API's lack of a native Shorts label is itself a
+  methodological finding and should matter for later methods writing.
+- The sample is restricted to channels that posted at least one Short,
+  so it is best read as a strong Shorts-era baseline rather than as a
+  random full-platform census.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/violot_et_al_2024?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20violot_et_al_2024&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/violot_et_al_2024.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20descriptive-theme%20notes%20showing%20that%20Shorts%20changed%20both%20upload%20behavior%20and%20engagement%20baselines%2C%20while%20remaining%20poorly%20exposed%20in%20the%20public%20API.%0A%0A%23%23%20Pages%0A-%20wiki/sources/violot_et_al_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/index.md%0A-%20ops/log.md

@@ -7,11 +7,11 @@ temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-16
-source_count: 8
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025]
+source_count: 9
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024]
 split_candidates: []
 verification:
-  machine_extracted: 34
+  machine_extracted: 36
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -144,6 +144,11 @@ evidence about the field and its platform-level claims as framing
   they focus on one national subsystem, one channel genre, and only a
   channel's top-performing videos, as in Reveilhac's French
   alternative-news mapping (Reveilhac 2024, pp. 3-6, 9). [🤖]
+- Format blind spots now matter too. Violot et al. show that Shorts
+  became a large and behaviorally distinct part of YouTube by 2021-
+  2022, which means descriptive work still centered on regular videos
+  can miss major shifts in both supply and engagement (Violot et al.
+  2024, pp. 1-4, 9-11). [🤖]
 
 ## Measures and Variables Used in the Literature
 
@@ -201,6 +206,10 @@ McGrady et al. 2025, p. 5). [🤖]
   attempts to connect platform baselines to public-affairs attention
   patterns (McGrady et al. 2023, pp. 4-7; Munger et al. 2025, pp. 2-4,
   8-10). [🤖]
+- The public API also remains weak on format classification: Violot et
+  al. had to infer Shorts through redirect behavior because Shorts are
+  not natively exposed as a stable public metadata field (Violot et
+  al. 2024, pp. 2-4). [🤖]
 - A future full refresh should integrate Ribeiro and West (2021) more
   systematically with the multilingual random-sample papers rather than
   leaving its English-centric infrastructure point as an incremental
@@ -216,6 +225,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[ribeiro_west_2021]]
 - [[reveilhac_2024]]
 - [[zaitsev_clark_2025]]
+- [[violot_et_al_2024]]
 
 ## Cross-References
 

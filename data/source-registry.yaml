@@ -1237,3 +1237,34 @@ sources:
       - study3-media-system
     temporal_scope: "Data collected in 2020 using then-visible public subscription pages, with yearly views examined from 2017-2020"
     notes: "The prompt named 'Justin Clark', but the archived paper credits Sam Clark. Method is historically important because it depends on public commenter subscriptions that the paper says later became less visible."
+  - id: violot_et_al_2024
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Shorts vs. Regular Videos on YouTube: A Comparative Analysis of User Engagement and Content Creation Trends"
+    authors:
+      - "Violot, Caroline"
+      - "Elmas, Tuğrulcan"
+      - "Bilogrevic, Igor"
+      - "Humbert, Mathias"
+    year: 2024
+    venue: "Proceedings of the 16th ACM Web Science Conference (WEBSCI '24)"
+    doi: "10.1145/3614419.3644023"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/violot_et_al_2024.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study10-shorts-vs-long-form
+    temporal_scope: "January 2021-December 2022 channel-level comparison across the first two years of YouTube Shorts"
+    notes: "The registry schema does not document a dedicated conference-paper type in the header comment, but other ingest work treats peer-reviewed proceedings papers as primary empirical sources. The paper is especially important because the public API does not natively label Shorts, forcing the authors to identify them via redirect behavior."

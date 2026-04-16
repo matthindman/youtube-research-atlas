@@ -1167,3 +1167,22 @@ claims:
       - wiki/sources/boesinger_et_al_2024.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
+  - id: claim_descriptive_deficit_shorts_reshape_supply_and_engagement_patterns
+    text: "Shorts have become a large, behaviorally distinct part of YouTube production and engagement, so descriptive work that ignores Shorts misses a major share of current platform activity."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "First two years of Shorts on YouTube, January 2021-December 2022."
+    primary_sources:
+      - violot_et_al_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from channels that posted at least one Short and from public metadata rather than from a full random platform sample."
+    themes:
+      - descriptive-deficit
+    census_papers:
+      - methods-companion
+      - study10-shorts-vs-long-form
+    appears_in:
+      - wiki/sources/violot_et_al_2024.md
+      - wiki/themes/descriptive_deficit.md
+    verification: machine_extracted
