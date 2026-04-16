@@ -448,15 +448,16 @@ claims:
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
   - id: claim_recommendation_radicalization_supply_demand_community
-    text: "The main risk from right-wing YouTube is better understood through creator-audience community formation and supply-demand dynamics than through a simple algorithmic rabbit-hole model."
+    text: "Exposure to right-wing or extremist YouTube is often better understood through creator-audience ties and demand-side pathways than through a simple algorithmic rabbit-hole model."
     claim_type: theoretical
-    evidence_strength: single-source
-    temporal_scope: "Right-wing YouTube through 2018, with framing current to 2022."
+    evidence_strength: multi-source
+    temporal_scope: "Pre-2019 right-wing ecosystem evidence supplemented by post-2019 behavioral evidence on subscriptions and external links."
     primary_sources:
       - munger_phillips_2022
-    supporting_sources: []
+    supporting_sources:
+      - chen_et_al_2023
     conflicting_sources: []
-    scope_conditions: "The argument is grounded in a right-wing subsystem and descriptive trend analysis rather than a platform-wide causal audit."
+    scope_conditions: "Current support combines a pre-2019 right-wing ecosystem account with post-2019 evidence that subscriptions and external referrers help structure extremist exposure."
     themes:
       - recommendation-radicalization
       - creator-economy
@@ -467,6 +468,7 @@ claims:
       - study3-media-system
     appears_in:
       - wiki/sources/munger_phillips_2022.md
+      - wiki/sources/chen_et_al_2023.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
   - id: claim_recommendation_radicalization_far_right_pre2019_peak
@@ -487,5 +489,24 @@ claims:
       - study3-media-system
     appears_in:
       - wiki/sources/munger_phillips_2022.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
+  - id: claim_recommendation_radicalization_nonalgorithmic_exposure_paths
+    text: "In post-2019 U.S. data, subscriptions and external links are major pathways to alternative or extremist YouTube exposure, while unsolicited recommendation-driven rabbit holes are comparatively rare."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "July-December 2020 U.S. browser-tracking and survey study."
+    primary_sources:
+      - chen_et_al_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from weighted browser-tracking data on U.S. desktop browsers and should be treated as a lower-bound estimate of recommendation-driven rabbit holes."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/chen_et_al_2023.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted

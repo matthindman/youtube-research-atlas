@@ -736,3 +736,48 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...method/recommendation_audit?quick_pull=1&title=%5Bscaffold%5D%20Create%20recommendation_audit%20method%20page&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/recommendation_audit.md%60.%0A-%20Added%20the%20new%20method%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-15 — Ingest chen_et_al_2023
+**Operation:** ingest-source
+**Branch:** ingest/chen_et_al_2023
+**By:** Codex (GPT-5)
+
+Ingested `chen_et_al_2023` via the `ingest-from-review` workflow.
+Created `wiki/sources/chen_et_al_2023.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`, and
+`wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced between the literature review
+  and the article. The review's emphasis on concentrated exposure
+  among resentful users, subscriptions and external links as the
+  main pathways, and the rarity of unsolicited recommendation-led
+  rabbit holes matches the article (pp. 1-2, 6-9).
+- The original paper is sharper than the review about the "lower
+  bound" status of its rabbit-hole estimates and about the role of
+  subscription status in structuring what recommendations are shown
+  and followed (pp. 2, 6-9, 11).
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` and `journal_article`.
+- Reused the existing `recommendation-radicalization` theme tag; no
+  taxonomy addition was needed.
+- Updated the existing supply-demand claim rather than creating a
+  duplicate because Chen directly strengthens the argument that
+  demand-side pathways matter more than a simple recommendation
+  rabbit-hole story.
+
+Claims not fully verifiable from this source alone:
+
+- The sample is weighted but not fully representative and excludes
+  mobile consumption plus browsers outside Chrome and Firefox.
+- The authors explicitly treat the rabbit-hole estimates as lower
+  bounds, not complete measures of all harmful exposure.
+- The evidence is U.S.-only and depends on channel-level
+  classifications plus inferred subscriptions.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/chen_et_al_2023?quick_pull=1&title=%5Bingest-from-review%5D%20Chen%20et%20al.%202023%20%28Subscriptions%20and%20External%20Links%29&body=%23%23%20Summary%0A-%20Ingested%20%60chen_et_al_2023%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/chen_et_al_2023.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
