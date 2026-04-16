@@ -409,3 +409,41 @@ claims:
       - wiki/sources/lai_et_al_2024.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_congeniality_without_extremization
+    text: "In post-2019 audits, YouTube recommendations to partisan users are ideologically congenial, but recommendation trails do not show large increases in ideological extremity."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Post-2019 recommendation regime audited circa 2022."
+    primary_sources:
+      - haroon_et_al_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Sock-puppet audit isolates algorithmic recommendations better than browsing-history studies but does not observe real-user clicking, search, or subscription behavior."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/haroon_et_al_2023.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
+  - id: claim_recommendation_radicalization_problematic_low_rate_nontrivial_reach
+    text: "Problematic-channel recommendations can remain a low share of total recommendations while still reaching a substantial minority of users."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Post-2019 recommendation regime audited circa 2022."
+    primary_sources:
+      - haroon_et_al_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from prior problematic-channel lists and up-next trails rather than from measured long-term outcomes."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/haroon_et_al_2023.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted

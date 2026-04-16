@@ -549,6 +549,23 @@ Literature-review cross-check note:
 - Minor metadata discrepancy: the literature review section header
   labels this source "(2022)," but the full citation and published
   article are 2024.
+## 2026-04-15 — Ingest haroon_et_al_2023
+**Operation:** ingest-source
+**Branch:** ingest/haroon_et_al_2023
+**By:** Codex (GPT-5)
+
+Ingested `haroon_et_al_2023` via the `ingest-from-review`
+workflow. Created `wiki/sources/haroon_et_al_2023.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`, and
+`wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review's emphasis on
+  100,000 trained sock puppets, congenial recommendations, limited
+  extremization, and low-rate/high-reach problematic exposure
+  matches the article (pp. 1-8).
 
 Tier and taxonomy decisions:
 
@@ -570,3 +587,17 @@ Claims not fully verifiable from this source alone:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/lai_et_al_2024?quick_pull=1&title=%5Bingest-from-review%5D%20Lai%20et%20al.%202024%20%28Estimating%20the%20Ideology%20of%20Political%20YouTube%20Videos%29&body=%23%23%20Summary%0A-%20Ingested%20%60lai_et_al_2024%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/lai_et_al_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+Claims not fully verifiable from this source alone:
+
+- The audit does not observe what real users click, search for, or
+  ignore after seeing recommendations.
+- The main text is clear that the evidence is post-2019, but it does
+  not foreground an exact collection window with the same clarity.
+- The problematic-channel share depends on prior labeled lists and
+  likely understates exposure deeper in the trail where more channels
+  are uncategorized.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/haroon_et_al_2023?quick_pull=1&title=%5Bingest-from-review%5D%20Haroon%20et%20al.%202023%20%28Auditing%20YouTube%27s%20Recommendation%20System%29&body=%23%23%20Summary%0A-%20Ingested%20%60haroon_et_al_2023%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/haroon_et_al_2023.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
