@@ -556,6 +556,27 @@ claims:
       - wiki/themes/recommendation_radicalization.md
       - wiki/themes/news_ecosystem.md
     verification: machine_extracted
+  - id: claim_news_ecosystem_alternative_news_clustered_overlap_france
+    text: "A 2023 study of French alternative news on YouTube identifies five channel clusters with notable audience overlap, especially between satire-entertainment, alternative, and re-information channels."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "French alternative news channels active in 2023."
+    primary_sources:
+      - reveilhac_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The finding is based on 50 French alternative news channels, their top-viewed 2023 videos, and commenter overlap as a proxy for audience attention; it is not a platform-wide estimate."
+    themes:
+      - news-ecosystem
+      - descriptive-deficit
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/reveilhac_2024.md
+      - wiki/themes/news_ecosystem.md
+      - wiki/themes/descriptive_deficit.md
+    verification: machine_extracted
   - id: claim_recommendation_radicalization_video_level_ideology_estimation
     text: "Cross-platform linking patterns plus text metadata can produce scalable video-level ideology estimates for political YouTube videos."
     claim_type: methodological
