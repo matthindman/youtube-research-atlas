@@ -102,3 +102,4 @@ executive synthesis.
 - `data/claim-registry.yaml` — cross-cutting claims
 - `data/project-taxonomy.yaml` — controlled vocabulary
 - [[ofcom_2025]] — UK regulatory industry baseline showing very high YouTube reach and time spent among adults and children in 2025
+- [[pew_2025]] — U.S. baseline showing YouTube still leads the adult platform landscape in 2025 adoption and daily use

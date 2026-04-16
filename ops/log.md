@@ -2416,3 +2416,35 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ofcom_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20ofcom_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/ofcom_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20theme%20notes%20using%20Ofcom%27s%20UK-only%20audience%20baselines%20to%20underscore%20YouTube%27s%20scale%20while%20keeping%20the%20non-peer-reviewed%20evidence%20tier%20explicit.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ofcom_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest pew_2025
+**Operation:** ingest-source
+**Branch:** ingest/pew_2025
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/pew_2025.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+- Verified the archived report is Pew Research Center's *Americans'
+  Social Media Use 2025* by Jeffrey Gottfried and Eugenie Park.
+- Focused extraction on YouTube's U.S. adoption share, age and
+  demographic patterns, and the separate daily-use estimates rather
+  than summarizing the full methodology appendix.
+- Confirmed the report uses two 2025 surveys: the 5,022-adult NPORS
+  adoption survey and the 5,123-adult ATP daily-use survey.
+- Used the report as a U.S.-specific scale baseline only and kept the
+  non-peer-reviewed evidence tier explicit in the theme update.
+- Assigned `industry_report` because this is a descriptive research
+  report from Pew Research Center, useful for current platform-use
+  baselines but not for causal or mechanism claims.
+
+Human attention requested:
+
+- Pew explicitly warns that the 2023 mode shift complicates comparisons
+  with earlier phone-only waves, so any trend language beyond the
+  report's own wording should stay cautious.
+- Daily-use figures come from a different survey than the adoption
+  figures, so branch reviewers should keep those two measurement frames
+  conceptually separate.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/pew_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20pew_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/pew_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20descriptive-theme%20note%20using%20Pew%27s%20U.S.-specific%20adoption%20and%20daily-use%20baselines%20while%20keeping%20the%20non-peer-reviewed%20evidence%20tier%20explicit.%0A%0A%23%23%20Pages%0A-%20wiki/sources/pew_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/index.md%0A-%20ops/log.md

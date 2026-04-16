@@ -1550,3 +1550,33 @@ sources:
   temporal_scope: UK adult platform metrics for May 2025 plus child passive-measurement windows from November 2024-March 2025
   notes: UK-specific regulatory industry report useful for usage baselines, device splits, and child-platform reach. It does not isolate Shorts as a separate measurement layer and cannot support causal
     or global claims.
+- id: pew_2025
+  type: industry_report
+  evidence_tier: industry_report
+  title: Americans' Social Media Use 2025
+  authors:
+  - Gottfried, Jeffrey
+  - Park, Eugenie
+  year: 2025
+  venue: Pew Research Center
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/pew_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: U.S. adult platform-use survey fielded February 5-June 18, 2025 plus daily-use survey fielded February 24-March 2, 2025
+  notes: U.S.-specific Pew baseline on platform adoption and daily use. Valuable for national scale and demographic comparisons, but not for content, exposure, or causal claims. The report cautions that
+    the 2023 survey-mode shift complicates longer-run trend comparisons.
