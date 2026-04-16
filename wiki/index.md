@@ -65,6 +65,7 @@ executive synthesis.
 - [[faddoul_et_al_2020]] — longitudinal audit showing reduced but persistent conspiracy promotion across the 2019 demotion period
 - [[ribeiro_veselovsky_west_2023]] — model-based explanation for why audit-style amplification and real-user consumption findings can diverge
 - [[huang_yang_2024]] — audit evidence that Up Next recommendations redirect viewers from news toward entertainment
+- [[reveilhac_2024]] — French alternative-news mapping showing clustered channel types and overlapping commenter publics
 
 ## Paper dossiers
 

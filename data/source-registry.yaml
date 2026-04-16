@@ -1051,3 +1051,34 @@ sources:
       - paper1-attention-economy
     temporal_scope: "User-independent Up Next recommendation dyads collected in 2019 and reanalyzed as a category-transition system"
     notes: "Important bridge between recommendation and news themes. Strongest on nonpersonalized category-level recommendation structure, especially entertainment bias and news-to-entertainment redirection, not on actual logged-in user behavior."
+  - id: reveilhac_2024
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "YouTube as an Information Source on Politics and Current Affairs: Supply- and Demand-Side Perspectives"
+    authors:
+      - "Reveilhac, Maud"
+    year: 2024
+    venue: "First Monday 29(7)"
+    doi: "10.5210/fm.v29i7.13633"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/reveilhac_2024.md
+      - wiki/themes/news_ecosystem.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - news-ecosystem
+      - descriptive-deficit
+    themes:
+      - news-ecosystem
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "French alternative news channels active in 2023, with top-viewed 2023 videos used for supply and audience-overlap analysis"
+    notes: "Country-bounded descriptive study of a French alternative-news subsystem. Valuable for the news theme and as a reminder that much descriptive work remains niche-, language-, and country-specific rather than platform-wide."
