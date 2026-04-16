@@ -2330,3 +2330,43 @@ Refresh notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/recommendation_radicalization?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20recommendation_radicalization&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/recommendation_radicalization.md%60%20plus%20%60wiki/debates/rabbit_hole_debate.md%60%2C%20%60wiki/debates/filter_bubble_evidence.md%60%2C%20and%20%60wiki/debates/pre_2019_vs_post_2019_algorithm.md%60.%0A-%20Included%20%60lewis_2018%60%2C%20%60hosseinmardi_et_al_2021%60%2C%20%60hussein_et_al_2020%60%2C%20and%20%60lee_et_al_2022%60%20plus%20the%20needed%20source-registry%2C%20claim-registry%2C%20and%20index%20infrastructure%20on-branch%20so%20the%20refresh%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Reframed%20the%20recommendation%20corpus%20around%20pre-2019%20ecosystem%20formation%2C%20search%20and%20recommendation%20interface%20differences%2C%20late-2010s%20real-user%20behavior%2C%20and%20thinner%20post-2021%20intervention%20evidence.%0A%0A%23%23%20Sources%0A-%20lewis_2018%0A-%20hosseinmardi_et_al_2021%0A-%20hussein_et_al_2020%0A-%20lee_et_al_2022%0A%0A%23%23%20Pages%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/debates/rabbit_hole_debate.md%0A-%20wiki/debates/filter_bubble_evidence.md%0A-%20wiki/debates/pre_2019_vs_post_2019_algorithm.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/sources/lewis_2018.md%0A-%20wiki/sources/hosseinmardi_et_al_2021.md%0A-%20wiki/sources/hussein_et_al_2020.md%0A-%20wiki/sources/lee_et_al_2022.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest simonet_2013
+**Operation:** ingest-source
+**Branch:** ingest/simonet_2013
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/simonet_2013.md` and updated the channel-
+classification methods page, registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived paper is Vincent Simonet's WWW 2013 Companion
+  paper "Classifying YouTube Channels: a Practical System," describing
+  a deployed internal YouTube classification pipeline rather than an
+  external audit or later public-data method.
+- Confirmed the three-step pipeline runs from videos to semantic
+  entities, entities to taxonomy categories, and channels to taxonomy
+  categories, with product metrics reported for both entity and channel
+  classification.
+- Confirmed the reported metrics: 74.4% classified entities, 86.3%
+  subscription-weighted entity coverage, 95.1% relevant entity
+  classifications, 95.7% relevant channel classifications, about 70.0%
+  audience coverage, and an around-100% increase in channels-browser
+  subscription rate after launch.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical` because this is a peer-reviewed WWW
+  Companion conference paper with original system design, deployment,
+  and evaluation evidence.
+- Tagged it under `descriptive-deficit` in the registry because the
+  current controlled vocabulary has no method-page theme slug for
+  channel classification; the main synthesis target on this branch is
+  `wiki/methods/channel_classification.md`.
+- The registry's `type` field lacks a dedicated conference-paper value,
+  so the source is slotted into `journal_article`. Human review may
+  want to decide whether that schema should be expanded.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/simonet_2013?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20simonet_2013&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/simonet_2013.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20historical%20methods%20baseline%20for%20YouTube%27s%20internal%20three-step%20channel-taxonomy%20pipeline%2C%20its%20platform-internal%20data%20dependencies%2C%20and%20its%20reported%20precision%2Fcoverage%20metrics.%0A%0A%23%23%20Pages%0A-%20wiki/sources/simonet_2013.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md

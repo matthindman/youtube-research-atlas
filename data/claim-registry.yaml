@@ -1327,3 +1327,22 @@ claims:
       - wiki/themes/recommendation_radicalization.md
       - wiki/themes/news_ecosystem.md
     verification: machine_extracted
+  - id: claim_descriptive_deficit_historical_internal_channel_taxonomy_pipeline
+    text: "Early-2010s YouTube internally classified channels by mapping videos to semantic entities, entities to taxonomy categories, and then aggregating those signals to channels at platform scale."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "Historical internal system described in 2013 and deployed on the whole YouTube corpus in eight languages."
+    primary_sources:
+      - simonet_2013
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "This is evidence about a historical platform-internal classification pipeline and its product metrics, not a description of current YouTube taxonomy systems or a directly reproducible public method."
+    themes:
+      - descriptive-deficit
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/simonet_2013.md
+      - wiki/methods/channel_classification.md
+    verification: machine_extracted
