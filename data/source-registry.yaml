@@ -969,6 +969,26 @@ sources:
       - "Farid, Hany"
     year: 2020
     venue: "arXiv preprint arXiv:2003.03318"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/faddoul_et_al_2020.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Default U.S. watch-next recommendations collected daily from October 2018 through February 2020"
+    notes: "Longitudinal nonpersonalized audit spanning the January 2019 borderline-content intervention. Strong for regime-change discussion, but limited to default watch-next recommendations from an informational-channel root set rather than the full platform or personalized user sessions."
   - id: ribeiro_veselovsky_west_2023
     type: journal_article
     evidence_tier: primary_empirical
@@ -999,3 +1019,35 @@ sources:
       - study3-media-system
     temporal_scope: "A stylized agent-based model published in 2023; motivated by pre-2023 YouTube audit and navigation-log findings rather than tied to a single observation window"
     notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. The paper is theoretical rather than observational, but important for interpreting why audit-style recommendation studies and real-user trace studies can diverge."
+  - id: huang_yang_2024
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Auditing Entertainment Traps on YouTube: How Do Recommendation Algorithms Pull Users Away from News?"
+    authors:
+      - "Huang, Haoming"
+      - "Yang, Tian"
+    year: 2024
+    venue: "Digital Journalism 12(10): 1367-1389"
+    doi: "10.1080/10584609.2024.2343769"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/huang_yang_2024.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/themes/news_ecosystem.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+      - news-ecosystem
+    themes:
+      - recommendation-radicalization
+      - news-ecosystem
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+    temporal_scope: "User-independent Up Next recommendation dyads collected in 2019 and reanalyzed as a category-transition system"
+    notes: "Important bridge between recommendation and news themes. Strongest on nonpersonalized category-level recommendation structure, especially entertainment bias and news-to-entertainment redirection, not on actual logged-in user behavior."
