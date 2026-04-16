@@ -1082,3 +1082,33 @@ sources:
       - study3-media-system
     temporal_scope: "French alternative news channels active in 2023, with top-viewed 2023 videos used for supply and audience-overlap analysis"
     notes: "Country-bounded descriptive study of a French alternative-news subsystem. Valuable for the news theme and as a reminder that much descriptive work remains niche-, language-, and country-specific rather than platform-wide."
+  - id: abou_el_komboz_et_al_2023
+    type: working_paper
+    evidence_tier: primary_empirical
+    title: "Platform Partnership Programs and Content Supply: Evidence from the YouTube 'Adpocalypse'"
+    authors:
+      - "Abou El-Komboz, Lena"
+      - "Kerkhof, Anna"
+      - "Loh, Johannes"
+    year: 2023
+    venue: "CESifo Working Paper No. 10363; prompt cites later Information Economics and Policy publication"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/abou_el_komboz_et_al_2023.md
+      - wiki/themes/creator_economy.md
+      - wiki/index.md
+    tags:
+      - creator-economy
+    themes:
+      - creator-economy
+    census_relevance: high
+    census_papers:
+      - paper1-attention-economy
+      - paper2-mobility
+    temporal_scope: "German YouTube creators observed around the February 2018 YPP eligibility shock, with six-month pre/post outcomes and a follow-up API snapshot in 2020"
+    notes: "Best current causal estimate in the archive for how YouTube monetization policy changes affect creator behavior. The archived source is a working paper, but the design and findings are original empirical research."

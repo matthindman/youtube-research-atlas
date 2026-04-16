@@ -66,6 +66,7 @@ executive synthesis.
 - [[ribeiro_veselovsky_west_2023]] — model-based explanation for why audit-style amplification and real-user consumption findings can diverge
 - [[huang_yang_2024]] — audit evidence that Up Next recommendations redirect viewers from news toward entertainment
 - [[reveilhac_2024]] — French alternative-news mapping showing clustered channel types and overlapping commenter publics
+- [[abou_el_komboz_et_al_2023]] — causal evidence that losing YPP access reduced output, quality, and diversity among small creators
 
 ## Paper dossiers
 

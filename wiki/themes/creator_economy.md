@@ -6,9 +6,10 @@ status: machine-draft
 temporal_scope: "Post-Partner-Program era; particularly post-2018"
 themes: [creator-economy]
 census_papers: [paper1-attention-economy]
-last_refreshed: 2026-04-15
-source_count: 6
+last_refreshed: 2026-04-16
+source_count: 7
 key_sources:
+  - abou_el_komboz_et_al_2023
   - rieder_et_al_2023
   - verwiebe_et_al_2025
   - ormen_gregersen_2023_polymorphism
@@ -16,7 +17,7 @@ key_sources:
   - newman_et_al_2025
 split_candidates: []
 verification:
-  machine_extracted: 24
+  machine_extracted: 25
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -42,6 +43,12 @@ development. [🤖]
   shows severe concentration of views among elite channels, and
   Verwiebe finds similarly extreme concentration of earnings among
   monetized creators. [🤖]
+- Monetization rules do not just sort creators into winners and
+  losers after the fact; they also causally shape subsequent content
+  supply. Abou El-Komboz, Kerkhof, and Loh find that losing YPP
+  access after the 2018 Adpocalypse-era rule change reduced upload
+  frequency and lowered both content quality and diversity for
+  creators near the cutoff. [🤖]
 - Creators rarely rely on a single monetization pathway.
   Cross-platform linking, memberships, marketplaces, digital
   tipping, and other hybrid strategies recur across the evidence
@@ -76,6 +83,7 @@ income outcomes. [🤖]
 
 | Claim | Source | Evidence | Strength | Period | Verified |
 |-------|--------|----------|----------|--------|----------|
+| Losing YPP access after the 2018 rule change reduced upload frequency, quality, and diversity among small creators near the threshold. | Abou El-Komboz et al. 2023 | Regression discontinuity around the 1,000-subscriber cutoff for German creators | single-source | 2017-2018 shock with 2020 follow-up | [🤖] |
 | Views are concentrated at the top and most elite creators remain on an aspirational curve with limited payoff. | Rieder et al. 2023 | Near-complete elite-channel dataset plus large-scale link analysis | single-source | channel histories through 2019 | [🤖] |
 | Earnings among monetized creators are highly unequal and largely driven by platform-side performance variables. | Verwiebe et al. 2025 | Full DACH monetized-channel population plus coded random subsample | single-source | 2022-2023 | [🤖] |
 | Creator strategies diversify rather than converge, and organizational identity mediates monetization choices. | Ørmen and Gregersen 2023 (Polymorphism) | Purposive channel sample plus case-based qualitative typology | single-source | 2019 snapshot | [🤖] |
@@ -135,6 +143,7 @@ BrandConnect, memberships, and shopping integrations. [🤖]
 
 ## Sources Consulted
 
+- [[abou_el_komboz_et_al_2023]]
 - [[rieder_et_al_2023]]
 - [[verwiebe_et_al_2025]]
 - [[ormen_gregersen_2023_polymorphism]]
