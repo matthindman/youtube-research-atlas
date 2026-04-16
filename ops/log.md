@@ -736,3 +736,37 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...method/recommendation_audit?quick_pull=1&title=%5Bscaffold%5D%20Create%20recommendation_audit%20method%20page&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/recommendation_audit.md%60.%0A-%20Added%20the%20new%20method%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-15 — Create rabbit_hole_debate
+**Operation:** debate-page
+**Branch:** debate/rabbit_hole_debate
+**By:** Codex (GPT-5)
+
+Created `wiki/debates/rabbit_hole_debate.md` and updated
+`wiki/index.md` so the new debate page is visible from the atlas
+catalog.
+
+Key synthesis decisions:
+
+- Positioned Haroon and Brown as the strongest remaining evidence
+  that recommendation systems can still create algorithmic risk, but
+  kept the page's center of gravity on the stronger post-2019
+  counter-position from Hosseinmardi, Chen, and Munger and Phillips.
+- Used Yesilada and Lewandowsky only for synthesis and methods
+  diagnosis on Position B, not as a substitute for missing primary
+  evidence about specific pathways.
+- Treated temporal scoping as load-bearing: the page distinguishes
+  pre-2019 ecosystem evidence from post-2019 audit and real-user
+  evidence at the outset rather than burying that difference in
+  caveats.
+
+Human attention requested:
+
+- The debate template did not specify whether a secondary review
+  source could appear in a position table. I included
+  `yesilada_lewandowsky_2022` only for the review-level claim about
+  field heterogeneity and mixed older findings, not for a fresh
+  empirical pathway claim.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...debate/rabbit_hole_debate?quick_pull=1&title=%5Bdebate-page%5D%20Create%20rabbit_hole_debate&body=%23%23%20Summary%0A-%20Created%20%60wiki/debates/rabbit_hole_debate.md%60.%0A-%20Split%20the%20rabbit-hole%20question%20away%20from%20the%20theme%20page%20and%20organized%20the%20evidence%20into%20algorithmic-risk%20versus%20alternative-pathway%20positions.%0A-%20Added%20the%20new%20debate%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/debates/rabbit_hole_debate.md%0A-%20wiki/index.md%0A-%20ops/log.md
