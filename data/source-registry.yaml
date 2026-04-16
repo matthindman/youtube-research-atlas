@@ -1420,3 +1420,34 @@ sources:
       - paper1-attention-economy
     temporal_scope: "Platform analysis current to the late-2010s / early-2019 YouTube regime, before Shorts"
     notes: "Assigned `primary_empirical` because the paper is a peer-reviewed original platform analysis rather than a review essay. It is strongest as an account of how YouTube's visible metric regime structures legibility, ranking, and monetization."
+  - id: violot_et_al_2024
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Shorts vs. Regular Videos on YouTube: A Comparative Analysis of User Engagement and Content Creation Trends"
+    authors:
+      - "Violot, Caroline"
+      - "Elmas, Tuğrulcan"
+      - "Bilogrevic, Igor"
+      - "Humbert, Mathias"
+    year: 2024
+    venue: "Proceedings of the 16th ACM Web Science Conference (WEBSCI '24)"
+    doi: "10.1145/3614419.3644023"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/violot_et_al_2024.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study10-shorts-vs-long-form
+    temporal_scope: "January 2021-December 2022 channel-level comparison across the first two years of YouTube Shorts"
+    notes: "The registry schema does not document a dedicated conference-paper type in the header comment, but other ingest work treats peer-reviewed proceedings papers as primary empirical sources. The paper is especially important because the public API does not natively label Shorts, forcing the authors to identify them via redirect behavior."

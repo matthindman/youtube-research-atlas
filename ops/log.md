@@ -2230,3 +2230,39 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/van_es_2020?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20van_es_2020&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/van_es_2020.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20descriptive-theme%20notes%20showing%20that%20YouTube%27s%20visible%20metrics%20already%20encode%20what%20becomes%20measurable%20and%20valuable%20on%20the%20platform.%0A%0A%23%23%20Pages%0A-%20wiki/sources/van_es_2020.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest violot_et_al_2024
+**Operation:** ingest-source
+**Branch:** ingest/violot_et_al_2024
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/violot_et_al_2024.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived paper is the peer-reviewed WEBSCI '24 version
+  with DOI `10.1145/3614419.3644023`.
+- Confirmed the main sample covers 70,712 channels, 9,883,770 Shorts,
+  and 6,862,321 regular videos from January 2021 through December
+  2022.
+- Added one new cross-cutting claim on Shorts reshaping both supply and
+  engagement patterns, making regular-video-only description
+  increasingly incomplete.
+
+Tier decision:
+
+- Assigned `primary_empirical` because this is a peer-reviewed
+  conference paper with original large-scale data collection and
+  analysis.
+
+Human attention requested:
+
+- The public API's lack of a native Shorts label is itself a
+  methodological finding and should matter for later methods writing.
+- The sample is restricted to channels that posted at least one Short,
+  so it is best read as a strong Shorts-era baseline rather than as a
+  random full-platform census.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/violot_et_al_2024?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20violot_et_al_2024&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/violot_et_al_2024.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20descriptive-theme%20notes%20showing%20that%20Shorts%20changed%20both%20upload%20behavior%20and%20engagement%20baselines%2C%20while%20remaining%20poorly%20exposed%20in%20the%20public%20API.%0A%0A%23%23%20Pages%0A-%20wiki/sources/violot_et_al_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/index.md%0A-%20ops/log.md

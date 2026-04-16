@@ -86,6 +86,7 @@ executive synthesis.
 - [[chae_lee_2024]] — comment-classification study showing mainstream-news videos host more cross-cutting discussion than political-vlogger videos in a 2019 U.S. event window
 - [[kumar_2019]] — Adpocalypse case study arguing that monetization policy acted as algorithmic gatekeeping over creator revenue and visibility
 - [[van_es_2020]] — platform-studies analysis of how “the view” organizes visibility, monetization, and what becomes measurable on YouTube
+- [[violot_et_al_2024]] — first large-scale Shorts-versus-regular-video comparison showing Shorts changed both upload behavior and engagement baselines
 
 ## Paper dossiers
 

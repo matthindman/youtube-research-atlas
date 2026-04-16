@@ -8,7 +8,7 @@ themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-16
 source_count: 9
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, van_es_2020]
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024]
 split_candidates: []
 verification:
   machine_extracted: 36
@@ -53,12 +53,6 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   concentration of technical capacity in a small number of well-funded
   sites (Munger et al. 2025, pp. 3, 8; Norton and Shapiro 2024, pp.
   4-6). [🤖]
-- The platform's visible metrics are themselves part of the
-  descriptive problem. van Es argues that YouTube's view and watch-
-  time regime already encodes what counts as visible, valuable, and
-  measurable, which means researchers often inherit the platform's own
-  priorities when they use exposed traces as evidence (van Es 2020,
-  pp. 223-224, 232-236). [🤖]
 - English-language evidence cannot safely stand in for YouTube as a
   whole. The current multilingual random-sample evidence shows large
   enough cross-language differences to make generalization itself an
@@ -124,11 +118,6 @@ evidence about the field and its platform-level claims as framing
   or recommendation traces that are useful for focused analysis but
   cannot by themselves support platform-wide prevalence claims
   (McGrady et al. 2023, pp. 4-7). [🤖]
-- Metric inheritance is part of that problem: when exposed views,
-  watch time, or related engagement signals are treated as neutral
-  observational units, studies risk reproducing YouTube's own
-  operational logic instead of independently describing the platform
-  (van Es 2020, pp. 223-224, 232-236). [🤖]
 - Even very large studies can remain narrow in scope if they are built
   on political-channel universes or public-comment traces rather than
   on a representative platform frame (Munger 2024, pp. 33-34, 46-47;
@@ -155,6 +144,11 @@ evidence about the field and its platform-level claims as framing
   they focus on one national subsystem, one channel genre, and only a
   channel's top-performing videos, as in Reveilhac's French
   alternative-news mapping (Reveilhac 2024, pp. 3-6, 9). [🤖]
+- Format blind spots now matter too. Violot et al. show that Shorts
+  became a large and behaviorally distinct part of YouTube by 2021-
+  2022, which means descriptive work still centered on regular videos
+  can miss major shifts in both supply and engagement (Violot et al.
+  2024, pp. 1-4, 9-11). [🤖]
 
 ## Measures and Variables Used in the Literature
 
@@ -212,6 +206,10 @@ McGrady et al. 2025, p. 5). [🤖]
   attempts to connect platform baselines to public-affairs attention
   patterns (McGrady et al. 2023, pp. 4-7; Munger et al. 2025, pp. 2-4,
   8-10). [🤖]
+- The public API also remains weak on format classification: Violot et
+  al. had to infer Shorts through redirect behavior because Shorts are
+  not natively exposed as a stable public metadata field (Violot et
+  al. 2024, pp. 2-4). [🤖]
 - A future full refresh should integrate Ribeiro and West (2021) more
   systematically with the multilingual random-sample papers rather than
   leaving its English-centric infrastructure point as an incremental
@@ -227,7 +225,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[ribeiro_west_2021]]
 - [[reveilhac_2024]]
 - [[zaitsev_clark_2025]]
-- [[van_es_2020]]
+- [[violot_et_al_2024]]
 
 ## Cross-References
 
