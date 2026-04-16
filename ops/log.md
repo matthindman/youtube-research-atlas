@@ -685,3 +685,35 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/recommendation_radicalization?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20recommendation_radicalization&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/recommendation_radicalization.md%60%20from%20the%20Batch%203%20source%20cards.%0A-%20Explicitly%20separated%20pre-2019%2C%20post-2019%2C%20and%20post-2022%20evidence%20regimes.%0A-%20Proposed%20split%20candidates%20without%20creating%20debate%20pages%20in%20this%20PR.%0A%0A%23%23%20Sources%0A-%20munger_phillips_2022%0A-%20haroon_et_al_2023%0A-%20lai_et_al_2024%0A-%20munger_2024%0A%0A%23%23%20Pages%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20ops/log.md
+## 2026-04-15 — Create ideology_estimation method page
+**Operation:** scaffold
+**Branch:** method/ideology_estimation
+**By:** Codex (GPT-5)
+
+Created `wiki/methods/ideology_estimation.md` as the first
+atlas method page for ideology-scaling designs. The page treats
+`lai_et_al_2024` as the canonical exemplar and places
+`munger_2024` plus `munger_et_al_2025` in the "Where It Has Been
+Used" table to clarify how they rely on channel-level rather than
+video-level ideology choices.
+
+Structural choices:
+
+- Updated `wiki/index.md` on this branch so the new page is visible
+  from the atlas catalog, even though the parallel
+  `method/recommendation_audit` branch will make an overlapping
+  change.
+- Referenced Batch 3 source IDs that are not present on
+  `origin/main` yet because this branch correctly starts from
+  `origin/main` rather than stacking on the ingest branches.
+
+Human attention requested:
+
+- The method-page template does not specify whether pages should
+  restrict themselves to already-merged source cards. I chose to
+  reference the pushed Batch 3 source IDs directly and flag the merge-
+  order dependency here.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...method/ideology_estimation?quick_pull=1&title=%5Bscaffold%5D%20Create%20ideology_estimation%20method%20page&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/ideology_estimation.md%60.%0A-%20Added%20the%20new%20method%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/methods/ideology_estimation.md%0A-%20wiki/index.md%0A-%20ops/log.md
