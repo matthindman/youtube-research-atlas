@@ -898,3 +898,35 @@ sources:
       - study3-media-system
     temporal_scope: "Twitter/X information quality before and after the October 27, 2022 ownership transition, using January 2022-April 2023 data with access ending in May 2023"
     notes: "Comparative platform-governance evidence from Twitter/X rather than YouTube. Included for the governance theme because it shows how ownership and policy changes can affect information quality, while also foregrounding how access restrictions truncate follow-up analysis."
+  - id: huang_yang_2024
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Auditing Entertainment Traps on YouTube: How Do Recommendation Algorithms Pull Users Away from News?"
+    authors:
+      - "Huang, Haoming"
+      - "Yang, Tian"
+    year: 2024
+    venue: "Digital Journalism 12(10): 1367-1389"
+    doi: "10.1080/10584609.2024.2343769"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/huang_yang_2024.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/themes/news_ecosystem.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+      - news-ecosystem
+    themes:
+      - recommendation-radicalization
+      - news-ecosystem
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+    temporal_scope: "User-independent Up Next recommendation dyads collected in 2019 and reanalyzed as a category-transition system"
+    notes: "Important bridge between recommendation and news themes. Strongest on nonpersonalized category-level recommendation structure, especially entertainment bias and news-to-entertainment redirection, not on actual logged-in user behavior."
