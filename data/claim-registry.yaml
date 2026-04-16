@@ -162,6 +162,28 @@ claims:
       - wiki/sources/hallinan_et_al_2025.md
       - wiki/themes/governance_data_access.md
     verification: machine_extracted
+  - id: claim_cross_linguistic_english_centric_public_infrastructure
+    text: "Large public YouTube datasets can still be structurally English-centric, so dataset scale alone does not solve the platform's multilingual coverage problem."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "English-language dataset collected in 2019 covering uploads through October 2019."
+    primary_sources:
+      - ribeiro_west_2021
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from a large English-language metadata corpus; the claim concerns public research infrastructure rather than direct cross-language behavior on the platform."
+    themes:
+      - descriptive-deficit
+      - cross-linguistic-variation
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study5-cross-language
+    appears_in:
+      - wiki/sources/ribeiro_west_2021.md
+      - wiki/themes/cross_linguistic_variation.md
+      - wiki/themes/descriptive_deficit.md
+    verification: machine_extracted
   - id: claim_cross_linguistic_youtube_not_one_platform
     text: "Different linguistic communities use YouTube differently enough that English-language findings should not be assumed to generalize across the platform."
     claim_type: empirical-descriptive

@@ -1162,3 +1162,43 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hallinan_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hallinan_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hallinan_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%20plus%20the%20new%20Hallinan%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hallinan_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest ribeiro_west_2021
+**Operation:** ingest-source
+**Branch:** ingest/ribeiro_west_2021
+**By:** Codex (GPT-5)
+
+Ingested `ribeiro_west_2021` via the `ingest-source`
+workflow. Created `wiki/sources/ribeiro_west_2021.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/cross_linguistic_variation.md`,
+`wiki/themes/descriptive_deficit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- The review does not summarize this paper directly. No contradiction
+  was detectable because the review's cross-linguistic discussion is
+  built around the McGrady papers rather than around YouNiverse.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused the existing theme tags `cross-linguistic-variation` and
+  `descriptive-deficit`; no taxonomy additions proposed.
+- In the source registry, the paper is slotted into `journal_article`
+  because the current schema lacks a conference-paper type.
+
+Human attention requested:
+
+- This source is crucial mainly because it reveals an infrastructural
+  blind spot: a huge public YouTube dataset can still be English-only.
+  It should not be treated as direct multilingual evidence in the same
+  way as `mcgrady_2025`.
+- The `descriptive_deficit` page received only a minimal `[🤖]`
+  incremental update here. It should be fully re-refreshed in a future
+  batch if the English-centric infrastructure strand becomes more
+  central to the manuscript argument.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ribeiro_west_2021?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20ribeiro_west_2021&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/ribeiro_west_2021.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/cross_linguistic_variation.md%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Populated%20the%20cross-linguistic%20theme%20stub%20from%20%60mcgrady_2023%60%2C%20%60mcgrady_2025%60%2C%20and%20the%20new%20Ribeiro/West%20source%2C%20plus%20added%20a%20minimal%20descriptive-deficit%20note%20flagged%20for%20future%20refresh.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ribeiro_west_2021.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/cross_linguistic_variation.md%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/index.md%0A-%20ops/log.md
