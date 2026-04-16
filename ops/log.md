@@ -1178,6 +1178,20 @@ Literature-review cross-check note:
 - The review does not summarize this paper directly. No contradiction
   was detectable because the review's cross-linguistic discussion is
   built around the McGrady papers rather than around YouNiverse.
+## 2026-04-16 — Ingest hallinan_reynolds_2024
+**Operation:** ingest-source
+**Branch:** ingest/hallinan_reynolds_2024
+**By:** Codex (GPT-5)
+
+Ingested `hallinan_reynolds_2024` via the `ingest-source` workflow.
+Created `wiki/sources/hallinan_reynolds_2024.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/governance_data_access.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- This paper is not summarized directly in the internal literature
+  review, so the source card was rebuilt from the original article.
 
 Tier and taxonomy decisions:
 
@@ -1210,6 +1224,24 @@ Ingested `european_commission_2025` via the `ingest-from-review`
 workflow. Created `wiki/sources/european_commission_2025.md` and
 updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hallinan_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hallinan_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hallinan_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%20and%20%60wiki/index.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%20plus%20the%20new%20Hallinan%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hallinan_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+- Reused the existing theme tag `governance-data-access`; no taxonomy
+  additions proposed.
+- Updated the existing informal creator-accountability claim rather
+  than duplicating it, then added one new claim for horizontal versus
+  vertical callouts.
+
+Human attention requested:
+
+- The paper is strongest on how creators frame and route copyright
+  disputes in public, not on whether those public complaints change
+  policy outcomes inside YouTube.
+- This branch correctly starts from `origin/main`, so the governance
+  theme update is intentionally provisional and will conflict with
+  later Batch 5 governance ingests plus the parked refresh branch.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hallinan_reynolds_2024?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hallinan_reynolds_2024&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hallinan_reynolds_2024.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20distinguishing%20horizontal%20copyright%20callouts%20from%20vertical%20appeals%20toward%20platforms%20and%20rights%20holders.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hallinan_reynolds_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
 
 ## 2026-04-16 — Ingest reynolds_hallinan_2024
 **Operation:** ingest-source
@@ -1280,6 +1312,9 @@ Created `wiki/sources/hallinan_reynolds_2024.md` and updated
 - This paper is not summarized directly in the internal literature
   review. No contradiction was detectable because the review does not
   currently make any source-specific claims about it.
+- This paper is not summarized directly in the internal literature
+  review, so the source card was rebuilt from the original article
+  rather than from review scaffolding.
 
 Tier and taxonomy decisions:
 
@@ -1322,6 +1357,28 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/reynolds_hallinan_2024?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20reynolds_hallinan_2024&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/reynolds_hallinan_2024.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%2C%20%60hallinan_et_al_2025%60%2C%20and%20the%20new%20user-generated-accountability%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/reynolds_hallinan_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest marchal_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/marchal_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `marchal_et_al_2025` via the `ingest-source`
+workflow. Created `wiki/sources/marchal_et_al_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/governance_data_access.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- This paper is not summarized directly in the internal literature
+  review. No contradiction was detectable because the review does not
+  currently make any source-specific claims about it.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused the existing theme tag `governance-data-access`; no taxonomy
+  additions proposed.
 - Added one comparative claim about negative media pressure and public-
   facing policy change, keeping the claim text explicitly
   non-causal and non-YouTube-exclusive.
@@ -1339,6 +1396,28 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/marchal_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20marchal_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/marchal_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%2C%20%60hallinan_et_al_2025%60%2C%20and%20the%20new%20comparative%20media-pressure%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/marchal_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest ozturan_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/ozturan_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `ozturan_et_al_2025` via the `ingest-source`
+workflow. Created `wiki/sources/ozturan_et_al_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/governance_data_access.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- This paper is not summarized directly in the internal literature
+  review. No contradiction was detectable because the review does not
+  currently make any source-specific claims about it.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused the existing theme tag `governance-data-access`; no taxonomy
+  additions proposed.
 - Marked `census_relevance` as `low` because the study is comparative
   platform-governance evidence from Twitter/X rather than direct
   YouTube evidence.
@@ -1377,3 +1456,68 @@ Refresh note:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/cross_linguistic_variation?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20cross_linguistic_variation&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/cross_linguistic_variation.md%60%20from%20the%20three-source%20cross-linguistic%20corpus.%0A-%20Kept%20the%20branch%20self-contained%20by%20including%20%60ribeiro_west_2021%60%20and%20its%20registry%20infrastructure%20alongside%20the%20refreshed%20theme.%0A-%20Made%20the%20page%20explicit%20about%20evidence%20thinness%3A%20enough%20to%20reject%20English-first%20generalization%2C%20not%20enough%20for%20broad%20multilingual%20or%20cross-national%20manuscript%20claims.%0A%0A%23%23%20Sources%0A-%20mcgrady_2023%0A-%20mcgrady_2025%0A-%20ribeiro_west_2021%0A%0A%23%23%20Pages%0A-%20wiki/themes/cross_linguistic_variation.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest european_commission_2025
+**Operation:** ingest-source
+**Branch:** ingest/european_commission_2025
+**By:** Codex (GPT-5)
+
+Ingested `european_commission_2025` via the `ingest-from-review`
+workflow. Created `wiki/sources/european_commission_2025.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/governance_data_access.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review accurately captures
+  the document's core claims about the October 29, 2025 start date, the
+  role of Digital Services Coordinators, and the fact that the access
+  regime is new rather than evaluated.
+
+Tier and taxonomy decisions:
+
+- Assigned `platform_documentation`, not `policy_research`, because the
+  document announces policy and procedure but contains no original
+  analysis.
+- Reused the existing theme tag `governance-data-access`; no taxonomy
+  additions proposed.
+- Added one methodological claim for the formal DSA access mechanism and
+  kept its scope explicitly limited to policy facts rather than
+  implementation success.
+
+Human attention requested:
+
+- This source can support policy facts about the DSA access route, but
+  not evidence that the route materially improves YouTube research in
+  practice.
+- It also creates the clearest temporal breakpoint in the governance
+  theme so far: `October 29, 2025` now needs to be treated as a distinct
+  post-DSA access era.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/european_commission_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20european_commission_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/european_commission_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%2C%20%60hallinan_et_al_2025%60%2C%20and%20the%20new%20DSA%20access-policy%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/european_commission_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Refresh governance_data_access
+**Operation:** refresh-theme
+**Branch:** refresh/governance_data_access
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/governance_data_access.md` from the full
+seven-source governance corpus and kept the supporting source-card
+infrastructure on-branch so the refresh remains self-contained for
+verification before the ingest branches merge.
+
+Refresh note:
+
+- Temporal scoping remains explicit across the early-2020s opacity
+  regime, the 2015-2023 creator-accountability corpus, the 2022-2023
+  comparative governance-shift evidence, and the post-October-29-2025
+  DSA access regime.
+- The refreshed page now has enough material to support a real theme
+  synthesis, but it may eventually need splitting if creator
+  accountability and formal access / policy-response evidence continue
+  to accumulate separately.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/governance_data_access?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20governance_data_access&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/governance_data_access.md%60%20from%20the%20full%207-source%20governance%20corpus.%0A-%20Included%20the%20five%20new%20Batch%205%20governance%20source%20cards%20and%20their%20registry%20infrastructure%20on%20this%20branch%20so%20the%20refreshed%20theme%20remains%20self-contained%20for%20verification%20before%20those%20ingest%20branches%20merge.%0A-%20Kept%20temporal%20scoping%20explicit%20across%20the%20early-2020s%20opacity%20regime%2C%20the%202015-2023%20creator-accountability%20corpus%2C%20the%202022-2023%20comparative%20governance-shift%20evidence%2C%20and%20the%20post-October-29-2025%20DSA%20access%20regime.%0A%0A%23%23%20Sources%0A-%20norton_shapiro_2024%0A-%20hallinan_et_al_2025%0A-%20hallinan_reynolds_2024%0A-%20reynolds_hallinan_2024%0A-%20marchal_et_al_2025%0A-%20ozturan_et_al_2025%0A-%20european_commission_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/governance_data_access.md%0A-%20ops/log.md

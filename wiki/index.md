@@ -59,6 +59,7 @@ executive synthesis.
 - [[reynolds_hallinan_2024]] — creator publicity, signal boosting, and user-generated accountability on YouTube
 - [[marchal_et_al_2025]] — comparative evidence linking negative media scrutiny to platform policy change
 - [[ozturan_et_al_2025]] — comparative evidence that governance and ownership shifts can degrade information quality
+- [[european_commission_2025]] — official DSA announcement creating a post-2025 researcher-access route
 
 ## Paper dossiers
 
