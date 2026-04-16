@@ -26,7 +26,7 @@ executive synthesis.
 
 ## Debates
 
-_(none yet; created when theme pages need splitting)_
+- [[filter_bubble_evidence]] — whether ideological sorting on YouTube translates into meaningful polarization effects
 
 ## Source cards
 
