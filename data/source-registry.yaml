@@ -961,3 +961,35 @@ sources:
       - study3-media-system
     temporal_scope: "French alternative news channels active in 2023, with top-viewed 2023 videos used for supply and audience-overlap analysis"
     notes: "Country-bounded descriptive study of a French alternative-news subsystem. Valuable for the news theme and as a reminder that much descriptive work remains niche-, language-, and country-specific rather than platform-wide."
+  - id: wu_resnick_2021
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Cross-Partisan Discussions on YouTube: Conservatives Talk to Liberals but Liberals Don't Talk to Conservatives"
+    authors:
+      - "Wu, Siqi"
+      - "Resnick, Paul"
+    year: 2021
+    venue: "Proceedings of the Fifteenth International AAAI Conference on Web and Social Media (ICWSM 2021)"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/wu_resnick_2021.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/themes/news_ecosystem.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+      - news-ecosystem
+    themes:
+      - recommendation-radicalization
+      - news-ecosystem
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "U.S. partisan-media videos and comments collected from January 1 to August 31, 2020"
+    notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Strongest for the comment-layer version of the filter-bubble question rather than for direct recommendation effects."

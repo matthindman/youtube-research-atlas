@@ -577,6 +577,48 @@ claims:
       - wiki/themes/news_ecosystem.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_cross_partisan_commenting_common_asymmetric
+    text: "Among active commenters on U.S. partisan YouTube in 2020, cross-partisan commenting was common but sharply asymmetric, with conservatives much more likely than liberals to comment across ideological lines."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "U.S. partisan-media videos and comments from January-August 2020."
+    primary_sources:
+      - wu_resnick_2021
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The claim is about commenting behavior on partisan-media channels among active commenters, not about the full audience or about recommendation-driven exposure."
+    themes:
+      - recommendation-radicalization
+      - news-ecosystem
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/wu_resnick_2021.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/themes/news_ecosystem.md
+    verification: machine_extracted
+  - id: claim_recommendation_radicalization_cross_partisan_visibility_and_toxicity
+    text: "Cross-partisan comments on U.S. partisan YouTube were modestly less visible in top comment slots, and cross-partisan replies were more toxic than co-partisan replies, especially on the replier's home turf."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "U.S. partisan-media videos and comments from January-August 2020."
+    primary_sources:
+      - wu_resnick_2021
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The visibility result concerns the top-20 root comments shown by default, and the toxicity result uses Perspective API scores rather than human-coded deliberative quality."
+    themes:
+      - recommendation-radicalization
+      - news-ecosystem
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/wu_resnick_2021.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/themes/news_ecosystem.md
+    verification: machine_extracted
   - id: claim_recommendation_radicalization_video_level_ideology_estimation
     text: "Cross-platform linking patterns plus text metadata can produce scalable video-level ideology estimates for political YouTube videos."
     claim_type: methodological
