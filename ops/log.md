@@ -1162,3 +1162,37 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hallinan_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hallinan_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hallinan_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%20plus%20the%20new%20Hallinan%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hallinan_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest hallinan_reynolds_2024
+**Operation:** ingest-source
+**Branch:** ingest/hallinan_reynolds_2024
+**By:** Codex (GPT-5)
+
+Ingested `hallinan_reynolds_2024` via the `ingest-source` workflow.
+Created `wiki/sources/hallinan_reynolds_2024.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/governance_data_access.md`, and `wiki/index.md`.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused the existing theme tag `governance-data-access`; no taxonomy
+  additions proposed.
+- Updated the existing informal creator-accountability claim rather
+  than duplicating it, then added one new claim for horizontal versus
+  vertical callouts.
+
+Human attention requested:
+
+- The paper is strongest on how creators frame and route copyright
+  disputes in public, not on whether those public complaints change
+  policy outcomes inside YouTube.
+- This branch correctly starts from `origin/main`, so the governance
+  theme update is intentionally provisional and will conflict with
+  later Batch 5 governance ingests plus the parked refresh branch.
+- The source card cross-links to `reynolds_hallinan_2024`, which is a
+  planned Batch 5 ingest rather than a page currently on `main`.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hallinan_reynolds_2024?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hallinan_reynolds_2024&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hallinan_reynolds_2024.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20distinguishing%20horizontal%20copyright%20callouts%20from%20vertical%20appeals%20toward%20platforms%20and%20rights%20holders.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hallinan_reynolds_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
