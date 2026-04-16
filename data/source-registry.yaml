@@ -927,3 +927,35 @@ sources:
       - study3-media-system
     temporal_scope: "Anonymous-baseline recommendation audit and channel mapping conducted in 2019, with some aggregate view measures drawn from 2018 channel activity"
     notes: "Archived corpus copy is the December 2019 preprint submitted to First Monday, which matters for page citations and temporal interpretation. Strongest as a channel-level, nonpersonalized audit that argues recommendations mainstream rather than radicalize."
+  - id: ribeiro_et_al_2020
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Auditing Radicalization Pathways on YouTube"
+    authors:
+      - "Ribeiro, Manoel Horta"
+      - "Ottoni, Raphael"
+      - "West, Robert"
+      - "Almeida, Virgílio A. F."
+      - "Meira Jr., Wagner"
+    year: 2020
+    venue: "Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency; archived corpus PDF is the arXiv v4 version"
+    doi: "10.1145/3351095.3372879"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/ribeiro_et_al_2020.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Channel and comment histories through 2018 plus a nonpersonalized recommendation snapshot collected in May-July 2019"
+    notes: "Foundational pathway paper combining commenter migration with a recommendation audit. Important to keep the two temporal layers distinct: historical migration evidence versus a 2019 recommender snapshot."
