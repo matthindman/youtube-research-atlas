@@ -1536,6 +1536,13 @@ workflow. Created `wiki/sources/ledwich_zaitsev_2020.md`
 
 Ingested `ribeiro_et_al_2020` via the `ingest-source`
 workflow. Created `wiki/sources/ribeiro_et_al_2020.md`
+## 2026-04-16 — Ingest faddoul_et_al_2020
+**Operation:** ingest-source
+**Branch:** ingest/faddoul_et_al_2020
+**By:** Codex (GPT-5)
+
+Ingested `faddoul_et_al_2020` via the `ingest-source`
+workflow. Created `wiki/sources/faddoul_et_al_2020.md`
 and updated `data/source-registry.yaml`,
 `data/claim-registry.yaml`,
 `wiki/themes/recommendation_radicalization.md`,
@@ -1601,3 +1608,34 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ribeiro_et_al_2020?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20ribeiro_et_al_2020&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/ribeiro_et_al_2020.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20recommendation-theme%20note%20capturing%20commenter%20migration%20and%20channel-level%20Alt-right%20reachability.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ribeiro_et_al_2020.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
+- No internal literature-review memo currently isolates this
+  paper, so the cross-check was against the PDF itself rather
+  than against a preexisting project summary.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`; this is an original
+  longitudinal audit with a custom classifier and repeated
+  recommendation collection, even though the archived corpus
+  copy is an arXiv preprint rather than a journal article.
+- Reused the existing theme tag
+  `recommendation-radicalization`; no taxonomy additions
+  proposed.
+- Added two cross-cutting claims: one for the decline and
+  partial rebound of default conspiracy recommendations
+  across the 2019 policy shift, and one for the declining but
+  persistent conspiracy filter-bubble pattern in default
+  watch-next recommendations.
+
+Human attention requested:
+
+- Treat this as transition-period evidence only. The audit
+  spans October 2018 through February 2020 and should not be
+  generalized to the current recommender.
+- The study is nonpersonalized and rooted in popular
+  informational channels, so it captures default
+  discoverability rather than full logged-in user behavior.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/faddoul_et_al_2020?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20faddoul_et_al_2020&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/faddoul_et_al_2020.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20recommendation-theme%20note%20framing%20the%202019%20conspiracy-demotion%20period%20as%20a%20real%20but%20incomplete%20recommendation%20shift.%0A%0A%23%23%20Pages%0A-%20wiki/sources/faddoul_et_al_2020.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md

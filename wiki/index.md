@@ -62,6 +62,7 @@ executive synthesis.
 - [[european_commission_2025]] — official DSA announcement creating a post-2025 researcher-access route
 - [[ledwich_zaitsev_2020]] — anonymous 2019 audit arguing recommendations mainstream rather than escalate toward extremist fringe content
 - [[ribeiro_et_al_2020]] — large-scale pathway study showing commenter migration toward Alt-right channels and channel-recommendation reachability
+- [[faddoul_et_al_2020]] — longitudinal audit showing reduced but persistent conspiracy promotion across the 2019 demotion period
 
 ## Paper dossiers
 
