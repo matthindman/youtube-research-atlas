@@ -528,3 +528,45 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20the%20Batch%202%20source%20cards.%0A-%20Preserved%20tension%20between%20creator-led%20attention%20gains%20and%20the%20continued%20role%20of%20traditional%20news%20brands.%0A-%20Kept%20this%20branch%20limited%20to%20the%20theme%20page%20and%20ops%20log.%0A%0A%23%23%20Sources%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20ops/log.md
+
+## 2026-04-15 — Ingest lai_et_al_2024
+**Operation:** ingest-source
+**Branch:** ingest/lai_et_al_2024
+**By:** Codex (GPT-5)
+
+Ingested `lai_et_al_2024` via the `ingest-from-review` workflow.
+Created `wiki/sources/lai_et_al_2024.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced between the review summary and
+  the article. The review's emphasis on video-level scaling,
+  validation against human labels, ideological congruence in watch
+  histories, and higher engagement around ideological extremes
+  matches the original article (pp. 346-359).
+- Minor metadata discrepancy: the literature review section header
+  labels this source "(2022)," but the full citation and published
+  article are 2024.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` and `journal_article`.
+- Reused existing theme tag `recommendation-radicalization`; no
+  taxonomy addition proposed.
+- Registry notes explicitly record Josh Tucker's coauthorship as
+  collaborator-linked but external scholarship, matching the
+  existing `munger_et_al_2025` pattern.
+
+Claims not fully verifiable from this source alone:
+
+- The watch-history application is descriptive and does not isolate
+  recommendations from search, subscriptions, or prior preference.
+- The ideology estimator is validated most clearly for U.S.
+  political videos with strong Reddit-link and text-metadata
+  footprints, so cross-national transport should remain provisional.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/lai_et_al_2024?quick_pull=1&title=%5Bingest-from-review%5D%20Lai%20et%20al.%202024%20%28Estimating%20the%20Ideology%20of%20Political%20YouTube%20Videos%29&body=%23%23%20Summary%0A-%20Ingested%20%60lai_et_al_2024%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/lai_et_al_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
