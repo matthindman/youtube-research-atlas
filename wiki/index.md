@@ -80,6 +80,7 @@ executive synthesis.
 - [[rieder_2020]] — historical large-scale channel crawl documenting late-2019 API affordances, platform hierarchy, and the limits of YouTube's own category system
 - [[boesinger_et_al_2024]] — released channel embeddings showing how public traces can scale semantic and social classification of large YouTube channels
 - [[zaitsev_clark_2025]] — public-subscription channel mapping showing that head-only political YouTube samples undercount smaller partisan-right and conspiracy channels
+- [[hussein_et_al_2020]] — audit of YouTube search, Up Next, and Top 5 recommendations showing topic-specific misinformation exposure and stronger personalization after watch history develops
 
 ## Paper dossiers
 

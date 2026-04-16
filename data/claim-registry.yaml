@@ -1167,3 +1167,23 @@ claims:
       - wiki/sources/boesinger_et_al_2024.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_search_and_recommendation_misinformation_pathways_are_topic_specific
+    text: "Misinformation exposure on YouTube is pathway- and topic-specific: search results, Up-Next, and Top 5 recommendations do not behave identically, and personalization effects become stronger after watch history develops."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "YouTube audit results published in May 2020 on then-current search and recommendation surfaces."
+    primary_sources:
+      - hussein_et_al_2020
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from controlled audit accounts across five misinformation topics; it measures output surfaces rather than realized user clicking or downstream belief change."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/hussein_et_al_2020.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
