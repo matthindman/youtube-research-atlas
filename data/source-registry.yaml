@@ -865,4 +865,3 @@ sources:
       - study3-media-system
     temporal_scope: "Post-October 29, 2025 DSA researcher-access regime for very large online platforms and search engines in the EU"
     notes: "Assigned `platform_documentation`, not `policy_research`, because this is an official policy announcement with no original empirical analysis. It can support policy facts about the DSA access mechanism, but not claims about implementation success."
->>>>>>> 2df905f ([ingest-source] Ingest european_commission_2025)

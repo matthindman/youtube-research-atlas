@@ -132,8 +132,8 @@ proving changes in actual exposure. [🤖]
 
 Temporal mismatch is part of the theme rather than a nuisance. The
 strongest current sources describe different governance regimes, so the
-refresh should not collapse them into a single present-tense claim
-about what YouTube governance "is." [🤖]
+atlas should not collapse them into a single present-tense claim about
+what YouTube governance "is." [🤖]
 
 ## Measures and Variables Used in the Literature
 
