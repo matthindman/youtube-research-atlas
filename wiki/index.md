@@ -60,6 +60,7 @@ executive synthesis.
 - [[marchal_et_al_2025]] — comparative evidence linking negative media scrutiny to platform policy change
 - [[ozturan_et_al_2025]] — comparative evidence that governance and ownership shifts can degrade information quality
 - [[european_commission_2025]] — official DSA announcement creating a post-2025 researcher-access route
+- [[huang_yang_2024]] — audit evidence that Up Next recommendations redirect viewers from news toward entertainment
 
 ## Paper dossiers
 
