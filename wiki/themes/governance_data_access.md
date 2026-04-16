@@ -7,15 +7,16 @@ temporal_scope: "Particularly attentive to the post-DSA, post-API-restriction er
 themes: [governance-data-access]
 census_papers: [methods-companion]
 last_refreshed: 2026-04-16
-source_count: 4
+source_count: 5
 key_sources:
   - norton_shapiro_2024
   - hallinan_et_al_2025
   - hallinan_reynolds_2024
   - reynolds_hallinan_2024
+  - marchal_et_al_2025
 split_candidates: []
 verification:
-  machine_extracted: 16
+  machine_extracted: 17
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -29,9 +30,9 @@ verification:
 
 ## Why This Theme Matters
 
-This theme now combines field-level access constraints with multiple
-creator-side views of governance opacity, accountability, and public
-complaint. [🤖]
+This theme now combines field-level access constraints, creator-side
+governance complaints, and comparative evidence about external public
+pressure. [🤖]
 
 ## Current Consensus
 
@@ -40,15 +41,16 @@ complaint. [🤖]
 - Creator publicity is often used as an accountability tactic when
   formal recourse feels weak, incomplete, or unevenly distributed.
   [🤖]
-- Current evidence is strongest on visible creator discourse and much
-  weaker on whether those tactics reliably change internal platform
-  policy. [🤖]
+- Comparative evidence suggests that public scrutiny can precede
+  visible policy change, but that is not the same thing as transparent
+  or accountable internal governance. [🤖]
 
 ## Main Disagreements
 
-The present source set disagrees less about whether creator
-accountability exists than about what it accomplishes: solidarity,
-peer policing, visibility, or actual policy leverage. [🤖]
+The present source set still disagrees more about what governance
+signals mean than about whether those signals exist: creator callouts,
+user-generated accountability, and media pressure may all matter, but
+their causal leverage remains uncertain. [🤖]
 
 ## Evidence Inventory
 
@@ -57,36 +59,39 @@ peer policing, visibility, or actual policy leverage. [🤖]
 | Opaque moderation and restricted access make platform-bias claims hard to verify from the outside. | [[norton_shapiro_2024]], [[hallinan_et_al_2025]] | Literature audit, researcher interviews, and creator-discourse content analysis | Moderate | Early 2020s through 2025 | [🤖] |
 | Creator publicity functions as an informal accountability repertoire when official channels do not resolve disputes. | [[hallinan_et_al_2025]], [[reynolds_hallinan_2024]] | Creator-discourse studies of moderation complaints and accountability videos | Moderate | 2015-2023, including the August 2022 controversy | [🤖] |
 | Copyright callouts can work horizontally inside creator communities and vertically toward platforms or rights holders. | [[hallinan_reynolds_2024]] | 135-video content analysis of English-language copyright callouts | Moderate | 2019-2023 | [🤖] |
+| Sustained negative mainstream media coverage is associated with more subsequent public-facing policy change at Facebook, Twitter, and YouTube. | [[marchal_et_al_2025]] | Comparative news-and-policy event analysis with recurrent-event survival models | Moderate | 2005/2007-2021 | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
-These sources capture public creator discourse, not internal platform
-decision-making, so they reveal how governance is experienced and
-performed more directly than how policy decisions are actually made.
-[🤖]
+These sources capture different governance layers: field-level access
+constraints, creator discourse, and comparative public-policy traces.
+They reveal visible governance dynamics more directly than internal
+decision-making processes. [🤖]
 
 ## Measures and Variables Used in the Literature
 
 - Norton and Shapiro track platform coverage, method mix, and
   researcher-reported access and infrastructure bottlenecks. [🤖]
-- Hallinan et al. code creator identity, genre, geography, and
-  evidentiary styles in public callout videos. [🤖]
-- The 2024 Hallinan/Reynolds papers code accountability targets,
-  copyright-claim types, complaints, and proposed remedies. [🤖]
+- The Hallinan/Reynolds papers code creator identity, accountability
+  targets, copyright-claim types, complaints, and proposed remedies.
+  [🤖]
+- Marchal et al. measure news volume, negative sentiment,
+  public-facing policy change, and comparative platform pressure.
+  [🤖]
 
 ## What This Means for Our Project
 
 - Governance claims need explicit period labels and clear separation
-  between creator-side evidence and platform-side policy evidence.
-  [🤖]
-- The dedicated governance refresh should absorb the remaining Batch 5
-  sources before this theme is used for manuscript-level synthesis.
-  [🤖]
+  between creator-side evidence, comparative evidence, and platform-
+  side policy evidence. [🤖]
+- The dedicated governance refresh should absorb the remaining DSA and
+  comparative-governance sources before this theme is used for
+  manuscript-level synthesis. [🤖]
 
 ## Open Holes / Next Sources to Acquire
 
-- Media-pressure, comparative governance-change, and DSA access
-  sources still need to be integrated. [🤖]
+- Comparative governance-change and DSA access sources still need to
+  be integrated. [🤖]
 - The current corpus still lacks direct evidence about when creator
   publicity produces durable policy change rather than case-specific
   relief. [🤖]
@@ -97,6 +102,7 @@ performed more directly than how policy decisions are actually made.
 - [[hallinan_et_al_2025]]
 - [[hallinan_reynolds_2024]]
 - [[reynolds_hallinan_2024]]
+- [[marchal_et_al_2025]]
 
 ## Cross-References
 

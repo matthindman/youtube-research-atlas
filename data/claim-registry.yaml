@@ -204,6 +204,25 @@ claims:
       - wiki/sources/reynolds_hallinan_2024.md
       - wiki/themes/governance_data_access.md
     verification: machine_extracted
+  - id: claim_governance_data_access_media_pressure_policy_change
+    text: "Across Facebook, Twitter, and YouTube, sustained negative mainstream media coverage is associated with a higher likelihood of subsequent user-policy change."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "English-language mainstream coverage and platform policy changes from 2005/2007 through early 2021."
+    primary_sources:
+      - marchal_et_al_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "This is comparative, observational evidence using public-facing policy documents and should not be read as causal proof or as YouTube-only evidence."
+    themes:
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/marchal_et_al_2025.md
+      - wiki/themes/governance_data_access.md
+    verification: machine_extracted
   - id: claim_cross_linguistic_youtube_not_one_platform
     text: "Different linguistic communities use YouTube differently enough that English-language findings should not be assumed to generalize across the platform."
     claim_type: empirical-descriptive

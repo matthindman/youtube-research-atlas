@@ -55,6 +55,7 @@ executive synthesis.
 - [[hallinan_et_al_2025]] — creator callouts, contradictory bias accusations, and aspirational platform governance
 - [[hallinan_reynolds_2024]] — copyright callouts, horizontal versus vertical accountability, and creator-driven platform governance
 - [[reynolds_hallinan_2024]] — creator publicity, signal boosting, and user-generated accountability on YouTube
+- [[marchal_et_al_2025]] — comparative evidence linking negative media scrutiny to platform policy change
 
 ## Paper dossiers
 
