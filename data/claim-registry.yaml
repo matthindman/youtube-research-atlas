@@ -1327,3 +1327,25 @@ claims:
       - wiki/themes/recommendation_radicalization.md
       - wiki/themes/news_ecosystem.md
     verification: machine_extracted
+  - id: claim_governance_data_access_deplatforming_reduces_overall_online_attention
+    text: "Cross-platform deplatforming of prominent norm-violating influencers can substantially reduce their overall online attention rather than merely redistributing it across mainstream platforms."
+    claim_type: empirical-causal
+    evidence_strength: single-source
+    temporal_scope: "Deplatforming events from January 2016-September 2021 with attention outcomes traced through September 2022."
+    primary_sources:
+      - ribeiro_jhaver_et_al_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from Google Trends and Wikipedia attention traces for notable, mostly Anglophone influencers deplatformed from YouTube, Twitter, Facebook, and Instagram; it is not a direct measure of watched content, recommender outputs, or alt-tech migration."
+    themes:
+      - governance-data-access
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+      - study8-deplatforming-spillovers
+    appears_in:
+      - wiki/sources/ribeiro_jhaver_et_al_2025.md
+      - wiki/themes/governance_data_access.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted

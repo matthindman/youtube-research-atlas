@@ -7,7 +7,7 @@ temporal_scope: "Pre-2017 ecosystem formation, 2017-2020 transition and behavior
 themes: [recommendation-radicalization]
 census_papers: [methods-companion, paper1-attention-economy, study3-media-system]
 last_refreshed: 2026-04-16
-source_count: 20
+source_count: 21
 key_sources:
   - lewis_2018
   - ledwich_zaitsev_2020
@@ -27,9 +27,10 @@ key_sources:
   - liu_et_al_2025
   - yu_et_al_2024
   - yesilada_lewandowsky_2022
+  - ribeiro_jhaver_et_al_2025
 split_candidates: []
 verification:
-  machine_extracted: 34
+  machine_extracted: 33
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -59,6 +60,13 @@ Recommendation-radicalization remains the most publicly salient story about YouT
 - Ideological sorting and narrowing remain real, but they vary by layer and interface: Haroon and Lai find congeniality in recommendations and media diets, Hussein shows search and recommendation outputs produce topic-specific misinformation risks, Huang shows diversion from news toward entertainment, and Wu finds common but asymmetric cross-partisan comment interaction. [🤖]
 - Cross-platform attention asymmetries further complicate any single ideological story. Lee et al. show that left-leaning videos can dominate on-platform YouTube views while right-leaning videos dominate Twitter diffusion, so ideological "advantage" is not one stable quantity across platforms even in the pre-2019 era. [🤖]
 - Non-algorithmic pathways matter a great deal. Search, subscriptions, external links, durable creator-audience communities, and preexisting user demand remain central parts of the exposure story even when recommendations contribute at the margin. [🤖]
+- Governance interventions matter too, at least indirectly: Ribeiro et
+  al. show that deplatforming prominent norm-violating influencers
+  lowers aggregate online attention across platforms, including for
+  several figures adjacent to the late-2010s radicalization literature,
+  but the measure is cross-platform attention rather than YouTube
+  recommendation output itself (Ribeiro et al. 2025, pp. 1-3, 15-19).
+  [🤖]
 - The strongest post-2022 evidence is still thin but no longer empty. Yu shows recommendation inputs can be nudged toward more diverse news exposure, and Liu partially reaches 2024 while still finding limited short-run downstream effects. [🤖]
 - Audit results and realized-consumption results are not automatically contradictory: Ribeiro, Veselovsky, and West offer a coherent mechanism for why blind-following audits can overstate amplification relative to real-user consumption. [🤖]
 - The Yesilada and Lewandowsky review is best read as a map of the pre-2022 field rather than as a direct statement about the current recommender. [🤖]
@@ -121,6 +129,7 @@ Recommendation-radicalization remains the most publicly salient story about YouT
 - [[chen_et_al_2023]]
 - [[yu_et_al_2024]]
 - [[yesilada_lewandowsky_2022]]
+- [[ribeiro_jhaver_et_al_2025]]
 
 ## Cross-References
 

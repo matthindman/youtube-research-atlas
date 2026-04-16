@@ -7,7 +7,7 @@ temporal_scope: "Particularly attentive to the post-DSA, post-API-restriction er
 themes: [governance-data-access]
 census_papers: [methods-companion]
 last_refreshed: 2026-04-16
-source_count: 9
+source_count: 10
 key_sources:
   - norton_shapiro_2024
   - kumar_2019
@@ -18,9 +18,10 @@ key_sources:
   - ozturan_et_al_2025
   - european_commission_2025
   - rieder_2020
+  - ribeiro_jhaver_et_al_2025
 split_candidates: []
 verification:
-  machine_extracted: 39
+  machine_extracted: 40
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -69,6 +70,12 @@ pathway. [🤖]
 - External public pressure matters too: comparative evidence suggests
   that sustained negative mainstream coverage can precede public-facing
   policy change at large platforms including YouTube. [🤖]
+- Cross-platform deplatforming can also reduce attention directly:
+  Ribeiro et al. find large 12-month drops in Google and Wikipedia
+  attention after influencer bans, especially for misinformation cases
+  and coordinated multi-platform ban groups, which suggests that some
+  governance interventions shrink reach rather than merely reroute it
+  (Ribeiro et al. 2025, pp. 15-17). [🤖]
 - Comparative platform evidence also suggests that governance and
   ownership changes can alter information quality, though the direct
   outcome evidence here comes from Twitter/X rather than YouTube.
@@ -210,6 +217,7 @@ what YouTube governance "is." [🤖]
 - [[ozturan_et_al_2025]]
 - [[european_commission_2025]]
 - [[rieder_2020]]
+- [[ribeiro_jhaver_et_al_2025]]
 
 ## Cross-References
 
