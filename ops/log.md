@@ -1861,3 +1861,29 @@ Refresh note:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/recommendation_radicalization?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20recommendation_radicalization&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/recommendation_radicalization.md%60%20and%20all%20three%20debate%20pages%3A%20%60wiki/debates/rabbit_hole_debate.md%60%2C%20%60wiki/debates/filter_bubble_evidence.md%60%2C%20and%20%60wiki/debates/pre_2019_vs_post_2019_algorithm.md%60.%0A-%20Included%20the%20six%20new%20radicalization-relevant%20source%20cards%20and%20registry%20infrastructure%20on-branch%20so%20the%20refresh%20remains%20self-contained%20before%20the%20ingest%20branches%20merge.%0A-%20Reframed%20the%20corpus%20around%20pre-2018%20growth%2C%202019%20transition%20audits%2C%202020%20real-user/comment%20evidence%2C%20and%20thinner%202022-2024%20intervention%20work.%0A%0A%23%23%20Sources%0A-%20ledwich_zaitsev_2020%0A-%20ribeiro_et_al_2020%0A-%20faddoul_et_al_2020%0A-%20ribeiro_veselovsky_west_2023%0A-%20huang_yang_2024%0A-%20wu_resnick_2021%0A%0A%23%23%20Pages%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/debates/rabbit_hole_debate.md%0A-%20wiki/debates/filter_bubble_evidence.md%0A-%20wiki/debates/pre_2019_vs_post_2019_algorithm.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Refresh news_ecosystem
+**Operation:** refresh-theme
+**Branch:** refresh/news_ecosystem
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/news_ecosystem.md` from a five-source corpus
+spanning recommendation structure, comment interaction, channel
+clustering, and audience surveys, while keeping the three new Batch 6
+source cards and their registry infrastructure on-branch so the
+refresh remains self-contained before those ingest branches merge.
+
+Refresh note:
+
+- The old two-report scaffold has been replaced with a periodized
+  synthesis that separates 2019 recommendation drift, 2020 partisan
+  discussion, 2023 French subsystem mapping, and 2024-2025
+  cross-national survey evidence.
+- The refreshed page now treats entertainment diversion, visible
+  cross-partisan interaction, and creator-led news competition as
+  related but distinct aspects of the YouTube news system.
+- The evidence base is materially better than before, but it still
+  remains uneven across platform layers and countries.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20a%20five-source%20corpus%20spanning%20recommendation%20structure%2C%20comment%20interaction%2C%20channel%20clustering%2C%20and%20audience%20surveys.%0A-%20Included%20%60huang_yang_2024%60%2C%20%60reveilhac_2024%60%2C%20and%20%60wu_resnick_2021%60%20plus%20their%20registry%20infrastructure%20on-branch%20so%20the%20refresh%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Replaced%20the%20old%20two-report%20scaffold%20with%20a%20periodized%20synthesis%20that%20distinguishes%202019%20recommendation%20drift%2C%202020%20partisan%20discussion%2C%202023%20French%20subsystem%20mapping%2C%20and%202024-2025%20cross-national%20survey%20evidence.%0A%0A%23%23%20Sources%0A-%20huang_yang_2024%0A-%20reveilhac_2024%0A-%20wu_resnick_2021%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md

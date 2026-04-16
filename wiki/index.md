@@ -64,6 +64,8 @@ executive synthesis.
 - [[faddoul_et_al_2020]] — longitudinal audit showing 2019 conspiracy demotion reduced but did not eliminate promotion
 - [[ribeiro_veselovsky_west_2023]] — theoretical account explaining why audits can overstate amplification relative to consumption
 - [[huang_yang_2024]] — recommendation audit showing news-to-entertainment diversion in Up Next
+- [[huang_yang_2024]] — recommendation audit showing news-to-entertainment diversion in Up Next
+- [[reveilhac_2024]] — French alternative-news mapping with clustered overlap between politics, entertainment, and re-information
 - [[wu_resnick_2021]] — large-scale comment study showing common but asymmetric cross-partisan discussion on U.S. partisan YouTube
 - [[european_commission_2025]] — official DSA announcement creating a post-2025 researcher-access route
 - [[ledwich_zaitsev_2020]] — anonymous 2019 audit arguing recommendations mainstream rather than escalate toward extremist fringe content
