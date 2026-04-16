@@ -1,1517 +1,1552 @@
-# Source registry for the YouTube Scholarship Atlas.
-#
-# Every source the agents touch must have an entry here. The registry
-# is updated by the ingest-source skill and read by every other skill.
-#
-# Fields:
-#   id:                  short slug, matches source card filename
-#   type:                journal_article | working_paper | book_chapter
-#                        | monograph | systematic_review | industry_report
-#                        | policy_essay | internal_memo | platform_doc
-#                        | news
-#                        (monograph = standalone book or Cambridge
-#                        Element; book_chapter = chapter in an edited
-#                        volume; policy_essay = academically-authored
-#                        piece in a non-peer-reviewed venue)
-#   evidence_tier:       see docs/evidence-tiers.md
-#   title, authors, year, venue, doi
-#   canonical_format:    pdf | markdown
-#   formats_available:   list of formats in sources/papers/
-#   status:              pending | ingested | needs_update
-#   date_ingested:       YYYY-MM-DD or null
-#   wiki_pages_touched:  list of wiki/ page paths
-#   tags:                concept tags from project-taxonomy.yaml
-#   themes:              theme slugs
-#   census_relevance:    high | medium | low
-#   census_papers:       list of paper_targets
-#   temporal_scope:      data collection period
-#   notes:               anything worth remembering
-#
-# Registry is seeded empty. Populated during Phase 1 ingest.
-
 sources:
-  - id: mcgrady_2023
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Dialing for Videos: A Random Sample of YouTube"
-    authors:
-      - "McGrady, Ryan"
-      - "Zheng, Kevin"
-      - "Curran, Rebecca"
-      - "Baumgartner, Jason"
-      - "Zuckerman, Ethan"
-    year: 2023
-    venue: "Journal of Quantitative Description: Digital Media"
-    doi: "10.51685/jqd.2023.022"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/mcgrady_2023.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-      - cross-linguistic-variation
-    themes:
-      - descriptive-deficit
-      - cross-linguistic-variation
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study5-cross-language
-    temporal_scope: "Publicly searchable videos sampled October-December 2022; uploads from 2005-2022"
-    notes: "Random sample covers public videos only. Language-distribution estimates are directionally useful but the paper cautions against treating them as precise language shares."
-  - id: munger_2024
-    type: book_chapter
-    evidence_tier: primary_empirical
-    title: "The YouTube Apparatus"
-    authors:
-      - "Munger, Kevin"
-    year: 2024
-    venue: "Cambridge Elements in Politics and Communication"
-    doi: "10.1017/9781009359795"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/munger_2024.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-    themes:
-      - descriptive-deficit
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "Fifteen-year political YouTube time series ending in 2022, with discussion of API conditions through March 2023"
-    notes: "Cambridge Element monograph slotted into registry type `book_chapter` because the current schema lacks a dedicated monograph/element type."
-  - id: munger_et_al_2025
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Pressing Play on Politics: Quantitative Description of YouTube"
-    authors:
-      - "Munger, Kevin"
-      - "Bisbee, James"
-      - "Yalcin, Omer"
-      - "Phillips, Joseph"
-      - "Hindman, Matthew"
-    year: 2025
-    venue: "Journal of Quantitative Description: Digital Media"
-    doi: "10.51685/jqd.2025.006"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/munger_et_al_2025.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-    themes:
-      - descriptive-deficit
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "June 2020-February 2023 observation window for anglophone US politics channels built from a 2019 curated seed list"
-    notes: "Peer-reviewed and published; treated as `primary_empirical` despite project coauthorship because it is external scholarship rather than project-internal documentation."
-  - id: norton_shapiro_2024
-    type: policy_essay
-    evidence_tier: policy_research
-    title: "How to better study - and then improve - today's corrupted information environment"
-    authors:
-      - "Norton, Sean"
-      - "Shapiro, Jacob N."
-    year: 2024
-    venue: "Bulletin of the Atomic Scientists"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/norton_shapiro_2024.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-      - governance-data-access
-    themes:
-      - descriptive-deficit
-      - governance-data-access
-    census_relevance: medium
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Literature survey of 2017-2021 research with infrastructure discussion current to March 2024"
-    notes: "Assigned `policy_research` (added post-Batch-1) because the article is an academically-authored piece in a non-peer-reviewed venue that presents original bibliometric audit results and original interview data with 48 researchers. `news_commentary` was considered but is too restrictive — it is reserved for journalism/opinion with no original analysis. The policy_research tier allows the bibliometric statistics and field audit to be cited as the authors' own findings while still flagging the non-peer-reviewed venue."
-  - id: mcgrady_2025
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "One Platform, Four Languages: Comparing English, Spanish, Hindi, and Russian YouTube"
-    authors:
-      - "McGrady, Ryan"
-      - "Zheng, Kevin"
-      - "Zuckerman, Ethan"
-    year: 2025
-    venue: "Social Media + Society"
-    doi: "10.1177/20563051251363216"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/mcgrady_2025.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-      - cross-linguistic-variation
-    themes:
-      - descriptive-deficit
-      - cross-linguistic-variation
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study5-cross-language
-    temporal_scope: "Random samples collected in 2023-2024 describing uploads from 2006-2023 across four language communities"
-    notes: "Cross-linguistic paper tagged to `cross-linguistic-variation`, but only the `descriptive-deficit` theme was refreshed in this Batch 1 workflow."
-  - id: rieder_et_al_2023
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Making a Living in the Creator Economy: A Large-Scale Study of Linking on YouTube"
-    authors:
-      - "Rieder, Bernhard"
-      - "Borra, Erik"
-      - "Coromina, Òscar"
-      - "Matamoros-Fernández, Ariadna"
-    year: 2023
-    venue: "Social Media + Society"
-    doi: "10.1177/20563051231180628"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/rieder_et_al_2023.md
-      - wiki/themes/creator_economy.md
-      - wiki/index.md
-    tags:
-      - creator-economy
-    themes:
-      - creator-economy
-    census_relevance: medium
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    temporal_scope: "Elite channels retrieved at the end of 2019; linking histories analyzed across videos posted through 2019"
-    notes: "The paper covers channels with at least 100,000 subscribers and uses visible URL traces, so it captures cross-platform strategy better than it captures the full income mix of smaller or less visible creators."
-  - id: verwiebe_et_al_2025
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Working on an Algorithm-Controlled Platform as a Content Creator: What Explains Unequal Earnings on YouTube?"
-    authors:
-      - "Verwiebe, Roland"
-      - "Osorio-Krauter, Chiara"
-      - "Fritsch, Nina-Sophie"
-      - "Weißmann, Sarah"
-      - "Philipp, Aaron"
-      - "Buder, Claudia"
-    year: 2025
-    venue: "European Societies"
-    doi: "10.1162/EUSO.a.42"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/verwiebe_et_al_2025.md
-      - wiki/themes/creator_economy.md
-      - wiki/index.md
-    tags:
-      - creator-economy
-    themes:
-      - creator-economy
-    census_relevance: medium
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    temporal_scope: "Channels retrieved December 2022; monetization status scraped March 2023; sociostructural coding March-September 2023"
-    notes: "The evidence is limited to monetized German-speaking channels and relies on estimated platform earnings, so it is strongest on inequality structure rather than exact payout levels."
-  - id: ormen_gregersen_2023_polymorphism
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Institutional Polymorphism: Diversification of Content and Monetization Strategies on YouTube"
-    authors:
-      - "Ørmen, Jacob"
-      - "Gregersen, Andreas"
-    year: 2023
-    venue: "Television & New Media"
-    doi: "10.1177/15274764221110198"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/ormen_gregersen_2023_polymorphism.md
-      - wiki/themes/creator_economy.md
-      - wiki/index.md
-    tags:
-      - creator-economy
-    themes:
-      - creator-economy
-    census_relevance: medium
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    temporal_scope: "Initial API sampling frame 2006-2019; final channel coding and monetization snapshot in summer 2019"
-    notes: "The paper is strong on strategic heterogeneity and taxonomy design but uses a purposive sample rather than a population-representative one."
-  - id: ormen_gregersen_2023_engagement
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Towards the Engagement Economy: Interconnected Processes of Commodification on YouTube"
-    authors:
-      - "Ørmen, Jacob"
-      - "Gregersen, Andreas"
-    year: 2023
-    venue: "Media, Culture & Society"
-    doi: "10.1177/01634437221111951"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/ormen_gregersen_2023_engagement.md
-      - wiki/themes/creator_economy.md
-      - wiki/index.md
-    tags:
-      - creator-economy
-    themes:
-      - creator-economy
-    census_relevance: medium
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    temporal_scope: "Document analysis of YouTube public communication and platform features current around 2021-2022"
-    notes: "The paper is strongest as a political-economic account of platform monetization design. It does not provide creator-level behavioral or payout data."
-  - id: newman_et_al_2025
-    type: industry_report
-    evidence_tier: industry_report
-    title: "Mapping News Creators and Influencers in Social and Video Networks"
-    authors:
-      - "Newman, Nic"
-      - "Ross Arguedas, Amy"
-      - "Mukherjee, Mitali"
-      - "Fletcher, Richard"
-    year: 2025
-    venue: "Reuters Institute for the Study of Journalism"
-    doi: "10.60625/risj-44pf-1k13"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/newman_et_al_2025.md
-      - wiki/themes/news_ecosystem.md
-      - wiki/index.md
-    tags:
-      - news-ecosystem
-      - creator-economy
-    themes:
-      - news-ecosystem
-      - creator-economy
-    census_relevance: high
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "Audience survey data from 2024 and 2025 across 24 countries"
-    notes: "Canonical `industry_report` case. The evidence is strongest on audience-reported attention and typology, not on actual exposure logs or creator business outcomes."
-  - id: reuters_dnr_2025
-    type: industry_report
-    evidence_tier: industry_report
-    title: "Digital News Report 2025"
-    authors:
-      - "Newman, Nic"
-      - "Ross Arguedas, Amy"
-      - "Robertson, Craig T."
-      - "Nielsen, Rasmus Kleis"
-      - "Fletcher, Richard"
-    year: 2025
-    venue: "Reuters Institute for the Study of Journalism"
-    doi: "10.60625/risj-8qqf-jt36"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/reuters_dnr_2025.md
-      - wiki/themes/news_ecosystem.md
-      - wiki/index.md
-    tags:
-      - news-ecosystem
-      - public-affairs
-      - video
-    themes:
-      - news-ecosystem
-    census_relevance: high
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "2025 survey wave across 48 markets, with trend comparisons back to 2020 or 2021 for selected video and platform measures"
-    notes: "Scoped here to the report's YouTube, video-news, creator-attention, podcast, and verification sections rather than the entire annual report."
-  - id: lai_et_al_2024
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Estimating the Ideology of Political YouTube Videos"
-    authors:
-      - "Lai, Angela"
-      - "Brown, Megan A."
-      - "Bisbee, James"
-      - "Tucker, Joshua A."
-      - "Nagler, Jonathan"
-      - "Bonneau, Richard"
-    year: 2024
-    venue: "Political Analysis"
-    doi: "10.1017/pan.2023.42"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/lai_et_al_2024.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Reddit-YouTube link data from December 31, 2011 to June 21, 2021; application to browsing histories from May 17-July 14, 2020"
-    notes: "Peer-reviewed and published; treated as `primary_empirical` despite project collaborator Josh Tucker's coauthorship because it is external scholarship rather than project-internal documentation. Validation is strongest for U.S. political videos with Reddit-link structure and informative text metadata."
-  - id: haroon_et_al_2023
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Auditing YouTube's Recommendation System for Ideologically Congenial, Extreme, and Problematic Recommendations"
-    authors:
-      - "Haroon, Muhammad"
-      - "Wojcieszak, Magdalena"
-      - "Chhabra, Anshuman"
-      - "Liu, Xin"
-      - "Mohapatra, Prasant"
-      - "Shafiq, Zubair"
-    year: 2023
-    venue: "Proceedings of the National Academy of Sciences of the United States of America"
-    doi: "10.1073/pnas.2213020120"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/haroon_et_al_2023.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Post-2019 recommendation regime audited with 100,000 trained sock puppets; the exact main-text collection window is not made prominent"
-    notes: "Peer-reviewed recommendation audit. Strongest on post-2019 algorithmic exposure patterns rather than realized user behavior or attitudinal outcomes. The main text is clearer about regime period than about exact fielding dates."
-  - id: munger_phillips_2022
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Right-Wing YouTube: A Supply and Demand Perspective"
-    authors:
-      - "Munger, Kevin"
-      - "Phillips, Joseph"
-    year: 2022
-    venue: "The International Journal of Press/Politics"
-    doi: "10.1177/1940161220964767"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/munger_phillips_2022.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/creator_economy.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-      - creator-economy
-      - news-ecosystem
-    themes:
-      - recommendation-radicalization
-      - creator-economy
-      - news-ecosystem
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "Search results from January 2008-October 2018; monthly viewership trends from January 2013-October 2018; update through May 2020"
-    notes: "Peer-reviewed and published. Strongest as a pre-2019 descriptive and theoretical account of right-wing political YouTube, not as a platform-wide audit. The paper also touches creator-economy and news-ecosystem questions, but those mature theme pages were left for a later deliberate refresh rather than being broadly rewritten here."
-  - id: hosseinmardi_et_al_2024
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Causally Estimating the Effect of YouTube's Recommender System Using Counterfactual Bots"
-    authors:
-      - "Hosseinmardi, Homa"
-      - "Ghasemian, Amir"
-      - "Rivera-Lanas, Miguel"
-      - "Ribeiro, Manoel Horta"
-      - "West, Robert"
-      - "Watts, Duncan J."
-    year: 2024
-    venue: "Proceedings of the National Academy of Sciences of the United States of America"
-    doi: "10.1073/pnas.2313377121"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/hosseinmardi_et_al_2024.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/methods/recommendation_audit.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Desktop browsing histories from October 2021-December 2022 with bot experiments run in early 2023; findings explicitly scoped to the post-2019 recommendation regime"
-    notes: "Peer-reviewed causal design combining a U.S. desktop browsing panel with logged-in counterfactual bots. Strongest on the post-2019 recommender's marginal effect relative to user preferences and on sidebar-versus-homepage forgetting dynamics; not informative about pre-2019 behavior or mobile use."
-  - id: yesilada_lewandowsky_2022
-    type: systematic_review
-    evidence_tier: secondary_analytical
-    title: "Systematic Review: YouTube Recommendations and Problematic Content"
-    authors:
-      - "Yesilada, Muhsin"
-      - "Lewandowsky, Stephan"
-    year: 2022
-    venue: "Internet Policy Review"
-    doi: "10.14763/2022.1.1652"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/yesilada_lewandowsky_2022.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Systematic review of studies published from 2013-2021, based on database searches run in November-December 2020"
-    notes: "Peer-reviewed systematic review and the only `secondary_analytical` source in Batch 4. Useful for synthesis and methods diagnosis, but specific empirical findings should be traced back to the underlying primary studies, most of which are not yet ingested in the atlas."
-  - id: liu_et_al_2025
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Short-term Exposure to Filter-Bubble Recommendation Systems Has Limited Polarization Effects: Naturalistic Experiments on YouTube"
-    authors:
-      - "Liu, Naijia"
-      - "Hu, Xinlan Emily"
-      - "Savas, Yasemin"
-      - "Baum, Matthew A."
-      - "Berinsky, Adam J."
-      - "Chaney, Allison J. B."
-      - "Lucas, Christopher"
-      - "Mariman, Rei"
-      - "de Benedictis-Kessner, Justin"
-      - "Guess, Andrew M."
-      - "Knox, Dean"
-      - "Stewart, Brandon M."
-    year: 2025
-    venue: "PNAS"
-    doi: "10.1073/pnas.2318127122"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/liu_et_al_2025.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Four U.S. experiments launched in June 2021, April 2022, and May 2024 using contemporary YouTube recommendation networks"
-    notes: "Peer-reviewed experimental study using a custom YouTube-like platform with real recommendation networks. Strongest on short-term causal effects; the field period spans 2021-2024, so it straddles the atlas's post-2022 bucket and does not settle longer-run or susceptible-subpopulation effects."
-  - id: chen_et_al_2023
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Subscriptions and External Links Help Drive Resentful Users to Alternative and Extremist YouTube Channels"
-    authors:
-      - "Chen, Annie Y."
-      - "Nyhan, Brendan"
-      - "Reifler, Jason"
-      - "Robertson, Ronald E."
-      - "Wilson, Christo"
-    year: 2023
-    venue: "Science Advances"
-    doi: "10.1126/sciadv.add8080"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/chen_et_al_2023.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "U.S. browser-tracking and survey study from July-December 2020, interpreted as a post-2019 lower-bound estimate of rabbit-hole exposure"
-    notes: "Peer-reviewed paired behavioral-survey study. Strongest on the post-2019 importance of subscriptions and external links as exposure paths to alternative and extremist channels, and on the rarity of unsolicited rabbit-hole events among nonsubscribers in 2020."
-  - id: yu_et_al_2024
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Nudging Recommendation Algorithms Increases News Consumption and Diversity on YouTube"
-    authors:
-      - "Yu, Xudong"
-      - "Haroon, Muhammad"
-      - "Menchen-Trevino, Ericka"
-      - "Wojcieszak, Magdalena"
-    year: 2024
-    venue: "PNAS Nexus"
-    doi: "10.1093/pnasnexus/pgae518"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/yu_et_al_2024.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/methods/recommendation_audit.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Sock-puppet tuning experiments and a month-long U.S. user experiment run from November 2022-January 2023, making this an explicitly post-2022 recommendation study"
-    notes: "Peer-reviewed interventional study. Strongest on algorithmic interest bias, on the ability of balanced-news injections to broaden news exposure, and on the absence of short-run downstream attitudinal effects. Haroon is a coauthor, but there are no project-collaborator coauthors."
-  - id: brown_et_al_2022
-    type: working_paper
-    evidence_tier: primary_empirical
-    title: "Echo Chambers, Rabbit Holes, and Algorithmic Bias: How YouTube Recommends Content to Real Users"
-    authors:
-      - "Brown, Megan A."
-      - "Bisbee, James"
-      - "Lai, Angela"
-      - "Bonneau, Richard"
-      - "Nagler, Jonathan"
-      - "Tucker, Joshua A."
-    year: 2022
-    venue: "SSRN Working Paper No. 4114905; Center for Social Media and Politics, New York University"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-15
-    wiki_pages_touched:
-      - wiki/sources/brown_et_al_2022.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/methods/recommendation_audit.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Fall 2020 real-user traversal experiment with U.S.-based YouTube users following randomized recommendation rules on their own accounts"
-    notes: "Original-data working paper treated as `primary_empirical` because the design is an experimentally constrained recommendation study with real users. Josh Tucker is a coauthor, so the registry notes the collaborator link, but the paper remains external scholarship rather than project-internal material."
-  - id: hallinan_et_al_2025
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Aspirational Platform Governance: How Creators Legitimise Content Moderation Through Accusations of Bias"
-    authors:
-      - "Hallinan, Blake"
-      - "Reynolds, C. J."
-      - "Kuperberg, Yehonatan"
-      - "Rothenstein, Omer"
-    year: 2025
-    venue: "Internet Policy Review"
-    doi: "10.14763/2025.1.1829"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/hallinan_et_al_2025.md
-      - wiki/themes/governance_data_access.md
-      - wiki/index.md
-    tags:
-      - governance-data-access
-    themes:
-      - governance-data-access
-    census_relevance: medium
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "English-language creator responses to an August 2022 moderation controversy, interpreted in a March 2025 publication"
-    notes: "Event-centered content analysis of a creator-led moderation controversy. First of three closely related Hallinan/Reynolds governance papers in Batch 5 and cross-linked accordingly."
-  - id: ribeiro_west_2021
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube"
-    authors:
-      - "Ribeiro, Manoel Horta"
-      - "West, Robert"
-    year: 2021
-    venue: "Proceedings of the 15th International AAAI Conference on Web and Social Media"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/ribeiro_west_2021.md
-      - wiki/themes/cross_linguistic_variation.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-      - cross-linguistic-variation
-    themes:
-      - descriptive-deficit
-      - cross-linguistic-variation
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study5-cross-language
-    temporal_scope: "English-language channels and videos collected September-November 2019, covering uploads from May 2005 through October 2019"
-    notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Important as a large public English-language dataset and as evidence that dataset scale does not automatically solve multilingual coverage."
-  - id: european_commission_2025
-    type: platform_doc
-    evidence_tier: platform_documentation
-    title: "New Measures Unlock Access to Data from Largest Online Platforms to Support Research"
-    authors:
-      - "European Commission"
-    year: 2025
-    venue: "Shaping Europe's Digital Future"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/european_commission_2025.md
-      - wiki/themes/governance_data_access.md
-      - wiki/index.md
-    tags:
-      - governance-data-access
-    themes:
-      - governance-data-access
-    census_relevance: medium
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Post-October 29, 2025 DSA researcher-access regime for very large online platforms and search engines in the EU"
-    notes: "Assigned `platform_documentation`, not `policy_research`, because this is an official policy announcement with no original empirical analysis. It can support policy facts about the DSA access mechanism, but not claims about implementation success."
-  - id: hallinan_reynolds_2024
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Copyright Callouts and the Promise of Creator-Driven Platform Governance"
-    authors:
-      - "Hallinan, Blake"
-      - "Reynolds, C. J."
-      - "Rothenstein, Omer"
-    year: 2024
-    venue: "Internet Policy Review"
-    doi: "10.14763/2024.2.1770"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/hallinan_reynolds_2024.md
-      - wiki/themes/governance_data_access.md
-      - wiki/index.md
-    tags:
-      - governance-data-access
-    themes:
-      - governance-data-access
-    census_relevance: medium
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "English-language copyright callout videos published from 2019-2023 and analyzed in a June 2024 article"
-    notes: "Second of three closely related Hallinan/Reynolds governance papers in Batch 5. Distinguishes horizontal creator-to-creator callouts from vertical appeals toward platforms and rights holders."
-  - id: reynolds_hallinan_2024
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "User-Generated Accountability: Public Participation in Algorithmic Governance on YouTube"
-    authors:
-      - "Reynolds, C. J."
-      - "Hallinan, Blake"
-    year: 2024
-    venue: "New Media & Society"
-    doi: "10.1177/14614448241251791"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/reynolds_hallinan_2024.md
-      - wiki/themes/governance_data_access.md
-      - wiki/index.md
-    tags:
-      - governance-data-access
-    themes:
-      - governance-data-access
-    census_relevance: medium
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "English-language accountability videos from 2015-2023, with the corpus concentrated in the post-2019 creator-governance period"
-    notes: "Third of the closely related Hallinan/Reynolds governance papers in Batch 5. Extends from specific callout controversies to a broader creator-publicity account of user-generated accountability."
-  - id: marchal_et_al_2025
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "How Negative Media Coverage Impacts Platform Governance: Evidence from Facebook, Twitter, and YouTube"
-    authors:
-      - "Marchal, Nahema"
-      - "Hoes, Emma"
-      - "Kluser, K. Jonathan"
-      - "Hamborg, Felix"
-      - "Alizadeh, Meysam"
-      - "Kubli, Mael"
-      - "Katzenbach, Christian"
-    year: 2025
-    venue: "Political Communication"
-    doi: "10.1080/10584609.2024.2377992"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/marchal_et_al_2025.md
-      - wiki/themes/governance_data_access.md
-      - wiki/index.md
-    tags:
-      - governance-data-access
-    themes:
-      - governance-data-access
-    census_relevance: medium
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Cross-platform English-language news coverage from 2005-2021 and platform policy changes from 2007-2021, with the sharpest negative-coverage shift after 2018"
-    notes: "Comparative platform-governance study rather than YouTube-only evidence. Strongest on the association between sustained negative press and subsequent public-facing policy change across platforms."
-  - id: ozturan_et_al_2025
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Declining Information Quality Under New Platform Governance"
-    authors:
-      - "Ozturan, Burak"
-      - "Quintana-Mathe, Alexi"
-      - "Grinberg, Nir"
-      - "Ognyanova, Katherine"
-      - "Lazer, David"
-    year: 2025
-    venue: "Harvard Kennedy School Misinformation Review"
-    doi: "10.37016/mr-2020-176"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/ozturan_et_al_2025.md
-      - wiki/themes/governance_data_access.md
-      - wiki/index.md
-    tags:
-      - governance-data-access
-    themes:
-      - governance-data-access
-    census_relevance: low
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Twitter/X information quality before and after the October 27, 2022 ownership transition, using January 2022-April 2023 data with access ending in May 2023"
-    notes: "Comparative platform-governance evidence from Twitter/X rather than YouTube. Included for the governance theme because it shows how ownership and policy changes can affect information quality, while also foregrounding how access restrictions truncate follow-up analysis."
-  - id: ledwich_zaitsev_2020
-    type: working_paper
-    evidence_tier: primary_empirical
-    title: "Algorithmic Extremism: Examining YouTube's Rabbit Hole of Radicalization"
-    authors:
-      - "Ledwich, Mark"
-      - "Zaitsev, Anna"
-    year: 2020
-    venue: "First Monday 25(3); archived corpus PDF is the December 2019 preprint version"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/ledwich_zaitsev_2020.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Anonymous-baseline recommendation audit and channel mapping conducted in 2019, with some aggregate view measures drawn from 2018 channel activity"
-    notes: "Archived corpus copy is the December 2019 preprint submitted to First Monday, which matters for page citations and temporal interpretation. Strongest as a channel-level, nonpersonalized audit that argues recommendations mainstream rather than radicalize."
-  - id: ribeiro_et_al_2020
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Auditing Radicalization Pathways on YouTube"
-    authors:
-      - "Ribeiro, Manoel Horta"
-      - "Ottoni, Raphael"
-      - "West, Robert"
-      - "Almeida, Virgílio A. F."
-      - "Meira Jr., Wagner"
-    year: 2020
-    venue: "Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency; archived corpus PDF is the arXiv v4 version"
-    doi: "10.1145/3351095.3372879"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/ribeiro_et_al_2020.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Channel and comment histories through 2018 plus a nonpersonalized recommendation snapshot collected in May-July 2019"
-    notes: "Foundational pathway paper combining commenter migration with a recommendation audit. Important to keep the two temporal layers distinct: historical migration evidence versus a 2019 recommender snapshot."
-  - id: faddoul_et_al_2020
-    type: working_paper
-    evidence_tier: primary_empirical
-    title: "A Longitudinal Analysis of YouTube's Promotion of Conspiracy Videos"
-    authors:
-      - "Faddoul, Marc"
-      - "Chaslot, Guillaume"
-      - "Farid, Hany"
-    year: 2020
-    venue: "arXiv preprint arXiv:2003.03318"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/faddoul_et_al_2020.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Default U.S. watch-next recommendations collected daily from October 2018 through February 2020"
-    notes: "Longitudinal nonpersonalized audit spanning the January 2019 borderline-content intervention. Strong for regime-change discussion, but limited to default watch-next recommendations from an informational-channel root set rather than the full platform or personalized user sessions."
-  - id: ribeiro_veselovsky_west_2023
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "The Amplification Paradox in Recommender Systems"
-    authors:
-      - "Ribeiro, Manoel Horta"
-      - "Veselovsky, Veniamin"
-      - "West, Robert"
-    year: 2023
-    venue: "Proceedings of the Seventeenth International AAAI Conference on Web and Social Media (ICWSM 2023)"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/ribeiro_veselovsky_west_2023.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: medium
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "A stylized agent-based model published in 2023; motivated by pre-2023 YouTube audit and navigation-log findings rather than tied to a single observation window"
-    notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. The paper is theoretical rather than observational, but important for interpreting why audit-style recommendation studies and real-user trace studies can diverge."
-  - id: huang_yang_2024
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Auditing Entertainment Traps on YouTube: How Do Recommendation Algorithms Pull Users Away from News?"
-    authors:
-      - "Huang, Haoming"
-      - "Yang, Tian"
-    year: 2024
-    venue: "Digital Journalism 12(10): 1367-1389"
-    doi: "10.1080/10584609.2024.2343769"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/huang_yang_2024.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/news_ecosystem.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-      - news-ecosystem
-    themes:
-      - recommendation-radicalization
-      - news-ecosystem
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-    temporal_scope: "User-independent Up Next recommendation dyads collected in 2019 and reanalyzed as a category-transition system"
-    notes: "Important bridge between recommendation and news themes. Strongest on nonpersonalized category-level recommendation structure, especially entertainment bias and news-to-entertainment redirection, not on actual logged-in user behavior."
-  - id: reveilhac_2024
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "YouTube as an Information Source on Politics and Current Affairs: Supply- and Demand-Side Perspectives"
-    authors:
-      - "Reveilhac, Maud"
-    year: 2024
-    venue: "First Monday 29(7)"
-    doi: "10.5210/fm.v29i7.13633"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/reveilhac_2024.md
-      - wiki/themes/news_ecosystem.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - news-ecosystem
-      - descriptive-deficit
-    themes:
-      - news-ecosystem
-      - descriptive-deficit
-    census_relevance: high
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "French alternative news channels active in 2023, with top-viewed 2023 videos used for supply and audience-overlap analysis"
-    notes: "Country-bounded descriptive study of a French alternative-news subsystem. Valuable for the news theme and as a reminder that much descriptive work remains niche-, language-, and country-specific rather than platform-wide."
-  - id: abou_el_komboz_et_al_2023
-    type: working_paper
-    evidence_tier: primary_empirical
-    title: "Platform Partnership Programs and Content Supply: Evidence from the YouTube 'Adpocalypse'"
-    authors:
-      - "Abou El-Komboz, Lena"
-      - "Kerkhof, Anna"
-      - "Loh, Johannes"
-    year: 2023
-    venue: "CESifo Working Paper No. 10363; prompt cites later Information Economics and Policy publication"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/abou_el_komboz_et_al_2023.md
-      - wiki/themes/creator_economy.md
-      - wiki/index.md
-    tags:
-      - creator-economy
-    themes:
-      - creator-economy
-    census_relevance: high
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    temporal_scope: "German YouTube creators observed around the February 2018 YPP eligibility shock, with six-month pre/post outcomes and a follow-up API snapshot in 2020"
-    notes: "Best current causal estimate in the archive for how YouTube monetization policy changes affect creator behavior. The archived source is a working paper, but the design and findings are original empirical research."
-  - id: wu_resnick_2021
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Cross-Partisan Discussions on YouTube: Conservatives Talk to Liberals but Liberals Don't Talk to Conservatives"
-    authors:
-      - "Wu, Siqi"
-      - "Resnick, Paul"
-    year: 2021
-    venue: "Proceedings of the Fifteenth International AAAI Conference on Web and Social Media (ICWSM 2021)"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/wu_resnick_2021.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/news_ecosystem.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-      - news-ecosystem
-    themes:
-      - recommendation-radicalization
-      - news-ecosystem
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "U.S. partisan-media videos and comments collected from January 1 to August 31, 2020"
-    notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Strongest for the comment-layer version of the filter-bubble question rather than for direct recommendation effects."
-  - id: rieder_2020
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Mapping YouTube: A quantitative exploration of a platformed media system"
-    authors:
-      - "Rieder, Bernhard"
-      - "Coromina, Òscar"
-      - "Matamoros-Fernández, Ariadna"
-    year: 2020
-    venue: "First Monday 25(8)"
-    doi: "10.5210/fm.v25i8.10667"
-    canonical_format: mhtml
-    formats_available:
-      - mhtml
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/rieder_2020.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/themes/governance_data_access.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-      - governance-data-access
-    themes:
-      - descriptive-deficit
-      - governance-data-access
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Crawler ran November 26, 2019-January 8, 2020 and documents late-2019 YouTube data-access conditions."
-    notes: "Archived source is an `.mhtml` web capture rather than a PDF. Key methodological value is historical: the paper used public featured-channel links, public channel-subscription data, and `channels`/`playlistItems`/`videos` API access under a 50M-unit/day token that the authors say later became harder to obtain for new projects."
-  - id: boesinger_et_al_2024
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Tube2Vec: Social and Semantic Embeddings of YouTube Channels"
-    authors:
-      - "Boesinger, Léopaul"
-      - "Ribeiro, Manoel Horta"
-      - "Veselovsky, Veniamin"
-      - "West, Robert"
-    year: 2024
-    venue: "Proceedings of the Eighteenth International AAAI Conference on Web and Social Media"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/boesinger_et_al_2024.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-    themes:
-      - descriptive-deficit
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Reddit traces from January 2010-August 2022 plus channel metadata and history-less recommendation captures gathered during the study"
-    notes: "Provides released embeddings for 44,000 English-language channels using Reddit sharing, metadata, and recommendation traces. Strongest as reusable classification infrastructure for large channels, not as a platform-wide or multilingual map."
-  - id: zaitsev_clark_2025
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Classifying YouTube Channels: Algorithmic Approach to Channel Mapping"
-    authors:
-      - "Zaitsev, Anna"
-      - "Clark, Sam"
-    year: 2025
-    venue: "First Monday 30(8)"
-    doi: "10.5210/fm.v30i8.13682"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/zaitsev_clark_2025.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-    themes:
-      - descriptive-deficit
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Data collected in 2020 using then-visible public subscription pages, with yearly views examined from 2017-2020"
-    notes: "The prompt named 'Justin Clark', but the archived paper credits Sam Clark. Method is historically important because it depends on public commenter subscriptions that the paper says later became less visible."
-  - id: lewis_2018
-    type: policy_essay
-    evidence_tier: policy_research
-    title: "Alternative Influence: Broadcasting the Reactionary Right on YouTube"
-    authors:
-      - "Lewis, Rebecca"
-    year: 2018
-    venue: "Data & Society Research Institute"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/lewis_2018.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "Guest-appearance network and qualitative content analysis centered on January 1, 2017-April 1, 2018 YouTube activity"
-    notes: "Tiered as `policy_research` because the Data & Society report presents original network mapping and qualitative analysis but is not a peer-reviewed journal article. It is strongest as foundational pre-2019 ecosystem evidence on guest-network pathways and cross-promotion within reactionary political YouTube."
-  - id: hosseinmardi_et_al_2021
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Examining the Consumption of Radical Content on YouTube"
-    authors:
-      - "Hosseinmardi, Homa"
-      - "Ghasemian, Amir"
-      - "Clauset, Aaron"
-      - "Mobius, Markus"
-      - "Rothschild, David M."
-      - "Watts, Duncan J."
-    year: 2021
-    venue: "Proceedings of the National Academy of Sciences 118(32): e2101967118"
-    doi: "10.1073/pnas.2101967118"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/hosseinmardi_et_al_2021.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "Nationally representative U.S. desktop browsing panel covering January 2016-December 2019"
-    notes: "Foundational real-user behavioral complement to `hosseinmardi_et_al_2024`. Strongest on late-2010s desktop consumption and entry pathways; it should not be treated as a measurement of post-2022 or mobile-first YouTube."
-  - id: hussein_et_al_2020
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube"
-    authors:
-      - "Hussein, Eslam"
-      - "Juneja, Prerna"
-      - "Mitra, Tanushree"
-    year: 2020
-    venue: "Proceedings of the ACM on Human-Computer Interaction 4(CSCW1), Article 48"
-    doi: "10.1145/3392854"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/hussein_et_al_2020.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-    themes:
-      - recommendation-radicalization
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "Audit experiments published in May 2020 on then-current YouTube search, Up Next, and Top 5 recommendation outputs; exact crawl dates are not emphasized in the main text"
-    notes: "The prompt cited a WWW 2020 version, but the archived file in the corpus is the PACM HCI / CSCW1 article with DOI 10.1145/3392854. The paper is especially useful because it separates search from recommendation exposure pathways."
-  - id: chae_lee_2024
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Where do cross-cutting discussions happen?: Identifying cross-cutting comments on YouTube videos of political vloggers and mainstream news outlets"
-    authors:
-      - "Chae, Seung Woo"
-      - "Lee, Sung Hyun"
-    year: 2024
-    venue: "PLoS ONE 19(5): e0302030"
-    doi: "10.1371/journal.pone.0302030"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/chae_lee_2024.md
-      - wiki/themes/news_ecosystem.md
-      - wiki/index.md
-    tags:
-      - news-ecosystem
-    themes:
-      - news-ecosystem
-    census_relevance: medium
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "Comment data on Mueller-report YouTube videos from March 22-April 18, 2019"
-    notes: "The prompt listed different author-name forms, but the archived article credits Seung Woo Chae and Sung Hyun Lee. Strongest on comment-layer interaction by media type rather than total audience exposure."
-  - id: kumar_2019
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "The Algorithmic Dance: YouTube's Adpocalypse and the Gatekeeping of Cultural Content on Digital Platforms"
-    authors:
-      - "Kumar, Sangeet"
-    year: 2019
-    venue: "Internet Policy Review 8(2)"
-    doi: "10.14763/2019.2.1417"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/kumar_2019.md
-      - wiki/themes/creator_economy.md
-      - wiki/themes/governance_data_access.md
-      - wiki/index.md
-    tags:
-      - creator-economy
-      - governance-data-access
-    themes:
-      - creator-economy
-      - governance-data-access
-    census_relevance: medium
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-      - study3-media-system
-    temporal_scope: "March 2017 Adpocalypse aftermath through 2019, with policy changes and creator testimonies analyzed retrospectively"
-    notes: "Assigned `primary_empirical` despite the essay-like framing because the article is peer-reviewed and presents original qualitative analysis of policy changes and creator testimony. Strongest as a governance-and-monetization case study rather than as a platform-wide estimate."
-  - id: van_es_2020
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "YouTube's Operational Logic: 'The View' as Pervasive Category"
-    authors:
-      - "van Es, Karin"
-    year: 2020
-    venue: "Television & New Media 21(3): 223-239"
-    doi: "10.1177/1527476418818986"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/van_es_2020.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-    themes:
-      - descriptive-deficit
-    census_relevance: medium
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-    temporal_scope: "Platform analysis current to the late-2010s / early-2019 YouTube regime, before Shorts"
-    notes: "Assigned `primary_empirical` because the paper is a peer-reviewed original platform analysis rather than a review essay. It is strongest as an account of how YouTube's visible metric regime structures legibility, ranking, and monetization."
-  - id: violot_et_al_2024
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Shorts vs. Regular Videos on YouTube: A Comparative Analysis of User Engagement and Content Creation Trends"
-    authors:
-      - "Violot, Caroline"
-      - "Elmas, Tuğrulcan"
-      - "Bilogrevic, Igor"
-      - "Humbert, Mathias"
-    year: 2024
-    venue: "Proceedings of the 16th ACM Web Science Conference (WEBSCI '24)"
-    doi: "10.1145/3614419.3644023"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/violot_et_al_2024.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-    themes:
-      - descriptive-deficit
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study10-shorts-vs-long-form
-    temporal_scope: "January 2021-December 2022 channel-level comparison across the first two years of YouTube Shorts"
-    notes: "The registry schema does not document a dedicated conference-paper type in the header comment, but other ingest work treats peer-reviewed proceedings papers as primary empirical sources. The paper is especially important because the public API does not natively label Shorts, forcing the authors to identify them via redirect behavior."
-  - id: lee_et_al_2022
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Whose Advantage? Measuring Attention Dynamics across YouTube and Twitter on Controversial Topics"
-    authors:
-      - "Lee, JooYoung"
-      - "Wu, Siqi"
-      - "Ertugrul, Ali Mert"
-      - "Lin, Yu-Ru"
-      - "Xie, Lexing"
-    year: 2022
-    venue: "Proceedings of the Sixteenth International AAAI Conference on Web and Social Media (ICWSM 2022)"
-    doi: null
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/lee_et_al_2022.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/news_ecosystem.md
-      - wiki/index.md
-    tags:
-      - recommendation-radicalization
-      - news-ecosystem
-    themes:
-      - recommendation-radicalization
-      - news-ecosystem
-    census_relevance: medium
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    temporal_scope: "Cross-platform attention data on tweeted YouTube videos from January 1, 2017-April 30, 2018"
-    notes: "Strongest as a pre-2019 cross-platform attention study rather than as direct recommendation evidence. The archived paper does not foreground a DOI in the extracted text."
-  - id: padilla_2026
-    type: journal_article
-    evidence_tier: primary_empirical
-    title: "Networks beyond the links: Methodological challenges in mapping YouTube communities"
-    authors:
-      - "Padilla, Adrián"
-    year: 2026
-    venue: "First Monday 31(1)"
-    doi: "10.5210/fm.v31i1.14633"
-    canonical_format: pdf
-    formats_available:
-      - pdf
-    status: ingested
-    date_ingested: 2026-04-16
-    wiki_pages_touched:
-      - wiki/sources/padilla_2026.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/methods/channel_classification.md
-      - wiki/index.md
-    tags:
-      - descriptive-deficit
-    themes:
-      - descriptive-deficit
-    census_relevance: high
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    temporal_scope: "Video retrieval spans January 1, 2010-January 1, 2025; relational crawling reflects a late-2025 snapshot of public subscriptions and featured channels"
-    notes: "Methodological First Monday article using the GNU/Linux creator ecosystem to show how Search API behavior and sparse public relational data constrain community detection. Especially relevant to the channel-classification methods page because it broadens the evidence base beyond political YouTube."
+- id: mcgrady_2023
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Dialing for Videos: A Random Sample of YouTube'
+  authors:
+  - McGrady, Ryan
+  - Zheng, Kevin
+  - Curran, Rebecca
+  - Baumgartner, Jason
+  - Zuckerman, Ethan
+  year: 2023
+  venue: 'Journal of Quantitative Description: Digital Media'
+  doi: 10.51685/jqd.2023.022
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/mcgrady_2023.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  - cross-linguistic-variation
+  themes:
+  - descriptive-deficit
+  - cross-linguistic-variation
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study5-cross-language
+  temporal_scope: Publicly searchable videos sampled October-December 2022; uploads from 2005-2022
+  notes: Random sample covers public videos only. Language-distribution estimates are directionally useful but the paper cautions against treating them as precise language shares.
+- id: munger_2024
+  type: book_chapter
+  evidence_tier: primary_empirical
+  title: The YouTube Apparatus
+  authors:
+  - Munger, Kevin
+  year: 2024
+  venue: Cambridge Elements in Politics and Communication
+  doi: 10.1017/9781009359795
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/munger_2024.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: Fifteen-year political YouTube time series ending in 2022, with discussion of API conditions through March 2023
+  notes: Cambridge Element monograph slotted into registry type `book_chapter` because the current schema lacks a dedicated monograph/element type.
+- id: munger_et_al_2025
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Pressing Play on Politics: Quantitative Description of YouTube'
+  authors:
+  - Munger, Kevin
+  - Bisbee, James
+  - Yalcin, Omer
+  - Phillips, Joseph
+  - Hindman, Matthew
+  year: 2025
+  venue: 'Journal of Quantitative Description: Digital Media'
+  doi: 10.51685/jqd.2025.006
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/munger_et_al_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: June 2020-February 2023 observation window for anglophone US politics channels built from a 2019 curated seed list
+  notes: Peer-reviewed and published; treated as `primary_empirical` despite project coauthorship because it is external scholarship rather than project-internal documentation.
+- id: norton_shapiro_2024
+  type: policy_essay
+  evidence_tier: policy_research
+  title: How to better study - and then improve - today's corrupted information environment
+  authors:
+  - Norton, Sean
+  - Shapiro, Jacob N.
+  year: 2024
+  venue: Bulletin of the Atomic Scientists
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/norton_shapiro_2024.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  - governance-data-access
+  themes:
+  - descriptive-deficit
+  - governance-data-access
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Literature survey of 2017-2021 research with infrastructure discussion current to March 2024
+  notes: Assigned `policy_research` (added post-Batch-1) because the article is an academically-authored piece in a non-peer-reviewed venue that presents original bibliometric audit results and original
+    interview data with 48 researchers. `news_commentary` was considered but is too restrictive — it is reserved for journalism/opinion with no original analysis. The policy_research tier allows the bibliometric
+    statistics and field audit to be cited as the authors' own findings while still flagging the non-peer-reviewed venue.
+- id: mcgrady_2025
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'One Platform, Four Languages: Comparing English, Spanish, Hindi, and Russian YouTube'
+  authors:
+  - McGrady, Ryan
+  - Zheng, Kevin
+  - Zuckerman, Ethan
+  year: 2025
+  venue: Social Media + Society
+  doi: 10.1177/20563051251363216
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/mcgrady_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  - cross-linguistic-variation
+  themes:
+  - descriptive-deficit
+  - cross-linguistic-variation
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study5-cross-language
+  temporal_scope: Random samples collected in 2023-2024 describing uploads from 2006-2023 across four language communities
+  notes: Cross-linguistic paper tagged to `cross-linguistic-variation`, but only the `descriptive-deficit` theme was refreshed in this Batch 1 workflow.
+- id: rieder_et_al_2023
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Making a Living in the Creator Economy: A Large-Scale Study of Linking on YouTube'
+  authors:
+  - Rieder, Bernhard
+  - Borra, Erik
+  - Coromina, Òscar
+  - Matamoros-Fernández, Ariadna
+  year: 2023
+  venue: Social Media + Society
+  doi: 10.1177/20563051231180628
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/rieder_et_al_2023.md
+  - wiki/themes/creator_economy.md
+  - wiki/index.md
+  tags:
+  - creator-economy
+  themes:
+  - creator-economy
+  census_relevance: medium
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  temporal_scope: Elite channels retrieved at the end of 2019; linking histories analyzed across videos posted through 2019
+  notes: The paper covers channels with at least 100,000 subscribers and uses visible URL traces, so it captures cross-platform strategy better than it captures the full income mix of smaller or less visible
+    creators.
+- id: verwiebe_et_al_2025
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Working on an Algorithm-Controlled Platform as a Content Creator: What Explains Unequal Earnings on YouTube?'
+  authors:
+  - Verwiebe, Roland
+  - Osorio-Krauter, Chiara
+  - Fritsch, Nina-Sophie
+  - Weißmann, Sarah
+  - Philipp, Aaron
+  - Buder, Claudia
+  year: 2025
+  venue: European Societies
+  doi: 10.1162/EUSO.a.42
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/verwiebe_et_al_2025.md
+  - wiki/themes/creator_economy.md
+  - wiki/index.md
+  tags:
+  - creator-economy
+  themes:
+  - creator-economy
+  census_relevance: medium
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  temporal_scope: Channels retrieved December 2022; monetization status scraped March 2023; sociostructural coding March-September 2023
+  notes: The evidence is limited to monetized German-speaking channels and relies on estimated platform earnings, so it is strongest on inequality structure rather than exact payout levels.
+- id: ormen_gregersen_2023_polymorphism
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Institutional Polymorphism: Diversification of Content and Monetization Strategies on YouTube'
+  authors:
+  - Ørmen, Jacob
+  - Gregersen, Andreas
+  year: 2023
+  venue: Television & New Media
+  doi: 10.1177/15274764221110198
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/ormen_gregersen_2023_polymorphism.md
+  - wiki/themes/creator_economy.md
+  - wiki/index.md
+  tags:
+  - creator-economy
+  themes:
+  - creator-economy
+  census_relevance: medium
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  temporal_scope: Initial API sampling frame 2006-2019; final channel coding and monetization snapshot in summer 2019
+  notes: The paper is strong on strategic heterogeneity and taxonomy design but uses a purposive sample rather than a population-representative one.
+- id: ormen_gregersen_2023_engagement
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Towards the Engagement Economy: Interconnected Processes of Commodification on YouTube'
+  authors:
+  - Ørmen, Jacob
+  - Gregersen, Andreas
+  year: 2023
+  venue: Media, Culture & Society
+  doi: 10.1177/01634437221111951
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/ormen_gregersen_2023_engagement.md
+  - wiki/themes/creator_economy.md
+  - wiki/index.md
+  tags:
+  - creator-economy
+  themes:
+  - creator-economy
+  census_relevance: medium
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  temporal_scope: Document analysis of YouTube public communication and platform features current around 2021-2022
+  notes: The paper is strongest as a political-economic account of platform monetization design. It does not provide creator-level behavioral or payout data.
+- id: newman_et_al_2025
+  type: industry_report
+  evidence_tier: industry_report
+  title: Mapping News Creators and Influencers in Social and Video Networks
+  authors:
+  - Newman, Nic
+  - Ross Arguedas, Amy
+  - Mukherjee, Mitali
+  - Fletcher, Richard
+  year: 2025
+  venue: Reuters Institute for the Study of Journalism
+  doi: 10.60625/risj-44pf-1k13
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/newman_et_al_2025.md
+  - wiki/themes/news_ecosystem.md
+  - wiki/index.md
+  tags:
+  - news-ecosystem
+  - creator-economy
+  themes:
+  - news-ecosystem
+  - creator-economy
+  census_relevance: high
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: Audience survey data from 2024 and 2025 across 24 countries
+  notes: Canonical `industry_report` case. The evidence is strongest on audience-reported attention and typology, not on actual exposure logs or creator business outcomes.
+- id: reuters_dnr_2025
+  type: industry_report
+  evidence_tier: industry_report
+  title: Digital News Report 2025
+  authors:
+  - Newman, Nic
+  - Ross Arguedas, Amy
+  - Robertson, Craig T.
+  - Nielsen, Rasmus Kleis
+  - Fletcher, Richard
+  year: 2025
+  venue: Reuters Institute for the Study of Journalism
+  doi: 10.60625/risj-8qqf-jt36
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/reuters_dnr_2025.md
+  - wiki/themes/news_ecosystem.md
+  - wiki/index.md
+  tags:
+  - news-ecosystem
+  - public-affairs
+  - video
+  themes:
+  - news-ecosystem
+  census_relevance: high
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: 2025 survey wave across 48 markets, with trend comparisons back to 2020 or 2021 for selected video and platform measures
+  notes: Scoped here to the report's YouTube, video-news, creator-attention, podcast, and verification sections rather than the entire annual report.
+- id: lai_et_al_2024
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Estimating the Ideology of Political YouTube Videos
+  authors:
+  - Lai, Angela
+  - Brown, Megan A.
+  - Bisbee, James
+  - Tucker, Joshua A.
+  - Nagler, Jonathan
+  - Bonneau, Richard
+  year: 2024
+  venue: Political Analysis
+  doi: 10.1017/pan.2023.42
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/lai_et_al_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Reddit-YouTube link data from December 31, 2011 to June 21, 2021; application to browsing histories from May 17-July 14, 2020
+  notes: Peer-reviewed and published; treated as `primary_empirical` despite project collaborator Josh Tucker's coauthorship because it is external scholarship rather than project-internal documentation.
+    Validation is strongest for U.S. political videos with Reddit-link structure and informative text metadata.
+- id: haroon_et_al_2023
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Auditing YouTube's Recommendation System for Ideologically Congenial, Extreme, and Problematic Recommendations
+  authors:
+  - Haroon, Muhammad
+  - Wojcieszak, Magdalena
+  - Chhabra, Anshuman
+  - Liu, Xin
+  - Mohapatra, Prasant
+  - Shafiq, Zubair
+  year: 2023
+  venue: Proceedings of the National Academy of Sciences of the United States of America
+  doi: 10.1073/pnas.2213020120
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/haroon_et_al_2023.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Post-2019 recommendation regime audited with 100,000 trained sock puppets; the exact main-text collection window is not made prominent
+  notes: Peer-reviewed recommendation audit. Strongest on post-2019 algorithmic exposure patterns rather than realized user behavior or attitudinal outcomes. The main text is clearer about regime period
+    than about exact fielding dates.
+- id: munger_phillips_2022
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Right-Wing YouTube: A Supply and Demand Perspective'
+  authors:
+  - Munger, Kevin
+  - Phillips, Joseph
+  year: 2022
+  venue: The International Journal of Press/Politics
+  doi: 10.1177/1940161220964767
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/munger_phillips_2022.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/creator_economy.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  - creator-economy
+  - news-ecosystem
+  themes:
+  - recommendation-radicalization
+  - creator-economy
+  - news-ecosystem
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: Search results from January 2008-October 2018; monthly viewership trends from January 2013-October 2018; update through May 2020
+  notes: Peer-reviewed and published. Strongest as a pre-2019 descriptive and theoretical account of right-wing political YouTube, not as a platform-wide audit. The paper also touches creator-economy and
+    news-ecosystem questions, but those mature theme pages were left for a later deliberate refresh rather than being broadly rewritten here.
+- id: hosseinmardi_et_al_2024
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Causally Estimating the Effect of YouTube's Recommender System Using Counterfactual Bots
+  authors:
+  - Hosseinmardi, Homa
+  - Ghasemian, Amir
+  - Rivera-Lanas, Miguel
+  - Ribeiro, Manoel Horta
+  - West, Robert
+  - Watts, Duncan J.
+  year: 2024
+  venue: Proceedings of the National Academy of Sciences of the United States of America
+  doi: 10.1073/pnas.2313377121
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/hosseinmardi_et_al_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/methods/recommendation_audit.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Desktop browsing histories from October 2021-December 2022 with bot experiments run in early 2023; findings explicitly scoped to the post-2019 recommendation regime
+  notes: Peer-reviewed causal design combining a U.S. desktop browsing panel with logged-in counterfactual bots. Strongest on the post-2019 recommender's marginal effect relative to user preferences and
+    on sidebar-versus-homepage forgetting dynamics; not informative about pre-2019 behavior or mobile use.
+- id: yesilada_lewandowsky_2022
+  type: systematic_review
+  evidence_tier: secondary_analytical
+  title: 'Systematic Review: YouTube Recommendations and Problematic Content'
+  authors:
+  - Yesilada, Muhsin
+  - Lewandowsky, Stephan
+  year: 2022
+  venue: Internet Policy Review
+  doi: 10.14763/2022.1.1652
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/yesilada_lewandowsky_2022.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Systematic review of studies published from 2013-2021, based on database searches run in November-December 2020
+  notes: Peer-reviewed systematic review and the only `secondary_analytical` source in Batch 4. Useful for synthesis and methods diagnosis, but specific empirical findings should be traced back to the underlying
+    primary studies, most of which are not yet ingested in the atlas.
+- id: liu_et_al_2025
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Short-term Exposure to Filter-Bubble Recommendation Systems Has Limited Polarization Effects: Naturalistic Experiments on YouTube'
+  authors:
+  - Liu, Naijia
+  - Hu, Xinlan Emily
+  - Savas, Yasemin
+  - Baum, Matthew A.
+  - Berinsky, Adam J.
+  - Chaney, Allison J. B.
+  - Lucas, Christopher
+  - Mariman, Rei
+  - de Benedictis-Kessner, Justin
+  - Guess, Andrew M.
+  - Knox, Dean
+  - Stewart, Brandon M.
+  year: 2025
+  venue: PNAS
+  doi: 10.1073/pnas.2318127122
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/liu_et_al_2025.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Four U.S. experiments launched in June 2021, April 2022, and May 2024 using contemporary YouTube recommendation networks
+  notes: Peer-reviewed experimental study using a custom YouTube-like platform with real recommendation networks. Strongest on short-term causal effects; the field period spans 2021-2024, so it straddles
+    the atlas's post-2022 bucket and does not settle longer-run or susceptible-subpopulation effects.
+- id: chen_et_al_2023
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Subscriptions and External Links Help Drive Resentful Users to Alternative and Extremist YouTube Channels
+  authors:
+  - Chen, Annie Y.
+  - Nyhan, Brendan
+  - Reifler, Jason
+  - Robertson, Ronald E.
+  - Wilson, Christo
+  year: 2023
+  venue: Science Advances
+  doi: 10.1126/sciadv.add8080
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/chen_et_al_2023.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: U.S. browser-tracking and survey study from July-December 2020, interpreted as a post-2019 lower-bound estimate of rabbit-hole exposure
+  notes: Peer-reviewed paired behavioral-survey study. Strongest on the post-2019 importance of subscriptions and external links as exposure paths to alternative and extremist channels, and on the rarity
+    of unsolicited rabbit-hole events among nonsubscribers in 2020.
+- id: yu_et_al_2024
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Nudging Recommendation Algorithms Increases News Consumption and Diversity on YouTube
+  authors:
+  - Yu, Xudong
+  - Haroon, Muhammad
+  - Menchen-Trevino, Ericka
+  - Wojcieszak, Magdalena
+  year: 2024
+  venue: PNAS Nexus
+  doi: 10.1093/pnasnexus/pgae518
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/yu_et_al_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/methods/recommendation_audit.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Sock-puppet tuning experiments and a month-long U.S. user experiment run from November 2022-January 2023, making this an explicitly post-2022 recommendation study
+  notes: Peer-reviewed interventional study. Strongest on algorithmic interest bias, on the ability of balanced-news injections to broaden news exposure, and on the absence of short-run downstream attitudinal
+    effects. Haroon is a coauthor, but there are no project-collaborator coauthors.
+- id: brown_et_al_2022
+  type: working_paper
+  evidence_tier: primary_empirical
+  title: 'Echo Chambers, Rabbit Holes, and Algorithmic Bias: How YouTube Recommends Content to Real Users'
+  authors:
+  - Brown, Megan A.
+  - Bisbee, James
+  - Lai, Angela
+  - Bonneau, Richard
+  - Nagler, Jonathan
+  - Tucker, Joshua A.
+  year: 2022
+  venue: SSRN Working Paper No. 4114905; Center for Social Media and Politics, New York University
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-15
+  wiki_pages_touched:
+  - wiki/sources/brown_et_al_2022.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/methods/recommendation_audit.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Fall 2020 real-user traversal experiment with U.S.-based YouTube users following randomized recommendation rules on their own accounts
+  notes: Original-data working paper treated as `primary_empirical` because the design is an experimentally constrained recommendation study with real users. Josh Tucker is a coauthor, so the registry notes
+    the collaborator link, but the paper remains external scholarship rather than project-internal material.
+- id: hallinan_et_al_2025
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Aspirational Platform Governance: How Creators Legitimise Content Moderation Through Accusations of Bias'
+  authors:
+  - Hallinan, Blake
+  - Reynolds, C. J.
+  - Kuperberg, Yehonatan
+  - Rothenstein, Omer
+  year: 2025
+  venue: Internet Policy Review
+  doi: 10.14763/2025.1.1829
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/hallinan_et_al_2025.md
+  - wiki/themes/governance_data_access.md
+  - wiki/index.md
+  tags:
+  - governance-data-access
+  themes:
+  - governance-data-access
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: English-language creator responses to an August 2022 moderation controversy, interpreted in a March 2025 publication
+  notes: Event-centered content analysis of a creator-led moderation controversy. First of three closely related Hallinan/Reynolds governance papers in Batch 5 and cross-linked accordingly.
+- id: ribeiro_west_2021
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube'
+  authors:
+  - Ribeiro, Manoel Horta
+  - West, Robert
+  year: 2021
+  venue: Proceedings of the 15th International AAAI Conference on Web and Social Media
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/ribeiro_west_2021.md
+  - wiki/themes/cross_linguistic_variation.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  - cross-linguistic-variation
+  themes:
+  - descriptive-deficit
+  - cross-linguistic-variation
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study5-cross-language
+  temporal_scope: English-language channels and videos collected September-November 2019, covering uploads from May 2005 through October 2019
+  notes: Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Important as a large public English-language dataset and as evidence
+    that dataset scale does not automatically solve multilingual coverage.
+- id: european_commission_2025
+  type: platform_doc
+  evidence_tier: platform_documentation
+  title: New Measures Unlock Access to Data from Largest Online Platforms to Support Research
+  authors:
+  - European Commission
+  year: 2025
+  venue: Shaping Europe's Digital Future
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/european_commission_2025.md
+  - wiki/themes/governance_data_access.md
+  - wiki/index.md
+  tags:
+  - governance-data-access
+  themes:
+  - governance-data-access
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Post-October 29, 2025 DSA researcher-access regime for very large online platforms and search engines in the EU
+  notes: Assigned `platform_documentation`, not `policy_research`, because this is an official policy announcement with no original empirical analysis. It can support policy facts about the DSA access mechanism,
+    but not claims about implementation success.
+- id: hallinan_reynolds_2024
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Copyright Callouts and the Promise of Creator-Driven Platform Governance
+  authors:
+  - Hallinan, Blake
+  - Reynolds, C. J.
+  - Rothenstein, Omer
+  year: 2024
+  venue: Internet Policy Review
+  doi: 10.14763/2024.2.1770
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/hallinan_reynolds_2024.md
+  - wiki/themes/governance_data_access.md
+  - wiki/index.md
+  tags:
+  - governance-data-access
+  themes:
+  - governance-data-access
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: English-language copyright callout videos published from 2019-2023 and analyzed in a June 2024 article
+  notes: Second of three closely related Hallinan/Reynolds governance papers in Batch 5. Distinguishes horizontal creator-to-creator callouts from vertical appeals toward platforms and rights holders.
+- id: reynolds_hallinan_2024
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'User-Generated Accountability: Public Participation in Algorithmic Governance on YouTube'
+  authors:
+  - Reynolds, C. J.
+  - Hallinan, Blake
+  year: 2024
+  venue: New Media & Society
+  doi: 10.1177/14614448241251791
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/reynolds_hallinan_2024.md
+  - wiki/themes/governance_data_access.md
+  - wiki/index.md
+  tags:
+  - governance-data-access
+  themes:
+  - governance-data-access
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: English-language accountability videos from 2015-2023, with the corpus concentrated in the post-2019 creator-governance period
+  notes: Third of the closely related Hallinan/Reynolds governance papers in Batch 5. Extends from specific callout controversies to a broader creator-publicity account of user-generated accountability.
+- id: marchal_et_al_2025
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'How Negative Media Coverage Impacts Platform Governance: Evidence from Facebook, Twitter, and YouTube'
+  authors:
+  - Marchal, Nahema
+  - Hoes, Emma
+  - Kluser, K. Jonathan
+  - Hamborg, Felix
+  - Alizadeh, Meysam
+  - Kubli, Mael
+  - Katzenbach, Christian
+  year: 2025
+  venue: Political Communication
+  doi: 10.1080/10584609.2024.2377992
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/marchal_et_al_2025.md
+  - wiki/themes/governance_data_access.md
+  - wiki/index.md
+  tags:
+  - governance-data-access
+  themes:
+  - governance-data-access
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Cross-platform English-language news coverage from 2005-2021 and platform policy changes from 2007-2021, with the sharpest negative-coverage shift after 2018
+  notes: Comparative platform-governance study rather than YouTube-only evidence. Strongest on the association between sustained negative press and subsequent public-facing policy change across platforms.
+- id: ozturan_et_al_2025
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Declining Information Quality Under New Platform Governance
+  authors:
+  - Ozturan, Burak
+  - Quintana-Mathe, Alexi
+  - Grinberg, Nir
+  - Ognyanova, Katherine
+  - Lazer, David
+  year: 2025
+  venue: Harvard Kennedy School Misinformation Review
+  doi: 10.37016/mr-2020-176
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/ozturan_et_al_2025.md
+  - wiki/themes/governance_data_access.md
+  - wiki/index.md
+  tags:
+  - governance-data-access
+  themes:
+  - governance-data-access
+  census_relevance: low
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Twitter/X information quality before and after the October 27, 2022 ownership transition, using January 2022-April 2023 data with access ending in May 2023
+  notes: Comparative platform-governance evidence from Twitter/X rather than YouTube. Included for the governance theme because it shows how ownership and policy changes can affect information quality,
+    while also foregrounding how access restrictions truncate follow-up analysis.
+- id: ledwich_zaitsev_2020
+  type: working_paper
+  evidence_tier: primary_empirical
+  title: 'Algorithmic Extremism: Examining YouTube''s Rabbit Hole of Radicalization'
+  authors:
+  - Ledwich, Mark
+  - Zaitsev, Anna
+  year: 2020
+  venue: First Monday 25(3); archived corpus PDF is the December 2019 preprint version
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/ledwich_zaitsev_2020.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Anonymous-baseline recommendation audit and channel mapping conducted in 2019, with some aggregate view measures drawn from 2018 channel activity
+  notes: Archived corpus copy is the December 2019 preprint submitted to First Monday, which matters for page citations and temporal interpretation. Strongest as a channel-level, nonpersonalized audit that
+    argues recommendations mainstream rather than radicalize.
+- id: ribeiro_et_al_2020
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Auditing Radicalization Pathways on YouTube
+  authors:
+  - Ribeiro, Manoel Horta
+  - Ottoni, Raphael
+  - West, Robert
+  - Almeida, Virgílio A. F.
+  - Meira Jr., Wagner
+  year: 2020
+  venue: Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency; archived corpus PDF is the arXiv v4 version
+  doi: 10.1145/3351095.3372879
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/ribeiro_et_al_2020.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Channel and comment histories through 2018 plus a nonpersonalized recommendation snapshot collected in May-July 2019
+  notes: 'Foundational pathway paper combining commenter migration with a recommendation audit. Important to keep the two temporal layers distinct: historical migration evidence versus a 2019 recommender
+    snapshot.'
+- id: faddoul_et_al_2020
+  type: working_paper
+  evidence_tier: primary_empirical
+  title: A Longitudinal Analysis of YouTube's Promotion of Conspiracy Videos
+  authors:
+  - Faddoul, Marc
+  - Chaslot, Guillaume
+  - Farid, Hany
+  year: 2020
+  venue: arXiv preprint arXiv:2003.03318
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/faddoul_et_al_2020.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Default U.S. watch-next recommendations collected daily from October 2018 through February 2020
+  notes: Longitudinal nonpersonalized audit spanning the January 2019 borderline-content intervention. Strong for regime-change discussion, but limited to default watch-next recommendations from an informational-channel
+    root set rather than the full platform or personalized user sessions.
+- id: ribeiro_veselovsky_west_2023
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: The Amplification Paradox in Recommender Systems
+  authors:
+  - Ribeiro, Manoel Horta
+  - Veselovsky, Veniamin
+  - West, Robert
+  year: 2023
+  venue: Proceedings of the Seventeenth International AAAI Conference on Web and Social Media (ICWSM 2023)
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/ribeiro_veselovsky_west_2023.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: A stylized agent-based model published in 2023; motivated by pre-2023 YouTube audit and navigation-log findings rather than tied to a single observation window
+  notes: Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. The paper is theoretical rather than observational, but important
+    for interpreting why audit-style recommendation studies and real-user trace studies can diverge.
+- id: huang_yang_2024
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Auditing Entertainment Traps on YouTube: How Do Recommendation Algorithms Pull Users Away from News?'
+  authors:
+  - Huang, Haoming
+  - Yang, Tian
+  year: 2024
+  venue: 'Digital Journalism 12(10): 1367-1389'
+  doi: 10.1080/10584609.2024.2343769
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/huang_yang_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/news_ecosystem.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  - news-ecosystem
+  themes:
+  - recommendation-radicalization
+  - news-ecosystem
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: User-independent Up Next recommendation dyads collected in 2019 and reanalyzed as a category-transition system
+  notes: Important bridge between recommendation and news themes. Strongest on nonpersonalized category-level recommendation structure, especially entertainment bias and news-to-entertainment redirection,
+    not on actual logged-in user behavior.
+- id: reveilhac_2024
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'YouTube as an Information Source on Politics and Current Affairs: Supply- and Demand-Side Perspectives'
+  authors:
+  - Reveilhac, Maud
+  year: 2024
+  venue: First Monday 29(7)
+  doi: 10.5210/fm.v29i7.13633
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/reveilhac_2024.md
+  - wiki/themes/news_ecosystem.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - news-ecosystem
+  - descriptive-deficit
+  themes:
+  - news-ecosystem
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: French alternative news channels active in 2023, with top-viewed 2023 videos used for supply and audience-overlap analysis
+  notes: Country-bounded descriptive study of a French alternative-news subsystem. Valuable for the news theme and as a reminder that much descriptive work remains niche-, language-, and country-specific
+    rather than platform-wide.
+- id: abou_el_komboz_et_al_2023
+  type: working_paper
+  evidence_tier: primary_empirical
+  title: 'Platform Partnership Programs and Content Supply: Evidence from the YouTube ''Adpocalypse'''
+  authors:
+  - Abou El-Komboz, Lena
+  - Kerkhof, Anna
+  - Loh, Johannes
+  year: 2023
+  venue: CESifo Working Paper No. 10363; prompt cites later Information Economics and Policy publication
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/abou_el_komboz_et_al_2023.md
+  - wiki/themes/creator_economy.md
+  - wiki/index.md
+  tags:
+  - creator-economy
+  themes:
+  - creator-economy
+  census_relevance: high
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  temporal_scope: German YouTube creators observed around the February 2018 YPP eligibility shock, with six-month pre/post outcomes and a follow-up API snapshot in 2020
+  notes: Best current causal estimate in the archive for how YouTube monetization policy changes affect creator behavior. The archived source is a working paper, but the design and findings are original
+    empirical research.
+- id: wu_resnick_2021
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Cross-Partisan Discussions on YouTube: Conservatives Talk to Liberals but Liberals Don''t Talk to Conservatives'
+  authors:
+  - Wu, Siqi
+  - Resnick, Paul
+  year: 2021
+  venue: Proceedings of the Fifteenth International AAAI Conference on Web and Social Media (ICWSM 2021)
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/wu_resnick_2021.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/news_ecosystem.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  - news-ecosystem
+  themes:
+  - recommendation-radicalization
+  - news-ecosystem
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: U.S. partisan-media videos and comments collected from January 1 to August 31, 2020
+  notes: Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Strongest for the comment-layer version of the filter-bubble question
+    rather than for direct recommendation effects.
+- id: rieder_2020
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Mapping YouTube: A quantitative exploration of a platformed media system'
+  authors:
+  - Rieder, Bernhard
+  - Coromina, Òscar
+  - Matamoros-Fernández, Ariadna
+  year: 2020
+  venue: First Monday 25(8)
+  doi: 10.5210/fm.v25i8.10667
+  canonical_format: mhtml
+  formats_available:
+  - mhtml
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/rieder_2020.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/themes/governance_data_access.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  - governance-data-access
+  themes:
+  - descriptive-deficit
+  - governance-data-access
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Crawler ran November 26, 2019-January 8, 2020 and documents late-2019 YouTube data-access conditions.
+  notes: 'Archived source is an `.mhtml` web capture rather than a PDF. Key methodological value is historical: the paper used public featured-channel links, public channel-subscription data, and `channels`/`playlistItems`/`videos`
+    API access under a 50M-unit/day token that the authors say later became harder to obtain for new projects.'
+- id: boesinger_et_al_2024
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Tube2Vec: Social and Semantic Embeddings of YouTube Channels'
+  authors:
+  - Boesinger, Léopaul
+  - Ribeiro, Manoel Horta
+  - Veselovsky, Veniamin
+  - West, Robert
+  year: 2024
+  venue: Proceedings of the Eighteenth International AAAI Conference on Web and Social Media
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/boesinger_et_al_2024.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Reddit traces from January 2010-August 2022 plus channel metadata and history-less recommendation captures gathered during the study
+  notes: Provides released embeddings for 44,000 English-language channels using Reddit sharing, metadata, and recommendation traces. Strongest as reusable classification infrastructure for large channels,
+    not as a platform-wide or multilingual map.
+- id: zaitsev_clark_2025
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Classifying YouTube Channels: Algorithmic Approach to Channel Mapping'
+  authors:
+  - Zaitsev, Anna
+  - Clark, Sam
+  year: 2025
+  venue: First Monday 30(8)
+  doi: 10.5210/fm.v30i8.13682
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/zaitsev_clark_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Data collected in 2020 using then-visible public subscription pages, with yearly views examined from 2017-2020
+  notes: The prompt named 'Justin Clark', but the archived paper credits Sam Clark. Method is historically important because it depends on public commenter subscriptions that the paper says later became
+    less visible.
+- id: lewis_2018
+  type: policy_essay
+  evidence_tier: policy_research
+  title: 'Alternative Influence: Broadcasting the Reactionary Right on YouTube'
+  authors:
+  - Lewis, Rebecca
+  year: 2018
+  venue: Data & Society Research Institute
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/lewis_2018.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: Guest-appearance network and qualitative content analysis centered on January 1, 2017-April 1, 2018 YouTube activity
+  notes: Tiered as `policy_research` because the Data & Society report presents original network mapping and qualitative analysis but is not a peer-reviewed journal article. It is strongest as foundational
+    pre-2019 ecosystem evidence on guest-network pathways and cross-promotion within reactionary political YouTube.
+- id: hosseinmardi_et_al_2021
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Examining the Consumption of Radical Content on YouTube
+  authors:
+  - Hosseinmardi, Homa
+  - Ghasemian, Amir
+  - Clauset, Aaron
+  - Mobius, Markus
+  - Rothschild, David M.
+  - Watts, Duncan J.
+  year: 2021
+  venue: 'Proceedings of the National Academy of Sciences 118(32): e2101967118'
+  doi: 10.1073/pnas.2101967118
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/hosseinmardi_et_al_2021.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: Nationally representative U.S. desktop browsing panel covering January 2016-December 2019
+  notes: Foundational real-user behavioral complement to `hosseinmardi_et_al_2024`. Strongest on late-2010s desktop consumption and entry pathways; it should not be treated as a measurement of post-2022
+    or mobile-first YouTube.
+- id: hussein_et_al_2020
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube'
+  authors:
+  - Hussein, Eslam
+  - Juneja, Prerna
+  - Mitra, Tanushree
+  year: 2020
+  venue: Proceedings of the ACM on Human-Computer Interaction 4(CSCW1), Article 48
+  doi: 10.1145/3392854
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/hussein_et_al_2020.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  themes:
+  - recommendation-radicalization
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: Audit experiments published in May 2020 on then-current YouTube search, Up Next, and Top 5 recommendation outputs; exact crawl dates are not emphasized in the main text
+  notes: The prompt cited a WWW 2020 version, but the archived file in the corpus is the PACM HCI / CSCW1 article with DOI 10.1145/3392854. The paper is especially useful because it separates search from
+    recommendation exposure pathways.
+- id: chae_lee_2024
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Where do cross-cutting discussions happen?: Identifying cross-cutting comments on YouTube videos of political vloggers and mainstream news outlets'
+  authors:
+  - Chae, Seung Woo
+  - Lee, Sung Hyun
+  year: 2024
+  venue: 'PLoS ONE 19(5): e0302030'
+  doi: 10.1371/journal.pone.0302030
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/chae_lee_2024.md
+  - wiki/themes/news_ecosystem.md
+  - wiki/index.md
+  tags:
+  - news-ecosystem
+  themes:
+  - news-ecosystem
+  census_relevance: medium
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: Comment data on Mueller-report YouTube videos from March 22-April 18, 2019
+  notes: The prompt listed different author-name forms, but the archived article credits Seung Woo Chae and Sung Hyun Lee. Strongest on comment-layer interaction by media type rather than total audience
+    exposure.
+- id: kumar_2019
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'The Algorithmic Dance: YouTube''s Adpocalypse and the Gatekeeping of Cultural Content on Digital Platforms'
+  authors:
+  - Kumar, Sangeet
+  year: 2019
+  venue: Internet Policy Review 8(2)
+  doi: 10.14763/2019.2.1417
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/kumar_2019.md
+  - wiki/themes/creator_economy.md
+  - wiki/themes/governance_data_access.md
+  - wiki/index.md
+  tags:
+  - creator-economy
+  - governance-data-access
+  themes:
+  - creator-economy
+  - governance-data-access
+  census_relevance: medium
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  - study3-media-system
+  temporal_scope: March 2017 Adpocalypse aftermath through 2019, with policy changes and creator testimonies analyzed retrospectively
+  notes: Assigned `primary_empirical` despite the essay-like framing because the article is peer-reviewed and presents original qualitative analysis of policy changes and creator testimony. Strongest as
+    a governance-and-monetization case study rather than as a platform-wide estimate.
+- id: van_es_2020
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'YouTube''s Operational Logic: ''The View'' as Pervasive Category'
+  authors:
+  - van Es, Karin
+  year: 2020
+  venue: 'Television & New Media 21(3): 223-239'
+  doi: 10.1177/1527476418818986
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/van_es_2020.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: Platform analysis current to the late-2010s / early-2019 YouTube regime, before Shorts
+  notes: Assigned `primary_empirical` because the paper is a peer-reviewed original platform analysis rather than a review essay. It is strongest as an account of how YouTube's visible metric regime structures
+    legibility, ranking, and monetization.
+- id: violot_et_al_2024
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Shorts vs. Regular Videos on YouTube: A Comparative Analysis of User Engagement and Content Creation Trends'
+  authors:
+  - Violot, Caroline
+  - Elmas, Tuğrulcan
+  - Bilogrevic, Igor
+  - Humbert, Mathias
+  year: 2024
+  venue: Proceedings of the 16th ACM Web Science Conference (WEBSCI '24)
+  doi: 10.1145/3614419.3644023
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/violot_et_al_2024.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study10-shorts-vs-long-form
+  temporal_scope: January 2021-December 2022 channel-level comparison across the first two years of YouTube Shorts
+  notes: The registry schema does not document a dedicated conference-paper type in the header comment, but other ingest work treats peer-reviewed proceedings papers as primary empirical sources. The paper
+    is especially important because the public API does not natively label Shorts, forcing the authors to identify them via redirect behavior.
+- id: lee_et_al_2022
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Whose Advantage? Measuring Attention Dynamics across YouTube and Twitter on Controversial Topics
+  authors:
+  - Lee, JooYoung
+  - Wu, Siqi
+  - Ertugrul, Ali Mert
+  - Lin, Yu-Ru
+  - Xie, Lexing
+  year: 2022
+  venue: Proceedings of the Sixteenth International AAAI Conference on Web and Social Media (ICWSM 2022)
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/lee_et_al_2022.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/news_ecosystem.md
+  - wiki/index.md
+  tags:
+  - recommendation-radicalization
+  - news-ecosystem
+  themes:
+  - recommendation-radicalization
+  - news-ecosystem
+  census_relevance: medium
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  temporal_scope: Cross-platform attention data on tweeted YouTube videos from January 1, 2017-April 30, 2018
+  notes: Strongest as a pre-2019 cross-platform attention study rather than as direct recommendation evidence. The archived paper does not foreground a DOI in the extracted text.
+- id: padilla_2026
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Networks beyond the links: Methodological challenges in mapping YouTube communities'
+  authors:
+  - Padilla, Adrián
+  year: 2026
+  venue: First Monday 31(1)
+  doi: 10.5210/fm.v31i1.14633
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/padilla_2026.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/methods/channel_classification.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Video retrieval spans January 1, 2010-January 1, 2025; relational crawling reflects a late-2025 snapshot of public subscriptions and featured channels
+  notes: Methodological First Monday article using the GNU/Linux creator ecosystem to show how Search API behavior and sparse public relational data constrain community detection. Especially relevant to
+    the channel-classification methods page because it broadens the evidence base beyond political YouTube.
+- id: ofcom_2025
+  type: industry_report
+  evidence_tier: industry_report
+  title: Online Nation Report 2025
+  authors:
+  - Ofcom
+  year: 2025
+  venue: Ofcom
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-16
+  wiki_pages_touched:
+  - wiki/sources/ofcom_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/themes/governance_data_access.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  - governance-data-access
+  themes:
+  - descriptive-deficit
+  - governance-data-access
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: UK adult platform metrics for May 2025 plus child passive-measurement windows from November 2024-March 2025
+  notes: UK-specific regulatory industry report useful for usage baselines, device splits, and child-platform reach. It does not isolate Shorts as a separate measurement layer and cannot support causal
+    or global claims.

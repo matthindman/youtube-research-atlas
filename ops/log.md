@@ -2375,3 +2375,44 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/padilla_2026?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20padilla_2026&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/padilla_2026.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20descriptive-theme%20and%20channel-classification%20notes%20on%20hidden%20relational%20data%2C%20search%20API%20limits%2C%20and%20community-boundary%20filtering.%0A%0A%23%23%20Pages%0A-%20wiki/sources/padilla_2026.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest ofcom_2025
+**Operation:** ingest-source
+**Branch:** ingest/ofcom_2025
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/ofcom_2025.md` and updated the
+descriptive-deficit and governance-data-access themes, registries,
+index, and log.
+
+Cross-check notes:
+
+- Verified the archived report is Ofcom's *Online Nation Report 2025*,
+  published December 10, 2025.
+- Focused extraction on YouTube-specific usage, time-spent, child-use,
+  and platform-comparison sections rather than summarizing the whole
+  115-page report.
+- Confirmed the adult YouTube baseline is 94% reach and 51 minutes per
+  day in May 2025, and the child baseline is 96% reach among 8-14s
+  with 48 minutes of daily use.
+- Did not find a dedicated Shorts breakout in the YouTube sections;
+  logged that absence explicitly in the source card limitations.
+
+Tier decision:
+
+- Assigned `industry_report` because this is a research-adjacent
+  regulatory monitoring report useful for descriptive baselines, not a
+  peer-reviewed study and not evidence for causal or mechanism claims.
+
+Human attention requested:
+
+- The governance relevance here is indirect: Ofcom provides independent
+  measurement baselines, but the report does not create a researcher-
+  access mechanism or open platform internals.
+- The YouTube metrics exclude some viewing environments, especially TV
+  set use in adult summaries, so the reported totals are substantial
+  but not all-screen totals.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ofcom_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20ofcom_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/ofcom_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20theme%20notes%20using%20Ofcom%27s%20UK-only%20audience%20baselines%20to%20underscore%20YouTube%27s%20scale%20while%20keeping%20the%20non-peer-reviewed%20evidence%20tier%20explicit.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ofcom_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md

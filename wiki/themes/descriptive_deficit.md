@@ -8,10 +8,10 @@ themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-16
 source_count: 10
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, padilla_2026]
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, ofcom_2025]
 split_candidates: []
 verification:
-  machine_extracted: 38
+  machine_extracted: 37
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -47,18 +47,18 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   focused on other platforms, Western democracies, English, and text
   (Munger 2024, p. 2; Munger et al. 2025, p. 2; Norton and Shapiro
   2024, pp. 3-5). [🤖]
+- Independent usage monitoring also shows why the platform cannot be
+  treated as marginal: Ofcom's 2025 UK baseline places YouTube at 94%
+  adult reach and 51 minutes per day, with near-universal reach among
+  children aged 8-14, but those figures remain UK-specific rather than
+  platform-wide denominators. *[Note: supported only by non-peer-reviewed
+  sources.]* (Ofcom 2025, pp. 4, 34-36, 91-92). [🤖]
 - Large-scale YouTube description is constrained not only by
   conceptual gaps but also by infrastructure problems: post-2019 API
   limits, insufficient tooling, uneven compute access, and the
   concentration of technical capacity in a small number of well-funded
   sites (Munger et al. 2025, pp. 3, 8; Norton and Shapiro 2024, pp.
   4-6). [🤖]
-- Community and channel mapping are also constrained by the thinness of
-  YouTube's public relational surface. In Padilla's GNU/Linux case, 60
-  percent of detected channels exposed neither public subscriptions nor
-  featured channels, which forced the boundary-setting problem back
-  onto partial traces and explicit qualitative filtering decisions
-  (Padilla 2026, pp. 12, 15, 18). [🤖]
 - English-language evidence cannot safely stand in for YouTube as a
   whole. The current multilingual random-sample evidence shows large
   enough cross-language differences to make generalization itself an
@@ -136,12 +136,6 @@ evidence about the field and its platform-level claims as framing
   technical staff and compute create selection effects in who can
   study YouTube at scale and what kinds of projects they can run
   (Munger et al. 2025, pp. 3, 8; Norton and Shapiro 2024, pp. 4-6). [🤖]
-- Search-based discovery can distort channel universes before any graph
-  analysis starts. Padilla's case study shows that even carefully
-  time-sliced Search API collection still required aggressive
-  post-query filtering and remained vulnerable to underretrieval of
-  older content and algorithmic search noise (Padilla 2026, pp. 7-10).
-  [🤖]
 - Historical channel-classification methods could exploit public
   commenter subscriptions that were still visible in 2020, but
   Zaitsev and Clark explicitly note that YouTube later narrowed that
@@ -238,7 +232,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[reveilhac_2024]]
 - [[zaitsev_clark_2025]]
 - [[violot_et_al_2024]]
-- [[padilla_2026]]
+- [[ofcom_2025]]
 
 ## Cross-References
 

@@ -101,3 +101,4 @@ executive synthesis.
 - `data/source-registry.yaml` — every source touched by the atlas
 - `data/claim-registry.yaml` — cross-cutting claims
 - `data/project-taxonomy.yaml` — controlled vocabulary
+- [[ofcom_2025]] — UK regulatory industry baseline showing very high YouTube reach and time spent among adults and children in 2025

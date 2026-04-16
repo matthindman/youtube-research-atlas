@@ -1,1354 +1,1372 @@
-# Claim registry for the YouTube Scholarship Atlas.
-#
-# Lightweight index of the ~30-50 most important cross-cutting claims
-# that appear across multiple pages. NOT a comprehensive claim database.
-# The purpose is to prevent silent duplication, track contradictions,
-# and ensure that core propositions are stated consistently.
-#
-# Fields:
-#   id:                    slug
-#   text:                  canonical statement of the claim
-#   claim_type:            empirical-descriptive | empirical-causal
-#                          | methodological | theoretical | normative
-#   evidence_strength:     single-source | multi-source | contested
-#   temporal_scope:        when does this claim hold?
-#   primary_sources:       list of source_ids driving the claim
-#   supporting_sources:    list of source_ids with consistent findings
-#   conflicting_sources:   list of source_ids with contrary findings
-#   scope_conditions:      boundary conditions / limitations
-#   themes:                theme slugs from project-taxonomy.yaml
-#   census_papers:         paper_targets this claim feeds
-#   appears_in:            list of wiki page paths where this claim lives
-#   verification:          machine_extracted | human_checked
-#                          | publication_ready
-#
-# VERIFICATION DEFAULT: every new or updated claim-registry entry
-# starts at `verification: machine_extracted`, regardless of how the
-# underlying source card is marked. Upgrading a registry entry to
-# `human_checked` or `publication_ready` is a HUMAN action performed
-# during PR review or the quality calibration pause. Agents must not
-# upgrade these fields, even when ingesting via ingest-from-review.
-#
-# Populated during and after Phase 1 ingest. Target: ~30 entries after
-# Phase 1 completes.
-
 claims:
-  - id: claim_descriptive_deficit_denominator_problem
-    text: "Without platform-wide denominators or representative samples, prevalence claims about YouTube content cannot be interpreted credibly."
-    claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "Persistent platform-level problem documented in late-2022 scholarship."
-    primary_sources:
-      - mcgrady_2023
-    supporting_sources:
-      - zaitsev_clark_2025
-    conflicting_sources: []
-    scope_conditions: "Especially acute for studies built from convenience, seed-based, or recommendation-based samples."
-    themes:
-      - descriptive-deficit
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-    appears_in:
-      - wiki/sources/mcgrady_2023.md
-      - wiki/sources/zaitsev_clark_2025.md
-      - wiki/themes/descriptive_deficit.md
-    verification: machine_extracted
-  - id: claim_descriptive_deficit_multilingual_misrepresentation
-    text: "English-centric or user-experienced views of YouTube are not representative of the platform's broader linguistic composition."
-    claim_type: methodological
-    evidence_strength: multi-source
-    temporal_scope: "Late-2022 through 2024 random-sample evidence; precise language shares remain uncertain."
-    primary_sources:
-      - mcgrady_2023
-    supporting_sources:
-      - mcgrady_2025
-    conflicting_sources: []
-    scope_conditions: "Current support is directional because the paper flags meaningful language-detection error."
-    themes:
-      - descriptive-deficit
-      - cross-linguistic-variation
-    census_papers:
-      - methods-companion
-      - study5-cross-language
-    appears_in:
-      - wiki/sources/mcgrady_2023.md
-      - wiki/sources/mcgrady_2025.md
-      - wiki/themes/descriptive_deficit.md
-    verification: machine_extracted
-  - id: claim_descriptive_deficit_quantitative_description_priority
-    text: "Rigorous quantitative description of what YouTube is should be treated as a core research task, not as a secondary afterthought to causal studies."
-    claim_type: methodological
-    evidence_strength: multi-source
-    temporal_scope: "Early-2020s diagnosis of the YouTube research agenda."
-    primary_sources:
-      - munger_2024
-    supporting_sources:
-      - munger_et_al_2025
-    conflicting_sources: []
-    scope_conditions: "This is an agenda-setting claim rather than a full-platform empirical estimate."
-    themes:
-      - descriptive-deficit
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-    appears_in:
-      - wiki/sources/munger_2024.md
-      - wiki/sources/munger_et_al_2025.md
-      - wiki/themes/descriptive_deficit.md
-    verification: machine_extracted
-  - id: claim_descriptive_deficit_understudied_platform
-    text: "YouTube is understudied relative to its social and political importance."
-    claim_type: theoretical
-    evidence_strength: multi-source
-    temporal_scope: "Early-2020s state of the field."
-    primary_sources:
-      - munger_2024
-    supporting_sources:
-      - munger_et_al_2025
-      - norton_shapiro_2024
-    conflicting_sources: []
-    scope_conditions: "Current support here is agenda-setting and comparative rather than a formal bibliometric census."
-    themes:
-      - descriptive-deficit
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/munger_2024.md
-      - wiki/sources/munger_et_al_2025.md
-      - wiki/sources/norton_shapiro_2024.md
-      - wiki/themes/descriptive_deficit.md
-    verification: machine_extracted
-  - id: claim_descriptive_deficit_infrastructure_constraints
-    text: "Data access limits and insufficient shared tooling or compute capacity materially constrain large-scale YouTube research."
-    claim_type: methodological
-    evidence_strength: multi-source
-    temporal_scope: "Early-2020s research environment."
-    primary_sources:
-      - munger_et_al_2025
-    supporting_sources:
-      - norton_shapiro_2024
-      - hallinan_et_al_2025
-      - padilla_2026
-      - rieder_2020
-      - zaitsev_clark_2025
-    conflicting_sources: []
-    scope_conditions: "Anchored by primary empirical evidence on API constraints and supplemented by field-audit and creator-governance evidence showing that opaque moderation and restricted access limit what outsiders can verify."
-    themes:
-      - descriptive-deficit
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/norton_shapiro_2024.md
-      - wiki/sources/hallinan_et_al_2025.md
-      - wiki/sources/padilla_2026.md
-      - wiki/sources/rieder_2020.md
-      - wiki/sources/zaitsev_clark_2025.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_descriptive_deficit_partial_relational_data_channel_mapping
-    text: "Because YouTube exposes only partial public relational data, channel and community mapping often has to combine sparse formal traces with qualitative interpretation to define boundaries."
-    claim_type: methodological
-    evidence_strength: multi-source
-    temporal_scope: "Late-2019 through 2025 YouTube channel-mapping studies."
-    primary_sources:
-      - padilla_2026
-    supporting_sources:
-      - rieder_2020
-      - zaitsev_clark_2025
-    conflicting_sources: []
-    scope_conditions: "Evidence comes from large-scale mapping studies that rely on public subscriptions, featured channels, or public commenter traces; it shows that hidden relational data constrain coverage and interpretation, not that network mapping is impossible."
-    themes:
-      - descriptive-deficit
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/padilla_2026.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/methods/channel_classification.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_historical_public_research_affordances
-    text: "Late-2010s YouTube research could use public channel subscriptions, featured-channel links, and high-quota Data API access to map channels at scale, but those affordances later became materially harder to obtain or replicate."
-    claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "Late-2019 to early-2020 YouTube research conditions described in a 2020 mapping study."
-    primary_sources:
-      - rieder_2020
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from one large-scale crawl paper describing historical research access conditions; later evidence should distinguish quota changes from the separate restriction of public subscription visibility."
-    themes:
-      - descriptive-deficit
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/rieder_2020.md
-      - wiki/themes/descriptive_deficit.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_informal_creator_accountability
-    text: "When formal participation and appeal channels are weak, YouTube creators use public videos and callouts as informal accountability mechanisms, but those efforts provide visibility and solidarity more reliably than direct governance power."
-    claim_type: empirical-descriptive
-    evidence_strength: multi-source
-    temporal_scope: "English-language creator discourse from 2015-2023, including an August 2022 moderation controversy."
-    primary_sources:
-      - hallinan_et_al_2025
-    supporting_sources:
-      - hallinan_reynolds_2024
-      - reynolds_hallinan_2024
-    conflicting_sources: []
-    scope_conditions: "Current support comes from English-language creator-centered studies focused on moderation complaints, accountability videos, and copyright-dispute videos rather than on direct platform records."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/hallinan_et_al_2025.md
-      - wiki/sources/hallinan_reynolds_2024.md
-      - wiki/sources/reynolds_hallinan_2024.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_horizontal_vertical_callouts
-    text: "Creator copyright callouts do at least two governance jobs: horizontal peer policing inside creator communities and vertical appeals toward platforms or rights holders."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "English-language copyright callout videos published from 2019-2023."
-    primary_sources:
-      - hallinan_reynolds_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from a targeted keyword-based corpus of 135 English-language copyright callout videos rather than a representative platform sample."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/hallinan_reynolds_2024.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_user_generated_accountability
-    text: "Creators use publicity, audits, hashtags, and signal boosting as user-generated accountability practices to reveal governance failures and try to force response from YouTube when official channels do not resolve them."
-    claim_type: theoretical
-    evidence_strength: single-source
-    temporal_scope: "English-language YouTube accountability videos from 2015-2023."
-    primary_sources:
-      - reynolds_hallinan_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The concept is derived from creator-made YouTube videos and is strongest as a framework for creator-facing governance disputes rather than a complete theory of all platform accountability."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/reynolds_hallinan_2024.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_media_pressure_policy_change
-    text: "Across Facebook, Twitter, and YouTube, sustained negative mainstream media coverage is associated with a higher likelihood of subsequent user-policy change."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "English-language mainstream coverage and platform policy changes from 2005/2007 through early 2021."
-    primary_sources:
-      - marchal_et_al_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "This is comparative, observational evidence using public-facing policy documents and should not be read as causal proof or as YouTube-only evidence."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/marchal_et_al_2025.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_governance_change_information_quality
-    text: "Governance and ownership changes can alter platform information quality, as Twitter/X showed a modest but significant shift toward lower-credibility sharing after its October 2022 transition."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Twitter/X data from January 2022-April 2023 around the October 27, 2022 ownership transition."
-    primary_sources:
-      - ozturan_et_al_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "This is comparative evidence from Twitter/X rather than YouTube, and the study does not establish feed exposure or long-run persistence beyond May 2023."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/ozturan_et_al_2025.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_anonymous_audit_mainstreaming
-    text: "In a 2019 anonymous audit of political YouTube channels, recommendation flows favored mainstream and larger partisan-media content over conspiracy or white-identitarian fringe channels, challenging strong rabbit-hole claims."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Anonymous-baseline recommendation audit conducted in 2019, with supporting channel-view comparisons from 2018 activity."
-    primary_sources:
-      - ledwich_zaitsev_2020
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from a channel-level, nonpersonalized audit of recommendations and estimated impressions rather than realized user clicking or logged-in recommendation histories."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/ledwich_zaitsev_2020.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_dsa_researcher_access_mechanism
-    text: "As of October 29, 2025, the DSA creates a qualified-researcher route to request previously unavailable data from very large online platforms and search engines, subject to Digital Services Coordinator review."
-    claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "Post-October 29, 2025 EU DSA regime."
-    primary_sources:
-      - european_commission_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "This is a policy fact from an official announcement about the formal access mechanism, not evidence yet about take-up, consistency, or research payoff in practice."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/european_commission_2025.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_cross_linguistic_english_centric_public_infrastructure
-    text: "Large public YouTube datasets can still be structurally English-centric, so dataset scale alone does not solve the platform's multilingual coverage problem."
-    claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "English-language dataset collected in 2019 covering uploads through October 2019."
-    primary_sources:
-      - ribeiro_west_2021
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from a large English-language metadata corpus; the claim concerns public research infrastructure rather than direct cross-language behavior on the platform."
-    themes:
-      - descriptive-deficit
-      - cross-linguistic-variation
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study5-cross-language
-    appears_in:
-      - wiki/sources/ribeiro_west_2021.md
-      - wiki/themes/cross_linguistic_variation.md
-      - wiki/themes/descriptive_deficit.md
-    verification: machine_extracted
-  - id: claim_cross_linguistic_youtube_not_one_platform
-    text: "Different linguistic communities use YouTube differently enough that English-language findings should not be assumed to generalize across the platform."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Cross-language random samples describing uploads through 2023."
-    primary_sources:
-      - mcgrady_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current evidence comes from English, Spanish, Hindi, and Russian random samples rather than all languages on the platform."
-    themes:
-      - descriptive-deficit
-      - cross-linguistic-variation
-    census_papers:
-      - paper1-attention-economy
-      - study5-cross-language
-    appears_in:
-      - wiki/sources/mcgrady_2025.md
-      - wiki/themes/descriptive_deficit.md
-    verification: machine_extracted
-  - id: claim_creator_economy_extreme_inequality
-    text: "YouTube's creator economy is extremely unequal, with a tiny fraction of channels capturing a disproportionate share of views and revenue opportunity."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Late-2019 elite-channel ecosystem."
-    primary_sources:
-      - rieder_et_al_2023
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from channels with at least 100,000 subscribers and from the paper's broader view-distribution framing."
-    themes:
-      - creator-economy
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    appears_in:
-      - wiki/sources/rieder_et_al_2023.md
-      - wiki/themes/creator_economy.md
-    verification: machine_extracted
-  - id: claim_creator_economy_off_platform_diversification
-    text: "Visible creator monetization on YouTube is often organized through cross-platform networking and off-platform revenue links rather than YouTube-native advertising alone."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Elite channels through 2019."
-    primary_sources:
-      - rieder_et_al_2023
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The evidence comes from URL traces in video descriptions and does not capture sponsorships or other non-linked income."
-    themes:
-      - creator-economy
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    appears_in:
-      - wiki/sources/rieder_et_al_2023.md
-      - wiki/themes/creator_economy.md
-    verification: machine_extracted
-  - id: claim_creator_economy_winner_take_all_precarity
-    text: "Creator earnings on YouTube follow winner-take-all dynamics that leave most creators with unstable or insufficient platform income."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "German-speaking monetized channels in 2022-2023."
-    primary_sources:
-      - verwiebe_et_al_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The evidence is strongest for YPP-based earnings and may understate precarity among creators who do not qualify for monetization."
-    themes:
-      - creator-economy
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    appears_in:
-      - wiki/sources/verwiebe_et_al_2025.md
-      - wiki/themes/creator_economy.md
-    verification: machine_extracted
-  - id: claim_creator_economy_polymorphism_over_isomorphism
-    text: "YouTube's creator economy shows diversification in content and monetization strategies rather than simple platform-induced convergence."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Channels sampled through 2019; coding in summer 2019."
-    primary_sources:
-      - ormen_gregersen_2023_polymorphism
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from a purposive mixed-method sample rather than a representative population estimate."
-    themes:
-      - creator-economy
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    appears_in:
-      - wiki/sources/ormen_gregersen_2023_polymorphism.md
-      - wiki/themes/creator_economy.md
-    verification: machine_extracted
-  - id: claim_creator_economy_platform_strategic_response
-    text: "Creator responses to YouTube's platform pressures are strategically differentiated, including conformity, compromise, avoidance, and defiance."
-    claim_type: theoretical
-    evidence_strength: single-source
-    temporal_scope: "Channels sampled through 2019; coding in summer 2019."
-    primary_sources:
-      - ormen_gregersen_2023_polymorphism
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The typology is derived from mixed-method analysis of active channels and is not a frequency estimate for the whole platform."
-    themes:
-      - creator-economy
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    appears_in:
-      - wiki/sources/ormen_gregersen_2023_polymorphism.md
-      - wiki/themes/creator_economy.md
-    verification: machine_extracted
-  - id: claim_creator_economy_engagement_commodification
-    text: "YouTube is shifting from an attention economy centered on advertising toward an engagement economy that monetizes transactions across producers, users, and brands."
-    claim_type: theoretical
-    evidence_strength: single-source
-    temporal_scope: "Platform documents and product architecture current around 2021-2022."
-    primary_sources:
-      - ormen_gregersen_2023_engagement
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from document analysis of platform communication rather than observed platform behavior."
-    themes:
-      - creator-economy
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    appears_in:
-      - wiki/sources/ormen_gregersen_2023_engagement.md
-      - wiki/themes/creator_economy.md
-    verification: machine_extracted
-  - id: claim_creator_economy_platform_as_active_editor
-    text: "YouTube increasingly acts as an active commercial editor, using vetting and curated partner programs to shape which creators and connections become most valuable."
-    claim_type: theoretical
-    evidence_strength: single-source
-    temporal_scope: "Platform documents and product architecture current around 2021-2022."
-    primary_sources:
-      - ormen_gregersen_2023_engagement
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The claim is about platform strategy and design rather than direct causal measurement of creator outcomes."
-    themes:
-      - creator-economy
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    appears_in:
-      - wiki/sources/ormen_gregersen_2023_engagement.md
-      - wiki/themes/creator_economy.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_commentary_dominance
-    text: "News creator ecosystems on social and video platforms are dominated by commentary formats rather than original reporting."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Audience survey snapshot in 2024-2025 across 24 countries."
-    primary_sources:
-      - newman_et_al_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from audience-reported attention and creator typology rather than direct exposure logs."
-    themes:
-      - news-ecosystem
-      - creator-economy
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/newman_et_al_2025.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_creator_gender_imbalance
-    text: "Top news creator and influencer ecosystems are overwhelmingly male across countries."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Audience survey snapshot in 2024-2025 across 24 countries."
-    primary_sources:
-      - newman_et_al_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The underlying top-15 lists are indicative and survey-based, not exhaustive rosters of all creators."
-    themes:
-      - news-ecosystem
-      - creator-economy
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/newman_et_al_2025.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_global_south_youtube_news_use
-    text: "YouTube is an especially important news platform in parts of the Global South, with weekly news use above 50% in India, Thailand, and Kenya."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "2025 survey wave across 48 markets."
-    primary_sources:
-      - reuters_dnr_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Based on self-reported weekly news use in the Reuters Institute survey; not a direct measure of total exposure time or content quality."
-    themes:
-      - news-ecosystem
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/reuters_dnr_2025.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_creator_led_video_shift
-    text: "On video networks such as YouTube, creator-led and personality-led content is increasingly displacing institutional journalism in news attention."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "2025 survey wave with trend comparisons back to 2020 or 2021."
-    primary_sources:
-      - reuters_dnr_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Survey-based attention measures rather than direct observation of viewed content or algorithmic causes."
-    themes:
-      - news-ecosystem
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/reuters_dnr_2025.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_recommendations_redirect_news_to_entertainment
-    text: "In a 2019 incognito audit of YouTube's Up Next system, entertainment was much more likely to be recommended after news than news was after entertainment, indicating systematic recommendation redirection away from news."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "2019 user-independent recommendation audit reanalyzed in 2024."
-    primary_sources:
-      - huang_yang_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The finding comes from category-level Up Next dyads collected in incognito mode, so it measures nonpersonalized recommendation structure rather than realized logged-in viewing paths."
-    themes:
-      - news-ecosystem
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-    appears_in:
-      - wiki/sources/huang_yang_2024.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_entertainment_bias_outweighs_news_in_up_next
-    text: "Across repeated category transitions in the same 2019 audit, entertainment was roughly two to three times more likely than news to appear in steady-state Up Next recommendations."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "2019 user-independent recommendation audit reanalyzed in 2024."
-    primary_sources:
-      - huang_yang_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The steady-state result is a Markov-chain estimate over recommendation transitions, not a direct measure of complete user sessions or downstream civic effects."
-    themes:
-      - news-ecosystem
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-    appears_in:
-      - wiki/sources/huang_yang_2024.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_video_level_ideology_estimation
-    text: "Cross-platform linking patterns plus text metadata can produce scalable video-level ideology estimates for political YouTube videos."
-    claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "Political subreddit-video data from 2011-2021; validated on held-out videos and 2020 browsing histories."
-    primary_sources:
-      - lai_et_al_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current validation is strongest for U.S. political videos with Reddit-link structure and informative text metadata."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/lai_et_al_2024.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_media_diets_congruence
-    text: "Observed YouTube political media diets are ideologically congruent on average, but overlap and within-party variation remain substantial."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Browsing histories collected May-July 2020."
-    primary_sources:
-      - lai_et_al_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Based on 345 YouGov respondents who viewed News & Politics videos; descriptive rather than causal about recommendations."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/lai_et_al_2024.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_congeniality_without_extremization
-    text: "In post-2019 audits, YouTube recommendations to partisan users are ideologically congenial, but recommendation trails do not show large increases in ideological extremity."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Post-2019 recommendation regime audited circa 2022."
-    primary_sources:
-      - haroon_et_al_2023
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Sock-puppet audit isolates algorithmic recommendations better than browsing-history studies but does not observe real-user clicking, search, or subscription behavior."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/haroon_et_al_2023.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_problematic_low_rate_nontrivial_reach
-    text: "Problematic-channel recommendations can remain a low share of total recommendations while still reaching a substantial minority of users."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Post-2019 recommendation regime audited circa 2022."
-    primary_sources:
-      - haroon_et_al_2023
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from prior problematic-channel lists and up-next trails rather than from measured long-term outcomes."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/haroon_et_al_2023.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_supply_demand_community
-    text: "The main risk from right-wing YouTube is better understood through creator-audience community formation and supply-demand dynamics than through a simple algorithmic rabbit-hole model."
-    claim_type: theoretical
-    evidence_strength: single-source
-    temporal_scope: "Right-wing YouTube through 2018, with framing current to 2022."
-    primary_sources:
-      - munger_phillips_2022
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The argument is grounded in a right-wing subsystem and descriptive trend analysis rather than a platform-wide causal audit."
-    themes:
-      - recommendation-radicalization
-      - creator-economy
-      - news-ecosystem
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/munger_phillips_2022.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_far_right_pre2019_peak
-    text: "Far-right YouTube viewership peaked around 2017 and declined before YouTube's January 2019 demotion of far-right content."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Monthly viewership trends from January 2013 through October 2018, with an update through May 2020."
-    primary_sources:
-      - munger_phillips_2022
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from a right-wing political subsystem rather than platform-wide viewing data."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/munger_phillips_2022.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_post2019_limited_algorithmic_effect
-    text: "In the post-2019 regime, YouTube's recommender appears to play a limited and sometimes moderating role relative to users' own partisan preferences, rather than strongly radicalizing average consumption."
-    claim_type: empirical-causal
-    evidence_strength: single-source
-    temporal_scope: "Post-2019 recommendation studies using 2021-2023 user histories and bot experiments."
-    primary_sources:
-      - hosseinmardi_et_al_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from U.S. desktop browsing data and logged-in counterfactual bots; it does not rule out harms for susceptible subpopulations, low-rate problematic exposure at platform scale, or pre-2019 dynamics."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/hosseinmardi_et_al_2024.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_methodological_heterogeneity
-    text: "The recommendation-radicalization literature is methodologically heterogeneous, often weak on user personalization, and difficult to summarize with a single stable headline claim."
-    claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "Systematic review of studies published 2013-2021."
-    primary_sources:
-      - yesilada_lewandowsky_2022
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "This is a review-level diagnosis of the pre-2022 literature and should be revisited as newer causal and post-2022 studies accumulate."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/yesilada_lewandowsky_2022.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_short_term_limited_polarization_effects
-    text: "In short-term post-2019 YouTube experiments, changing recommendation slant alters what users watch more than what they believe, with limited detectable effects on policy attitudes or affective polarization."
-    claim_type: empirical-causal
-    evidence_strength: single-source
-    temporal_scope: "Four U.S. experiments launched June 2021, April 2022, and May 2024 using contemporary YouTube recommendation networks."
-    primary_sources:
-      - liu_et_al_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Evidence is short-term, issue-specific to gun control and minimum wage, and does not rule out longer-run or susceptible-subpopulation effects."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/liu_et_al_2025.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_nonalgorithmic_exposure_paths
-    text: "In post-2019 U.S. data, subscriptions and external links are major pathways to alternative or extremist YouTube exposure, while unsolicited recommendation-driven rabbit holes are comparatively rare."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "July-December 2020 U.S. browser-tracking and survey study."
-    primary_sources:
-      - chen_et_al_2023
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from weighted browser-tracking data on U.S. desktop browsers and should be treated as a lower-bound estimate of recommendation-driven rabbit holes."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/chen_et_al_2023.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_algorithmic_nudges_broaden_news_exposure
-    text: "Interventions that change recommendation inputs can increase news exposure and ideological diversity on YouTube, whereas nudging users alone may have little observable effect."
-    claim_type: empirical-causal
-    evidence_strength: single-source
-    temporal_scope: "Sock-puppet tuning and month-long U.S. user experiment in 2022-2023."
-    primary_sources:
-      - yu_et_al_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from balanced-news injections into watch histories and frequent U.S. YouTube users; the study does not show downstream attitudinal effects over the short treatment window."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/yu_et_al_2024.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_dsa_researcher_access_mechanism
-    text: "As of October 29, 2025, the DSA creates a qualified-researcher route to request previously unavailable data from very large online platforms and search engines, subject to Digital Services Coordinator review."
-    claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "Post-October 29, 2025 EU DSA regime."
-    primary_sources:
-      - european_commission_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "This is a policy fact from an official announcement about the formal access mechanism, not evidence yet about take-up, consistency, or research payoff in practice."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/european_commission_2025.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_horizontal_vertical_callouts
-    text: "Creator copyright callouts do at least two governance jobs: horizontal peer policing inside creator communities and vertical appeals toward platforms or rights holders."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "English-language copyright callout videos published from 2019-2023."
-    primary_sources:
-      - hallinan_reynolds_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from a targeted keyword-based corpus of 135 English-language copyright callout videos rather than a representative platform sample."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/hallinan_reynolds_2024.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_user_generated_accountability
-    text: "Creators use publicity, audits, hashtags, and signal boosting as user-generated accountability practices to reveal governance failures and try to force response from YouTube when official channels do not resolve them."
-    claim_type: theoretical
-    evidence_strength: single-source
-    temporal_scope: "English-language YouTube accountability videos from 2015-2023."
-    primary_sources:
-      - reynolds_hallinan_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The concept is derived from creator-made YouTube videos and is strongest as a framework for creator-facing governance disputes rather than a complete theory of all platform accountability."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/reynolds_hallinan_2024.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_media_pressure_policy_change
-    text: "Across Facebook, Twitter, and YouTube, sustained negative mainstream media coverage is associated with a higher likelihood of subsequent user-policy change."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "English-language mainstream coverage and platform policy changes from 2005/2007 through early 2021."
-    primary_sources:
-      - marchal_et_al_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "This is comparative, observational evidence using public-facing policy documents and should not be read as causal proof or as YouTube-only evidence."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/marchal_et_al_2025.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_governance_data_access_governance_change_information_quality
-    text: "Governance and ownership changes can alter platform information quality, as Twitter/X showed a modest but significant shift toward lower-credibility sharing after its October 2022 transition."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Twitter/X data from January 2022-April 2023 around the October 27, 2022 ownership transition."
-    primary_sources:
-      - ozturan_et_al_2025
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "This is comparative evidence from Twitter/X rather than YouTube, and the study does not establish feed exposure or long-run persistence beyond May 2023."
-    themes:
-      - governance-data-access
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/ozturan_et_al_2025.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_commenter_migration_to_alt_right
-    text: "Historical commenter traces on political YouTube show migration from I.D.W. and Alt-lite channels toward Alt-right channels over time, and those cohorts become a substantial share of later Alt-right commenters."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Comment histories observed mainly through 2018, analyzed in a 2020 pathway study."
-    primary_sources:
-      - ribeiro_et_al_2020
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from comment-based user histories on coded contrarian channel communities, not from full viewing logs or direct measures of persuasion."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/ribeiro_et_al_2020.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_channel_recommendations_reach_alt_right
-    text: "In a May-July 2019 nonpersonalized audit, Alt-right channels were reachable mainly through YouTube's channel recommendations, while Alt-right videos were seldom recommended directly."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Nonpersonalized recommendation snapshot collected between May and July 2019."
-    primary_sources:
-      - ribeiro_et_al_2020
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The finding comes from random walks on recommendation graphs without personalization, so it identifies discoverability structure rather than realized user behavior."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/ribeiro_et_al_2020.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_conspiracy_recommendations_declined_after_2019_demotions
-    text: "In a nonpersonalized audit of U.S. informational YouTube from October 2018 to February 2020, conspiratorial watch-next recommendations fell sharply after YouTube's January 2019 demotion effort but remained nontrivial and partly rebounded when weighted by source-video popularity."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "October 2018-February 2020, centered on YouTube's January, June, and December 2019 borderline-content announcements."
-    primary_sources:
-      - faddoul_et_al_2020
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Based on default nonpersonalized watch-next recommendations from a large informational-channel root set, not on logged-in behavior or realized viewing histories."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/faddoul_et_al_2020.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_conspiracy_filter_bubble_persisted_in_2019_audit
-    text: "During the same 2018-2020 audit, conspiratorial source videos were more likely than nonconspiratorial ones to yield conspiratorial watch-next recommendations, indicating a declining but still visible conspiracy filter-bubble effect."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "October 2018-February 2020 nonpersonalized recommendation audit."
-    primary_sources:
-      - faddoul_et_al_2020
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The effect is measured in default watch-next recommendations without personalization, so it captures selective exposure in the default interface rather than full user-specific recommendation dynamics."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/faddoul_et_al_2020.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_extreme_content_can_be_deamplified_in_consumption
-    text: "A recommender can surface niche extreme content more often in blind-following audits while still deamplifying that content in actual consumption once user utility is modeled."
-    claim_type: theoretical
-    evidence_strength: single-source
-    temporal_scope: "Stylized agent-based simulations published in 2023 rather than a direct platform observation window."
-    primary_sources:
-      - ribeiro_veselovsky_west_2023
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "This is an existence-proof argument from a simplified collaborative-filtering model, not a direct measurement of YouTube users or recommendations."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/ribeiro_veselovsky_west_2023.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_audits_need_user_preference_models
-    text: "Algorithmic audits that ignore how users choose among recommended items are limited for diagnosing rabbit holes, radicalization, or filter bubbles in systems like YouTube."
-    claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "Methodological intervention published in 2023."
-    primary_sources:
-      - ribeiro_veselovsky_west_2023
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The claim is grounded in a stylized simulation and should be treated as a caution about inference from audits, not as a direct empirical estimate of platform effects."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/ribeiro_veselovsky_west_2023.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_recommendations_redirect_news_to_entertainment
-    text: "In a 2019 incognito audit of YouTube's Up Next system, entertainment was much more likely to be recommended after news than news was after entertainment, indicating systematic recommendation redirection away from news."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "2019 user-independent recommendation audit reanalyzed in 2024."
-    primary_sources:
-      - huang_yang_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The finding comes from category-level Up Next dyads collected in incognito mode, so it measures nonpersonalized recommendation structure rather than realized logged-in viewing paths."
-    themes:
-      - news-ecosystem
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-    appears_in:
-      - wiki/sources/huang_yang_2024.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_entertainment_bias_outweighs_news_in_up_next
-    text: "Across repeated category transitions in the same 2019 audit, entertainment was roughly two to three times more likely than news to appear in steady-state Up Next recommendations."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "2019 user-independent recommendation audit reanalyzed in 2024."
-    primary_sources:
-      - huang_yang_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The steady-state result is a Markov-chain estimate over recommendation transitions, not a direct measure of complete user sessions or downstream civic effects."
-    themes:
-      - news-ecosystem
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-    appears_in:
-      - wiki/sources/huang_yang_2024.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_alternative_news_clustered_overlap_france
-    text: "A 2023 study of French alternative news on YouTube identifies five channel clusters with notable audience overlap, especially between satire-entertainment, alternative, and re-information channels."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "French alternative news channels active in 2023."
-    primary_sources:
-      - reveilhac_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The finding is based on 50 French alternative news channels, their top-viewed 2023 videos, and commenter overlap as a proxy for audience attention; it is not a platform-wide estimate."
-    themes:
-      - news-ecosystem
-      - descriptive-deficit
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/reveilhac_2024.md
-      - wiki/themes/news_ecosystem.md
-      - wiki/themes/descriptive_deficit.md
-    verification: machine_extracted
-  - id: claim_creator_economy_ypp_access_loss_reduces_supply_quality_diversity
-    text: "Creators who lost YouTube Partner Program access in the February 2018 rule change uploaded less frequently and produced lower-quality, less diverse content than comparable creators who remained just above the threshold."
-    claim_type: empirical-causal
-    evidence_strength: single-source
-    temporal_scope: "German creators observed around the February 2018 YPP rule change, with six-month pre/post outcome windows."
-    primary_sources:
-      - abou_el_komboz_et_al_2023
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The estimate is local to small German creators near the 1,000-subscriber cutoff who stayed active long enough to be observed in the second wave; it should not be generalized mechanically to larger creators or all countries."
-    themes:
-      - creator-economy
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-    appears_in:
-      - wiki/sources/abou_el_komboz_et_al_2023.md
-      - wiki/themes/creator_economy.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_cross_partisan_commenting_common_asymmetric
-    text: "Among active commenters on U.S. partisan YouTube in 2020, cross-partisan commenting was common but sharply asymmetric, with conservatives much more likely than liberals to comment across ideological lines."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "U.S. partisan-media videos and comments from January-August 2020."
-    primary_sources:
-      - wu_resnick_2021
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The claim is about commenting behavior on partisan-media channels among active commenters, not about the full audience or about recommendation-driven exposure."
-    themes:
-      - recommendation-radicalization
-      - news-ecosystem
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/wu_resnick_2021.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_cross_partisan_visibility_and_toxicity
-    text: "Cross-partisan comments on U.S. partisan YouTube were modestly less visible in top comment slots, and cross-partisan replies were more toxic than co-partisan replies, especially on the replier's home turf."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "U.S. partisan-media videos and comments from January-August 2020."
-    primary_sources:
-      - wu_resnick_2021
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "The visibility result concerns the top-20 root comments shown by default, and the toxicity result uses Perspective API scores rather than human-coded deliberative quality."
-    themes:
-      - recommendation-radicalization
-      - news-ecosystem
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/wu_resnick_2021.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_descriptive_deficit_channel_embeddings_public_traces
-    text: "Public relational and metadata traces can produce scalable channel embeddings that recover both semantic similarity and social dimensions without relying on exhaustive manual channel labeling."
-    claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "2010-2022 Reddit-sharing traces and early-2020s recommendation/metadata captures described in a 2024 methods paper."
-    primary_sources:
-      - boesinger_et_al_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from English-language large channels shared on Reddit and from history-less recommendation captures, so the approach inherits the biases of those public traces."
-    themes:
-      - descriptive-deficit
-    census_papers:
-      - methods-companion
-      - study3-media-system
-    appears_in:
-      - wiki/sources/boesinger_et_al_2024.md
-      - wiki/themes/descriptive_deficit.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_reactionary_guest_network_pathways
-    text: "Pre-2019 reactionary political YouTube operated as a densely cross-promotional guest network in which collaborations and influencer practices created pathways from mainstream conservative or libertarian creators toward more extreme figures."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Guest-appearance network covering January 2017-April 2018 in the pre-2019 YouTube regime."
-    primary_sources:
-      - lewis_2018
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from a purposive map of an English-language reactionary-right subsystem and from qualitative network analysis rather than platform-wide exposure logs or direct recommendation traces."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/lewis_2018.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_radical_consumption_concentrated_small_predisposed_minority
-    text: "In late-2010s U.S. browsing data, radical and far-right YouTube consumption was concentrated among a small, already predisposed minority rather than being systematically generated by YouTube recommendations for average users."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Nationally representative U.S. desktop browsing histories from January 2016-December 2019."
-    primary_sources:
-      - hosseinmardi_et_al_2021
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from realized desktop browsing behavior and session-entry analysis; the study does not observe mobile use or the full recommendation menu that users ignored."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/hosseinmardi_et_al_2021.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_recommendation_radicalization_search_and_recommendation_misinformation_pathways_are_topic_specific
-    text: "Misinformation exposure on YouTube is pathway- and topic-specific: search results, Up-Next, and Top 5 recommendations do not behave identically, and personalization effects become stronger after watch history develops."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "YouTube audit results published in May 2020 on then-current search and recommendation surfaces."
-    primary_sources:
-      - hussein_et_al_2020
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from controlled audit accounts across five misinformation topics; it measures output surfaces rather than realized user clicking or downstream belief change."
-    themes:
-      - recommendation-radicalization
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/hussein_et_al_2020.md
-      - wiki/themes/recommendation_radicalization.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_mainstream_news_comment_threads_more_cross_cutting_than_vloggers
-    text: "On YouTube videos about the Mueller report, mainstream news outlet comment threads hosted more cross-cutting discussion than political-vlogger videos, with neutral outlets offering the strongest venue in this sample."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "U.S. Mueller-report videos from March-April 2019."
-    primary_sources:
-      - chae_lee_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from top-level comments on a bounded set of U.S. political videos and does not imply that all cross-cutting discussion is civil or deliberatively productive."
-    themes:
-      - news-ecosystem
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/chae_lee_2024.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
-  - id: claim_creator_economy_monetization_policy_functions_as_gatekeeping
-    text: "YouTube monetization and advertiser-safety policies can function as cultural gatekeeping by simultaneously shaping revenue eligibility, creator precarity, and likely visibility for controversial content."
-    claim_type: theoretical
-    evidence_strength: single-source
-    temporal_scope: "Adpocalypse-era policy changes from 2017 through 2019."
-    primary_sources:
-      - kumar_2019
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from a qualitative case study of the Adpocalypse and should be read as a mechanism claim about governance and incentives rather than a platform-wide causal estimate."
-    themes:
-      - creator-economy
-      - governance-data-access
-    census_papers:
-      - paper1-attention-economy
-      - paper2-mobility
-      - study3-media-system
-    appears_in:
-      - wiki/sources/kumar_2019.md
-      - wiki/themes/creator_economy.md
-      - wiki/themes/governance_data_access.md
-    verification: machine_extracted
-  - id: claim_descriptive_deficit_view_metric_structures_visibility_and_monetization
-    text: "YouTube's visible metric regime is not neutral: the platform's view and watch-time logic structures what becomes legible, valuable, and measurable for both creators and researchers."
-    claim_type: methodological
-    evidence_strength: single-source
-    temporal_scope: "Late-2010s / early-2019 YouTube metric regime."
-    primary_sources:
-      - van_es_2020
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from critical platform analysis of YouTube's metric and advertising systems rather than from a platform-wide statistical census."
-    themes:
-      - descriptive-deficit
-    census_papers:
-      - methods-companion
-      - paper1-attention-economy
-    appears_in:
-      - wiki/sources/van_es_2020.md
-      - wiki/themes/descriptive_deficit.md
-    verification: machine_extracted
-  - id: claim_descriptive_deficit_shorts_reshape_supply_and_engagement_patterns
-    text: "Shorts have become a large, behaviorally distinct part of YouTube production and engagement, so descriptive work that ignores Shorts misses a major share of current platform activity."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "First two years of Shorts on YouTube, January 2021-December 2022."
-    primary_sources:
-      - violot_et_al_2024
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from channels that posted at least one Short and from public metadata rather than from a full random platform sample."
-    themes:
-      - descriptive-deficit
-    census_papers:
-      - methods-companion
-      - study10-shorts-vs-long-form
-    appears_in:
-      - wiki/sources/violot_et_al_2024.md
-      - wiki/themes/descriptive_deficit.md
-    verification: machine_extracted
-  - id: claim_news_ecosystem_cross_platform_attention_asymmetry_by_ideology
-    text: "Across controversial political topics, left-leaning YouTube videos can attract more on-platform views and engagement while right-leaning videos attract more Twitter diffusion and longer cross-platform attention tails."
-    claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Cross-platform attention on tweeted YouTube videos from January 2017-April 2018."
-    primary_sources:
-      - lee_et_al_2022
-    supporting_sources: []
-    conflicting_sources: []
-    scope_conditions: "Current support comes from high-attention tweeted videos on three U.S.-centric controversial topics rather than from all political YouTube content or direct recommendation measurements."
-    themes:
-      - news-ecosystem
-      - recommendation-radicalization
-    census_papers:
-      - paper1-attention-economy
-      - study3-media-system
-    appears_in:
-      - wiki/sources/lee_et_al_2022.md
-      - wiki/themes/recommendation_radicalization.md
-      - wiki/themes/news_ecosystem.md
-    verification: machine_extracted
+- id: claim_descriptive_deficit_denominator_problem
+  text: Without platform-wide denominators or representative samples, prevalence claims about YouTube content cannot be interpreted credibly.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Persistent platform-level problem documented in late-2022 scholarship.
+  primary_sources:
+  - mcgrady_2023
+  supporting_sources:
+  - zaitsev_clark_2025
+  conflicting_sources: []
+  scope_conditions: Especially acute for studies built from convenience, seed-based, or recommendation-based samples.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/mcgrady_2023.md
+  - wiki/sources/zaitsev_clark_2025.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_multilingual_misrepresentation
+  text: English-centric or user-experienced views of YouTube are not representative of the platform's broader linguistic composition.
+  claim_type: methodological
+  evidence_strength: multi-source
+  temporal_scope: Late-2022 through 2024 random-sample evidence; precise language shares remain uncertain.
+  primary_sources:
+  - mcgrady_2023
+  supporting_sources:
+  - mcgrady_2025
+  conflicting_sources: []
+  scope_conditions: Current support is directional because the paper flags meaningful language-detection error.
+  themes:
+  - descriptive-deficit
+  - cross-linguistic-variation
+  census_papers:
+  - methods-companion
+  - study5-cross-language
+  appears_in:
+  - wiki/sources/mcgrady_2023.md
+  - wiki/sources/mcgrady_2025.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_quantitative_description_priority
+  text: Rigorous quantitative description of what YouTube is should be treated as a core research task, not as a secondary afterthought to causal studies.
+  claim_type: methodological
+  evidence_strength: multi-source
+  temporal_scope: Early-2020s diagnosis of the YouTube research agenda.
+  primary_sources:
+  - munger_2024
+  supporting_sources:
+  - munger_et_al_2025
+  conflicting_sources: []
+  scope_conditions: This is an agenda-setting claim rather than a full-platform empirical estimate.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/munger_2024.md
+  - wiki/sources/munger_et_al_2025.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_understudied_platform
+  text: YouTube is understudied relative to its social and political importance.
+  claim_type: theoretical
+  evidence_strength: multi-source
+  temporal_scope: Early-2020s state of the field.
+  primary_sources:
+  - munger_2024
+  supporting_sources:
+  - munger_et_al_2025
+  - norton_shapiro_2024
+  conflicting_sources: []
+  scope_conditions: Current support here is agenda-setting and comparative rather than a formal bibliometric census.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/munger_2024.md
+  - wiki/sources/munger_et_al_2025.md
+  - wiki/sources/norton_shapiro_2024.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_infrastructure_constraints
+  text: Data access limits and insufficient shared tooling or compute capacity materially constrain large-scale YouTube research.
+  claim_type: methodological
+  evidence_strength: multi-source
+  temporal_scope: Early-2020s research environment.
+  primary_sources:
+  - munger_et_al_2025
+  supporting_sources:
+  - norton_shapiro_2024
+  - hallinan_et_al_2025
+  - padilla_2026
+  - rieder_2020
+  - zaitsev_clark_2025
+  conflicting_sources: []
+  scope_conditions: Anchored by primary empirical evidence on API constraints and supplemented by field-audit and creator-governance evidence showing that opaque moderation and restricted access limit what
+    outsiders can verify.
+  themes:
+  - descriptive-deficit
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/norton_shapiro_2024.md
+  - wiki/sources/hallinan_et_al_2025.md
+  - wiki/sources/padilla_2026.md
+  - wiki/sources/rieder_2020.md
+  - wiki/sources/zaitsev_clark_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_partial_relational_data_channel_mapping
+  text: Because YouTube exposes only partial public relational data, channel and community mapping often has to combine sparse formal traces with qualitative interpretation to define boundaries.
+  claim_type: methodological
+  evidence_strength: multi-source
+  temporal_scope: Late-2019 through 2025 YouTube channel-mapping studies.
+  primary_sources:
+  - padilla_2026
+  supporting_sources:
+  - rieder_2020
+  - zaitsev_clark_2025
+  conflicting_sources: []
+  scope_conditions: Evidence comes from large-scale mapping studies that rely on public subscriptions, featured channels, or public commenter traces; it shows that hidden relational data constrain coverage
+    and interpretation, not that network mapping is impossible.
+  themes:
+  - descriptive-deficit
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/padilla_2026.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/methods/channel_classification.md
+  verification: machine_extracted
+- id: claim_governance_data_access_historical_public_research_affordances
+  text: Late-2010s YouTube research could use public channel subscriptions, featured-channel links, and high-quota Data API access to map channels at scale, but those affordances later became materially
+    harder to obtain or replicate.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Late-2019 to early-2020 YouTube research conditions described in a 2020 mapping study.
+  primary_sources:
+  - rieder_2020
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from one large-scale crawl paper describing historical research access conditions; later evidence should distinguish quota changes from the separate restriction
+    of public subscription visibility.
+  themes:
+  - descriptive-deficit
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/rieder_2020.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_governance_data_access_informal_creator_accountability
+  text: When formal participation and appeal channels are weak, YouTube creators use public videos and callouts as informal accountability mechanisms, but those efforts provide visibility and solidarity
+    more reliably than direct governance power.
+  claim_type: empirical-descriptive
+  evidence_strength: multi-source
+  temporal_scope: English-language creator discourse from 2015-2023, including an August 2022 moderation controversy.
+  primary_sources:
+  - hallinan_et_al_2025
+  supporting_sources:
+  - hallinan_reynolds_2024
+  - reynolds_hallinan_2024
+  conflicting_sources: []
+  scope_conditions: Current support comes from English-language creator-centered studies focused on moderation complaints, accountability videos, and copyright-dispute videos rather than on direct platform
+    records.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/hallinan_et_al_2025.md
+  - wiki/sources/hallinan_reynolds_2024.md
+  - wiki/sources/reynolds_hallinan_2024.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_governance_data_access_horizontal_vertical_callouts
+  text: 'Creator copyright callouts do at least two governance jobs: horizontal peer policing inside creator communities and vertical appeals toward platforms or rights holders.'
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: English-language copyright callout videos published from 2019-2023.
+  primary_sources:
+  - hallinan_reynolds_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a targeted keyword-based corpus of 135 English-language copyright callout videos rather than a representative platform sample.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/hallinan_reynolds_2024.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_governance_data_access_user_generated_accountability
+  text: Creators use publicity, audits, hashtags, and signal boosting as user-generated accountability practices to reveal governance failures and try to force response from YouTube when official channels
+    do not resolve them.
+  claim_type: theoretical
+  evidence_strength: single-source
+  temporal_scope: English-language YouTube accountability videos from 2015-2023.
+  primary_sources:
+  - reynolds_hallinan_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The concept is derived from creator-made YouTube videos and is strongest as a framework for creator-facing governance disputes rather than a complete theory of all platform accountability.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/reynolds_hallinan_2024.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_governance_data_access_media_pressure_policy_change
+  text: Across Facebook, Twitter, and YouTube, sustained negative mainstream media coverage is associated with a higher likelihood of subsequent user-policy change.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: English-language mainstream coverage and platform policy changes from 2005/2007 through early 2021.
+  primary_sources:
+  - marchal_et_al_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: This is comparative, observational evidence using public-facing policy documents and should not be read as causal proof or as YouTube-only evidence.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/marchal_et_al_2025.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_governance_data_access_governance_change_information_quality
+  text: Governance and ownership changes can alter platform information quality, as Twitter/X showed a modest but significant shift toward lower-credibility sharing after its October 2022 transition.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Twitter/X data from January 2022-April 2023 around the October 27, 2022 ownership transition.
+  primary_sources:
+  - ozturan_et_al_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: This is comparative evidence from Twitter/X rather than YouTube, and the study does not establish feed exposure or long-run persistence beyond May 2023.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/ozturan_et_al_2025.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_anonymous_audit_mainstreaming
+  text: In a 2019 anonymous audit of political YouTube channels, recommendation flows favored mainstream and larger partisan-media content over conspiracy or white-identitarian fringe channels, challenging
+    strong rabbit-hole claims.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Anonymous-baseline recommendation audit conducted in 2019, with supporting channel-view comparisons from 2018 activity.
+  primary_sources:
+  - ledwich_zaitsev_2020
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a channel-level, nonpersonalized audit of recommendations and estimated impressions rather than realized user clicking or logged-in recommendation histories.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/ledwich_zaitsev_2020.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_governance_data_access_dsa_researcher_access_mechanism
+  text: As of October 29, 2025, the DSA creates a qualified-researcher route to request previously unavailable data from very large online platforms and search engines, subject to Digital Services Coordinator
+    review.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Post-October 29, 2025 EU DSA regime.
+  primary_sources:
+  - european_commission_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: This is a policy fact from an official announcement about the formal access mechanism, not evidence yet about take-up, consistency, or research payoff in practice.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/european_commission_2025.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_cross_linguistic_english_centric_public_infrastructure
+  text: Large public YouTube datasets can still be structurally English-centric, so dataset scale alone does not solve the platform's multilingual coverage problem.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: English-language dataset collected in 2019 covering uploads through October 2019.
+  primary_sources:
+  - ribeiro_west_2021
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a large English-language metadata corpus; the claim concerns public research infrastructure rather than direct cross-language behavior on the platform.
+  themes:
+  - descriptive-deficit
+  - cross-linguistic-variation
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study5-cross-language
+  appears_in:
+  - wiki/sources/ribeiro_west_2021.md
+  - wiki/themes/cross_linguistic_variation.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_cross_linguistic_youtube_not_one_platform
+  text: Different linguistic communities use YouTube differently enough that English-language findings should not be assumed to generalize across the platform.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Cross-language random samples describing uploads through 2023.
+  primary_sources:
+  - mcgrady_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current evidence comes from English, Spanish, Hindi, and Russian random samples rather than all languages on the platform.
+  themes:
+  - descriptive-deficit
+  - cross-linguistic-variation
+  census_papers:
+  - paper1-attention-economy
+  - study5-cross-language
+  appears_in:
+  - wiki/sources/mcgrady_2025.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_creator_economy_extreme_inequality
+  text: YouTube's creator economy is extremely unequal, with a tiny fraction of channels capturing a disproportionate share of views and revenue opportunity.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Late-2019 elite-channel ecosystem.
+  primary_sources:
+  - rieder_et_al_2023
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from channels with at least 100,000 subscribers and from the paper's broader view-distribution framing.
+  themes:
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  appears_in:
+  - wiki/sources/rieder_et_al_2023.md
+  - wiki/themes/creator_economy.md
+  verification: machine_extracted
+- id: claim_creator_economy_off_platform_diversification
+  text: Visible creator monetization on YouTube is often organized through cross-platform networking and off-platform revenue links rather than YouTube-native advertising alone.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Elite channels through 2019.
+  primary_sources:
+  - rieder_et_al_2023
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The evidence comes from URL traces in video descriptions and does not capture sponsorships or other non-linked income.
+  themes:
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  appears_in:
+  - wiki/sources/rieder_et_al_2023.md
+  - wiki/themes/creator_economy.md
+  verification: machine_extracted
+- id: claim_creator_economy_winner_take_all_precarity
+  text: Creator earnings on YouTube follow winner-take-all dynamics that leave most creators with unstable or insufficient platform income.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: German-speaking monetized channels in 2022-2023.
+  primary_sources:
+  - verwiebe_et_al_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The evidence is strongest for YPP-based earnings and may understate precarity among creators who do not qualify for monetization.
+  themes:
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  appears_in:
+  - wiki/sources/verwiebe_et_al_2025.md
+  - wiki/themes/creator_economy.md
+  verification: machine_extracted
+- id: claim_creator_economy_polymorphism_over_isomorphism
+  text: YouTube's creator economy shows diversification in content and monetization strategies rather than simple platform-induced convergence.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Channels sampled through 2019; coding in summer 2019.
+  primary_sources:
+  - ormen_gregersen_2023_polymorphism
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a purposive mixed-method sample rather than a representative population estimate.
+  themes:
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  appears_in:
+  - wiki/sources/ormen_gregersen_2023_polymorphism.md
+  - wiki/themes/creator_economy.md
+  verification: machine_extracted
+- id: claim_creator_economy_platform_strategic_response
+  text: Creator responses to YouTube's platform pressures are strategically differentiated, including conformity, compromise, avoidance, and defiance.
+  claim_type: theoretical
+  evidence_strength: single-source
+  temporal_scope: Channels sampled through 2019; coding in summer 2019.
+  primary_sources:
+  - ormen_gregersen_2023_polymorphism
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The typology is derived from mixed-method analysis of active channels and is not a frequency estimate for the whole platform.
+  themes:
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  appears_in:
+  - wiki/sources/ormen_gregersen_2023_polymorphism.md
+  - wiki/themes/creator_economy.md
+  verification: machine_extracted
+- id: claim_creator_economy_engagement_commodification
+  text: YouTube is shifting from an attention economy centered on advertising toward an engagement economy that monetizes transactions across producers, users, and brands.
+  claim_type: theoretical
+  evidence_strength: single-source
+  temporal_scope: Platform documents and product architecture current around 2021-2022.
+  primary_sources:
+  - ormen_gregersen_2023_engagement
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from document analysis of platform communication rather than observed platform behavior.
+  themes:
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  appears_in:
+  - wiki/sources/ormen_gregersen_2023_engagement.md
+  - wiki/themes/creator_economy.md
+  verification: machine_extracted
+- id: claim_creator_economy_platform_as_active_editor
+  text: YouTube increasingly acts as an active commercial editor, using vetting and curated partner programs to shape which creators and connections become most valuable.
+  claim_type: theoretical
+  evidence_strength: single-source
+  temporal_scope: Platform documents and product architecture current around 2021-2022.
+  primary_sources:
+  - ormen_gregersen_2023_engagement
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The claim is about platform strategy and design rather than direct causal measurement of creator outcomes.
+  themes:
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  appears_in:
+  - wiki/sources/ormen_gregersen_2023_engagement.md
+  - wiki/themes/creator_economy.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_commentary_dominance
+  text: News creator ecosystems on social and video platforms are dominated by commentary formats rather than original reporting.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Audience survey snapshot in 2024-2025 across 24 countries.
+  primary_sources:
+  - newman_et_al_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from audience-reported attention and creator typology rather than direct exposure logs.
+  themes:
+  - news-ecosystem
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/newman_et_al_2025.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_creator_gender_imbalance
+  text: Top news creator and influencer ecosystems are overwhelmingly male across countries.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Audience survey snapshot in 2024-2025 across 24 countries.
+  primary_sources:
+  - newman_et_al_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The underlying top-15 lists are indicative and survey-based, not exhaustive rosters of all creators.
+  themes:
+  - news-ecosystem
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/newman_et_al_2025.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_global_south_youtube_news_use
+  text: YouTube is an especially important news platform in parts of the Global South, with weekly news use above 50% in India, Thailand, and Kenya.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: 2025 survey wave across 48 markets.
+  primary_sources:
+  - reuters_dnr_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Based on self-reported weekly news use in the Reuters Institute survey; not a direct measure of total exposure time or content quality.
+  themes:
+  - news-ecosystem
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/reuters_dnr_2025.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_creator_led_video_shift
+  text: On video networks such as YouTube, creator-led and personality-led content is increasingly displacing institutional journalism in news attention.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: 2025 survey wave with trend comparisons back to 2020 or 2021.
+  primary_sources:
+  - reuters_dnr_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Survey-based attention measures rather than direct observation of viewed content or algorithmic causes.
+  themes:
+  - news-ecosystem
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/reuters_dnr_2025.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_recommendations_redirect_news_to_entertainment
+  text: In a 2019 incognito audit of YouTube's Up Next system, entertainment was much more likely to be recommended after news than news was after entertainment, indicating systematic recommendation redirection
+    away from news.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: 2019 user-independent recommendation audit reanalyzed in 2024.
+  primary_sources:
+  - huang_yang_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The finding comes from category-level Up Next dyads collected in incognito mode, so it measures nonpersonalized recommendation structure rather than realized logged-in viewing paths.
+  themes:
+  - news-ecosystem
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/huang_yang_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_entertainment_bias_outweighs_news_in_up_next
+  text: Across repeated category transitions in the same 2019 audit, entertainment was roughly two to three times more likely than news to appear in steady-state Up Next recommendations.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: 2019 user-independent recommendation audit reanalyzed in 2024.
+  primary_sources:
+  - huang_yang_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The steady-state result is a Markov-chain estimate over recommendation transitions, not a direct measure of complete user sessions or downstream civic effects.
+  themes:
+  - news-ecosystem
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/huang_yang_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_video_level_ideology_estimation
+  text: Cross-platform linking patterns plus text metadata can produce scalable video-level ideology estimates for political YouTube videos.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Political subreddit-video data from 2011-2021; validated on held-out videos and 2020 browsing histories.
+  primary_sources:
+  - lai_et_al_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current validation is strongest for U.S. political videos with Reddit-link structure and informative text metadata.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/lai_et_al_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_media_diets_congruence
+  text: Observed YouTube political media diets are ideologically congruent on average, but overlap and within-party variation remain substantial.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Browsing histories collected May-July 2020.
+  primary_sources:
+  - lai_et_al_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Based on 345 YouGov respondents who viewed News & Politics videos; descriptive rather than causal about recommendations.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/lai_et_al_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_congeniality_without_extremization
+  text: In post-2019 audits, YouTube recommendations to partisan users are ideologically congenial, but recommendation trails do not show large increases in ideological extremity.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Post-2019 recommendation regime audited circa 2022.
+  primary_sources:
+  - haroon_et_al_2023
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Sock-puppet audit isolates algorithmic recommendations better than browsing-history studies but does not observe real-user clicking, search, or subscription behavior.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/haroon_et_al_2023.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_problematic_low_rate_nontrivial_reach
+  text: Problematic-channel recommendations can remain a low share of total recommendations while still reaching a substantial minority of users.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Post-2019 recommendation regime audited circa 2022.
+  primary_sources:
+  - haroon_et_al_2023
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from prior problematic-channel lists and up-next trails rather than from measured long-term outcomes.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/haroon_et_al_2023.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_supply_demand_community
+  text: The main risk from right-wing YouTube is better understood through creator-audience community formation and supply-demand dynamics than through a simple algorithmic rabbit-hole model.
+  claim_type: theoretical
+  evidence_strength: single-source
+  temporal_scope: Right-wing YouTube through 2018, with framing current to 2022.
+  primary_sources:
+  - munger_phillips_2022
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The argument is grounded in a right-wing subsystem and descriptive trend analysis rather than a platform-wide causal audit.
+  themes:
+  - recommendation-radicalization
+  - creator-economy
+  - news-ecosystem
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/munger_phillips_2022.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_far_right_pre2019_peak
+  text: Far-right YouTube viewership peaked around 2017 and declined before YouTube's January 2019 demotion of far-right content.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Monthly viewership trends from January 2013 through October 2018, with an update through May 2020.
+  primary_sources:
+  - munger_phillips_2022
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a right-wing political subsystem rather than platform-wide viewing data.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/munger_phillips_2022.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_post2019_limited_algorithmic_effect
+  text: In the post-2019 regime, YouTube's recommender appears to play a limited and sometimes moderating role relative to users' own partisan preferences, rather than strongly radicalizing average consumption.
+  claim_type: empirical-causal
+  evidence_strength: single-source
+  temporal_scope: Post-2019 recommendation studies using 2021-2023 user histories and bot experiments.
+  primary_sources:
+  - hosseinmardi_et_al_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from U.S. desktop browsing data and logged-in counterfactual bots; it does not rule out harms for susceptible subpopulations, low-rate problematic exposure at platform
+    scale, or pre-2019 dynamics.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/hosseinmardi_et_al_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_methodological_heterogeneity
+  text: The recommendation-radicalization literature is methodologically heterogeneous, often weak on user personalization, and difficult to summarize with a single stable headline claim.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Systematic review of studies published 2013-2021.
+  primary_sources:
+  - yesilada_lewandowsky_2022
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: This is a review-level diagnosis of the pre-2022 literature and should be revisited as newer causal and post-2022 studies accumulate.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/yesilada_lewandowsky_2022.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_short_term_limited_polarization_effects
+  text: In short-term post-2019 YouTube experiments, changing recommendation slant alters what users watch more than what they believe, with limited detectable effects on policy attitudes or affective polarization.
+  claim_type: empirical-causal
+  evidence_strength: single-source
+  temporal_scope: Four U.S. experiments launched June 2021, April 2022, and May 2024 using contemporary YouTube recommendation networks.
+  primary_sources:
+  - liu_et_al_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Evidence is short-term, issue-specific to gun control and minimum wage, and does not rule out longer-run or susceptible-subpopulation effects.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/liu_et_al_2025.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_nonalgorithmic_exposure_paths
+  text: In post-2019 U.S. data, subscriptions and external links are major pathways to alternative or extremist YouTube exposure, while unsolicited recommendation-driven rabbit holes are comparatively rare.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: July-December 2020 U.S. browser-tracking and survey study.
+  primary_sources:
+  - chen_et_al_2023
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from weighted browser-tracking data on U.S. desktop browsers and should be treated as a lower-bound estimate of recommendation-driven rabbit holes.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/chen_et_al_2023.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_algorithmic_nudges_broaden_news_exposure
+  text: Interventions that change recommendation inputs can increase news exposure and ideological diversity on YouTube, whereas nudging users alone may have little observable effect.
+  claim_type: empirical-causal
+  evidence_strength: single-source
+  temporal_scope: Sock-puppet tuning and month-long U.S. user experiment in 2022-2023.
+  primary_sources:
+  - yu_et_al_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from balanced-news injections into watch histories and frequent U.S. YouTube users; the study does not show downstream attitudinal effects over the short treatment
+    window.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/yu_et_al_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_governance_data_access_dsa_researcher_access_mechanism
+  text: As of October 29, 2025, the DSA creates a qualified-researcher route to request previously unavailable data from very large online platforms and search engines, subject to Digital Services Coordinator
+    review.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Post-October 29, 2025 EU DSA regime.
+  primary_sources:
+  - european_commission_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: This is a policy fact from an official announcement about the formal access mechanism, not evidence yet about take-up, consistency, or research payoff in practice.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/european_commission_2025.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_governance_data_access_horizontal_vertical_callouts
+  text: 'Creator copyright callouts do at least two governance jobs: horizontal peer policing inside creator communities and vertical appeals toward platforms or rights holders.'
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: English-language copyright callout videos published from 2019-2023.
+  primary_sources:
+  - hallinan_reynolds_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a targeted keyword-based corpus of 135 English-language copyright callout videos rather than a representative platform sample.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/hallinan_reynolds_2024.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_governance_data_access_user_generated_accountability
+  text: Creators use publicity, audits, hashtags, and signal boosting as user-generated accountability practices to reveal governance failures and try to force response from YouTube when official channels
+    do not resolve them.
+  claim_type: theoretical
+  evidence_strength: single-source
+  temporal_scope: English-language YouTube accountability videos from 2015-2023.
+  primary_sources:
+  - reynolds_hallinan_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The concept is derived from creator-made YouTube videos and is strongest as a framework for creator-facing governance disputes rather than a complete theory of all platform accountability.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/reynolds_hallinan_2024.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_governance_data_access_media_pressure_policy_change
+  text: Across Facebook, Twitter, and YouTube, sustained negative mainstream media coverage is associated with a higher likelihood of subsequent user-policy change.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: English-language mainstream coverage and platform policy changes from 2005/2007 through early 2021.
+  primary_sources:
+  - marchal_et_al_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: This is comparative, observational evidence using public-facing policy documents and should not be read as causal proof or as YouTube-only evidence.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/marchal_et_al_2025.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_governance_data_access_governance_change_information_quality
+  text: Governance and ownership changes can alter platform information quality, as Twitter/X showed a modest but significant shift toward lower-credibility sharing after its October 2022 transition.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Twitter/X data from January 2022-April 2023 around the October 27, 2022 ownership transition.
+  primary_sources:
+  - ozturan_et_al_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: This is comparative evidence from Twitter/X rather than YouTube, and the study does not establish feed exposure or long-run persistence beyond May 2023.
+  themes:
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/ozturan_et_al_2025.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_commenter_migration_to_alt_right
+  text: Historical commenter traces on political YouTube show migration from I.D.W. and Alt-lite channels toward Alt-right channels over time, and those cohorts become a substantial share of later Alt-right
+    commenters.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Comment histories observed mainly through 2018, analyzed in a 2020 pathway study.
+  primary_sources:
+  - ribeiro_et_al_2020
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from comment-based user histories on coded contrarian channel communities, not from full viewing logs or direct measures of persuasion.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/ribeiro_et_al_2020.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_channel_recommendations_reach_alt_right
+  text: In a May-July 2019 nonpersonalized audit, Alt-right channels were reachable mainly through YouTube's channel recommendations, while Alt-right videos were seldom recommended directly.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Nonpersonalized recommendation snapshot collected between May and July 2019.
+  primary_sources:
+  - ribeiro_et_al_2020
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The finding comes from random walks on recommendation graphs without personalization, so it identifies discoverability structure rather than realized user behavior.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/ribeiro_et_al_2020.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_conspiracy_recommendations_declined_after_2019_demotions
+  text: In a nonpersonalized audit of U.S. informational YouTube from October 2018 to February 2020, conspiratorial watch-next recommendations fell sharply after YouTube's January 2019 demotion effort but
+    remained nontrivial and partly rebounded when weighted by source-video popularity.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: October 2018-February 2020, centered on YouTube's January, June, and December 2019 borderline-content announcements.
+  primary_sources:
+  - faddoul_et_al_2020
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Based on default nonpersonalized watch-next recommendations from a large informational-channel root set, not on logged-in behavior or realized viewing histories.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/faddoul_et_al_2020.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_conspiracy_filter_bubble_persisted_in_2019_audit
+  text: During the same 2018-2020 audit, conspiratorial source videos were more likely than nonconspiratorial ones to yield conspiratorial watch-next recommendations, indicating a declining but still visible
+    conspiracy filter-bubble effect.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: October 2018-February 2020 nonpersonalized recommendation audit.
+  primary_sources:
+  - faddoul_et_al_2020
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The effect is measured in default watch-next recommendations without personalization, so it captures selective exposure in the default interface rather than full user-specific recommendation
+    dynamics.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/faddoul_et_al_2020.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_extreme_content_can_be_deamplified_in_consumption
+  text: A recommender can surface niche extreme content more often in blind-following audits while still deamplifying that content in actual consumption once user utility is modeled.
+  claim_type: theoretical
+  evidence_strength: single-source
+  temporal_scope: Stylized agent-based simulations published in 2023 rather than a direct platform observation window.
+  primary_sources:
+  - ribeiro_veselovsky_west_2023
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: This is an existence-proof argument from a simplified collaborative-filtering model, not a direct measurement of YouTube users or recommendations.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/ribeiro_veselovsky_west_2023.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_audits_need_user_preference_models
+  text: Algorithmic audits that ignore how users choose among recommended items are limited for diagnosing rabbit holes, radicalization, or filter bubbles in systems like YouTube.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Methodological intervention published in 2023.
+  primary_sources:
+  - ribeiro_veselovsky_west_2023
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The claim is grounded in a stylized simulation and should be treated as a caution about inference from audits, not as a direct empirical estimate of platform effects.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/ribeiro_veselovsky_west_2023.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_recommendations_redirect_news_to_entertainment
+  text: In a 2019 incognito audit of YouTube's Up Next system, entertainment was much more likely to be recommended after news than news was after entertainment, indicating systematic recommendation redirection
+    away from news.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: 2019 user-independent recommendation audit reanalyzed in 2024.
+  primary_sources:
+  - huang_yang_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The finding comes from category-level Up Next dyads collected in incognito mode, so it measures nonpersonalized recommendation structure rather than realized logged-in viewing paths.
+  themes:
+  - news-ecosystem
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/huang_yang_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_entertainment_bias_outweighs_news_in_up_next
+  text: Across repeated category transitions in the same 2019 audit, entertainment was roughly two to three times more likely than news to appear in steady-state Up Next recommendations.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: 2019 user-independent recommendation audit reanalyzed in 2024.
+  primary_sources:
+  - huang_yang_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The steady-state result is a Markov-chain estimate over recommendation transitions, not a direct measure of complete user sessions or downstream civic effects.
+  themes:
+  - news-ecosystem
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/huang_yang_2024.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_alternative_news_clustered_overlap_france
+  text: A 2023 study of French alternative news on YouTube identifies five channel clusters with notable audience overlap, especially between satire-entertainment, alternative, and re-information channels.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: French alternative news channels active in 2023.
+  primary_sources:
+  - reveilhac_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The finding is based on 50 French alternative news channels, their top-viewed 2023 videos, and commenter overlap as a proxy for audience attention; it is not a platform-wide estimate.
+  themes:
+  - news-ecosystem
+  - descriptive-deficit
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/reveilhac_2024.md
+  - wiki/themes/news_ecosystem.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_creator_economy_ypp_access_loss_reduces_supply_quality_diversity
+  text: Creators who lost YouTube Partner Program access in the February 2018 rule change uploaded less frequently and produced lower-quality, less diverse content than comparable creators who remained
+    just above the threshold.
+  claim_type: empirical-causal
+  evidence_strength: single-source
+  temporal_scope: German creators observed around the February 2018 YPP rule change, with six-month pre/post outcome windows.
+  primary_sources:
+  - abou_el_komboz_et_al_2023
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The estimate is local to small German creators near the 1,000-subscriber cutoff who stayed active long enough to be observed in the second wave; it should not be generalized mechanically
+    to larger creators or all countries.
+  themes:
+  - creator-economy
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  appears_in:
+  - wiki/sources/abou_el_komboz_et_al_2023.md
+  - wiki/themes/creator_economy.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_cross_partisan_commenting_common_asymmetric
+  text: Among active commenters on U.S. partisan YouTube in 2020, cross-partisan commenting was common but sharply asymmetric, with conservatives much more likely than liberals to comment across ideological
+    lines.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: U.S. partisan-media videos and comments from January-August 2020.
+  primary_sources:
+  - wu_resnick_2021
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The claim is about commenting behavior on partisan-media channels among active commenters, not about the full audience or about recommendation-driven exposure.
+  themes:
+  - recommendation-radicalization
+  - news-ecosystem
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/wu_resnick_2021.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_cross_partisan_visibility_and_toxicity
+  text: Cross-partisan comments on U.S. partisan YouTube were modestly less visible in top comment slots, and cross-partisan replies were more toxic than co-partisan replies, especially on the replier's
+    home turf.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: U.S. partisan-media videos and comments from January-August 2020.
+  primary_sources:
+  - wu_resnick_2021
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The visibility result concerns the top-20 root comments shown by default, and the toxicity result uses Perspective API scores rather than human-coded deliberative quality.
+  themes:
+  - recommendation-radicalization
+  - news-ecosystem
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/wu_resnick_2021.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_channel_embeddings_public_traces
+  text: Public relational and metadata traces can produce scalable channel embeddings that recover both semantic similarity and social dimensions without relying on exhaustive manual channel labeling.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: 2010-2022 Reddit-sharing traces and early-2020s recommendation/metadata captures described in a 2024 methods paper.
+  primary_sources:
+  - boesinger_et_al_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from English-language large channels shared on Reddit and from history-less recommendation captures, so the approach inherits the biases of those public traces.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/boesinger_et_al_2024.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_reactionary_guest_network_pathways
+  text: Pre-2019 reactionary political YouTube operated as a densely cross-promotional guest network in which collaborations and influencer practices created pathways from mainstream conservative or libertarian
+    creators toward more extreme figures.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Guest-appearance network covering January 2017-April 2018 in the pre-2019 YouTube regime.
+  primary_sources:
+  - lewis_2018
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a purposive map of an English-language reactionary-right subsystem and from qualitative network analysis rather than platform-wide exposure logs or direct
+    recommendation traces.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/lewis_2018.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_radical_consumption_concentrated_small_predisposed_minority
+  text: In late-2010s U.S. browsing data, radical and far-right YouTube consumption was concentrated among a small, already predisposed minority rather than being systematically generated by YouTube recommendations
+    for average users.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Nationally representative U.S. desktop browsing histories from January 2016-December 2019.
+  primary_sources:
+  - hosseinmardi_et_al_2021
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from realized desktop browsing behavior and session-entry analysis; the study does not observe mobile use or the full recommendation menu that users ignored.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/hosseinmardi_et_al_2021.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_recommendation_radicalization_search_and_recommendation_misinformation_pathways_are_topic_specific
+  text: 'Misinformation exposure on YouTube is pathway- and topic-specific: search results, Up-Next, and Top 5 recommendations do not behave identically, and personalization effects become stronger after
+    watch history develops.'
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: YouTube audit results published in May 2020 on then-current search and recommendation surfaces.
+  primary_sources:
+  - hussein_et_al_2020
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from controlled audit accounts across five misinformation topics; it measures output surfaces rather than realized user clicking or downstream belief change.
+  themes:
+  - recommendation-radicalization
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/hussein_et_al_2020.md
+  - wiki/themes/recommendation_radicalization.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_mainstream_news_comment_threads_more_cross_cutting_than_vloggers
+  text: On YouTube videos about the Mueller report, mainstream news outlet comment threads hosted more cross-cutting discussion than political-vlogger videos, with neutral outlets offering the strongest
+    venue in this sample.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: U.S. Mueller-report videos from March-April 2019.
+  primary_sources:
+  - chae_lee_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from top-level comments on a bounded set of U.S. political videos and does not imply that all cross-cutting discussion is civil or deliberatively productive.
+  themes:
+  - news-ecosystem
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/chae_lee_2024.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_creator_economy_monetization_policy_functions_as_gatekeeping
+  text: YouTube monetization and advertiser-safety policies can function as cultural gatekeeping by simultaneously shaping revenue eligibility, creator precarity, and likely visibility for controversial
+    content.
+  claim_type: theoretical
+  evidence_strength: single-source
+  temporal_scope: Adpocalypse-era policy changes from 2017 through 2019.
+  primary_sources:
+  - kumar_2019
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a qualitative case study of the Adpocalypse and should be read as a mechanism claim about governance and incentives rather than a platform-wide causal estimate.
+  themes:
+  - creator-economy
+  - governance-data-access
+  census_papers:
+  - paper1-attention-economy
+  - paper2-mobility
+  - study3-media-system
+  appears_in:
+  - wiki/sources/kumar_2019.md
+  - wiki/themes/creator_economy.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_view_metric_structures_visibility_and_monetization
+  text: 'YouTube''s visible metric regime is not neutral: the platform''s view and watch-time logic structures what becomes legible, valuable, and measurable for both creators and researchers.'
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Late-2010s / early-2019 YouTube metric regime.
+  primary_sources:
+  - van_es_2020
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from critical platform analysis of YouTube's metric and advertising systems rather than from a platform-wide statistical census.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/van_es_2020.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_shorts_reshape_supply_and_engagement_patterns
+  text: Shorts have become a large, behaviorally distinct part of YouTube production and engagement, so descriptive work that ignores Shorts misses a major share of current platform activity.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: First two years of Shorts on YouTube, January 2021-December 2022.
+  primary_sources:
+  - violot_et_al_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from channels that posted at least one Short and from public metadata rather than from a full random platform sample.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - study10-shorts-vs-long-form
+  appears_in:
+  - wiki/sources/violot_et_al_2024.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_news_ecosystem_cross_platform_attention_asymmetry_by_ideology
+  text: Across controversial political topics, left-leaning YouTube videos can attract more on-platform views and engagement while right-leaning videos attract more Twitter diffusion and longer cross-platform
+    attention tails.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Cross-platform attention on tweeted YouTube videos from January 2017-April 2018.
+  primary_sources:
+  - lee_et_al_2022
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from high-attention tweeted videos on three U.S.-centric controversial topics rather than from all political YouTube content or direct recommendation measurements.
+  themes:
+  - news-ecosystem
+  - recommendation-radicalization
+  census_papers:
+  - paper1-attention-economy
+  - study3-media-system
+  appears_in:
+  - wiki/sources/lee_et_al_2022.md
+  - wiki/themes/recommendation_radicalization.md
+  - wiki/themes/news_ecosystem.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_platform_scale_industry_baselines
+  text: Current industry and regulatory reports can supply national-baseline evidence that YouTube remains a top-reach platform, even though those baselines are geography-specific and non-peer-reviewed.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: UK adult and child platform-use baseline in 2025.
+  primary_sources:
+  - ofcom_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a UK regulatory industry report. It is useful for platform-scale orientation but should not be treated as evidence about global composition, content exposure,
+    or causal mechanisms.
+  themes:
+  - descriptive-deficit
+  - governance-data-access
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  appears_in:
+  - wiki/sources/ofcom_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/themes/governance_data_access.md
+  verification: machine_extracted
