@@ -1144,3 +1144,34 @@ sources:
       - study3-media-system
     temporal_scope: "U.S. partisan-media videos and comments collected from January 1 to August 31, 2020"
     notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Strongest for the comment-layer version of the filter-bubble question rather than for direct recommendation effects."
+  - id: boesinger_et_al_2024
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Tube2Vec: Social and Semantic Embeddings of YouTube Channels"
+    authors:
+      - "Boesinger, Léopaul"
+      - "Ribeiro, Manoel Horta"
+      - "Veselovsky, Veniamin"
+      - "West, Robert"
+    year: 2024
+    venue: "Proceedings of the Eighteenth International AAAI Conference on Web and Social Media"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/boesinger_et_al_2024.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Reddit traces from January 2010-August 2022 plus channel metadata and history-less recommendation captures gathered during the study"
+    notes: "Provides released embeddings for 44,000 English-language channels using Reddit sharing, metadata, and recommendation traces. Strongest as reusable classification infrastructure for large channels, not as a platform-wide or multilingual map."

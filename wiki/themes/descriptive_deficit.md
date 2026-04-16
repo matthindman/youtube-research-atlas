@@ -7,11 +7,11 @@ temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-16
-source_count: 7
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024]
+source_count: 8
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, boesinger_et_al_2024]
 split_candidates: []
 verification:
-  machine_extracted: 32
+  machine_extracted: 34
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -58,6 +58,11 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   structurally English-centric, so dataset scale alone does not solve
   the platform's multilingual coverage problem (Ribeiro and West 2021,
   pp. 1, 6-7). [🤖]
+- Recent channel-classification infrastructure shows that public
+  relational and metadata traces can recover both semantic similarity
+  and social dimensions at scale without full manual labeling, but the
+  resulting coverage is only as broad as the traces used to build those
+  embeddings (Boesinger et al. 2024, pp. 2084-2087). [🤖]
 - Reveilhac shows that direct descriptive mapping is possible for a
   bounded current subsystem, but also underlines how much of the
   existing descriptive literature remains country-specific, niche-
@@ -118,6 +123,12 @@ evidence about the field and its platform-level claims as framing
   on political-channel universes or public-comment traces rather than
   on a representative platform frame (Munger 2024, pp. 33-34, 46-47;
   Munger et al. 2025, pp. 3, 5-10). [🤖]
+- The current embedding-based alternative to direct crawling also has
+  visible scope conditions: Tube2Vec depends on Reddit sharing,
+  English-language filtering, and history-less recommendation traces,
+  so it improves scalable channel mapping without resolving full-
+  platform or multilingual representativeness (Boesinger et al. 2024,
+  pp. 2085-2087). [🤖]
 - Visible participation measures can systematically overweight a small
   number of hyperactive users, so comment-based or engagement-based
   inference should not be treated as audience inference without extra
@@ -206,6 +217,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[mcgrady_2025]]
 - [[ribeiro_west_2021]]
 - [[reveilhac_2024]]
+- [[boesinger_et_al_2024]]
 
 ## Cross-References
 
