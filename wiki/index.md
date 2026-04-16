@@ -77,6 +77,7 @@ executive synthesis.
 - [[abou_el_komboz_et_al_2023]] — causal evidence that losing YPP access reduced output, quality, and diversity among small creators
 - [[wu_resnick_2021]] — large-scale comment study showing common but asymmetric cross-partisan discussion on U.S. partisan YouTube
 - [[rieder_2020]] — historical large-scale channel crawl documenting late-2019 API affordances, platform hierarchy, and the limits of YouTube's own category system
+- [[boesinger_et_al_2024]] — released channel embeddings showing how public traces can scale semantic and social classification of large YouTube channels
 
 ## Paper dossiers
 

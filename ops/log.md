@@ -1896,6 +1896,15 @@ Ingested `rieder_2020` via the `ingest-source` workflow. Created
 `wiki/sources/rieder_2020.md` and updated `data/source-registry.yaml`,
 `data/claim-registry.yaml`, `wiki/themes/descriptive_deficit.md`,
 `wiki/themes/governance_data_access.md`, `wiki/index.md`, and
+## 2026-04-16 — Ingest boesinger_et_al_2024
+**Operation:** ingest-source
+**Branch:** ingest/boesinger_et_al_2024
+**By:** Codex (GPT-5)
+
+Ingested `boesinger_et_al_2024` via the `ingest-source` workflow.
+Created `wiki/sources/boesinger_et_al_2024.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/descriptive_deficit.md`, `wiki/index.md`, and
 `ops/log.md`.
 
 Literature-review cross-check note:
@@ -1931,3 +1940,27 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/rieder_2020?quick_pull=1&title=%5Bingest-source%5D+Ingest+rieder_2020&body=%23%23+Summary%0A-+Created+%60wiki%2Fsources%2Frieder_2020.md%60.%0A-+Updated+%60data%2Fsource-registry.yaml%60%2C+%60data%2Fclaim-registry.yaml%60%2C+%60wiki%2Fthemes%2Fdescriptive_deficit.md%60%2C+%60wiki%2Fthemes%2Fgovernance_data_access.md%60%2C+%60wiki%2Findex.md%60%2C+and+%60ops%2Flog.md%60.%0A-+Added+provisional+theme+notes+showing+that+late-2019+large-scale+channel+mapping+depended+on+a+historical+API+and+public-profile+access+regime+that+later+became+harder+to+reproduce.%0A%0A%23%23+Pages%0A-+wiki%2Fsources%2Frieder_2020.md%0A-+data%2Fsource-registry.yaml%0A-+data%2Fclaim-registry.yaml%0A-+wiki%2Fthemes%2Fdescriptive_deficit.md%0A-+wiki%2Fthemes%2Fgovernance_data_access.md%0A-+wiki%2Findex.md%0A-+ops%2Flog.md
+  so the cross-check was against the PDF itself and the existing
+  descriptive theme rather than against a prewritten project summary.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` because the paper presents original data
+  collection, embedding construction, and empirical evaluation.
+- Reused the existing theme tag `descriptive-deficit`; no taxonomy
+  additions proposed.
+- Added one methodological claim on scalable channel embeddings from
+  public traces.
+
+Human attention requested:
+
+- This is strong classification infrastructure, but it is still built on
+  large English-language channels shared on Reddit. It should not be
+  read as a platform-wide census method.
+- The recommendation embeddings are history-less and gathered over four
+  days, so they are best used as reusable channel infrastructure rather
+  than as a statement about stable current recommendations.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/boesinger_et_al_2024?quick_pull=1&title=%5Bingest-source%5D+Ingest+boesinger_et_al_2024&body=%23%23+Summary%0A-+Created+%60wiki%2Fsources%2Fboesinger_et_al_2024.md%60.%0A-+Updated+%60data%2Fsource-registry.yaml%60%2C+%60data%2Fclaim-registry.yaml%60%2C+%60wiki%2Fthemes%2Fdescriptive_deficit.md%60%2C+%60wiki%2Findex.md%60%2C+and+%60ops%2Flog.md%60.%0A-+Added+provisional+theme+notes+showing+that+public-trace+embeddings+can+scale+channel+mapping+without+solving+platform-wide+coverage+limits.%0A%0A%23%23+Pages%0A-+wiki%2Fsources%2Fboesinger_et_al_2024.md%0A-+data%2Fsource-registry.yaml%0A-+data%2Fclaim-registry.yaml%0A-+wiki%2Fthemes%2Fdescriptive_deficit.md%0A-+wiki%2Findex.md%0A-+ops%2Flog.md

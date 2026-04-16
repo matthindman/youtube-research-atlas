@@ -1144,3 +1144,22 @@ claims:
       - wiki/themes/recommendation_radicalization.md
       - wiki/themes/news_ecosystem.md
     verification: machine_extracted
+  - id: claim_descriptive_deficit_channel_embeddings_public_traces
+    text: "Public relational and metadata traces can produce scalable channel embeddings that recover both semantic similarity and social dimensions without relying on exhaustive manual channel labeling."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "2010-2022 Reddit-sharing traces and early-2020s recommendation/metadata captures described in a 2024 methods paper."
+    primary_sources:
+      - boesinger_et_al_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from English-language large channels shared on Reddit and from history-less recommendation captures, so the approach inherits the biases of those public traces."
+    themes:
+      - descriptive-deficit
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/boesinger_et_al_2024.md
+      - wiki/themes/descriptive_deficit.md
+    verification: machine_extracted
