@@ -985,3 +985,43 @@ Claims not fully verifiable from this source alone:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/yesilada_lewandowsky_2022?quick_pull=1&title=%5Bingest-from-review%5D%20Yesilada%20and%20Lewandowsky%202022%20%28Systematic%20Review%3A%20YouTube%20Recommendations%20and%20Problematic%20Content%29&body=%23%23%20Summary%0A-%20Ingested%20%60yesilada_lewandowsky_2022%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A-%20Registered%20it%20as%20a%20%60secondary_analytical%60%20source%20and%20used%20it%20only%20for%20synthesis/methods%20claims%2C%20not%20as%20a%20substitute%20for%20missing%20primary%20evidence.%0A%0A%23%23%20Pages%0A-%20wiki/sources/yesilada_lewandowsky_2022.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-15 — Refresh recommendation_radicalization as hub page
+**Operation:** refresh-theme
+**Branch:** refresh/recommendation_radicalization
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/recommendation_radicalization.md` as a hub
+page after completing the Batch 4 corpus. The page now routes readers
+to three debate pages rather than carrying the detailed point-by-point
+evidence inventory itself.
+
+Key synthesis decisions:
+
+- Reset the page around the full 10-source corpus: four pre-Batch-4
+  sources on `main` plus six newly pushed Batch 4 source cards.
+- Recast the evidence inventory at the debate level rather than the
+  source-row level, with one row each for rabbit holes, filter
+  bubbles, and regime change.
+- Cleared `split_candidates` because the split is no longer
+  hypothetical on this branch; the debate pages are being created as
+  separate PRs.
+
+Structural notes:
+
+- The hub now stays at 107 lines, which is materially leaner than the
+  pre-Batch-4 monolithic page and within the intended shorter-hub
+  shape.
+- This branch correctly starts from `origin/main`, so it references
+  pushed Batch 4 source IDs that are not yet merged on `main`.
+  Reviewers will need to account for merge order or resolve those
+  references manually if PRs land out of order.
+
+Human attention requested:
+
+- The theme template did not specify how a hub page should inventory
+  debate-level evidence after a split. I chose a compact table keyed
+  to debate pages rather than another source-by-source table.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/recommendation_radicalization?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20recommendation_radicalization%20as%20hub%20page&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/recommendation_radicalization.md%60%20as%20a%20hub%20page%20for%20the%20completed%2010-source%20corpus.%0A-%20Moved%20detailed%20synthesis%20pressure%20into%20three%20planned%20debate%20pages%3A%20%60rabbit_hole_debate%60%2C%20%60filter_bubble_evidence%60%2C%20and%20%60pre_2019_vs_post_2019_algorithm%60.%0A-%20Updated%20frontmatter%20to%20the%20full%2010-source%20corpus%20and%20cleared%20%60split_candidates%60%20because%20the%20split%20is%20now%20being%20executed%20in%20separate%20PRs.%0A%0A%23%23%20Pages%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20ops/log.md
