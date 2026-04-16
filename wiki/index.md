@@ -88,6 +88,7 @@ executive synthesis.
 - [[van_es_2020]] — platform-studies analysis of how “the view” organizes visibility, monetization, and what becomes measurable on YouTube
 - [[violot_et_al_2024]] — first large-scale Shorts-versus-regular-video comparison showing Shorts changed both upload behavior and engagement baselines
 - [[lee_et_al_2022]] — cross-platform attention study showing that ideological advantage differs between YouTube engagement and Twitter diffusion
+- [[ofcom_2025]] — UK regulatory industry baseline showing very high YouTube reach and time spent among adults and children in 2025
 
 ## Paper dossiers
 

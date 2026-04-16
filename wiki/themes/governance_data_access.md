@@ -7,7 +7,7 @@ temporal_scope: "Particularly attentive to the post-DSA, post-API-restriction er
 themes: [governance-data-access]
 census_papers: [methods-companion]
 last_refreshed: 2026-04-16
-source_count: 9
+source_count: 10
 key_sources:
   - norton_shapiro_2024
   - kumar_2019
@@ -20,7 +20,7 @@ key_sources:
   - rieder_2020
 split_candidates: []
 verification:
-  machine_extracted: 39
+  machine_extracted: 40
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -76,6 +76,13 @@ pathway. [🤖]
 - As of October 29, 2025, the DSA creates a formal qualified-researcher
   access route for VLOP/VLOSE data, but the current corpus does not yet
   show how well that mechanism works in practice. [🤖]
+- External regulators can still publish useful baseline measurement
+  without privileged platform internals. Ofcom's 2025 UK report gives
+  independent reach and time-spent benchmarks for YouTube, but those
+  benchmarks do not substitute for direct researcher access to content,
+  recommendation, or moderation data. *[Note: supported only by
+  non-peer-reviewed sources.]* (Ofcom 2025, pp. 4, 34-36, 111-114).
+  [🤖]
 
 ## Main Disagreements
 
@@ -210,6 +217,7 @@ what YouTube governance "is." [🤖]
 - [[ozturan_et_al_2025]]
 - [[european_commission_2025]]
 - [[rieder_2020]]
+- [[ofcom_2025]]
 
 ## Cross-References
 

@@ -121,6 +121,27 @@ claims:
       - wiki/sources/norton_shapiro_2024.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
+  - id: claim_descriptive_deficit_platform_scale_industry_baselines
+    text: "Current industry and regulatory reports can supply national-baseline evidence that YouTube remains a top-reach platform, even though those baselines are geography-specific and non-peer-reviewed."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "UK adult and child platform-use baseline in 2025."
+    primary_sources:
+      - ofcom_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from a UK regulatory industry report. It is useful for platform-scale orientation but should not be treated as evidence about global composition, content exposure, or causal mechanisms."
+    themes:
+      - descriptive-deficit
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/ofcom_2025.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/themes/governance_data_access.md
+    verification: machine_extracted
   - id: claim_descriptive_deficit_infrastructure_constraints
     text: "Data access limits and insufficient shared tooling or compute capacity materially constrain large-scale YouTube research."
     claim_type: methodological
