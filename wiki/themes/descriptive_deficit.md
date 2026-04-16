@@ -7,11 +7,11 @@ temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-16
-source_count: 7
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024]
+source_count: 8
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, rieder_2020]
 split_candidates: []
 verification:
-  machine_extracted: 32
+  machine_extracted: 34
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -49,6 +49,13 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   concentration of technical capacity in a small number of well-funded
   sites (Munger et al. 2025, pp. 3, 8; Norton and Shapiro 2024, pp.
   4-6). [🤖]
+- Historical large-scale mapping depended on data-access affordances
+  that do not travel cleanly to the current platform: Rieder's late-
+  2019 crawl combined public featured-channel links, public channel
+  subscriptions, and high-quota `channels`, `playlistItems`, and
+  `videos` endpoint access at a scale the authors already described as
+  difficult to replicate for new projects (§ 2.1; § 2.2; note 11-12).
+  [🤖]
 - English-language evidence cannot safely stand in for YouTube as a
   whole. The current multilingual random-sample evidence shows large
   enough cross-language differences to make generalization itself an
@@ -126,6 +133,11 @@ evidence about the field and its platform-level claims as framing
   technical staff and compute create selection effects in who can
   study YouTube at scale and what kinds of projects they can run
   (Munger et al. 2025, pp. 3, 8; Norton and Shapiro 2024, pp. 4-6). [🤖]
+- YouTube's own category infrastructure is also an imperfect descriptive
+  aid: Rieder shows that controversial political channels were often
+  left unclassified or grouped under Entertainment and Lifestyle, which
+  means platform-native topic labels cannot simply be treated as a
+  stable public-affairs map (§ 3.2; § 4). [🤖]
 - Multilingual description adds another measurement layer because
   YouTube does not publish language distributions and because spoken
   language classification is noisy, especially when language is used
@@ -206,6 +218,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[mcgrady_2025]]
 - [[ribeiro_west_2021]]
 - [[reveilhac_2024]]
+- [[rieder_2020]]
 
 ## Cross-References
 

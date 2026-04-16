@@ -7,7 +7,7 @@ temporal_scope: "Particularly attentive to the post-DSA, post-API-restriction er
 themes: [governance-data-access]
 census_papers: [methods-companion]
 last_refreshed: 2026-04-16
-source_count: 7
+source_count: 8
 key_sources:
   - norton_shapiro_2024
   - hallinan_et_al_2025
@@ -16,9 +16,10 @@ key_sources:
   - marchal_et_al_2025
   - ozturan_et_al_2025
   - european_commission_2025
+  - rieder_2020
 split_candidates: []
 verification:
-  machine_extracted: 36
+  machine_extracted: 38
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -49,6 +50,11 @@ pathway. [🤖]
 - Early-2020s YouTube research and creator experience were both shaped
   by opacity: outside actors often lacked the information needed to
   verify why moderation or policy decisions were made. [🤖]
+- Researcher access is historically contingent. Rieder's late-2019
+  mapping study could still rely on public channel subscriptions,
+  featured-channel links, and a 50M-unit/day Data API token, but the
+  paper already notes that similarly generous tokens were no longer
+  being issued for new projects (§ 2.1; note 11-12). [🤖]
 - When official channels feel weak, creators use public videos,
   callouts, audits, and signal boosting as informal accountability
   tactics. [🤖]
@@ -98,6 +104,10 @@ pathway. [🤖]
   the later 2019-2023 period. [🤖]
 - `2022-2023`: Ozturan et al. provide a comparative governance-shift
   case from Twitter/X following the October 27, 2022 takeover. [🤖]
+- `Late 2019-early 2020`: Rieder documents a pre-Shorts, pre-DSA, and
+  comparatively more permissive YouTube research-access regime whose
+  combination of public profile signals and generous API quotas later
+  became harder to reproduce (§ 2.1; § 2.2). [🤖]
 - `Post-October 29, 2025`: The European Commission document marks the
   start of a formal DSA researcher-access regime that could change the
   access side of the theme, even though its operation is not yet
@@ -193,6 +203,7 @@ what YouTube governance "is." [🤖]
 - [[marchal_et_al_2025]]
 - [[ozturan_et_al_2025]]
 - [[european_commission_2025]]
+- [[rieder_2020]]
 
 ## Cross-References
 
