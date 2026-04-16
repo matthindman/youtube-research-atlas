@@ -1237,3 +1237,138 @@ sources:
       - study3-media-system
     temporal_scope: "Data collected in 2020 using then-visible public subscription pages, with yearly views examined from 2017-2020"
     notes: "The prompt named 'Justin Clark', but the archived paper credits Sam Clark. Method is historically important because it depends on public commenter subscriptions that the paper says later became less visible."
+  - id: lewis_2018
+    type: policy_essay
+    evidence_tier: policy_research
+    title: "Alternative Influence: Broadcasting the Reactionary Right on YouTube"
+    authors:
+      - "Lewis, Rebecca"
+    year: 2018
+    venue: "Data & Society Research Institute"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/lewis_2018.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/debates/rabbit_hole_debate.md
+      - wiki/debates/pre_2019_vs_post_2019_algorithm.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Guest-appearance network and qualitative content analysis centered on January 1, 2017-April 1, 2018 YouTube activity"
+    notes: "Tiered as `policy_research` because the Data & Society report presents original network mapping and qualitative analysis but is not a peer-reviewed journal article. It is strongest as foundational pre-2019 ecosystem evidence on guest-network pathways and cross-promotion within reactionary political YouTube."
+  - id: hosseinmardi_et_al_2021
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Examining the Consumption of Radical Content on YouTube"
+    authors:
+      - "Hosseinmardi, Homa"
+      - "Ghasemian, Amir"
+      - "Clauset, Aaron"
+      - "Mobius, Markus"
+      - "Rothschild, David M."
+      - "Watts, Duncan J."
+    year: 2021
+    venue: "Proceedings of the National Academy of Sciences 118(32): e2101967118"
+    doi: "10.1073/pnas.2101967118"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/hosseinmardi_et_al_2021.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/debates/rabbit_hole_debate.md
+      - wiki/debates/pre_2019_vs_post_2019_algorithm.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Nationally representative U.S. desktop browsing panel covering January 2016-December 2019"
+    notes: "Foundational real-user behavioral complement to `hosseinmardi_et_al_2024`. Strongest on late-2010s desktop consumption and entry pathways; it should not be treated as a measurement of post-2022 or mobile-first YouTube."
+  - id: hussein_et_al_2020
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Measuring Misinformation in Video Search Platforms: An Audit Study on YouTube"
+    authors:
+      - "Hussein, Eslam"
+      - "Juneja, Prerna"
+      - "Mitra, Tanushree"
+    year: 2020
+    venue: "Proceedings of the ACM on Human-Computer Interaction 4(CSCW1), Article 48"
+    doi: "10.1145/3392854"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/hussein_et_al_2020.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/debates/filter_bubble_evidence.md
+      - wiki/debates/pre_2019_vs_post_2019_algorithm.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Audit experiments published in May 2020 on then-current YouTube search, Up Next, and Top 5 recommendation outputs; exact crawl dates are not emphasized in the main text"
+    notes: "The prompt cited a WWW 2020 version, but the archived file in the corpus is the PACM HCI / CSCW1 article with DOI 10.1145/3392854. The paper is especially useful because it separates search from recommendation exposure pathways."
+  - id: lee_et_al_2022
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Whose Advantage? Measuring Attention Dynamics across YouTube and Twitter on Controversial Topics"
+    authors:
+      - "Lee, JooYoung"
+      - "Wu, Siqi"
+      - "Ertugrul, Ali Mert"
+      - "Lin, Yu-Ru"
+      - "Xie, Lexing"
+    year: 2022
+    venue: "Proceedings of the Sixteenth International AAAI Conference on Web and Social Media (ICWSM 2022)"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/lee_et_al_2022.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/debates/filter_bubble_evidence.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+      - news-ecosystem
+    themes:
+      - recommendation-radicalization
+      - news-ecosystem
+    census_relevance: medium
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Cross-platform attention data on tweeted YouTube videos from January 1, 2017-April 30, 2018"
+    notes: "Strongest as a pre-2019 cross-platform attention study rather than as direct recommendation evidence. The archived paper does not foreground a DOI in the extracted text."

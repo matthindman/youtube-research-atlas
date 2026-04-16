@@ -2019,3 +2019,40 @@ Refresh note:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/channel_classification_methods?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20channel_classification_methods&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/channel_classification.md%60.%0A-%20Included%20%60rieder_2020%60%2C%20%60boesinger_et_al_2024%60%2C%20and%20%60zaitsev_clark_2025%60%20plus%20the%20needed%20source-registry%20and%20claim-registry%20infrastructure%20on-branch%20so%20the%20methods%20page%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Synthesized%20the%20method%20family%20around%20historical%20access%20regimes%2C%20embedding-based%20versus%20metadata/subscription-based%20classification%2C%20evaluation%20choices%2C%20and%20implications%20for%20the%20project%27s%20own%20pipeline.%0A%0A%23%23%20Sources%0A-%20rieder_2020%0A-%20boesinger_et_al_2024%0A-%20zaitsev_clark_2025%0A%0A%23%23%20Pages%0A-%20wiki/methods/channel_classification.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/sources/rieder_2020.md%0A-%20wiki/sources/boesinger_et_al_2024.md%0A-%20wiki/sources/zaitsev_clark_2025.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Refresh recommendation_radicalization
+**Operation:** refresh-theme
+**Branch:** refresh/recommendation_radicalization
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/recommendation_radicalization.md` plus the
+three linked debate pages `wiki/debates/rabbit_hole_debate.md`,
+`wiki/debates/filter_bubble_evidence.md`, and
+`wiki/debates/pre_2019_vs_post_2019_algorithm.md`.
+
+Branch self-containment:
+
+- Carried `lewis_2018`, `hosseinmardi_et_al_2021`,
+  `hussein_et_al_2020`, and `lee_et_al_2022` plus their source-
+  registry, claim-registry, and index infrastructure on-branch so the
+  refresh remains internally verifiable before those ingest branches
+  merge.
+
+Refresh notes:
+
+- The hub page now treats the corpus as a layered exposure literature:
+  guest-network pathways, search outputs, recommendation outputs,
+  real-user behavior, comment interaction, and cross-platform
+  attention.
+- `rabbit_hole_debate` now integrates Lewis as pre-2019 ecosystem
+  formation evidence and Hosseinmardi 2021 as late-2010s real-user
+  behavioral evidence against a mass rabbit-hole claim.
+- `filter_bubble_evidence` now includes Hussein on search and
+  recommendation surface differences plus Lee on cross-platform
+  ideological attention asymmetry.
+- `pre_2019_vs_post_2019_algorithm` now treats the transition period as
+  a mixed multi-interface regime rather than as a simple before/after
+  recommendation story.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/recommendation_radicalization?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20recommendation_radicalization&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/recommendation_radicalization.md%60%20plus%20%60wiki/debates/rabbit_hole_debate.md%60%2C%20%60wiki/debates/filter_bubble_evidence.md%60%2C%20and%20%60wiki/debates/pre_2019_vs_post_2019_algorithm.md%60.%0A-%20Included%20%60lewis_2018%60%2C%20%60hosseinmardi_et_al_2021%60%2C%20%60hussein_et_al_2020%60%2C%20and%20%60lee_et_al_2022%60%20plus%20the%20needed%20source-registry%2C%20claim-registry%2C%20and%20index%20infrastructure%20on-branch%20so%20the%20refresh%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Reframed%20the%20recommendation%20corpus%20around%20pre-2019%20ecosystem%20formation%2C%20search%20and%20recommendation%20interface%20differences%2C%20late-2010s%20real-user%20behavior%2C%20and%20thinner%20post-2021%20intervention%20evidence.%0A%0A%23%23%20Sources%0A-%20lewis_2018%0A-%20hosseinmardi_et_al_2021%0A-%20hussein_et_al_2020%0A-%20lee_et_al_2022%0A%0A%23%23%20Pages%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/debates/rabbit_hole_debate.md%0A-%20wiki/debates/filter_bubble_evidence.md%0A-%20wiki/debates/pre_2019_vs_post_2019_algorithm.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/sources/lewis_2018.md%0A-%20wiki/sources/hosseinmardi_et_al_2021.md%0A-%20wiki/sources/hussein_et_al_2020.md%0A-%20wiki/sources/lee_et_al_2022.md%0A-%20wiki/index.md%0A-%20ops/log.md
