@@ -4,11 +4,13 @@ canonical_name: filter_bubble_evidence
 title: "Filter Bubbles, Sorting, and Polarization Effects"
 status: machine-draft
 debate_status: active
-temporal_scope: "2019-2020 sorting evidence, 2020 comment-layer and media-diet observation, and mixed 2021-2024 experiments with only partial post-2022 coverage"
+temporal_scope: "2017-2020 cross-platform and search/recommendation evidence, plus mixed 2021-2024 experiments with only partial post-2022 coverage"
 themes:
   - recommendation-radicalization
-source_count: 9
+source_count: 11
 key_sources:
+  - hussein_et_al_2020
+  - lee_et_al_2022
   - haroon_et_al_2023
   - brown_et_al_2022
   - lai_et_al_2024
@@ -19,7 +21,7 @@ key_sources:
   - yu_et_al_2024
   - yesilada_lewandowsky_2022
 verification:
-  machine_extracted: 24
+  machine_extracted: 27
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -35,7 +37,8 @@ Does YouTube's recommendation system create filter bubbles that narrow users' id
 ## Temporal Context
 
 - The strongest direct evidence on sorting in this corpus comes from 2019-2023 post-2019 studies, not from the earlier rabbit-hole literature alone. [🤖]
-- The debate now spans three layers that should not be conflated: recommendation outputs, realized viewing or media diets, and downstream comment or attitude effects. [🤖]
+- The debate now spans at least four layers that should not be conflated: search outputs, recommendation outputs, realized viewing or media diets, and downstream comment or attitude effects. [🤖]
+- Lee adds a cross-platform comparison layer: ideological visibility on YouTube does not mechanically match ideological visibility on Twitter, so "filter bubble" claims cannot be read off one platform alone. [🤖]
 - Post-2022 evidence exists but remains thin: Yu is clearly post-2022, Liu only partly reaches 2024, and the corpus still lacks strong Shorts-era work. [🤖]
 
 ## Position A: Recommendations do sort exposure into narrower streams
@@ -46,6 +49,7 @@ Does YouTube's recommendation system create filter bubbles that narrow users' id
 | [[brown_et_al_2022]] | Recommendation-following on real accounts produces mild echo chambers and a modest conservative narrowing over time. | Real users following randomized traversal rules receive somewhat narrower, more conservative content. | Real-user traversal experiment. | Fall 2020. | [🤖] |
 | [[lai_et_al_2024]] | Observed political media diets on YouTube are ideologically congruent on average. | 2020 browsing histories show Democrats and Republicans consuming distinct ideological distributions of videos. | Video-level ideology estimation plus watch-history application. | May-July 2020. | [🤖] |
 | [[huang_yang_2024]] | Recommendations can narrow public-affairs exposure by redirecting users from news toward entertainment. | Up Next transitions are asymmetric, with news more likely to flow into entertainment than the reverse. | Category-transition and Markov-chain analysis of 2019 incognito dyads. | 2019. | [🤖] |
+| [[hussein_et_al_2020]] | Misinformation filter-bubble effects differ by interface and topic: once watch history develops, Up Next and Top 5 recommendations often reinforce prior misinformation exposure, while search behaves differently across topics. | Controlled audits of search results, Up Next, and Top 5 recommendations across five misinformation topics. | Audit study on YouTube search and recommendation surfaces. | Published 2020 on then-current platform outputs. | [🤖] |
 | [[yesilada_lewandowsky_2022]] | The older literature frequently interpreted YouTube through a filter-bubble lens. | Review finds many implicated or mixed studies and recurring concern about narrowing pathways. | Systematic review with narrative synthesis of 23 studies. | Studies published 2013-2021. | [🤖] |
 
 ## Position B: Sorting exists, but the strongest downstream evidence finds incomplete or limited effects
@@ -56,6 +60,7 @@ Does YouTube's recommendation system create filter bubbles that narrow users' id
 | [[liu_et_al_2025]] | Heavily slanted recommendation environments change viewing choices more than attitudes. | Four experiments find large behavioral shifts but little detectable short-run effect on policy attitudes, media trust, or affective polarization. | Naturalistic experiment with manipulated recommendation environments. | 2021-2024, mixed post-2019. | [🤖] |
 | [[yu_et_al_2024]] | Recommendation design can broaden exposure and reduce congeniality without obvious short-run political side effects. | Algorithmic nudges increase news diversity and cross-cutting exposure, but downstream survey outcomes remain null. | Sock-puppet tuning plus browser-extension user experiment. | November 2022-January 2023. | [🤖] |
 | [[ribeiro_veselovsky_west_2023]] | Audit-style amplification need not translate into amplified consumption once user utility is modeled. | Stylized simulations reconcile audit escalation with real-user deamplification. | Agent-based collaborative-filtering model. | Published 2023. | [🤖] |
+| [[lee_et_al_2022]] | Ideological attention advantage is platform-specific rather than a single sealed bubble: left-leaning videos draw more YouTube views while right-leaning videos draw more Twitter diffusion and longer tails. | Cross-platform comparison of YouTube views, watch engagement, tweets, retweets, and attention half-lives. | YouTube/Twitter attention dynamics study. | 2017-2018. | [🤖] |
 | [[yesilada_lewandowsky_2022]] | The literature is too heterogeneous and too weak on personalization to sustain a single strong polarization-effects claim. | Review flags mixed findings, weak personalization, and limited leverage on recommender mechanisms. | Systematic review with narrative synthesis of 23 studies. | Studies published 2013-2021. | [🤖] |
 
 ## Caveats and Boundary Conditions
@@ -66,11 +71,12 @@ Does YouTube's recommendation system create filter bubbles that narrow users' id
 
 ## Current Assessment
 
-The corpus now supports a narrower claim than the popular filter-bubble narrative. Post-2019 YouTube recommendations can sort exposure and can also redirect users away from news, but the best available downstream evidence points toward incomplete echo chambers and limited short-run persuasion effects. The live dispute is therefore less about whether narrowing exists at all and more about which kind of narrowing matters most. [🤖]
+The corpus now supports a narrower and more layered claim than the popular filter-bubble narrative. Search, recommendations, cross-platform diffusion, and downstream outcomes all show some form of sorting or asymmetry, but they do not line up into one uniform polarization story. The live dispute is therefore less about whether narrowing exists at all and more about which interface and which downstream consequence matter most. [🤖]
 
 ## Methodological Critiques
 
 - Audit studies recover recommendation outputs at scale, but they cannot by themselves show what users actually watch or how those exposures affect attitudes. [🤖]
+- Search audits add an important interface, but they still observe output surfaces rather than realized belief change or complete user journeys. [🤖]
 - Observed media-diet and comment studies capture real behavior better, but they do not isolate the recommender from search, subscriptions, prior ideology, or the kinds of users who are active enough to comment. [🤖]
 - Experimental studies improve causal identification, but they remain short-run, issue-specific, and expensive enough that longer-run or subgroup effects stay underpowered. [🤖]
 
