@@ -1121,3 +1121,44 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...debate/pre_2019_vs_post_2019_algorithm?quick_pull=1&title=%5Bdebate-page%5D%20Create%20pre_2019_vs_post_2019_algorithm&body=%23%23%20Summary%0A-%20Created%20%60wiki/debates/pre_2019_vs_post_2019_algorithm.md%60.%0A-%20Split%20the%20regime-change%20question%20away%20from%20the%20theme%20page%20and%20organized%20the%20evidence%20into%20continuity%20versus%20regime-break%20positions.%0A-%20Added%20the%20new%20debate%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/debates/pre_2019_vs_post_2019_algorithm.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest hallinan_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/hallinan_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `hallinan_et_al_2025` via the `ingest-from-review`
+workflow. Created `wiki/sources/hallinan_et_al_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/governance_data_access.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced. The review accurately captures
+  the paper's claims about moderation opacity, the inconclusive state
+  of platform-bias evidence under restricted access, and the internal
+  contradictions within creator accusations of bias.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused the existing theme tag `governance-data-access`; no taxonomy
+  additions proposed.
+- Updated the existing infrastructure-constraints claim rather than
+  creating a duplicate access-opacity claim, then added one new claim
+  for informal creator accountability.
+
+Human attention requested:
+
+- The paper is strongest as evidence about creator-side governance
+  experience under opaque moderation, not as direct evidence that
+  public creator pressure changes platform policy.
+- This branch correctly starts from `origin/main`, so the provisional
+  governance theme update combines the already-merged
+  `norton_shapiro_2024` card with this new Hallinan card; later Batch
+  5 governance PRs will touch the same theme stub and may need merge
+  cleanup.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hallinan_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hallinan_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hallinan_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%20plus%20the%20new%20Hallinan%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hallinan_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md

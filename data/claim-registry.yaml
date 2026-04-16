@@ -128,8 +128,9 @@ claims:
       - munger_et_al_2025
     supporting_sources:
       - norton_shapiro_2024
+      - hallinan_et_al_2025
     conflicting_sources: []
-    scope_conditions: "Anchored by primary empirical evidence on API constraints and supplemented by commentary on wider tooling and infrastructure deficits."
+    scope_conditions: "Anchored by primary empirical evidence on API constraints and supplemented by field-audit and creator-governance evidence showing that opaque moderation and restricted access limit what outsiders can verify."
     themes:
       - descriptive-deficit
       - governance-data-access
@@ -138,7 +139,28 @@ claims:
       - study3-media-system
     appears_in:
       - wiki/sources/norton_shapiro_2024.md
+      - wiki/sources/hallinan_et_al_2025.md
       - wiki/themes/descriptive_deficit.md
+      - wiki/themes/governance_data_access.md
+    verification: machine_extracted
+  - id: claim_governance_data_access_informal_creator_accountability
+    text: "When formal participation and appeal channels are weak, YouTube creators use public videos and callouts as informal accountability mechanisms, but those efforts provide visibility and solidarity more reliably than direct governance power."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "English-language creator discourse around an August 2022 moderation controversy."
+    primary_sources:
+      - hallinan_et_al_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from one creator-centered controversy dominated by English-speaking gaming, reaction, and commentary channels."
+    themes:
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/hallinan_et_al_2025.md
+      - wiki/themes/governance_data_access.md
     verification: machine_extracted
   - id: claim_cross_linguistic_youtube_not_one_platform
     text: "Different linguistic communities use YouTube differently enough that English-language findings should not be assumed to generalize across the platform."

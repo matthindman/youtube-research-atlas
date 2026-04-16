@@ -1,7 +1,7 @@
 ---
 type: index
 status: machine-draft
-last_updated: 2026-04-15
+last_updated: 2026-04-16
 ---
 
 # Atlas Index
@@ -52,6 +52,7 @@ executive synthesis.
 - [[ormen_gregersen_2023_engagement]] — engagement economy, platform marketplaces, and the commercial expansion of creator labor
 - [[newman_et_al_2025]] — news creators, commentary dominance, and cross-national creator ecosystems
 - [[reuters_dnr_2025]] — YouTube news use, video-first consumption, and creator-led pressure on journalism
+- [[hallinan_et_al_2025]] — creator callouts, contradictory bias accusations, and aspirational platform governance
 
 ## Paper dossiers
 
