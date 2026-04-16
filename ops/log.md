@@ -1162,3 +1162,42 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hallinan_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hallinan_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hallinan_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%20plus%20the%20new%20Hallinan%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hallinan_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest marchal_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/marchal_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `marchal_et_al_2025` via the `ingest-source`
+workflow. Created `wiki/sources/marchal_et_al_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/governance_data_access.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- This paper is not summarized directly in the internal literature
+  review. No contradiction was detectable because the review does not
+  currently make any source-specific claims about it.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused the existing theme tag `governance-data-access`; no taxonomy
+  additions proposed.
+- Added one comparative claim about negative media pressure and public-
+  facing policy change, keeping the claim text explicitly
+  non-causal and non-YouTube-exclusive.
+
+Human attention requested:
+
+- This is comparative platform-governance evidence, not YouTube-only
+  evidence. It should support the governance theme as contextual
+  comparative evidence, not as a substitute for YouTube-specific
+  process evidence.
+- The study ends in early 2021, so it does not speak directly to the
+  post-2022 or post-October-2025 governance environment flagged in the
+  taxonomy.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/marchal_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20marchal_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/marchal_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%2C%20%60hallinan_et_al_2025%60%2C%20and%20the%20new%20comparative%20media-pressure%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/marchal_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
