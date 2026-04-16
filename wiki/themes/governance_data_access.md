@@ -11,7 +11,7 @@ source_count: 3
 key_sources:
   - norton_shapiro_2024
   - hallinan_et_al_2025
-  - marchal_et_al_2025
+  - ozturan_et_al_2025
 split_candidates: []
 verification:
   machine_extracted: 17
@@ -29,36 +29,35 @@ verification:
 ## Why This Theme Matters
 
 This theme now combines evidence about creator-side opacity,
-field-level access constraints, and comparative public-pressure
-dynamics. Norton frames the research bottleneck, Hallinan et al. show
+field-level access constraints, and comparative governance-change
+effects. Norton frames the research bottleneck, Hallinan et al. show
 how opaque moderation produces creator accusations of bias, and
-Marchal et al. show that sustained negative coverage can precede
-visible policy change across Facebook, Twitter, and YouTube. [🤖]
+Ozturan et al. show that governance and ownership changes can shift
+information quality in a comparable platform setting. [🤖]
 
 ## Current Consensus
 
 - External researchers and creators alike face major information
   deficits when evaluating platform governance, which makes confident
   diagnosis difficult even when grievances are public. [🤖]
-- Creator callouts and media scrutiny are both governance signals, but
-  neither is the same thing as formal access rights or transparent
-  decision-making. [🤖]
-- Comparative evidence suggests public scrutiny can precede
-  public-facing policy revision, but that evidence is about visible
-  policy updates rather than internal governance practice. [🤖]
-- Temporal scoping is essential here because the strongest comparative
-  media-pressure evidence ends in early 2021, before the later
-  post-2022 and post-October-2025 access regime. [🤖]
+- Governance changes can matter substantively for information systems,
+  not just symbolically for platform legitimacy. [🤖]
+- The Ozturan result is comparative Twitter/X evidence about URL
+  sharing quality, not direct evidence about YouTube exposure or
+  YouTube-specific governance effects. [🤖]
+- Temporal scoping is essential here because the comparative evidence
+  is bounded to January 2022 through April 2023 and ends when platform
+  access changed again. [🤖]
 
 ## Main Disagreements
 
-The current three-source set still does not resolve whether outside
-pressure materially improves accountability at YouTube or mainly
-produces symbolic or surface-level policy adjustments. Hallinan et al.
-emphasize aspirational participation without guaranteed leverage,
-while Marchal et al. show an observational association between
-negative coverage and visible policy change across multiple platforms.
-[🤖]
+The current three-source set still does not resolve whether governance
+change at YouTube would shift information quality, visible policy
+change, or only public perceptions of accountability. Hallinan et al.
+emphasize opaque moderation and aspirational participation, while
+Ozturan et al. show a measurable comparative shift in Twitter/X
+sharing patterns without establishing exposure effects or YouTube
+generalization. [🤖]
 
 ## Evidence Inventory
 
@@ -66,16 +65,17 @@ negative coverage and visible policy change across multiple platforms.
 |-------|--------|----------|----------|--------|----------|
 | Opaque moderation and restricted access make platform-bias claims hard to verify from the outside. | [[norton_shapiro_2024]], [[hallinan_et_al_2025]] | Literature audit, researcher interviews, and creator-discourse content analysis | Moderate | Early 2020s through 2025 | [🤖] |
 | Creators use public videos as informal accountability mechanisms, but these efforts lack formal decision rights and guaranteed policy impact. | [[hallinan_et_al_2025]] | 115-video content analysis around the CoryxKenshin controversy | Moderate | August 2022 controversy analyzed in 2025 | [🤖] |
-| Sustained negative mainstream media coverage is associated with more subsequent public-facing policy change at Facebook, Twitter, and YouTube. | [[marchal_et_al_2025]] | Comparative news-and-policy event analysis with recurrent-event survival models | Moderate | 2005/2007-2021 | [🤖] |
+| Governance and ownership changes can shift platform information quality, at least in a comparative Twitter/X case. | [[ozturan_et_al_2025]] | Panel-plus-Decahose interrupted time-series analysis using NewsGuard domain scores | Moderate | January 2022-April 2023 around the October 2022 transition | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
-The three sources speak to different governance layers. Norton and
+The three sources sit at different analytical levels. Norton and
 Shapiro diagnose access bottlenecks, Hallinan et al. examine a
-creator-centered moderation controversy, and Marchal et al. analyze
-observable relationships between news pressure and policy revision.
-That design mix is useful, but it still leaves a gap between visible
-policy updates and the hidden internal decision process. [🤖]
+creator-centered moderation controversy, and Ozturan et al. analyze a
+platform-wide comparative governance change using public trace data.
+That mix is useful, but it still leaves a gap between observable
+sharing, unobserved exposure, and YouTube-specific causal inference.
+[🤖]
 
 ## Measures and Variables Used in the Literature
 
@@ -85,34 +85,35 @@ policy updates and the hidden internal decision process. [🤖]
 - Hallinan et al. code creator identity, channel size, genre,
   geography, claims about racism and bias, and the evidentiary styles
   used in public callout videos. [🤖]
-- Marchal et al. measure topic-classified news coverage, targeted
-  negative sentiment, public-facing platform policy changes, peer-
-  platform policy changes, regulatory pressure, and firm financial
-  performance. [🤖]
+- Ozturan et al. measure URL-sharing patterns, NewsGuard domain
+  scores, interrupted time-series shifts, and market-share changes
+  across credibility buckets before and after a governance change.
+  [🤖]
 
 ## What This Means for Our Project
 
 - The atlas can already treat opaque governance as part of the
   substantive story, not just a methods footnote, because both
   researchers and creators are working from partial visibility. [🤖]
-- The atlas can also treat external scrutiny as part of governance, but
-  it should keep separate the claims that public-facing policies
-  changed and the stronger claim that YouTube became more accountable
-  or more observable. [🤖]
+- The atlas can also use comparative evidence to show that governance
+  changes may alter information quality, but it should clearly label
+  such claims as non-YouTube evidence. [🤖]
 
 ## Open Holes / Next Sources to Acquire
 
-- The remaining Batch 5 governance papers should clarify creator
-  callouts, user-generated accountability, comparative governance
-  change, and DSA researcher access. [🤖]
-- Direct evidence on how the post-October-2025 DSA access regime works
-  in practice remains absent from the current source set. [🤖]
+- The remaining Batch 5 governance papers should add more direct
+  YouTube evidence on creator accountability, policy response, and
+  researcher access so the theme is not forced to lean on comparative
+  analogies. [🤖]
+- The theme still lacks direct post-2022 YouTube evidence about
+  whether governance changes alter information quality or public-
+  information exposure on the platform itself. [🤖]
 
 ## Sources Consulted
 
 - [[norton_shapiro_2024]]
 - [[hallinan_et_al_2025]]
-- [[marchal_et_al_2025]]
+- [[ozturan_et_al_2025]]
 
 ## Cross-References
 
