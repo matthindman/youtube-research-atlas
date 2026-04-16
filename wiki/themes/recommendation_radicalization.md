@@ -12,7 +12,7 @@ key_sources:
   - ledwich_zaitsev_2020
   - ribeiro_et_al_2020
   - faddoul_et_al_2020
-  - hussein_et_al_2020
+  - lee_et_al_2022
   - munger_phillips_2022
   - haroon_et_al_2023
   - brown_et_al_2022
@@ -26,7 +26,7 @@ key_sources:
   - yesilada_lewandowsky_2022
 split_candidates: []
 verification:
-  machine_extracted: 32
+  machine_extracted: 31
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -54,11 +54,10 @@ Recommendation-radicalization remains the most publicly salient story about YouT
 - The transition-period evidence is mixed rather than one-sided: Ribeiro et al. show historical migration from milder to more extreme right-wing channel communities and 2019 channel-level discoverability of Alt-right content, Faddoul shows default conspiracy recommendations fell after the 2019 demotion but did not disappear, and Ledwich finds a 2019 anonymous audit that mainstreamed rather than radicalized. [🤖]
 - The strongest post-2019 real-user and causal evidence no longer supports a mass rabbit-hole story for average users: Brown finds few radical rabbit holes in fall 2020, Hosseinmardi finds moderation relative to matched user histories, Chen finds rare unsolicited rabbit-hole events, and Liu finds no detectable short-run rabbit-hole attitude effect. [🤖]
 - Ideological sorting remains real, but it varies by layer: Haroon and Lai find congeniality in recommendations and media diets, Wu finds common but asymmetric cross-partisan comment interaction, and Huang shows recommendation harm can take the form of diversion from news toward entertainment rather than extremist escalation. [🤖]
+- Cross-platform attention asymmetries complicate simple ideological narratives. Lee et al. show that left-leaning videos can dominate on-platform YouTube views while right-leaning videos dominate Twitter diffusion, which means ideological advantage is not one stable quantity across platforms even in the pre-2019 period. [🤖]
 - Non-algorithmic pathways matter a great deal. Subscriptions, external links, durable creator-audience communities, and preexisting user demand remain central parts of the exposure story even when recommendations contribute at the margin. [🤖]
-- Hussein, Juneja, and Mitra add a missing pathway distinction: search, Up Next, and recommendation panels do not behave identically, and misinformation exposure can be topic-specific and history-dependent rather than reducible to one generic "algorithm" effect. [🤖]
 - The strongest post-2022 evidence is still thin but no longer empty. Yu shows recommendation inputs can be nudged toward more diverse news exposure, and Liu partially reaches 2024 while still finding limited short-run downstream effects. [🤖]
 - Audit results and realized-consumption results are not automatically contradictory: Ribeiro, Veselovsky, and West offer a coherent mechanism for why blind-following audits can overstate amplification relative to real-user consumption. [🤖]
-- Hussein et al. also imply that disagreements across the audit literature are partly interface disagreements, because search-side outputs and watch-history-conditioned recommendations can yield different risk profiles even in the same period. [🤖]
 - The Yesilada and Lewandowsky review is best read as a map of the pre-2022 field rather than as a direct statement about the current recommender. [🤖]
 
 ## Evidence Inventory
@@ -98,7 +97,7 @@ Recommendation-radicalization remains the most publicly salient story about YouT
 
 ## Sources Consulted
 
-- [[hussein_et_al_2020]]
+- [[lee_et_al_2022]]
 - [[ledwich_zaitsev_2020]]
 - [[ribeiro_et_al_2020]]
 - [[faddoul_et_al_2020]]

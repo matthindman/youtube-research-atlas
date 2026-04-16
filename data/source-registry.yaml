@@ -1451,3 +1451,38 @@ sources:
       - study10-shorts-vs-long-form
     temporal_scope: "January 2021-December 2022 channel-level comparison across the first two years of YouTube Shorts"
     notes: "The registry schema does not document a dedicated conference-paper type in the header comment, but other ingest work treats peer-reviewed proceedings papers as primary empirical sources. The paper is especially important because the public API does not natively label Shorts, forcing the authors to identify them via redirect behavior."
+  - id: lee_et_al_2022
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Whose Advantage? Measuring Attention Dynamics across YouTube and Twitter on Controversial Topics"
+    authors:
+      - "Lee, JooYoung"
+      - "Wu, Siqi"
+      - "Ertugrul, Ali Mert"
+      - "Lin, Yu-Ru"
+      - "Xie, Lexing"
+    year: 2022
+    venue: "Proceedings of the Sixteenth International AAAI Conference on Web and Social Media (ICWSM 2022)"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/lee_et_al_2022.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/themes/news_ecosystem.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+      - news-ecosystem
+    themes:
+      - recommendation-radicalization
+      - news-ecosystem
+    census_relevance: medium
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Cross-platform attention data on tweeted YouTube videos from January 1, 2017-April 30, 2018"
+    notes: "Strongest as a pre-2019 cross-platform attention study rather than as direct recommendation evidence. The archived paper does not foreground a DOI in the extracted text."
