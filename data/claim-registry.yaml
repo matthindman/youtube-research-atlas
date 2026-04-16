@@ -1167,3 +1167,23 @@ claims:
       - wiki/sources/boesinger_et_al_2024.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_reactionary_guest_network_pathways
+    text: "Pre-2019 reactionary political YouTube operated as a densely cross-promotional guest network in which collaborations and influencer practices created pathways from mainstream conservative or libertarian creators toward more extreme figures."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Guest-appearance network covering January 2017-April 2018 in the pre-2019 YouTube regime."
+    primary_sources:
+      - lewis_2018
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from a purposive map of an English-language reactionary-right subsystem and from qualitative network analysis rather than platform-wide exposure logs or direct recommendation traces."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/lewis_2018.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
