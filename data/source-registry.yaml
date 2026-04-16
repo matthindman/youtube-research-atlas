@@ -712,3 +712,36 @@ sources:
       - study3-media-system
     temporal_scope: "English-language creator responses to an August 2022 moderation controversy, interpreted in a March 2025 publication"
     notes: "Event-centered content analysis of a creator-led moderation controversy. First of three closely related Hallinan/Reynolds governance papers in Batch 5 and cross-linked accordingly."
+  - id: ribeiro_west_2021
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube"
+    authors:
+      - "Ribeiro, Manoel Horta"
+      - "West, Robert"
+    year: 2021
+    venue: "Proceedings of the 15th International AAAI Conference on Web and Social Media"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/ribeiro_west_2021.md
+      - wiki/themes/cross_linguistic_variation.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+      - cross-linguistic-variation
+    themes:
+      - descriptive-deficit
+      - cross-linguistic-variation
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study5-cross-language
+    temporal_scope: "English-language channels and videos collected September-November 2019, covering uploads from May 2005 through October 2019"
+    notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Important as a large public English-language dataset and as evidence that dataset scale does not automatically solve multilingual coverage."

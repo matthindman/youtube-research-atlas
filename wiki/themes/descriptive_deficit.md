@@ -6,12 +6,12 @@ status: machine-draft
 temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
-last_refreshed: 2026-04-15
-source_count: 5
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025]
+last_refreshed: 2026-04-16
+source_count: 6
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021]
 split_candidates: []
 verification:
-  machine_extracted: 28
+  machine_extracted: 31
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -54,10 +54,14 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   enough cross-language differences to make generalization itself an
   empirical question (McGrady et al. 2023, pp. 46-49, 61; McGrady et
   al. 2025, pp. 1, 7, 15-18). [🤖]
+- Even unusually large public YouTube datasets can remain
+  structurally English-centric, so dataset scale alone does not solve
+  the platform's multilingual coverage problem (Ribeiro and West 2021,
+  pp. 1, 6-7). [🤖]
 
 ## Main Disagreements
 
-The five current sources do not directly disagree about whether a
+The six current sources do not directly disagree about whether a
 descriptive deficit exists, but they do disagree in emphasis about
 what layer of the problem is most fundamental. McGrady et al. center
 sampling frames and denominators (McGrady et al. 2023, pp. 4-7);
@@ -96,6 +100,7 @@ evidence about the field and its platform-level claims as framing
 | Visible political comment activity is highly unequal and should not be read as audience-representative by default. | Munger et al. 2025 | 2,940 channels, more than 2.5M videos, and over 320M comments across anglophone US politics channels | single-source | June 2020-Feb. 2023 | [🤖] |
 | The field's platform coverage and research infrastructure are biased away from video-first global platforms. | Norton and Shapiro 2024 | Literature audit plus interviews with 48 researchers | multi-source | Literature 2017-2021; infrastructure diagnosis current to 2024 | [🤖] |
 | English-language YouTube findings should not be assumed to generalize across the platform. | McGrady et al. 2025 | Random samples of English, Spanish, Hindi, and Russian public videos | multi-source | Samples collected 2023-2024; uploads through 2023 | [🤖] |
+| Large public YouTube metadata infrastructure can still be English-centric. | Ribeiro and West 2021 | 136k-channel English-language metadata corpus with explicit weighting caveats | single-source | 2019 collection covering uploads through October 2019 | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
@@ -177,6 +182,10 @@ McGrady et al. 2025, p. 5). [🤖]
   attempts to connect platform baselines to public-affairs attention
   patterns (McGrady et al. 2023, pp. 4-7; Munger et al. 2025, pp. 2-4,
   8-10). [🤖]
+- A future full refresh should integrate Ribeiro and West (2021) more
+  systematically with the multilingual random-sample papers rather than
+  leaving its English-centric infrastructure point as an incremental
+  add-on. [🤖]
 
 ## Sources Consulted
 
@@ -185,6 +194,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[munger_et_al_2025]]
 - [[norton_shapiro_2024]]
 - [[mcgrady_2025]]
+- [[ribeiro_west_2021]]
 
 ## Cross-References
 
