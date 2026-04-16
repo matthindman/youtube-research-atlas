@@ -832,3 +832,37 @@ sources:
       - study3-media-system
     temporal_scope: "English-language accountability videos from 2015-2023, with the corpus concentrated in the post-2019 creator-governance period"
     notes: "Third of the closely related Hallinan/Reynolds governance papers in Batch 5. Extends from specific callout controversies to a broader creator-publicity account of user-generated accountability."
+  - id: marchal_et_al_2025
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "How Negative Media Coverage Impacts Platform Governance: Evidence from Facebook, Twitter, and YouTube"
+    authors:
+      - "Marchal, Nahema"
+      - "Hoes, Emma"
+      - "Kluser, K. Jonathan"
+      - "Hamborg, Felix"
+      - "Alizadeh, Meysam"
+      - "Kubli, Mael"
+      - "Katzenbach, Christian"
+    year: 2025
+    venue: "Political Communication"
+    doi: "10.1080/10584609.2024.2377992"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/marchal_et_al_2025.md
+      - wiki/themes/governance_data_access.md
+      - wiki/index.md
+    tags:
+      - governance-data-access
+    themes:
+      - governance-data-access
+    census_relevance: medium
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Cross-platform English-language news coverage from 2005-2021 and platform policy changes from 2007-2021, with the sharpest negative-coverage shift after 2018"
+    notes: "Comparative platform-governance study rather than YouTube-only evidence. Strongest on the association between sustained negative press and subsequent public-facing policy change across platforms."
