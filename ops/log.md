@@ -2019,3 +2019,38 @@ Refresh note:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/channel_classification_methods?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20channel_classification_methods&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/channel_classification.md%60.%0A-%20Included%20%60rieder_2020%60%2C%20%60boesinger_et_al_2024%60%2C%20and%20%60zaitsev_clark_2025%60%20plus%20the%20needed%20source-registry%20and%20claim-registry%20infrastructure%20on-branch%20so%20the%20methods%20page%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Synthesized%20the%20method%20family%20around%20historical%20access%20regimes%2C%20embedding-based%20versus%20metadata/subscription-based%20classification%2C%20evaluation%20choices%2C%20and%20implications%20for%20the%20project%27s%20own%20pipeline.%0A%0A%23%23%20Sources%0A-%20rieder_2020%0A-%20boesinger_et_al_2024%0A-%20zaitsev_clark_2025%0A%0A%23%23%20Pages%0A-%20wiki/methods/channel_classification.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/sources/rieder_2020.md%0A-%20wiki/sources/boesinger_et_al_2024.md%0A-%20wiki/sources/zaitsev_clark_2025.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest lee_et_al_2022
+**Operation:** ingest-source
+**Branch:** ingest/lee_et_al_2022
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/lee_et_al_2022.md` and updated the
+recommendation and news themes, registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived paper is the ICWSM 2022 conference paper on
+  cross-platform attention dynamics across YouTube and Twitter.
+- Confirmed the data window is January 1, 2017 through April 30, 2018
+  and that the sample includes 179 abortion videos, 268 gun-control
+  videos, and 777 BLM videos.
+- Added one new cross-cutting claim on ideological attention advantage
+  differing between YouTube engagement and Twitter diffusion.
+
+Tier decision:
+
+- Assigned `primary_empirical` because this is a peer-reviewed
+  conference paper with original cross-platform data collection and
+  analysis.
+
+Human attention requested:
+
+- The source belongs more naturally to cross-platform attention and the
+  news ecosystem than to direct recommender evaluation.
+- Its value for the recommendation theme is cautionary: ideological
+  visibility differences should not be collapsed into a simple claim
+  about the recommender itself.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/lee_et_al_2022?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20lee_et_al_2022&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/lee_et_al_2022.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/themes/news_ecosystem.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20theme%20notes%20showing%20that%20ideological%20advantage%20differs%20between%20YouTube%20engagement%20and%20Twitter%20diffusion%20in%20pre-2019%20cross-platform%20attention%20data.%0A%0A%23%23%20Pages%0A-%20wiki/sources/lee_et_al_2022.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md

@@ -1167,3 +1167,24 @@ claims:
       - wiki/sources/boesinger_et_al_2024.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
+  - id: claim_news_ecosystem_cross_platform_attention_asymmetry_by_ideology
+    text: "Across controversial political topics, left-leaning YouTube videos can attract more on-platform views and engagement while right-leaning videos attract more Twitter diffusion and longer cross-platform attention tails."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Cross-platform attention on tweeted YouTube videos from January 2017-April 2018."
+    primary_sources:
+      - lee_et_al_2022
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from high-attention tweeted videos on three U.S.-centric controversial topics rather than from all political YouTube content or direct recommendation measurements."
+    themes:
+      - news-ecosystem
+      - recommendation-radicalization
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/lee_et_al_2022.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/themes/news_ecosystem.md
+    verification: machine_extracted

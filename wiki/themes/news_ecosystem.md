@@ -7,8 +7,9 @@ temporal_scope: "2019 recommendation benchmarks, 2020 partisan-discussion eviden
 themes: [news-ecosystem]
 census_papers: [paper1-attention-economy]
 last_refreshed: 2026-04-16
-source_count: 5
+source_count: 6
 key_sources:
+  - lee_et_al_2022
   - huang_yang_2024
   - wu_resnick_2021
   - reveilhac_2024
@@ -16,7 +17,7 @@ key_sources:
   - reuters_dnr_2025
 split_candidates: []
 verification:
-  machine_extracted: 28
+  machine_extracted: 29
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -37,6 +38,7 @@ The news ecosystem on YouTube is no longer well described as a choice between in
 - Recommendation dynamics matter for news exposure. Huang shows that an incognito 2019 Up Next system was biased toward redirecting users from news toward entertainment, which means news harm can take the form of attention drift rather than misinformation or extremity alone. [🤖]
 - Political YouTube is not a pure comment-layer echo chamber: Wu and Resnick find substantial cross-partisan discussion on U.S. partisan channels, although it is asymmetric, somewhat down-ranked in visible comment slots, and often uncivil in replies. [🤖]
 - News and public-affairs attention can be organized through hybrid alternative-media ecologies rather than a simple legacy-versus-creator split. Reveilhac's French case shows overlapping channel clusters that mediate between politics, entertainment, and re-information. [🤖]
+- Cross-platform comparison matters too. Lee et al. show that controversial political YouTube attention and Twitter attention do not line up ideologically: left-leaning videos often lead on YouTube views and engagement while right-leaning videos lead on Twitter diffusion and attention persistence. [🤖]
 - The evidence base is better than the old two-report scaffold, but it remains uneven across countries, methods, and platform layers. The strongest global evidence is still survey-based, while the strongest structural evidence remains country- or interface-specific. [🤖]
 
 ## Main Disagreements
@@ -82,6 +84,7 @@ The current evidence base uses category-transition probabilities, Markov-chain s
 
 ## Sources Consulted
 
+- [[lee_et_al_2022]]
 - [[huang_yang_2024]]
 - [[wu_resnick_2021]]
 - [[reveilhac_2024]]
