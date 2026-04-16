@@ -53,9 +53,11 @@ executive synthesis.
 - [[newman_et_al_2025]] — news creators, commentary dominance, and cross-national creator ecosystems
 - [[reuters_dnr_2025]] — YouTube news use, video-first consumption, and creator-led pressure on journalism
 - [[hallinan_et_al_2025]] — creator callouts, contradictory bias accusations, and aspirational platform governance
+<<<<<<< HEAD
 - [[hallinan_reynolds_2024]] — copyright callouts, horizontal versus vertical accountability, and creator-driven platform governance
 - [[reynolds_hallinan_2024]] — creator publicity, signal boosting, and user-generated accountability on YouTube
 - [[marchal_et_al_2025]] — comparative evidence linking negative media scrutiny to platform policy change
+- [[ozturan_et_al_2025]] — comparative evidence that governance and ownership shifts can degrade information quality
 
 ## Paper dossiers
 

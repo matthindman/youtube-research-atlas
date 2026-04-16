@@ -223,6 +223,25 @@ claims:
       - wiki/sources/marchal_et_al_2025.md
       - wiki/themes/governance_data_access.md
     verification: machine_extracted
+  - id: claim_governance_data_access_governance_change_information_quality
+    text: "Governance and ownership changes can alter platform information quality, as Twitter/X showed a modest but significant shift toward lower-credibility sharing after its October 2022 transition."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Twitter/X data from January 2022-April 2023 around the October 27, 2022 ownership transition."
+    primary_sources:
+      - ozturan_et_al_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "This is comparative evidence from Twitter/X rather than YouTube, and the study does not establish feed exposure or long-run persistence beyond May 2023."
+    themes:
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/ozturan_et_al_2025.md
+      - wiki/themes/governance_data_access.md
+    verification: machine_extracted
   - id: claim_cross_linguistic_youtube_not_one_platform
     text: "Different linguistic communities use YouTube differently enough that English-language findings should not be assumed to generalize across the platform."
     claim_type: empirical-descriptive
