@@ -1887,3 +1887,42 @@ Refresh note:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20a%20five-source%20corpus%20spanning%20recommendation%20structure%2C%20comment%20interaction%2C%20channel%20clustering%2C%20and%20audience%20surveys.%0A-%20Included%20%60huang_yang_2024%60%2C%20%60reveilhac_2024%60%2C%20and%20%60wu_resnick_2021%60%20plus%20their%20registry%20infrastructure%20on-branch%20so%20the%20refresh%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Replaced%20the%20old%20two-report%20scaffold%20with%20a%20periodized%20synthesis%20that%20distinguishes%202019%20recommendation%20drift%2C%202020%20partisan%20discussion%2C%202023%20French%20subsystem%20mapping%2C%20and%202024-2025%20cross-national%20survey%20evidence.%0A%0A%23%23%20Sources%0A-%20huang_yang_2024%0A-%20reveilhac_2024%0A-%20wu_resnick_2021%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest zaitsev_clark_2025
+**Operation:** ingest-source
+**Branch:** ingest/zaitsev_clark_2025
+**By:** Codex (GPT-5)
+
+Ingested `zaitsev_clark_2025` via the `ingest-source` workflow.
+Created `wiki/sources/zaitsev_clark_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/descriptive_deficit.md`, `wiki/index.md`, and
+`ops/log.md`.
+
+Literature-review cross-check note:
+
+- No source-specific internal review memo currently isolates this paper,
+  so the cross-check was against the archived PDF itself and the
+  existing descriptive theme rather than against a prewritten project
+  summary.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` because the paper presents original data
+  collection, discovery/classification methods, and empirical results.
+- Reused the existing theme tag `descriptive-deficit`; no taxonomy
+  additions proposed.
+- Updated two existing methodological claims rather than creating a new
+  registry entry: one on denominator/coverage problems and one on
+  infrastructure constraints.
+
+Human attention requested:
+
+- The prompt named `Justin Clark`, but the archived paper credits
+  `Sam Clark`; the source card and registry follow the paper itself.
+- Treat the method as historically specific to 2020 public-subscription
+  visibility. The paper is valuable precisely because it states that
+  this access path has since narrowed.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/zaitsev_clark_2025?quick_pull=1&title=%5Bingest-source%5D+Ingest+zaitsev_clark_2025&body=%23%23+Summary%0A-+Created+%60wiki%2Fsources%2Fzaitsev_clark_2025.md%60.%0A-+Updated+%60data%2Fsource-registry.yaml%60%2C+%60data%2Fclaim-registry.yaml%60%2C+%60wiki%2Fthemes%2Fdescriptive_deficit.md%60%2C+%60wiki%2Findex.md%60%2C+and+%60ops%2Flog.md%60.%0A-+Added+provisional+theme+notes+showing+that+head-only+political+YouTube+samples+miss+substantial+small-channel+right+and+conspiracy+content+and+that+the+enabling+subscription-visibility+regime+was+historical.%0A%0A%23%23+Pages%0A-+wiki%2Fsources%2Fzaitsev_clark_2025.md%0A-+data%2Fsource-registry.yaml%0A-+data%2Fclaim-registry.yaml%0A-+wiki%2Fthemes%2Fdescriptive_deficit.md%0A-+wiki%2Findex.md%0A-+ops%2Flog.md

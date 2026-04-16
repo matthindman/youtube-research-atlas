@@ -7,11 +7,11 @@ temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-16
-source_count: 7
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024]
+source_count: 8
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025]
 split_candidates: []
 verification:
-  machine_extracted: 32
+  machine_extracted: 34
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -34,6 +34,10 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   representative sampling frames; without them, even careful studies
   of specific content types cannot show how common those phenomena are
   on YouTube overall (McGrady et al. 2023, pp. 4-7). [🤖]
+- Head-only political YouTube samples can materially understate what is
+  happening in smaller channels: Zaitsev and Clark show that much more
+  partisan-right and conspiracy content sits below the most visible
+  channel tier than head-only maps suggest (§ VI). [🤖]
 - Quantitative description is not just scene-setting for later causal
   work. In this source set, it is treated as a prerequisite for
   deciding whether causal relationships matter and how broadly they
@@ -126,6 +130,11 @@ evidence about the field and its platform-level claims as framing
   technical staff and compute create selection effects in who can
   study YouTube at scale and what kinds of projects they can run
   (Munger et al. 2025, pp. 3, 8; Norton and Shapiro 2024, pp. 4-6). [🤖]
+- Historical channel-classification methods could exploit public
+  commenter subscriptions that were still visible in 2020, but
+  Zaitsev and Clark explicitly note that YouTube later narrowed that
+  access path, making the method harder to reproduce in the current
+  environment (§ III.2; § VII). [🤖]
 - Multilingual description adds another measurement layer because
   YouTube does not publish language distributions and because spoken
   language classification is noisy, especially when language is used
@@ -206,6 +215,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[mcgrady_2025]]
 - [[ribeiro_west_2021]]
 - [[reveilhac_2024]]
+- [[zaitsev_clark_2025]]
 
 ## Cross-References
 

@@ -1144,3 +1144,32 @@ sources:
       - study3-media-system
     temporal_scope: "U.S. partisan-media videos and comments collected from January 1 to August 31, 2020"
     notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Strongest for the comment-layer version of the filter-bubble question rather than for direct recommendation effects."
+  - id: zaitsev_clark_2025
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Classifying YouTube Channels: Algorithmic Approach to Channel Mapping"
+    authors:
+      - "Zaitsev, Anna"
+      - "Clark, Sam"
+    year: 2025
+    venue: "First Monday 30(8)"
+    doi: "10.5210/fm.v30i8.13682"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/zaitsev_clark_2025.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Data collected in 2020 using then-visible public subscription pages, with yearly views examined from 2017-2020"
+    notes: "The prompt named 'Justin Clark', but the archived paper credits Sam Clark. Method is historically important because it depends on public commenter subscriptions that the paper says later became less visible."
