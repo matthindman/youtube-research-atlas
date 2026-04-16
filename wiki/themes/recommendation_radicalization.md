@@ -7,18 +7,19 @@ temporal_scope: "Pre-2019 right-wing ecosystem evidence, post-2019 audit and wat
 themes: [recommendation-radicalization]
 census_papers: [methods-companion, paper1-attention-economy, study3-media-system]
 last_refreshed: 2026-04-15
-source_count: 4
+source_count: 5
 key_sources:
   - munger_phillips_2022
   - haroon_et_al_2023
   - lai_et_al_2024
   - munger_2024
+  - yu_et_al_2024
 split_candidates:
   - rabbit_hole_debate
   - filter_bubble_evidence
   - pre_2019_vs_post_2019_algorithm
 verification:
-  machine_extracted: 28
+  machine_extracted: 29
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -79,10 +80,11 @@ ideology is operationalized in the first place (Munger 2024, pp.
 
 ### Post-2022 policy-shift evidence
 
-- None of the ingested sources directly estimates recommendation
-  behavior after the policy and product shifts of 2022+, so the
-  current evidence base becomes thin precisely where present-tense
-  claims are most tempting. [🤖]
+- Yu et al. now provide one explicitly post-2022 intervention
+  study: changing recommender inputs in late-2022/early-2023 can
+  increase news exposure and reduce ideological congeniality
+  without detectable short-run attitude effects, but that still
+  leaves the broader post-2022 evidence base thin. [🤖]
 
 ## Main Disagreements
 
@@ -125,6 +127,7 @@ quietly projected into the post-2022 regime. [🤖]
 | Partisan users receive ideologically congenial recommendations in the post-2019 regime, especially on the homepage. | Haroon et al. 2023 | 100,000 trained sock puppets with homepage and up-next capture | single-source | Post-2019 regime, audit current to 2022-2023 | [🤖] |
 | Recommendation trails do not show large increases in ideological extremity, but problematic-channel exposure grows deeper in the trail. | Haroon et al. 2023 | Up-next trails to depth 20 plus problematic-channel lists | single-source | Post-2019 regime, audit current to 2022-2023 | [🤖] |
 | Video-level ideology estimation is now scalable enough to support finer-grained audit and exposure work, and observed media diets in 2020 were ideologically congruent on average. | Lai et al. 2024 | Correspondence analysis plus BERT classifier and 2020 watch-history application | single-source | Reddit link data 2011-2021; watch histories May-July 2020 | [🤖] |
+| A post-2022 recommender intervention can increase news exposure and broaden ideological diversity, while user nudges alone show little effect. | Yu et al. 2024 | Sock-puppet tuning plus month-long browser-extension experiment with frequent YouTube users | single-source | November 2022-January 2023 | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
@@ -188,6 +191,7 @@ Haroon et al. 2023, pp. 2-8; Lai et al. 2024, pp. 349-359). [🤖]
 - [[munger_phillips_2022]]
 - [[haroon_et_al_2023]]
 - [[lai_et_al_2024]]
+- [[yu_et_al_2024]]
 - [[munger_2024]]
 
 ## Cross-References

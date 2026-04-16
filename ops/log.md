@@ -736,3 +736,48 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...method/recommendation_audit?quick_pull=1&title=%5Bscaffold%5D%20Create%20recommendation_audit%20method%20page&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/recommendation_audit.md%60.%0A-%20Added%20the%20new%20method%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-15 — Ingest yu_et_al_2024
+**Operation:** ingest-source
+**Branch:** ingest/yu_et_al_2024
+**By:** Codex (GPT-5)
+
+Ingested `yu_et_al_2024` via the `ingest-from-review` workflow.
+Created `wiki/sources/yu_et_al_2024.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`,
+`wiki/methods/recommendation_audit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced between the literature review
+  and the article. The review's emphasis on algorithmic interest
+  bias, the stronger effect of nudging the algorithm than nudging
+  users, and the null downstream attitude effects matches the
+  original paper (pp. 1-9).
+- The original article is more explicit that this is a post-2022
+  study and that the key user experiment runs from November 2022
+  to January 2023, which matters for the atlas's temporal buckets
+  (pp. 4-9).
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` and `journal_article`.
+- Reused the existing `recommendation-radicalization` theme tag; no
+  taxonomy addition was needed.
+- Updated `wiki/methods/recommendation_audit.md` because the paper
+  extends audit logic into an interventional, extension-based
+  recommender study rather than a pure observation design.
+
+Claims not fully verifiable from this source alone:
+
+- The final sample is restricted to frequent U.S. YouTube users who
+  would install a browser extension.
+- The treatment window is short, so null survey effects should not
+  be overread as proof of no longer-run attitudinal consequences.
+- The intervention depends on a curated list of balanced news
+  outlets and therefore embeds a normative choice about which
+  content should be promoted.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/yu_et_al_2024?quick_pull=1&title=%5Bingest-from-review%5D%20Yu%20et%20al.%202024%20%28Nudging%20Recommendation%20Algorithms%29&body=%23%23%20Summary%0A-%20Ingested%20%60yu_et_al_2024%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20recommendation_audit%20method%20page%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/yu_et_al_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md

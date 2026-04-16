@@ -10,7 +10,7 @@ project_modules:
   - public-affairs
 last_refreshed: 2026-04-15
 verification:
-  machine_extracted: 17
+  machine_extracted: 18
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -31,13 +31,18 @@ as distinct outcomes (Haroon et al. 2023, pp. 1-8). [🤖]
 
 ## Where It Has Been Used
 
-[LIT] The method appears directly in Haroon et al. and indirectly in
-Lai et al., where ideology estimation supplies one of the main
-measurement ingredients that audit studies need. [🤖]
+[LIT] The method appears directly in Haroon et al. and Yu et al.;
+the latter turns a sock-puppet audit into an intervention by
+injecting balanced news videos into watch histories and then
+tracking how recommendations and consumption change over time.
+Lai et al. contributes measurement infrastructure rather than an
+audit design (Haroon et al. 2023, pp. 1-8; Yu et al. 2024, pp. 1-8).
+[🤖]
 
 | Source | Data | Sample | Key Design Choice | Verified |
 |--------|------|--------|-------------------|----------|
 | haroon_et_al_2023 | Sock-puppet watch histories, homepage captures, up-next trails, and video slant scores | 100,000 sock puppets; 15,323,930 watched or recommended videos in total; 120,073 channels | Trains five ideological user profiles, distinguishes homepage from up-next recommendations, and tracks problematic-channel exposure separately from ideological extremity | [🤖] |
+| yu_et_al_2024 | Sock-puppet watch histories, browser-extension recommendation captures, survey data, and balanced-news intervention videos | 8,600 sock puppets plus 2,142 recruited frequent users (1,188 in final analytic sample) | Uses repeated balanced-news injections to nudge the recommender itself, then compares algorithmic and user nudges in a month-long field setting | [🤖] |
 | lai_et_al_2024 | Reddit-YouTube links, video metadata, and 2020 watch histories | 61,883 videos with metadata; 345 respondents and 6,012 political videos in the application | Not an audit by itself, but provides reusable video-level ideology estimates that later audits can plug into exposure measures | [🤖] |
 
 ## Strengths and Assumptions
@@ -115,4 +120,4 @@ experience. [🤖]
 
 - **Themes:** [[recommendation_radicalization]]
 - **Related methods:** [[ideology_estimation]]
-- **Papers that use this method:** [[haroon_et_al_2023]], [[lai_et_al_2024]]
+- **Papers that use this method:** [[haroon_et_al_2023]], [[yu_et_al_2024]], [[lai_et_al_2024]]

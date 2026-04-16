@@ -32,6 +32,7 @@ _(none yet; created when theme pages need splitting)_
 
 - [[mcgrady_2023]] — random-video sampling, denominator problems, and YouTube's long tail
 - [[mcgrady_2025]] — cross-language random sampling showing English is not the platform
+- [[yu_et_al_2024]] — recommender intervention showing more news exposure and more diverse news diets after post-2022 nudging
 - [[lai_et_al_2024]] — video-level ideology estimation for political YouTube, watch-history congruence, and engagement
 - [[haroon_et_al_2023]] — large-scale audit of ideologically congenial, limited-extremity, and problematic recommendations
 - [[munger_phillips_2022]] — supply-demand framework, pre-2019 far-right peak, and creator-community dynamics on political YouTube
