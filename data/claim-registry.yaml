@@ -527,3 +527,22 @@ claims:
       - wiki/sources/yesilada_lewandowsky_2022.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_short_term_limited_polarization_effects
+    text: "In short-term post-2019 YouTube experiments, changing recommendation slant alters what users watch more than what they believe, with limited detectable effects on policy attitudes or affective polarization."
+    claim_type: empirical-causal
+    evidence_strength: single-source
+    temporal_scope: "Four U.S. experiments launched June 2021, April 2022, and May 2024 using contemporary YouTube recommendation networks."
+    primary_sources:
+      - liu_et_al_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Evidence is short-term, issue-specific to gun control and minimum wage, and does not rule out longer-run or susceptible-subpopulation effects."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/liu_et_al_2025.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted

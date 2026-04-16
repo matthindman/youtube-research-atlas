@@ -754,6 +754,16 @@ workflow. Created `wiki/sources/brown_et_al_2022.md` and updated
 `data/source-registry.yaml`, `data/claim-registry.yaml`,
 `wiki/themes/recommendation_radicalization.md`,
 `wiki/methods/recommendation_audit.md`, and `wiki/index.md`.
+## 2026-04-15 — Ingest liu_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/liu_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `liu_et_al_2025` via the `ingest-from-review` workflow.
+Created `wiki/sources/liu_et_al_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`, and
+`wiki/index.md`.
 
 Literature-review cross-check note:
 
@@ -767,6 +777,15 @@ Literature-review cross-check note:
   review: bursts of partisan viewing predict later partisan
   consumption because of user-preference shifts rather than
   recommender overreaction (p. 5).
+  and the article. The review accurately characterizes the paper as
+  a strong causal challenge to broad rabbit-hole and filter-bubble
+  claims, with the main unresolved issues being long-run exposure,
+  vulnerable subpopulations, and algorithm change over time (pp.
+  1-2, 10).
+- The article is more temporally specific than the review summary: it
+  spans studies launched in June 2021, April 2022, and May 2024, so
+  it should be treated as mixed post-2019 evidence rather than as a
+  cleanly post-2022 study (p. 5).
 
 Tier and taxonomy decisions:
 
@@ -824,3 +843,22 @@ Claims not fully verifiable from this source alone:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/brown_et_al_2022?quick_pull=1&title=%5Bingest-from-review%5D%20Brown%20et%20al.%202022%20%28Echo%20Chambers%2C%20Rabbit%20Holes%2C%20and%20Algorithmic%20Bias%29&body=%23%23%20Summary%0A-%20Ingested%20%60brown_et_al_2022%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20recommendation_audit%20method%20page%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/brown_et_al_2022.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md
+- Did not update `wiki/methods/recommendation_audit.md` on this
+  branch. The design is clearly adjacent to recommender-audit work,
+  but this paper is best classified here as a naturalistic
+  experiment about causal downstream effects rather than as a pure
+  audit exemplar.
+
+Claims not fully verifiable from this source alone:
+
+- The paper does not rule out longer-run effects from repeated
+  exposure over months or years.
+- It cannot rule out effects concentrated in small susceptible
+  subpopulations.
+- The issue scope is limited to gun control and minimum wage, and
+  the design holds video supply largely fixed around existing
+  YouTube recommendation networks.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/liu_et_al_2025?quick_pull=1&title=%5Bingest-from-review%5D%20Liu%20et%20al.%202025%20%28Short-term%20Exposure%20to%20Filter-Bubble%20Recommendation%20Systems%20Has%20Limited%20Polarization%20Effects%29&body=%23%23%20Summary%0A-%20Ingested%20%60liu_et_al_2025%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/liu_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
