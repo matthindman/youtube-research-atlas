@@ -64,6 +64,7 @@ executive synthesis.
 - [[ribeiro_et_al_2020]] — large-scale pathway study showing commenter migration toward Alt-right channels and channel-recommendation reachability
 - [[faddoul_et_al_2020]] — longitudinal audit showing reduced but persistent conspiracy promotion across the 2019 demotion period
 - [[ribeiro_veselovsky_west_2023]] — model-based explanation for why audit-style amplification and real-user consumption findings can diverge
+- [[huang_yang_2024]] — audit evidence that Up Next recommendations redirect viewers from news toward entertainment
 
 ## Paper dossiers
 
