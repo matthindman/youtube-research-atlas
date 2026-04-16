@@ -85,6 +85,7 @@ executive synthesis.
 - [[hussein_et_al_2020]] — audit of YouTube search, Up Next, and Top 5 recommendations showing topic-specific misinformation exposure and stronger personalization after watch history develops
 - [[chae_lee_2024]] — comment-classification study showing mainstream-news videos host more cross-cutting discussion than political-vlogger videos in a 2019 U.S. event window
 - [[kumar_2019]] — Adpocalypse case study arguing that monetization policy acted as algorithmic gatekeeping over creator revenue and visibility
+- [[van_es_2020]] — platform-studies analysis of how “the view” organizes visibility, monetization, and what becomes measurable on YouTube
 
 ## Paper dossiers
 

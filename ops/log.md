@@ -2194,3 +2194,39 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/kumar_2019?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20kumar_2019&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/kumar_2019.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/creator_economy.md%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20theme%20notes%20showing%20that%20Adpocalypse-era%20monetization%20policy%20functioned%20as%20a%20form%20of%20platform%20gatekeeping%20over%20creator%20revenue%20and%20visibility.%0A%0A%23%23%20Pages%0A-%20wiki/sources/kumar_2019.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest van_es_2020
+**Operation:** ingest-source
+**Branch:** ingest/van_es_2020
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/van_es_2020.md` and updated the descriptive-
+deficit theme, registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived article is the 2020 *Television & New Media*
+  paper with DOI `10.1177/1527476418818986`.
+- Confirmed the paper is not a review; it presents an original
+  platform analysis of how views and watch time structure YouTube's
+  information regimes, monetization, and creator behavior.
+- Added one new cross-cutting claim on the platform's view / watch-time
+  regime shaping what becomes legible and measurable.
+
+Tier decision:
+
+- Assigned `primary_empirical` rather than `secondary_analytical`
+  because the paper is an original peer-reviewed platform analysis,
+  even though it is conceptually framed rather than built around a
+  conventional sample dataset.
+
+Human attention requested:
+
+- This source is most useful as a diagnosis of metric inheritance in
+  YouTube research.
+- It is pre-Shorts, so its direct descriptive value for today's
+  platform is historical and infrastructural rather than current-state
+  measurement.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/van_es_2020?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20van_es_2020&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/van_es_2020.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20descriptive-theme%20notes%20showing%20that%20YouTube%27s%20visible%20metrics%20already%20encode%20what%20becomes%20measurable%20and%20valuable%20on%20the%20platform.%0A%0A%23%23%20Pages%0A-%20wiki/sources/van_es_2020.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/index.md%0A-%20ops/log.md

@@ -1392,3 +1392,31 @@ sources:
       - study3-media-system
     temporal_scope: "March 2017 Adpocalypse aftermath through 2019, with policy changes and creator testimonies analyzed retrospectively"
     notes: "Assigned `primary_empirical` despite the essay-like framing because the article is peer-reviewed and presents original qualitative analysis of policy changes and creator testimony. Strongest as a governance-and-monetization case study rather than as a platform-wide estimate."
+  - id: van_es_2020
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "YouTube's Operational Logic: 'The View' as Pervasive Category"
+    authors:
+      - "van Es, Karin"
+    year: 2020
+    venue: "Television & New Media 21(3): 223-239"
+    doi: "10.1177/1527476418818986"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/van_es_2020.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+    themes:
+      - descriptive-deficit
+    census_relevance: medium
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+    temporal_scope: "Platform analysis current to the late-2010s / early-2019 YouTube regime, before Shorts"
+    notes: "Assigned `primary_empirical` because the paper is a peer-reviewed original platform analysis rather than a review essay. It is strongest as an account of how YouTube's visible metric regime structures legibility, ranking, and monetization."
