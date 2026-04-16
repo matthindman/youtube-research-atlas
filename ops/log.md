@@ -1521,3 +1521,46 @@ Refresh note:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/governance_data_access?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20governance_data_access&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/governance_data_access.md%60%20from%20the%20full%207-source%20governance%20corpus.%0A-%20Included%20the%20five%20new%20Batch%205%20governance%20source%20cards%20and%20their%20registry%20infrastructure%20on%20this%20branch%20so%20the%20refreshed%20theme%20remains%20self-contained%20for%20verification%20before%20those%20ingest%20branches%20merge.%0A-%20Kept%20temporal%20scoping%20explicit%20across%20the%20early-2020s%20opacity%20regime%2C%20the%202015-2023%20creator-accountability%20corpus%2C%20the%202022-2023%20comparative%20governance-shift%20evidence%2C%20and%20the%20post-October-29-2025%20DSA%20access%20regime.%0A%0A%23%23%20Sources%0A-%20norton_shapiro_2024%0A-%20hallinan_et_al_2025%0A-%20hallinan_reynolds_2024%0A-%20reynolds_hallinan_2024%0A-%20marchal_et_al_2025%0A-%20ozturan_et_al_2025%0A-%20european_commission_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/governance_data_access.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest ribeiro_et_al_2020
+**Operation:** ingest-source
+**Branch:** ingest/ribeiro_et_al_2020
+**By:** Codex (GPT-5)
+
+Ingested `ribeiro_et_al_2020` via the `ingest-source`
+workflow. Created `wiki/sources/ribeiro_et_al_2020.md`
+and updated `data/source-registry.yaml`,
+`data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`,
+`wiki/index.md`, and `ops/log.md`.
+
+Literature-review cross-check note:
+
+- No internal literature-review summary currently isolates this
+  paper, so no source-specific contradiction check was possible
+  against a project memo.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`; the paper combines original
+  comment-trace analysis and recommendation auditing even though
+  the archived corpus copy is the arXiv version of a published
+  conference paper.
+- Reused the existing theme tag
+  `recommendation-radicalization`; no taxonomy additions proposed.
+- Added two cross-cutting claims: one for commenter migration
+  toward Alt-right channels and one for the distinction between
+  channel and video recommendation reachability.
+
+Human attention requested:
+
+- Temporal scope needs careful handling because the paper combines
+  historical commenter migration evidence through 2018 with a
+  separate May-July 2019 recommendation snapshot.
+- The paper is foundational for the rabbit-hole debate, but its
+  migration result is based on commenters rather than full viewing
+  histories and its recommendation result is nonpersonalized.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ribeiro_et_al_2020?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20ribeiro_et_al_2020&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/ribeiro_et_al_2020.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20recommendation-theme%20note%20capturing%20commenter%20migration%20and%20channel-level%20Alt-right%20reachability.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ribeiro_et_al_2020.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
