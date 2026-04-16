@@ -745,3 +745,31 @@ sources:
       - study5-cross-language
     temporal_scope: "English-language channels and videos collected September-November 2019, covering uploads from May 2005 through October 2019"
     notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Important as a large public English-language dataset and as evidence that dataset scale does not automatically solve multilingual coverage."
+  - id: european_commission_2025
+    type: platform_doc
+    evidence_tier: platform_documentation
+    title: "New Measures Unlock Access to Data from Largest Online Platforms to Support Research"
+    authors:
+      - "European Commission"
+    year: 2025
+    venue: "Shaping Europe's Digital Future"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/european_commission_2025.md
+      - wiki/themes/governance_data_access.md
+      - wiki/index.md
+    tags:
+      - governance-data-access
+    themes:
+      - governance-data-access
+    census_relevance: medium
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Post-October 29, 2025 DSA researcher-access regime for very large online platforms and search engines in the EU"
+    notes: "Assigned `platform_documentation`, not `policy_research`, because this is an official policy announcement with no original empirical analysis. It can support policy facts about the DSA access mechanism, but not claims about implementation success."
