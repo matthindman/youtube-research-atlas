@@ -242,6 +242,25 @@ claims:
       - wiki/sources/ozturan_et_al_2025.md
       - wiki/themes/governance_data_access.md
     verification: machine_extracted
+  - id: claim_governance_data_access_dsa_researcher_access_mechanism
+    text: "As of October 29, 2025, the DSA creates a qualified-researcher route to request previously unavailable data from very large online platforms and search engines, subject to Digital Services Coordinator review."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "Post-October 29, 2025 EU DSA regime."
+    primary_sources:
+      - european_commission_2025
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "This is a policy fact from an official announcement about the formal access mechanism, not evidence yet about take-up, consistency, or research payoff in practice."
+    themes:
+      - governance-data-access
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/european_commission_2025.md
+      - wiki/themes/governance_data_access.md
+    verification: machine_extracted
   - id: claim_cross_linguistic_youtube_not_one_platform
     text: "Different linguistic communities use YouTube differently enough that English-language findings should not be assumed to generalize across the platform."
     claim_type: empirical-descriptive

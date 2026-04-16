@@ -712,7 +712,6 @@ sources:
       - study3-media-system
     temporal_scope: "English-language creator responses to an August 2022 moderation controversy, interpreted in a March 2025 publication"
     notes: "Event-centered content analysis of a creator-led moderation controversy. First of three closely related Hallinan/Reynolds governance papers in Batch 5 and cross-linked accordingly."
-<<<<<<< HEAD
   - id: hallinan_reynolds_2024
     type: journal_article
     evidence_tier: primary_empirical
@@ -838,3 +837,32 @@ sources:
       - study3-media-system
     temporal_scope: "Twitter/X information quality before and after the October 27, 2022 ownership transition, using January 2022-April 2023 data with access ending in May 2023"
     notes: "Comparative platform-governance evidence from Twitter/X rather than YouTube. Included for the governance theme because it shows how ownership and policy changes can affect information quality, while also foregrounding how access restrictions truncate follow-up analysis."
+  - id: european_commission_2025
+    type: platform_doc
+    evidence_tier: platform_documentation
+    title: "New Measures Unlock Access to Data from Largest Online Platforms to Support Research"
+    authors:
+      - "European Commission"
+    year: 2025
+    venue: "Shaping Europe's Digital Future"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/european_commission_2025.md
+      - wiki/themes/governance_data_access.md
+      - wiki/index.md
+    tags:
+      - governance-data-access
+    themes:
+      - governance-data-access
+    census_relevance: medium
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Post-October 29, 2025 DSA researcher-access regime for very large online platforms and search engines in the EU"
+    notes: "Assigned `platform_documentation`, not `policy_research`, because this is an official policy announcement with no original empirical analysis. It can support policy facts about the DSA access mechanism, but not claims about implementation success."
+>>>>>>> 2df905f ([ingest-source] Ingest european_commission_2025)
