@@ -632,6 +632,44 @@ claims:
       - wiki/sources/munger_phillips_2022.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_conspiracy_recommendations_declined_after_2019_demotions
+    text: "In a nonpersonalized audit of U.S. informational YouTube from October 2018 to February 2020, conspiratorial watch-next recommendations fell sharply after YouTube's January 2019 demotion effort but remained nontrivial and partly rebounded when weighted by source-video popularity."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "October 2018-February 2020, centered on YouTube's January, June, and December 2019 borderline-content announcements."
+    primary_sources:
+      - faddoul_et_al_2020
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Based on default nonpersonalized watch-next recommendations from a large informational-channel root set, not on logged-in behavior or realized viewing histories."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/faddoul_et_al_2020.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
+  - id: claim_recommendation_radicalization_conspiracy_filter_bubble_persisted_in_2019_audit
+    text: "During the same 2018-2020 audit, conspiratorial source videos were more likely than nonconspiratorial ones to yield conspiratorial watch-next recommendations, indicating a declining but still visible conspiracy filter-bubble effect."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "October 2018-February 2020 nonpersonalized recommendation audit."
+    primary_sources:
+      - faddoul_et_al_2020
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The effect is measured in default watch-next recommendations without personalization, so it captures selective exposure in the default interface rather than full user-specific recommendation dynamics."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/faddoul_et_al_2020.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
   - id: claim_recommendation_radicalization_post2019_limited_algorithmic_effect
     text: "In the post-2019 regime, YouTube's recommender appears to play a limited and sometimes moderating role relative to users' own partisan preferences, rather than strongly radicalizing average consumption."
     claim_type: empirical-causal
