@@ -59,6 +59,12 @@ executive synthesis.
 - [[reynolds_hallinan_2024]] — creator publicity, signal boosting, and user-generated accountability on YouTube
 - [[marchal_et_al_2025]] — comparative evidence linking negative media scrutiny to platform policy change
 - [[ozturan_et_al_2025]] — comparative evidence that governance and ownership shifts can degrade information quality
+- [[ledwich_zaitsev_2020]] — foundational contrarian audit arguing that anonymous recommendations mainstream rather than radicalize
+- [[ribeiro_et_al_2020]] — historical commenter migration plus a 2019 audit of Alt-right channel reachability
+- [[faddoul_et_al_2020]] — longitudinal audit showing 2019 conspiracy demotion reduced but did not eliminate promotion
+- [[ribeiro_veselovsky_west_2023]] — theoretical account explaining why audits can overstate amplification relative to consumption
+- [[huang_yang_2024]] — recommendation audit showing news-to-entertainment diversion in Up Next
+- [[wu_resnick_2021]] — large-scale comment study showing common but asymmetric cross-partisan discussion on U.S. partisan YouTube
 - [[european_commission_2025]] — official DSA announcement creating a post-2025 researcher-access route
 
 ## Paper dossiers
