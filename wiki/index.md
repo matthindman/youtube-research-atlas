@@ -59,6 +59,9 @@ executive synthesis.
 - [[reynolds_hallinan_2024]] — creator publicity, signal boosting, and user-generated accountability on YouTube
 - [[marchal_et_al_2025]] — comparative evidence linking negative media scrutiny to platform policy change
 - [[ozturan_et_al_2025]] — comparative evidence that governance and ownership shifts can degrade information quality
+- [[huang_yang_2024]] — recommendation audit showing news-to-entertainment diversion in Up Next
+- [[reveilhac_2024]] — French alternative-news mapping with clustered overlap between politics, entertainment, and re-information
+- [[wu_resnick_2021]] — large-scale comment study showing common but asymmetric cross-partisan discussion on U.S. partisan YouTube
 - [[european_commission_2025]] — official DSA announcement creating a post-2025 researcher-access route
 
 ## Paper dossiers

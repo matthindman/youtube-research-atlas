@@ -1521,3 +1521,30 @@ Refresh note:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/governance_data_access?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20governance_data_access&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/governance_data_access.md%60%20from%20the%20full%207-source%20governance%20corpus.%0A-%20Included%20the%20five%20new%20Batch%205%20governance%20source%20cards%20and%20their%20registry%20infrastructure%20on%20this%20branch%20so%20the%20refreshed%20theme%20remains%20self-contained%20for%20verification%20before%20those%20ingest%20branches%20merge.%0A-%20Kept%20temporal%20scoping%20explicit%20across%20the%20early-2020s%20opacity%20regime%2C%20the%202015-2023%20creator-accountability%20corpus%2C%20the%202022-2023%20comparative%20governance-shift%20evidence%2C%20and%20the%20post-October-29-2025%20DSA%20access%20regime.%0A%0A%23%23%20Sources%0A-%20norton_shapiro_2024%0A-%20hallinan_et_al_2025%0A-%20hallinan_reynolds_2024%0A-%20reynolds_hallinan_2024%0A-%20marchal_et_al_2025%0A-%20ozturan_et_al_2025%0A-%20european_commission_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/governance_data_access.md%0A-%20ops/log.md
+
+## 2026-04-16 — Refresh news_ecosystem
+**Operation:** refresh-theme
+**Branch:** refresh/news_ecosystem
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/news_ecosystem.md` from a five-source corpus
+spanning recommendation structure, comment interaction, channel
+clustering, and audience surveys, while keeping the three new Batch 6
+source cards and their registry infrastructure on-branch so the
+refresh remains self-contained before those ingest branches merge.
+
+Refresh note:
+
+- The old two-report scaffold has been replaced with a periodized
+  synthesis that separates 2019 recommendation drift, 2020 partisan
+  discussion, 2023 French subsystem mapping, and 2024-2025
+  cross-national survey evidence.
+- The refreshed page now treats entertainment diversion, visible
+  cross-partisan interaction, and creator-led news competition as
+  related but distinct aspects of the YouTube news system.
+- The evidence base is materially better than before, but it still
+  remains uneven across platform layers and countries.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/news_ecosystem?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20news_ecosystem&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/news_ecosystem.md%60%20from%20a%20five-source%20corpus%20spanning%20recommendation%20structure%2C%20comment%20interaction%2C%20channel%20clustering%2C%20and%20audience%20surveys.%0A-%20Included%20%60huang_yang_2024%60%2C%20%60reveilhac_2024%60%2C%20and%20%60wu_resnick_2021%60%20plus%20their%20registry%20infrastructure%20on-branch%20so%20the%20refresh%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Replaced%20the%20old%20two-report%20scaffold%20with%20a%20periodized%20synthesis%20that%20distinguishes%202019%20recommendation%20drift%2C%202020%20partisan%20discussion%2C%202023%20French%20subsystem%20mapping%2C%20and%202024-2025%20cross-national%20survey%20evidence.%0A%0A%23%23%20Sources%0A-%20huang_yang_2024%0A-%20reveilhac_2024%0A-%20wu_resnick_2021%0A-%20newman_et_al_2025%0A-%20reuters_dnr_2025%0A%0A%23%23%20Pages%0A-%20wiki/themes/news_ecosystem.md%0A-%20wiki/index.md%0A-%20ops/log.md
