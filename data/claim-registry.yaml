@@ -242,6 +242,25 @@ claims:
       - wiki/sources/ozturan_et_al_2025.md
       - wiki/themes/governance_data_access.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_anonymous_audit_mainstreaming
+    text: "In a 2019 anonymous audit of political YouTube channels, recommendation flows favored mainstream and larger partisan-media content over conspiracy or white-identitarian fringe channels, challenging strong rabbit-hole claims."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Anonymous-baseline recommendation audit conducted in 2019, with supporting channel-view comparisons from 2018 activity."
+    primary_sources:
+      - ledwich_zaitsev_2020
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from a channel-level, nonpersonalized audit of recommendations and estimated impressions rather than realized user clicking or logged-in recommendation histories."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/ledwich_zaitsev_2020.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
   - id: claim_governance_data_access_dsa_researcher_access_mechanism
     text: "As of October 29, 2025, the DSA creates a qualified-researcher route to request previously unavailable data from very large online platforms and search engines, subject to Digital Services Coordinator review."
     claim_type: methodological

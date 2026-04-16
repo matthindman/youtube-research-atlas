@@ -898,3 +898,32 @@ sources:
       - study3-media-system
     temporal_scope: "Twitter/X information quality before and after the October 27, 2022 ownership transition, using January 2022-April 2023 data with access ending in May 2023"
     notes: "Comparative platform-governance evidence from Twitter/X rather than YouTube. Included for the governance theme because it shows how ownership and policy changes can affect information quality, while also foregrounding how access restrictions truncate follow-up analysis."
+  - id: ledwich_zaitsev_2020
+    type: working_paper
+    evidence_tier: primary_empirical
+    title: "Algorithmic Extremism: Examining YouTube's Rabbit Hole of Radicalization"
+    authors:
+      - "Ledwich, Mark"
+      - "Zaitsev, Anna"
+    year: 2020
+    venue: "First Monday 25(3); archived corpus PDF is the December 2019 preprint version"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/ledwich_zaitsev_2020.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Anonymous-baseline recommendation audit and channel mapping conducted in 2019, with some aggregate view measures drawn from 2018 channel activity"
+    notes: "Archived corpus copy is the December 2019 preprint submitted to First Monday, which matters for page citations and temporal interpretation. Strongest as a channel-level, nonpersonalized audit that argues recommendations mainstream rather than radicalize."
