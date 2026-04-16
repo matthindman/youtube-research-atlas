@@ -1167,3 +1167,22 @@ claims:
       - wiki/sources/boesinger_et_al_2024.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
+  - id: claim_news_ecosystem_mainstream_news_comment_threads_more_cross_cutting_than_vloggers
+    text: "On YouTube videos about the Mueller report, mainstream news outlet comment threads hosted more cross-cutting discussion than political-vlogger videos, with neutral outlets offering the strongest venue in this sample."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "U.S. Mueller-report videos from March-April 2019."
+    primary_sources:
+      - chae_lee_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from top-level comments on a bounded set of U.S. political videos and does not imply that all cross-cutting discussion is civil or deliberatively productive."
+    themes:
+      - news-ecosystem
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    appears_in:
+      - wiki/sources/chae_lee_2024.md
+      - wiki/themes/news_ecosystem.md
+    verification: machine_extracted

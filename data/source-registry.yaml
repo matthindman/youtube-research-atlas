@@ -1237,3 +1237,32 @@ sources:
       - study3-media-system
     temporal_scope: "Data collected in 2020 using then-visible public subscription pages, with yearly views examined from 2017-2020"
     notes: "The prompt named 'Justin Clark', but the archived paper credits Sam Clark. Method is historically important because it depends on public commenter subscriptions that the paper says later became less visible."
+  - id: chae_lee_2024
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Where do cross-cutting discussions happen?: Identifying cross-cutting comments on YouTube videos of political vloggers and mainstream news outlets"
+    authors:
+      - "Chae, Seung Woo"
+      - "Lee, Sung Hyun"
+    year: 2024
+    venue: "PLoS ONE 19(5): e0302030"
+    doi: "10.1371/journal.pone.0302030"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/chae_lee_2024.md
+      - wiki/themes/news_ecosystem.md
+      - wiki/index.md
+    tags:
+      - news-ecosystem
+    themes:
+      - news-ecosystem
+    census_relevance: medium
+    census_papers:
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Comment data on Mueller-report YouTube videos from March 22-April 18, 2019"
+    notes: "The prompt listed different author-name forms, but the archived article credits Seung Woo Chae and Sung Hyun Lee. Strongest on comment-layer interaction by media type rather than total audience exposure."
