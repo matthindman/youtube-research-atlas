@@ -736,3 +736,52 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...method/recommendation_audit?quick_pull=1&title=%5Bscaffold%5D%20Create%20recommendation_audit%20method%20page&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/recommendation_audit.md%60.%0A-%20Added%20the%20new%20method%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-15 — Ingest brown_et_al_2022
+**Operation:** ingest-source
+**Branch:** ingest/brown_et_al_2022
+**By:** Codex (GPT-5)
+
+Ingested `brown_et_al_2022` via the `ingest-from-review`
+workflow. Created `wiki/sources/brown_et_al_2022.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`,
+`wiki/methods/recommendation_audit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced between the literature review
+  and the working paper. The review's emphasis on mild echo
+  chambers, little evidence of rabbit holes for average users, and a
+  modest system-wide conservative bias matches the original paper
+  (pp. 1, 19-29).
+- The original paper is more explicit than the review that the
+  conservative nudge is small in magnitude, moving users roughly from
+  a C-SPAN benchmark toward a RonPaulLibertyReport benchmark, and
+  that the evidence is based on only 20 traversal steps in fall 2020
+  (pp. 25, 28-29).
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` and `working_paper` because the paper
+  presents original experimental data even though the local file is
+  an SSRN manuscript rather than a journal PDF.
+- Reused the existing `recommendation-radicalization` theme tag; no
+  taxonomy addition was needed.
+- Recorded Josh Tucker's coauthorship in the source-registry notes
+  field while treating the paper as external scholarship, not
+  project-internal material.
+
+Claims not fully verifiable from this source alone:
+
+- The convenience sample recruited through Facebook ads may not
+  generalize to the broader YouTube population.
+- The study tracks only 20 traversal steps in one session, so it does
+  not resolve long-run exposure dynamics.
+- The authors isolate recommendation effects from unconstrained user
+  choice, but they still cannot identify whether the conservative
+  nudge reflects platform design, user demand, or the supply
+  distribution of available videos.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/brown_et_al_2022?quick_pull=1&title=%5Bingest-from-review%5D%20Brown%20et%20al.%202022%20%28Echo%20Chambers%2C%20Rabbit%20Holes%2C%20and%20Algorithmic%20Bias%29&body=%23%23%20Summary%0A-%20Ingested%20%60brown_et_al_2022%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20recommendation_audit%20method%20page%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/brown_et_al_2022.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md

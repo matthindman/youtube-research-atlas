@@ -410,15 +410,16 @@ claims:
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
   - id: claim_recommendation_radicalization_congeniality_without_extremization
-    text: "In post-2019 audits, YouTube recommendations to partisan users are ideologically congenial, but recommendation trails do not show large increases in ideological extremity."
+    text: "In post-2019 studies, YouTube recommendations to partisan users are at most mildly ideologically sorted, but recommendation trails do not show large increases in ideological extremity."
     claim_type: empirical-descriptive
-    evidence_strength: single-source
-    temporal_scope: "Post-2019 recommendation regime audited circa 2022."
+    evidence_strength: multi-source
+    temporal_scope: "Post-2019 recommendation studies in fall 2020 and circa 2022."
     primary_sources:
       - haroon_et_al_2023
-    supporting_sources: []
+    supporting_sources:
+      - brown_et_al_2022
     conflicting_sources: []
-    scope_conditions: "Sock-puppet audit isolates algorithmic recommendations better than browsing-history studies but does not observe real-user clicking, search, or subscription behavior."
+    scope_conditions: "Support comes from both sock-puppet audits and real-user traversal experiments; neither design resolves long-term downstream attitudes or pre-2019 behavior."
     themes:
       - recommendation-radicalization
     census_papers:
@@ -426,6 +427,7 @@ claims:
       - study3-media-system
     appears_in:
       - wiki/sources/haroon_et_al_2023.md
+      - wiki/sources/brown_et_al_2022.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
   - id: claim_recommendation_radicalization_problematic_low_rate_nontrivial_reach
@@ -487,5 +489,24 @@ claims:
       - study3-media-system
     appears_in:
       - wiki/sources/munger_phillips_2022.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
+  - id: claim_recommendation_radicalization_moderate_conservative_bias
+    text: "Following recommendations on YouTube can nudge users toward moderately conservative and less ideologically diverse political content without sending most users to extremes."
+    claim_type: empirical-causal
+    evidence_strength: single-source
+    temporal_scope: "Fall 2020 real-user traversal experiment."
+    primary_sources:
+      - brown_et_al_2022
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Magnitude is small, mechanism unresolved, and current evidence comes from U.S. users following 20 randomized recommendation steps on their real accounts."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/brown_et_al_2022.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
