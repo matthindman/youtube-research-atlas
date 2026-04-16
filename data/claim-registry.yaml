@@ -955,3 +955,45 @@ claims:
       - wiki/sources/ribeiro_veselovsky_west_2023.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
+  - id: claim_news_ecosystem_recommendations_redirect_news_to_entertainment
+    text: "In a 2019 incognito audit of YouTube's Up Next system, entertainment was much more likely to be recommended after news than news was after entertainment, indicating systematic recommendation redirection away from news."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "2019 user-independent recommendation audit reanalyzed in 2024."
+    primary_sources:
+      - huang_yang_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The finding comes from category-level Up Next dyads collected in incognito mode, so it measures nonpersonalized recommendation structure rather than realized logged-in viewing paths."
+    themes:
+      - news-ecosystem
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+    appears_in:
+      - wiki/sources/huang_yang_2024.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/themes/news_ecosystem.md
+    verification: machine_extracted
+  - id: claim_news_ecosystem_entertainment_bias_outweighs_news_in_up_next
+    text: "Across repeated category transitions in the same 2019 audit, entertainment was roughly two to three times more likely than news to appear in steady-state Up Next recommendations."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "2019 user-independent recommendation audit reanalyzed in 2024."
+    primary_sources:
+      - huang_yang_2024
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The steady-state result is a Markov-chain estimate over recommendation transitions, not a direct measure of complete user sessions or downstream civic effects."
+    themes:
+      - news-ecosystem
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+    appears_in:
+      - wiki/sources/huang_yang_2024.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/themes/news_ecosystem.md
+    verification: machine_extracted

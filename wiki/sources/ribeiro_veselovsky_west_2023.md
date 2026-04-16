@@ -2,7 +2,7 @@
 source_id: ribeiro_veselovsky_west_2023
 type: source-card
 status: machine-draft
-evidence_tier: primary_empirical
+evidence_tier: secondary_analytical
 title: "The Amplification Paradox in Recommender Systems"
 authors:
   - "Ribeiro, Manoel Horta"
