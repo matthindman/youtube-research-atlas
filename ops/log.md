@@ -696,12 +696,23 @@ atlas method page for ideology-scaling designs. The page treats
 `munger_2024` plus `munger_et_al_2025` in the "Where It Has Been
 Used" table to clarify how they rely on channel-level rather than
 video-level ideology choices.
+## 2026-04-15 — Create recommendation_audit method page
+**Operation:** scaffold
+**Branch:** method/recommendation_audit
+**By:** Codex (GPT-5)
+
+Created `wiki/methods/recommendation_audit.md` as the first atlas
+method page for trained-sock-puppet and related recommender-audit
+designs. The page uses `haroon_et_al_2023` as the canonical exemplar
+and includes `lai_et_al_2024` only as a measurement building block,
+not as an audit paper in its own right.
 
 Structural choices:
 
 - Updated `wiki/index.md` on this branch so the new page is visible
   from the atlas catalog, even though the parallel
   `method/recommendation_audit` branch will make an overlapping
+  `method/ideology_estimation` branch will make an overlapping
   change.
 - Referenced Batch 3 source IDs that are not present on
   `origin/main` yet because this branch correctly starts from
@@ -717,3 +728,11 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...method/ideology_estimation?quick_pull=1&title=%5Bscaffold%5D%20Create%20ideology_estimation%20method%20page&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/ideology_estimation.md%60.%0A-%20Added%20the%20new%20method%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/methods/ideology_estimation.md%0A-%20wiki/index.md%0A-%20ops/log.md
+- The method-page template does not say whether "Where It Has Been
+  Used" can include a paper that supplies a building block rather
+  than the audit itself. I included `lai_et_al_2024` with that scope
+  made explicit.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...method/recommendation_audit?quick_pull=1&title=%5Bscaffold%5D%20Create%20recommendation_audit%20method%20page&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/recommendation_audit.md%60.%0A-%20Added%20the%20new%20method%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md
