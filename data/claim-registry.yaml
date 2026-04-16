@@ -1167,3 +1167,22 @@ claims:
       - wiki/sources/boesinger_et_al_2024.md
       - wiki/themes/descriptive_deficit.md
     verification: machine_extracted
+  - id: claim_descriptive_deficit_view_metric_structures_visibility_and_monetization
+    text: "YouTube's visible metric regime is not neutral: the platform's view and watch-time logic structures what becomes legible, valuable, and measurable for both creators and researchers."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "Late-2010s / early-2019 YouTube metric regime."
+    primary_sources:
+      - van_es_2020
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from critical platform analysis of YouTube's metric and advertising systems rather than from a platform-wide statistical census."
+    themes:
+      - descriptive-deficit
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+    appears_in:
+      - wiki/sources/van_es_2020.md
+      - wiki/themes/descriptive_deficit.md
+    verification: machine_extracted

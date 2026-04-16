@@ -2019,3 +2019,39 @@ Refresh note:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/channel_classification_methods?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20channel_classification_methods&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/channel_classification.md%60.%0A-%20Included%20%60rieder_2020%60%2C%20%60boesinger_et_al_2024%60%2C%20and%20%60zaitsev_clark_2025%60%20plus%20the%20needed%20source-registry%20and%20claim-registry%20infrastructure%20on-branch%20so%20the%20methods%20page%20remains%20self-contained%20before%20those%20ingest%20branches%20merge.%0A-%20Synthesized%20the%20method%20family%20around%20historical%20access%20regimes%2C%20embedding-based%20versus%20metadata/subscription-based%20classification%2C%20evaluation%20choices%2C%20and%20implications%20for%20the%20project%27s%20own%20pipeline.%0A%0A%23%23%20Sources%0A-%20rieder_2020%0A-%20boesinger_et_al_2024%0A-%20zaitsev_clark_2025%0A%0A%23%23%20Pages%0A-%20wiki/methods/channel_classification.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/sources/rieder_2020.md%0A-%20wiki/sources/boesinger_et_al_2024.md%0A-%20wiki/sources/zaitsev_clark_2025.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest van_es_2020
+**Operation:** ingest-source
+**Branch:** ingest/van_es_2020
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/van_es_2020.md` and updated the descriptive-
+deficit theme, registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived article is the 2020 *Television & New Media*
+  paper with DOI `10.1177/1527476418818986`.
+- Confirmed the paper is not a review; it presents an original
+  platform analysis of how views and watch time structure YouTube's
+  information regimes, monetization, and creator behavior.
+- Added one new cross-cutting claim on the platform's view / watch-time
+  regime shaping what becomes legible and measurable.
+
+Tier decision:
+
+- Assigned `primary_empirical` rather than `secondary_analytical`
+  because the paper is an original peer-reviewed platform analysis,
+  even though it is conceptually framed rather than built around a
+  conventional sample dataset.
+
+Human attention requested:
+
+- This source is most useful as a diagnosis of metric inheritance in
+  YouTube research.
+- It is pre-Shorts, so its direct descriptive value for today's
+  platform is historical and infrastructural rather than current-state
+  measurement.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/van_es_2020?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20van_es_2020&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/van_es_2020.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20descriptive-theme%20notes%20showing%20that%20YouTube%27s%20visible%20metrics%20already%20encode%20what%20becomes%20measurable%20and%20valuable%20on%20the%20platform.%0A%0A%23%23%20Pages%0A-%20wiki/sources/van_es_2020.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/index.md%0A-%20ops/log.md
