@@ -104,3 +104,4 @@ executive synthesis.
 - [[ofcom_2025]] — UK regulatory industry baseline showing very high YouTube reach and time spent among adults and children in 2025
 - [[pew_2025]] — U.S. baseline showing YouTube still leads the adult platform landscape in 2025 adoption and daily use
 - [[youtube_2024]] — YouTube's own impact report describing its claimed U.S. economic footprint, payout scale, and ten-route monetization stack
+- [[ribeiro_jhaver_et_al_2025]] — causal evidence that deplatforming high-profile norm-violating influencers reduces overall online attention toward them

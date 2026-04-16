@@ -18,6 +18,7 @@ key_sources:
   - ozturan_et_al_2025
   - european_commission_2025
   - rieder_2020
+  - ribeiro_jhaver_et_al_2025
 split_candidates: []
 verification:
   machine_extracted: 40
@@ -69,6 +70,12 @@ pathway. [🤖]
 - External public pressure matters too: comparative evidence suggests
   that sustained negative mainstream coverage can precede public-facing
   policy change at large platforms including YouTube. [🤖]
+- Cross-platform deplatforming can also reduce attention directly:
+  Ribeiro et al. find large 12-month drops in Google and Wikipedia
+  attention after influencer bans, especially for misinformation cases
+  and coordinated multi-platform ban groups, which suggests that some
+  governance interventions shrink reach rather than merely reroute it
+  (Ribeiro et al. 2025, pp. 15-17). [🤖]
 - Comparative platform evidence also suggests that governance and
   ownership changes can alter information quality, though the direct
   outcome evidence here comes from Twitter/X rather than YouTube.
@@ -76,13 +83,6 @@ pathway. [🤖]
 - As of October 29, 2025, the DSA creates a formal qualified-researcher
   access route for VLOP/VLOSE data, but the current corpus does not yet
   show how well that mechanism works in practice. [🤖]
-- External regulators can still publish useful baseline measurement
-  without privileged platform internals. Ofcom's 2025 UK report gives
-  independent reach and time-spent benchmarks for YouTube, but those
-  benchmarks do not substitute for direct researcher access to content,
-  recommendation, or moderation data. *[Note: supported only by
-  non-peer-reviewed sources.]* (Ofcom 2025, pp. 4, 34-36, 111-114).
-  [🤖]
 
 ## Main Disagreements
 
@@ -217,7 +217,7 @@ what YouTube governance "is." [🤖]
 - [[ozturan_et_al_2025]]
 - [[european_commission_2025]]
 - [[rieder_2020]]
-- [[ofcom_2025]]
+- [[ribeiro_jhaver_et_al_2025]]
 
 ## Cross-References
 

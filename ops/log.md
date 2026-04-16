@@ -2492,3 +2492,44 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/youtube_2024?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20youtube_2024&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/youtube_2024.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/themes/creator_economy.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20explicitly%20attributed%20platform-self-report%20notes%20on%20YouTube%27s%20claimed%20scale%2C%20revenue-sharing%20design%2C%20and%20multi-route%20creator%20monetization%20stack.%0A%0A%23%23%20Pages%0A-%20wiki/sources/youtube_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/themes/creator_economy.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-16 — Ingest ribeiro_jhaver_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/ribeiro_jhaver_et_al_2025
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/ribeiro_jhaver_et_al_2025.md` and updated the
+governance and recommendation themes, registries, index, and log.
+- Verified the archived paper is the PACM HCI / CSCW article with DOI
+  `10.1145/3710960`, not a preprint or proceedings short paper.
+- Confirmed the core design: 165 deplatforming events targeting 101
+  influencers, with Google Trends and Wikipedia pageviews as
+  platform-agnostic attention outcomes and stacked
+  difference-in-differences as the identification strategy.
+- Confirmed the headline effects: after 12 months, deplatformed
+  influencers lose an estimated 63% of Google attention and 43% of
+  Wikipedia attention, with larger reductions for misinformation cases
+  and coordinated multi-platform bans.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` because this is a peer-reviewed
+  quasi-experimental study with original event collection and outcome
+  measurement.
+- Kept the source tagged to both `governance-data-access` and
+  `recommendation-radicalization`, but scoped the recommendation-theme
+  update narrowly because the paper measures cross-platform attention,
+  not recommender outputs.
+
+Human attention requested:
+
+- The source is especially valuable for `study8-deplatforming-
+  spillovers`, but its YouTube relevance is indirect on the
+  recommendation side: it overlaps with late-2010s radicalization
+  figures without directly observing recommendation traces.
+- The evidence is strongest for prominent, Anglophone, news-visible
+  influencers; it should not be generalized to all deplatformed users
+  or to marginalized groups that news-based collection undercaptures.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ribeiro_jhaver_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20ribeiro_jhaver_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/ribeiro_jhaver_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20cross-cutting%20governance%20claim%20on%20deplatforming%20reducing%20overall%20online%20attention%2C%20plus%20a%20narrow%20recommendation-theme%20note%20keeping%20the%20paper%20scoped%20as%20cross-platform%20attention%20rather%20than%20recommender%20measurement.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ribeiro_jhaver_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
