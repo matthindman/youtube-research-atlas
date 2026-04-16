@@ -1144,3 +1144,36 @@ sources:
       - study3-media-system
     temporal_scope: "U.S. partisan-media videos and comments collected from January 1 to August 31, 2020"
     notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. Strongest for the comment-layer version of the filter-bubble question rather than for direct recommendation effects."
+  - id: rieder_2020
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Mapping YouTube: A quantitative exploration of a platformed media system"
+    authors:
+      - "Rieder, Bernhard"
+      - "Coromina, Òscar"
+      - "Matamoros-Fernández, Ariadna"
+    year: 2020
+    venue: "First Monday 25(8)"
+    doi: "10.5210/fm.v25i8.10667"
+    canonical_format: mhtml
+    formats_available:
+      - mhtml
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/rieder_2020.md
+      - wiki/themes/descriptive_deficit.md
+      - wiki/themes/governance_data_access.md
+      - wiki/index.md
+    tags:
+      - descriptive-deficit
+      - governance-data-access
+    themes:
+      - descriptive-deficit
+      - governance-data-access
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Crawler ran November 26, 2019-January 8, 2020 and documents late-2019 YouTube data-access conditions."
+    notes: "Archived source is an `.mhtml` web capture rather than a PDF. Key methodological value is historical: the paper used public featured-channel links, public channel-subscription data, and `channels`/`playlistItems`/`videos` API access under a 50M-unit/day token that the authors say later became harder to obtain for new projects."
