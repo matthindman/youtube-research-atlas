@@ -1031,6 +1031,12 @@ Prefilled compare URL:
 **By:** Codex (GPT-5)
 
 Created `wiki/debates/rabbit_hole_debate.md` and updated
+## 2026-04-15 — Create filter_bubble_evidence
+**Operation:** debate-page
+**Branch:** debate/filter_bubble_evidence
+**By:** Codex (GPT-5)
+
+Created `wiki/debates/filter_bubble_evidence.md` and updated
 `wiki/index.md` so the new debate page is visible from the atlas
 catalog.
 
@@ -1059,3 +1065,25 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...debate/rabbit_hole_debate?quick_pull=1&title=%5Bdebate-page%5D%20Create%20rabbit_hole_debate&body=%23%23%20Summary%0A-%20Created%20%60wiki/debates/rabbit_hole_debate.md%60.%0A-%20Split%20the%20rabbit-hole%20question%20away%20from%20the%20theme%20page%20and%20organized%20the%20evidence%20into%20algorithmic-risk%20versus%20alternative-pathway%20positions.%0A-%20Added%20the%20new%20debate%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/debates/rabbit_hole_debate.md%0A-%20wiki/index.md%0A-%20ops/log.md
+- Split the question into two layers that are often blurred together:
+  whether recommendations sort exposure ideologically at all, and
+  whether that sorting produces measurable downstream political
+  effects.
+- Positioned Haroon, Lai, and the older review literature on the
+  exposure-sorting side, while placing Liu and Yu on the
+  limited-effects side because they provide the strongest causal
+  evidence in the current corpus.
+- Kept post-2022 scoping explicit rather than implicit: Yu is clearly
+  post-2022, Liu only partly is, and the rest of the page should not
+  be read as contemporary platform evidence by default.
+
+Human attention requested:
+
+- The template did not say whether a single source should appear on
+  both sides when it supports exposure sorting but not strong
+  polarization effects. I avoided duplicating rows and instead used
+  the position labels to separate exposure claims from outcome claims.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...debate/filter_bubble_evidence?quick_pull=1&title=%5Bdebate-page%5D%20Create%20filter_bubble_evidence&body=%23%23%20Summary%0A-%20Created%20%60wiki/debates/filter_bubble_evidence.md%60.%0A-%20Split%20ideological%20sorting%20from%20attitude%20effects%20and%20organized%20the%20page%20around%20exposure-sorting%20versus%20limited-effects%20positions.%0A-%20Added%20the%20new%20debate%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/debates/filter_bubble_evidence.md%0A-%20wiki/index.md%0A-%20ops/log.md
