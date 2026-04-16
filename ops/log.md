@@ -1545,6 +1545,15 @@ Ingested `faddoul_et_al_2020` via the `ingest-source`
 workflow. Created `wiki/sources/faddoul_et_al_2020.md`
 and updated `data/source-registry.yaml`,
 `data/claim-registry.yaml`,
+## 2026-04-16 — Ingest ribeiro_veselovsky_west_2023
+**Operation:** ingest-source
+**Branch:** ingest/ribeiro_veselovsky_west_2023
+**By:** Codex (GPT-5)
+
+Ingested `ribeiro_veselovsky_west_2023` via the
+`ingest-source` workflow. Created
+`wiki/sources/ribeiro_veselovsky_west_2023.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
 `wiki/themes/recommendation_radicalization.md`,
 `wiki/index.md`, and `ops/log.md`.
 
@@ -1639,3 +1648,34 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/faddoul_et_al_2020?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20faddoul_et_al_2020&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/faddoul_et_al_2020.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20recommendation-theme%20note%20framing%20the%202019%20conspiracy-demotion%20period%20as%20a%20real%20but%20incomplete%20recommendation%20shift.%0A%0A%23%23%20Pages%0A-%20wiki/sources/faddoul_et_al_2020.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
+- No internal literature-review memo currently isolates this
+  paper, so the cross-check was against the PDF and the
+  existing recommendation-theme framing rather than against
+  a project summary.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` under current atlas rules
+  because this is a peer-reviewed original research paper,
+  even though its contribution is a stylized agent-based
+  model rather than direct platform observation.
+- Reused the existing theme tag
+  `recommendation-radicalization`; no taxonomy additions
+  proposed.
+- Added one theoretical claim about deamplification in
+  consumption and one methodological claim about the limits
+  of audit studies that ignore user preferences.
+
+Human attention requested:
+
+- This source should not be cited as direct evidence about
+  the current YouTube recommender. It is a model-based
+  interpretation aid for the audit-versus-navigation-log
+  disagreement.
+- Its main value is conceptual: it sharpens how the atlas
+  should discuss "amplification" and the inferential limits
+  of blind-following audit designs.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ribeiro_veselovsky_west_2023?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20ribeiro_veselovsky_west_2023&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/ribeiro_veselovsky_west_2023.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20recommendation-theme%20note%20explaining%20how%20audit-style%20amplification%20and%20real-user%20deamplification%20can%20coexist.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ribeiro_veselovsky_west_2023.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md

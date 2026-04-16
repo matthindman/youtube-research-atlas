@@ -9,7 +9,7 @@ census_papers: [methods-companion, paper1-attention-economy, study3-media-system
 last_refreshed: 2026-04-16
 source_count: 11
 key_sources:
-  - faddoul_et_al_2020
+  - ribeiro_veselovsky_west_2023
   - munger_2024
   - munger_phillips_2022
   - haroon_et_al_2023
@@ -65,7 +65,7 @@ Recommendation-radicalization remains the most publicly salient story about YouT
 
 ## Main Disagreements
 
-- Faddoul et al. adds transition-period evidence that YouTube's January 2019 demotion policy reduced default conspiracy recommendations without eliminating them, with a later weighted rebound and a still-visible conspiracy filter-bubble pattern in nonpersonalized watch-next trails (pp. 4-7). [🤖]
+- Ribeiro, Veselovsky, and West offer a model-based explanation for why blind-following audits and real-user trace studies can diverge: extreme niche items may be overrepresented in recommendation lists yet still be deamplified in actual consumption once user utility is considered (pp. 1, 4-5). [🤖]
 - [[rabbit_hole_debate]] carries the dispute over whether the key mechanism is algorithmic escalation or a broader supply-demand and community process with only limited algorithmic amplification. [🤖]
 - [[filter_bubble_evidence]] carries the dispute over whether ideological sorting should itself count as the central harm, or whether the more important question is demonstrable attitude change and polarization. [🤖]
 - [[pre_2019_vs_post_2019_algorithm]] carries the dispute over how much older pathway studies still describe the current system after the 2019 ranking changes and later 2022-era shifts. [🤖]
@@ -91,7 +91,7 @@ Recommendation-radicalization remains the most publicly salient story about YouT
 
 ## Sources Consulted
 
-- [[faddoul_et_al_2020]]
+- [[ribeiro_veselovsky_west_2023]]
 - [[munger_2024]]
 - [[munger_phillips_2022]]
 - [[haroon_et_al_2023]]
