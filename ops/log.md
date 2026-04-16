@@ -1202,3 +1202,25 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ribeiro_west_2021?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20ribeiro_west_2021&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/ribeiro_west_2021.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/cross_linguistic_variation.md%60%2C%20%60wiki/themes/descriptive_deficit.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Populated%20the%20cross-linguistic%20theme%20stub%20from%20%60mcgrady_2023%60%2C%20%60mcgrady_2025%60%2C%20and%20the%20new%20Ribeiro/West%20source%2C%20plus%20added%20a%20minimal%20descriptive-deficit%20note%20flagged%20for%20future%20refresh.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ribeiro_west_2021.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/cross_linguistic_variation.md%0A-%20wiki/themes/descriptive_deficit.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Refresh cross_linguistic_variation
+**Operation:** refresh-theme
+**Branch:** refresh/cross_linguistic_variation
+**By:** Codex (GPT-5)
+
+Refreshed `wiki/themes/cross_linguistic_variation.md` from the
+three-source corpus and kept the branch self-contained by carrying the
+Ribeiro source card and registry infrastructure alongside the theme.
+
+Refresh note:
+
+- The refreshed page is explicit about thinness: enough evidence to
+  reject English-first generalization, not enough for broad
+  multilingual or cross-national manuscript claims.
+- Cross-language claims are stronger than cross-national claims in the
+  current corpus because the available sources mostly measure language
+  rather than geography directly.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...refresh/cross_linguistic_variation?quick_pull=1&title=%5Brefresh-theme%5D%20Refresh%20cross_linguistic_variation&body=%23%23%20Summary%0A-%20Refreshed%20%60wiki/themes/cross_linguistic_variation.md%60%20from%20the%20three-source%20cross-linguistic%20corpus.%0A-%20Kept%20the%20branch%20self-contained%20by%20including%20%60ribeiro_west_2021%60%20and%20its%20registry%20infrastructure%20alongside%20the%20refreshed%20theme.%0A-%20Made%20the%20page%20explicit%20about%20evidence%20thinness%3A%20enough%20to%20reject%20English-first%20generalization%2C%20not%20enough%20for%20broad%20multilingual%20or%20cross-national%20manuscript%20claims.%0A%0A%23%23%20Sources%0A-%20mcgrady_2023%0A-%20mcgrady_2025%0A-%20ribeiro_west_2021%0A%0A%23%23%20Pages%0A-%20wiki/themes/cross_linguistic_variation.md%0A-%20ops/log.md

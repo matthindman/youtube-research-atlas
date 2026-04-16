@@ -22,18 +22,18 @@ verification:
 
 # Cross-Linguistic and Cross-National Variation on YouTube
 
-> Thin-theme note. The current corpus is informative enough to state
-> that English-first assumptions are unsafe, but still too small to
-> support exhaustive manuscript claims about multilingual YouTube.
+> Thin-theme note. The current corpus is strong enough to reject
+> English-first generalization, but still too thin to support broad
+> manuscript claims about multilingual or cross-national YouTube.
 
 ## Why This Theme Matters
 
-Cross-linguistic variation matters because YouTube is a global
-platform, but the research infrastructure that is easiest to use has
-often centered English-language content. Ribeiro and West show how
-large that English-only infrastructure can become, while McGrady's two
-random-sample papers show that language communities differ enough to
-make generalization itself an empirical question. [🤖]
+Cross-linguistic variation matters because YouTube is global, while
+the research infrastructure that is easiest to use has often centered
+English-language content. Ribeiro and West show how large that
+English-only infrastructure can become; McGrady's two random-sample
+papers show that language communities differ enough to make
+generalization itself an empirical question. [🤖]
 
 ## Current Consensus
 
@@ -42,13 +42,13 @@ make generalization itself an empirical question. [🤖]
 - The current public research infrastructure is itself part of the
   problem: even very large open datasets can be built around English-
   speaking channels rather than multilingual platform coverage. [🤖]
-- Random-sample evidence from McGrady shows that YouTube is more
-  linguistically diverse than many English-language studies assume and
-  that major language communities differ in age, duration, category
-  mix, and Shorts prevalence. [🤖]
-- The evidence base is still thin: the atlas currently has only three
-  ingested sources here, combining one English-centric dataset paper
-  and two random-sample correctives. [🤖]
+- Random-sample evidence shows that YouTube is more linguistically
+  diverse than many English-language studies assume and that major
+  language communities differ in age, duration, category mix, and
+  Shorts prevalence. [🤖]
+- The current atlas evidence remains thin and language-centered rather
+  than country-centered, so cross-national claims should be made more
+  cautiously than cross-language ones. [🤖]
 
 ## Main Disagreements
 
@@ -56,10 +56,10 @@ The present source set does not contain a sharp empirical contradiction
 so much as different observational strategies. Ribeiro and West map a
 large English-language channel universe; McGrady 2023 estimates public
 video language diversity from random sampling; McGrady 2025 compares
-four language communities directly. The main unresolved question is not
-whether cross-linguistic variation exists, but how much of YouTube's
-global variation remains invisible because the current corpus covers
-only a few languages and only public video traces. [🤖]
+four language communities directly. The main unresolved question is
+not whether cross-linguistic variation exists, but how much of
+YouTube's global variation remains invisible because the current
+corpus covers only a few languages and only public-video traces. [🤖]
 
 ## Evidence Inventory
 
@@ -72,11 +72,11 @@ only a few languages and only public video traces. [🤖]
 ## Methodological Reasons for Disagreement
 
 The corpus mixes two different strategies. Ribeiro and West provide a
-large infrastructure dataset built from English-language channels above
-a subscriber threshold and partially corrected with rank weights,
-whereas the McGrady papers start from random public-video sampling.
-Both are useful, but they answer different questions about coverage,
-representativeness, and multilingual generalization. [🤖]
+large infrastructure dataset built from English-language channels
+above a subscriber threshold and partially corrected with rank
+weights, whereas the McGrady papers start from random public-video
+sampling. Both are useful, but they answer different questions about
+coverage, representativeness, and multilingual generalization. [🤖]
 
 ## Measures and Variables Used in the Literature
 
@@ -94,11 +94,14 @@ beyond the handful currently studied. [🤖]
 - The atlas should treat English-language infrastructure as both an
   asset and a source of bias: large datasets are useful, but they do
   not eliminate the multilingual generalization problem. [🤖]
-- `study5-cross-language` now has a clearer foundation, but the theme
-  is still too thin to support strong manuscript claims without more
-  languages, more regions, and better audience-side evidence. [🤖]
+- `study5-cross-language` now has a defensible starting point, but the
+  theme is still too thin to support strong manuscript drafting
+  without more languages, more regions, and better audience-side
+  evidence. [🤖]
 - Cross-linguistic claims should remain tightly scoped to the language
-  sets and observation windows each study actually covers. [🤖]
+  sets and observation windows each study actually covers, and cross-
+  national language should be used sparingly unless geography is
+  directly measured. [🤖]
 
 ## Open Holes / Next Sources to Acquire
 
