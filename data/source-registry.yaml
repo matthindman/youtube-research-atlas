@@ -771,10 +771,3 @@ sources:
       - study3-media-system
     temporal_scope: "English-language accountability videos from 2015-2023, with the corpus concentrated in the post-2019 creator-governance period"
     notes: "Creator-governance study of publicity, audits, and signal boosting as user-generated accountability practices on YouTube."
-<<<<<<< HEAD
-    temporal_scope: "English-language copyright callout videos published from 2019-2023 and analyzed in a June 2024 article"
-    notes: "Second of three closely related Hallinan/Reynolds governance papers in Batch 5. Distinguishes horizontal creator-to-creator callouts from vertical appeals toward platforms and rights holders."
-=======
-    temporal_scope: "English-language accountability videos from 2015-2023, with the corpus concentrated in the post-2019 creator-governance period"
-    notes: "Third of the closely related Hallinan/Reynolds governance papers in Batch 5. Extends from specific callout controversies to a broader creator-publicity account of user-generated accountability."
->>>>>>> 87bfbb3 ([ingest-source] Ingest reynolds_hallinan_2024)

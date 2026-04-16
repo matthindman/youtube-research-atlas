@@ -1182,7 +1182,6 @@ Tier and taxonomy decisions:
 - Assigned `primary_empirical`.
 - Reused the existing theme tag `governance-data-access`; no taxonomy
   additions proposed.
-<<<<<<< HEAD
 - Updated the existing informal creator-accountability claim rather
   than duplicating it, then added one new claim for horizontal versus
   vertical callouts.
