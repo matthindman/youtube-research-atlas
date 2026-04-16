@@ -61,6 +61,7 @@ executive synthesis.
 - [[ozturan_et_al_2025]] — comparative evidence that governance and ownership shifts can degrade information quality
 - [[european_commission_2025]] — official DSA announcement creating a post-2025 researcher-access route
 - [[ledwich_zaitsev_2020]] — anonymous 2019 audit arguing recommendations mainstream rather than escalate toward extremist fringe content
+- [[ribeiro_et_al_2020]] — large-scale pathway study showing commenter migration toward Alt-right channels and channel-recommendation reachability
 
 ## Paper dossiers
 

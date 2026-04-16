@@ -841,3 +841,41 @@ claims:
       - wiki/sources/ozturan_et_al_2025.md
       - wiki/themes/governance_data_access.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_commenter_migration_to_alt_right
+    text: "Historical commenter traces on political YouTube show migration from I.D.W. and Alt-lite channels toward Alt-right channels over time, and those cohorts become a substantial share of later Alt-right commenters."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Comment histories observed mainly through 2018, analyzed in a 2020 pathway study."
+    primary_sources:
+      - ribeiro_et_al_2020
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "Current support comes from comment-based user histories on coded contrarian channel communities, not from full viewing logs or direct measures of persuasion."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/ribeiro_et_al_2020.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
+  - id: claim_recommendation_radicalization_channel_recommendations_reach_alt_right
+    text: "In a May-July 2019 nonpersonalized audit, Alt-right channels were reachable mainly through YouTube's channel recommendations, while Alt-right videos were seldom recommended directly."
+    claim_type: empirical-descriptive
+    evidence_strength: single-source
+    temporal_scope: "Nonpersonalized recommendation snapshot collected between May and July 2019."
+    primary_sources:
+      - ribeiro_et_al_2020
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The finding comes from random walks on recommendation graphs without personalization, so it identifies discoverability structure rather than realized user behavior."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/ribeiro_et_al_2020.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted

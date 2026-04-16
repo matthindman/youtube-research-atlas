@@ -9,7 +9,7 @@ census_papers: [methods-companion, paper1-attention-economy, study3-media-system
 last_refreshed: 2026-04-16
 source_count: 11
 key_sources:
-  - ledwich_zaitsev_2020
+  - ribeiro_et_al_2020
   - munger_2024
   - munger_phillips_2022
   - haroon_et_al_2023
@@ -65,7 +65,7 @@ Recommendation-radicalization remains the most publicly salient story about YouT
 
 ## Main Disagreements
 
-- Ledwich and Zaitsev adds a 2019 anonymous-audit counterpoint to the public rabbit-hole narrative: in their channel-level recommendation data, mainstream and larger partisan-media categories draw traffic away from conspiracy and white-identitarian channels rather than sending users deeper into them (pp. 1, 7-11). [🤖]
+- Ribeiro et al. contributes stronger historical pathway evidence than the current hub page yet reflects: commenters migrated from I.D.W. and Alt-lite channels into Alt-right channels over time, and Alt-right channels remained reachable via channel recommendations in a 2019 nonpersonalized audit even when Alt-right videos were rarely recommended directly (pp. 1-2, 7-10). [🤖]
 - [[rabbit_hole_debate]] carries the dispute over whether the key mechanism is algorithmic escalation or a broader supply-demand and community process with only limited algorithmic amplification. [🤖]
 - [[filter_bubble_evidence]] carries the dispute over whether ideological sorting should itself count as the central harm, or whether the more important question is demonstrable attitude change and polarization. [🤖]
 - [[pre_2019_vs_post_2019_algorithm]] carries the dispute over how much older pathway studies still describe the current system after the 2019 ranking changes and later 2022-era shifts. [🤖]
@@ -91,7 +91,7 @@ Recommendation-radicalization remains the most publicly salient story about YouT
 
 ## Sources Consulted
 
-- [[ledwich_zaitsev_2020]]
+- [[ribeiro_et_al_2020]]
 - [[munger_2024]]
 - [[munger_phillips_2022]]
 - [[haroon_et_al_2023]]
