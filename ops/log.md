@@ -736,3 +736,48 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...method/recommendation_audit?quick_pull=1&title=%5Bscaffold%5D%20Create%20recommendation_audit%20method%20page&body=%23%23%20Summary%0A-%20Created%20%60wiki/methods/recommendation_audit.md%60.%0A-%20Added%20the%20new%20method%20page%20to%20%60wiki/index.md%60%20and%20documented%20the%20structural%20choices%20in%20%60ops/log.md%60.%0A%0A%23%23%20Pages%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-15 — Ingest hosseinmardi_et_al_2024
+**Operation:** ingest-source
+**Branch:** ingest/hosseinmardi_et_al_2024
+**By:** Codex (GPT-5)
+
+Ingested `hosseinmardi_et_al_2024` via the `ingest-from-review`
+workflow. Created `wiki/sources/hosseinmardi_et_al_2024.md` and
+updated `data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/recommendation_radicalization.md`,
+`wiki/methods/recommendation_audit.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- No material contradiction surfaced between the literature review
+  and the article. The review's emphasis on missing causal
+  counterfactuals, the post-2019 moderating effect of
+  recommendations relative to user preferences, and the faster
+  forgetting dynamics for sidebar than homepage recommendations
+  matches the article (pp. 1-6).
+- Added one source-card finding not foregrounded in the literature
+  review: bursts of partisan viewing predict later partisan
+  consumption because of user-preference shifts rather than
+  recommender overreaction (p. 5).
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical` and `journal_article`.
+- Reused the existing `recommendation-radicalization` theme tag; no
+  taxonomy addition was needed.
+- Updated `wiki/methods/recommendation_audit.md` because the paper is
+  best treated as an audit-panel hybrid built from logged-in
+  counterfactual bots, not as a pure observational panel study.
+
+Claims not fully verifiable from this source alone:
+
+- The evidence is limited to desktop browsing and may not generalize
+  to mobile recommendation surfaces.
+- Partisanship is scored at the channel rather than video level, and
+  the main analysis drops videos without available scores.
+- The paper is explicit that its findings are post-2019 only and do
+  not adjudicate pre-2019 recommendation behavior.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hosseinmardi_et_al_2024?quick_pull=1&title=%5Bingest-from-review%5D%20Hosseinmardi%20et%20al.%202024%20%28Counterfactual%20Bots%29&body=%23%23%20Summary%0A-%20Ingested%20%60hosseinmardi_et_al_2024%60%20via%20%60ingest-from-review%60.%0A-%20Created%20the%20source%20card%20and%20updated%20the%20recommendation-radicalization%20theme%2C%20recommendation_audit%20method%20page%2C%20registries%2C%20index%2C%20and%20ops%20log.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hosseinmardi_et_al_2024.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/methods/recommendation_audit.md%0A-%20wiki/index.md%0A-%20ops/log.md
