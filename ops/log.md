@@ -2062,6 +2062,12 @@ Prefilled compare URL:
 **By:** Codex (GPT-5)
 
 Created `wiki/sources/hosseinmardi_et_al_2021.md` and updated the
+## 2026-04-16 — Ingest hussein_et_al_2020
+**Operation:** ingest-source
+**Branch:** ingest/hussein_et_al_2020
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/hussein_et_al_2020.md` and updated the
 recommendation theme, registries, index, and log.
 
 Cross-check notes:
@@ -2092,3 +2098,28 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hosseinmardi_et_al_2021?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hosseinmardi_et_al_2021&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hosseinmardi_et_al_2021.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20recommendation-theme%20notes%20showing%20that%202016-2019%20real-user%20evidence%20concentrated%20far-right%20consumption%20in%20a%20small%20predisposed%20minority%20rather%20than%20a%20mass%20rabbit-hole%20dynamic.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hosseinmardi_et_al_2021.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
+- Verified the archived file is the PACM HCI / CSCW1 article with DOI
+  `10.1145/3392854`, not the WWW 2020 citation given in the prompt.
+- Confirmed the audit spans five misinformation topics and separates
+  search results, Up-Next, and Top 5 recommendation outputs.
+- Added one new cross-cutting claim on topic-specific misinformation
+  exposure across different YouTube discovery surfaces.
+
+Tier decision:
+
+- Assigned `primary_empirical` because the archived article is a
+  peer-reviewed audit paper with original experimental data and
+  platform measurements.
+
+Human attention requested:
+
+- This source is especially useful for the atlas because it prevents
+  search and recommendation exposure from being collapsed into one
+  mechanism story.
+- The paper is output-surface evidence rather than realized consumption
+  evidence, so it should complement rather than substitute for real-user
+  behavior studies.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hussein_et_al_2020?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hussein_et_al_2020&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hussein_et_al_2020.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/recommendation_radicalization.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20provisional%20recommendation-theme%20notes%20showing%20that%20search%2C%20Up%20Next%2C%20and%20Top%205%20recommendation%20surfaces%20produce%20topic-specific%20misinformation%20risks.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hussein_et_al_2020.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/recommendation_radicalization.md%0A-%20wiki/index.md%0A-%20ops/log.md
