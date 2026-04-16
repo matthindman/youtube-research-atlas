@@ -26,7 +26,7 @@ executive synthesis.
 
 ## Debates
 
-_(none yet; created when theme pages need splitting)_
+- [[pre_2019_vs_post_2019_algorithm]] — whether older rabbit-hole evidence still describes the current recommender after the 2019 ranking changes
 
 ## Source cards
 
