@@ -1237,3 +1237,32 @@ sources:
       - study3-media-system
     temporal_scope: "Data collected in 2020 using then-visible public subscription pages, with yearly views examined from 2017-2020"
     notes: "The prompt named 'Justin Clark', but the archived paper credits Sam Clark. Method is historically important because it depends on public commenter subscriptions that the paper says later became less visible."
+  - id: lewis_2018
+    type: policy_essay
+    evidence_tier: policy_research
+    title: "Alternative Influence: Broadcasting the Reactionary Right on YouTube"
+    authors:
+      - "Lewis, Rebecca"
+    year: 2018
+    venue: "Data & Society Research Institute"
+    doi: null
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-16
+    wiki_pages_touched:
+      - wiki/sources/lewis_2018.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - paper1-attention-economy
+      - study3-media-system
+    temporal_scope: "Guest-appearance network and qualitative content analysis centered on January 1, 2017-April 1, 2018 YouTube activity"
+    notes: "Tiered as `policy_research` because the Data & Society report presents original network mapping and qualitative analysis but is not a peer-reviewed journal article. It is strongest as foundational pre-2019 ecosystem evidence on guest-network pathways and cross-promotion within reactionary political YouTube."
