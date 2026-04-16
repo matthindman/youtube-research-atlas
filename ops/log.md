@@ -1162,3 +1162,41 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/hallinan_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20hallinan_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/hallinan_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%20plus%20the%20new%20Hallinan%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/hallinan_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
+
+## 2026-04-16 — Ingest ozturan_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/ozturan_et_al_2025
+**By:** Codex (GPT-5)
+
+Ingested `ozturan_et_al_2025` via the `ingest-source`
+workflow. Created `wiki/sources/ozturan_et_al_2025.md` and updated
+`data/source-registry.yaml`, `data/claim-registry.yaml`,
+`wiki/themes/governance_data_access.md`, and `wiki/index.md`.
+
+Literature-review cross-check note:
+
+- This paper is not summarized directly in the internal literature
+  review. No contradiction was detectable because the review does not
+  currently make any source-specific claims about it.
+
+Tier and taxonomy decisions:
+
+- Assigned `primary_empirical`.
+- Reused the existing theme tag `governance-data-access`; no taxonomy
+  additions proposed.
+- Marked `census_relevance` as `low` because the study is comparative
+  platform-governance evidence from Twitter/X rather than direct
+  YouTube evidence.
+
+Human attention requested:
+
+- This source should be used only as comparative evidence that
+  governance changes can affect information quality. It is not direct
+  evidence about YouTube.
+- The paper also illustrates the access problem directly: X policy
+  changes cut off the study's usable data in May 2023, so long-run
+  persistence cannot be evaluated.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/ozturan_et_al_2025?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20ozturan_et_al_2025&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/ozturan_et_al_2025.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/themes/governance_data_access.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20provisional%20governance-theme%20update%20using%20%60norton_shapiro_2024%60%2C%20%60hallinan_et_al_2025%60%2C%20and%20the%20new%20comparative%20governance-change%20source%20card.%0A%0A%23%23%20Pages%0A-%20wiki/sources/ozturan_et_al_2025.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/themes/governance_data_access.md%0A-%20wiki/index.md%0A-%20ops/log.md
