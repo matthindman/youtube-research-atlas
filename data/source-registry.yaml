@@ -969,6 +969,16 @@ sources:
       - "Farid, Hany"
     year: 2020
     venue: "arXiv preprint arXiv:2003.03318"
+  - id: ribeiro_veselovsky_west_2023
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "The Amplification Paradox in Recommender Systems"
+    authors:
+      - "Ribeiro, Manoel Horta"
+      - "Veselovsky, Veniamin"
+      - "West, Robert"
+    year: 2023
+    venue: "Proceedings of the Seventeenth International AAAI Conference on Web and Social Media (ICWSM 2023)"
     doi: null
     canonical_format: pdf
     formats_available:
@@ -976,16 +986,16 @@ sources:
     status: ingested
     date_ingested: 2026-04-16
     wiki_pages_touched:
-      - wiki/sources/faddoul_et_al_2020.md
+      - wiki/sources/ribeiro_veselovsky_west_2023.md
       - wiki/themes/recommendation_radicalization.md
       - wiki/index.md
     tags:
       - recommendation-radicalization
     themes:
       - recommendation-radicalization
-    census_relevance: high
+    census_relevance: medium
     census_papers:
       - methods-companion
       - study3-media-system
-    temporal_scope: "Default U.S. watch-next recommendations collected daily from October 2018 through February 2020"
-    notes: "Longitudinal nonpersonalized audit spanning the January 2019 borderline-content intervention. Strong for regime-change discussion, but limited to default watch-next recommendations from an informational-channel root set rather than the full platform or personalized user sessions."
+    temporal_scope: "A stylized agent-based model published in 2023; motivated by pre-2023 YouTube audit and navigation-log findings rather than tied to a single observation window"
+    notes: "Peer-reviewed conference paper slotted into `journal_article` because the current registry schema lacks a conference-paper type. The paper is theoretical rather than observational, but important for interpreting why audit-style recommendation studies and real-user trace studies can diverge."

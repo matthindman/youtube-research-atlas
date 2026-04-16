@@ -727,6 +727,44 @@ claims:
       - wiki/sources/faddoul_et_al_2020.md
       - wiki/themes/recommendation_radicalization.md
     verification: machine_extracted
+  - id: claim_recommendation_radicalization_extreme_content_can_be_deamplified_in_consumption
+    text: "A recommender can surface niche extreme content more often in blind-following audits while still deamplifying that content in actual consumption once user utility is modeled."
+    claim_type: theoretical
+    evidence_strength: single-source
+    temporal_scope: "Stylized agent-based simulations published in 2023 rather than a direct platform observation window."
+    primary_sources:
+      - ribeiro_veselovsky_west_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "This is an existence-proof argument from a simplified collaborative-filtering model, not a direct measurement of YouTube users or recommendations."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/ribeiro_veselovsky_west_2023.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
+  - id: claim_recommendation_radicalization_audits_need_user_preference_models
+    text: "Algorithmic audits that ignore how users choose among recommended items are limited for diagnosing rabbit holes, radicalization, or filter bubbles in systems like YouTube."
+    claim_type: methodological
+    evidence_strength: single-source
+    temporal_scope: "Methodological intervention published in 2023."
+    primary_sources:
+      - ribeiro_veselovsky_west_2023
+    supporting_sources: []
+    conflicting_sources: []
+    scope_conditions: "The claim is grounded in a stylized simulation and should be treated as a caution about inference from audits, not as a direct empirical estimate of platform effects."
+    themes:
+      - recommendation-radicalization
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    appears_in:
+      - wiki/sources/ribeiro_veselovsky_west_2023.md
+      - wiki/themes/recommendation_radicalization.md
+    verification: machine_extracted
   - id: claim_recommendation_radicalization_post2019_limited_algorithmic_effect
     text: "In the post-2019 regime, YouTube's recommender appears to play a limited and sometimes moderating role relative to users' own partisan preferences, rather than strongly radicalizing average consumption."
     claim_type: empirical-causal
