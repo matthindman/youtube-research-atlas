@@ -38,7 +38,7 @@ WIKI = REPO / "wiki"
 DATA = REPO / "data"
 
 QUOTE_RE = re.compile(r'>\s*"([^"]+)"')
-PAGE_CITE_RE = re.compile(r"\((?:pp?\.\s*\d+(?:-\d+)?|§\s*[\w.]+)")
+PAGE_CITE_RE = re.compile(r"\((?:pp?\.\s*\d+(?:-\d+)?|§\s*[\w.]+|Abstract|Introduction)")
 WIKILINK_RE = re.compile(r"\[\[([^\]|#]+)(?:[|#][^\]]*)?\]\]")
 NEEDS_CITATION_RE = re.compile(r"\[NEEDS CITATION\]")
 SOURCE_REF_RE = re.compile(r"\b([a-z][a-z0-9_]*_\d{4}[a-z0-9_]*)\b")

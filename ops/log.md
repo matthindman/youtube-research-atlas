@@ -1903,6 +1903,13 @@ Ingested `rieder_2020` via the `ingest-source` workflow. Created
 
 Ingested `boesinger_et_al_2024` via the `ingest-source` workflow.
 Created `wiki/sources/boesinger_et_al_2024.md` and updated
+## 2026-04-16 — Ingest zaitsev_clark_2025
+**Operation:** ingest-source
+**Branch:** ingest/zaitsev_clark_2025
+**By:** Codex (GPT-5)
+
+Ingested `zaitsev_clark_2025` via the `ingest-source` workflow.
+Created `wiki/sources/zaitsev_clark_2025.md` and updated
 `data/source-registry.yaml`, `data/claim-registry.yaml`,
 `wiki/themes/descriptive_deficit.md`, `wiki/index.md`, and
 `ops/log.md`.
@@ -1942,6 +1949,9 @@ Prefilled compare URL:
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/rieder_2020?quick_pull=1&title=%5Bingest-source%5D+Ingest+rieder_2020&body=%23%23+Summary%0A-+Created+%60wiki%2Fsources%2Frieder_2020.md%60.%0A-+Updated+%60data%2Fsource-registry.yaml%60%2C+%60data%2Fclaim-registry.yaml%60%2C+%60wiki%2Fthemes%2Fdescriptive_deficit.md%60%2C+%60wiki%2Fthemes%2Fgovernance_data_access.md%60%2C+%60wiki%2Findex.md%60%2C+and+%60ops%2Flog.md%60.%0A-+Added+provisional+theme+notes+showing+that+late-2019+large-scale+channel+mapping+depended+on+a+historical+API+and+public-profile+access+regime+that+later+became+harder+to+reproduce.%0A%0A%23%23+Pages%0A-+wiki%2Fsources%2Frieder_2020.md%0A-+data%2Fsource-registry.yaml%0A-+data%2Fclaim-registry.yaml%0A-+wiki%2Fthemes%2Fdescriptive_deficit.md%0A-+wiki%2Fthemes%2Fgovernance_data_access.md%0A-+wiki%2Findex.md%0A-+ops%2Flog.md
   so the cross-check was against the PDF itself and the existing
   descriptive theme rather than against a prewritten project summary.
+  so the cross-check was against the archived PDF itself and the
+  existing descriptive theme rather than against a prewritten project
+  summary.
 
 Tier and taxonomy decisions:
 
@@ -1964,3 +1974,21 @@ Human attention requested:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/boesinger_et_al_2024?quick_pull=1&title=%5Bingest-source%5D+Ingest+boesinger_et_al_2024&body=%23%23+Summary%0A-+Created+%60wiki%2Fsources%2Fboesinger_et_al_2024.md%60.%0A-+Updated+%60data%2Fsource-registry.yaml%60%2C+%60data%2Fclaim-registry.yaml%60%2C+%60wiki%2Fthemes%2Fdescriptive_deficit.md%60%2C+%60wiki%2Findex.md%60%2C+and+%60ops%2Flog.md%60.%0A-+Added+provisional+theme+notes+showing+that+public-trace+embeddings+can+scale+channel+mapping+without+solving+platform-wide+coverage+limits.%0A%0A%23%23+Pages%0A-+wiki%2Fsources%2Fboesinger_et_al_2024.md%0A-+data%2Fsource-registry.yaml%0A-+data%2Fclaim-registry.yaml%0A-+wiki%2Fthemes%2Fdescriptive_deficit.md%0A-+wiki%2Findex.md%0A-+ops%2Flog.md
+  collection, discovery/classification methods, and empirical results.
+- Reused the existing theme tag `descriptive-deficit`; no taxonomy
+  additions proposed.
+- Updated two existing methodological claims rather than creating a new
+  registry entry: one on denominator/coverage problems and one on
+  infrastructure constraints.
+
+Human attention requested:
+
+- The prompt named `Justin Clark`, but the archived paper credits
+  `Sam Clark`; the source card and registry follow the paper itself.
+- Treat the method as historically specific to 2020 public-subscription
+  visibility. The paper is valuable precisely because it states that
+  this access path has since narrowed.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/zaitsev_clark_2025?quick_pull=1&title=%5Bingest-source%5D+Ingest+zaitsev_clark_2025&body=%23%23+Summary%0A-+Created+%60wiki%2Fsources%2Fzaitsev_clark_2025.md%60.%0A-+Updated+%60data%2Fsource-registry.yaml%60%2C+%60data%2Fclaim-registry.yaml%60%2C+%60wiki%2Fthemes%2Fdescriptive_deficit.md%60%2C+%60wiki%2Findex.md%60%2C+and+%60ops%2Flog.md%60.%0A-+Added+provisional+theme+notes+showing+that+head-only+political+YouTube+samples+miss+substantial+small-channel+right+and+conspiracy+content+and+that+the+enabling+subscription-visibility+regime+was+historical.%0A%0A%23%23+Pages%0A-+wiki%2Fsources%2Fzaitsev_clark_2025.md%0A-+data%2Fsource-registry.yaml%0A-+data%2Fclaim-registry.yaml%0A-+wiki%2Fthemes%2Fdescriptive_deficit.md%0A-+wiki%2Findex.md%0A-+ops%2Flog.md
