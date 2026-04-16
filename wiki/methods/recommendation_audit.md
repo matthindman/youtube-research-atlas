@@ -10,7 +10,7 @@ project_modules:
   - public-affairs
 last_refreshed: 2026-04-15
 verification:
-  machine_extracted: 17
+  machine_extracted: 18
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -31,13 +31,18 @@ as distinct outcomes (Haroon et al. 2023, pp. 1-8). [🤖]
 
 ## Where It Has Been Used
 
-[LIT] The method appears directly in Haroon et al. and indirectly in
-Lai et al., where ideology estimation supplies one of the main
-measurement ingredients that audit studies need. [🤖]
+[LIT] The method appears directly in Haroon et al. and in
+Hosseinmardi et al., where logged-in counterfactual bots are trained
+on real user histories so recommendation-following paths can be
+compared against matched browsing trajectories; Lai et al.
+contributes measurement infrastructure rather than an audit design
+(Haroon et al. 2023, pp. 1-8; Hosseinmardi et al. 2024, pp. 1-3).
+[🤖]
 
 | Source | Data | Sample | Key Design Choice | Verified |
 |--------|------|--------|-------------------|----------|
 | haroon_et_al_2023 | Sock-puppet watch histories, homepage captures, up-next trails, and video slant scores | 100,000 sock puppets; 15,323,930 watched or recommended videos in total; 120,073 channels | Trains five ideological user profiles, distinguishes homepage from up-next recommendations, and tracks problematic-channel exposure separately from ideological extremity | [🤖] |
+| hosseinmardi_et_al_2024 | Nielsen desktop panel histories, logged-in counterfactual bots, and YouTube API metadata | 87,988 panelists in source panel; 4,583 heavy YouTube users; 125 focal users generating 1,304 bot trajectories | Trains bots on exact real-user histories, then compares user-following and rule-based paths to estimate the recommender's causal marginal effect and forgetting time | [🤖] |
 | lai_et_al_2024 | Reddit-YouTube links, video metadata, and 2020 watch histories | 61,883 videos with metadata; 345 respondents and 6,012 political videos in the application | Not an audit by itself, but provides reusable video-level ideology estimates that later audits can plug into exposure measures | [🤖] |
 
 ## Strengths and Assumptions
@@ -115,4 +120,4 @@ experience. [🤖]
 
 - **Themes:** [[recommendation_radicalization]]
 - **Related methods:** [[ideology_estimation]]
-- **Papers that use this method:** [[haroon_et_al_2023]], [[lai_et_al_2024]]
+- **Papers that use this method:** [[haroon_et_al_2023]], [[hosseinmardi_et_al_2024]], [[lai_et_al_2024]]

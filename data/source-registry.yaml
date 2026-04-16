@@ -481,3 +481,37 @@ sources:
       - study3-media-system
     temporal_scope: "Search results from January 2008-October 2018; monthly viewership trends from January 2013-October 2018; update through May 2020"
     notes: "Peer-reviewed and published. Strongest as a pre-2019 descriptive and theoretical account of right-wing political YouTube, not as a platform-wide audit. The paper also touches creator-economy and news-ecosystem questions, but those mature theme pages were left for a later deliberate refresh rather than being broadly rewritten here."
+  - id: hosseinmardi_et_al_2024
+    type: journal_article
+    evidence_tier: primary_empirical
+    title: "Causally Estimating the Effect of YouTube's Recommender System Using Counterfactual Bots"
+    authors:
+      - "Hosseinmardi, Homa"
+      - "Ghasemian, Amir"
+      - "Rivera-Lanas, Miguel"
+      - "Ribeiro, Manoel Horta"
+      - "West, Robert"
+      - "Watts, Duncan J."
+    year: 2024
+    venue: "Proceedings of the National Academy of Sciences of the United States of America"
+    doi: "10.1073/pnas.2313377121"
+    canonical_format: pdf
+    formats_available:
+      - pdf
+    status: ingested
+    date_ingested: 2026-04-15
+    wiki_pages_touched:
+      - wiki/sources/hosseinmardi_et_al_2024.md
+      - wiki/themes/recommendation_radicalization.md
+      - wiki/methods/recommendation_audit.md
+      - wiki/index.md
+    tags:
+      - recommendation-radicalization
+    themes:
+      - recommendation-radicalization
+    census_relevance: high
+    census_papers:
+      - methods-companion
+      - study3-media-system
+    temporal_scope: "Desktop browsing histories from October 2021-December 2022 with bot experiments run in early 2023; findings explicitly scoped to the post-2019 recommendation regime"
+    notes: "Peer-reviewed causal design combining a U.S. desktop browsing panel with logged-in counterfactual bots. Strongest on the post-2019 recommender's marginal effect relative to user preferences and on sidebar-versus-homepage forgetting dynamics; not informative about pre-2019 behavior or mobile use."
