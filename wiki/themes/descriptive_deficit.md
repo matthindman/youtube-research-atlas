@@ -6,12 +6,12 @@ status: machine-draft
 temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
-last_refreshed: 2026-04-16
-source_count: 10
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024]
+last_refreshed: 2026-04-17
+source_count: 11
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, nielsen_gauge_2025]
 split_candidates: []
 verification:
-  machine_extracted: 39
+  machine_extracted: 40
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -53,6 +53,12 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   million uploads per day, and reaches 2 billion viewers worldwide.
   *[Note: platform self-report, not independently verified.]* (YouTube
   2024, pp. 7-9). [🤖]
+- Nielsen's Gauge provides a narrower but still useful baseline: in July
+  2025, Nielsen said YouTube captured 13.4% of U.S. television-screen
+  viewing. That is informative for U.S. living-room attention, not for
+  all-device or global YouTube use. *[Note: supported only by non-peer-
+  reviewed sources.]* (Nielsen 2025, Introduction; § About.The.Gauge).
+  [🤖]
 - Large-scale YouTube description is constrained not only by
   conceptual gaps but also by infrastructure problems: post-2019 API
   limits, insufficient tooling, uneven compute access, and the
@@ -233,6 +239,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[zaitsev_clark_2025]]
 - [[violot_et_al_2024]]
 - [[youtube_2024]]
+- [[nielsen_gauge_2025]]
 
 ## Cross-References
 

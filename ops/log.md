@@ -2570,3 +2570,30 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/simonet_2013?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20simonet_2013&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/simonet_2013.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20historical%20methods%20baseline%20for%20YouTube%27s%20internal%20three-step%20channel-taxonomy%20pipeline%2C%20its%20platform-internal%20data%20dependencies%2C%20and%20its%20reported%20precision%2Fcoverage%20metrics.%0A%0A%23%23%20Pages%0A-%20wiki/sources/simonet_2013.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-17 — ingest nielsen_gauge_2025
+**Operation:** ingest-source
+**Branch:** ingest/nielsen_gauge_2025
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/nielsen_gauge_2025.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+- Verified the archived `.mhtml` captures Nielsen's August 26, 2025
+  article and the exact July 2025 headline that YouTube captured 13.4%
+  of TV watch-time.
+- Kept the source tightly scoped as U.S.-only and television-screen-
+  only, consistent with Nielsen's own description of The Gauge.
+- No existing Wayback snapshot was available at ingest time, so the card
+  uses a `wayback_save_url` only.
+
+Tier and taxonomy notes:
+
+- Assigned `industry_report`; this is a monthly measurement release,
+  useful for narrow audience-share orientation rather than for causal or
+  platform-mechanism claims.
+- Updated the existing industry-baseline claim rather than creating a
+  separate duplicate, broadening it to include device-specific U.S. TV
+  evidence with explicit scope limits.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/nielsen_gauge_2025?quick_pull=1
