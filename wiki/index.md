@@ -23,6 +23,7 @@ executive synthesis.
 
 - [[ideology_estimation]] — video-level and channel-level approaches for placing political YouTube content in ideological space
 - [[channel_classification]] — scalable approaches for discovering and classifying YouTube channels under changing data-access regimes
+- [[lookback_calibration]] — choosing observation windows for estimating cumulative views under changing attention lifecycles
 - [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
 
 ## Debates
@@ -90,6 +91,7 @@ executive synthesis.
 - [[lee_et_al_2022]] — cross-platform attention study showing that ideological advantage differs between YouTube engagement and Twitter diffusion
 - [[padilla_2026]] — GNU/Linux community-mapping study showing how Search API behavior and sparse public relational data constrain channel discovery and boundary-setting
 - [[youtube_shorts_views_2025]] — YouTube Help documentation of the March 31, 2025 Shorts view-count rule change and the continued use of Engaged views for monetization
+- [[figueiredo_et_al_2011]] — lifetime-normalized popularity-growth study showing that different YouTube video classes reach cumulative-view milestones at different speeds
 
 ## Paper dossiers
 

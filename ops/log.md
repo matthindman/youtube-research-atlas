@@ -2603,3 +2603,34 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/youtube_shorts_views_2025?quick_pull=1
+## 2026-04-17 — ingest figueiredo_et_al_2011
+**Operation:** ingest-source
+**Branch:** ingest/figueiredo_et_al_2011
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/figueiredo_et_al_2011.md` and a new
+`wiki/methods/lookback_calibration.md` page, then updated the
+registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived PDF is the WSDM 2011 conference paper with DOI
+  `10.1145/1935826.1935925`.
+- Confirmed the paper's lifetime-normalized calibration logic and the
+  page-748 quotes used in the synthesis memo.
+- Confirmed the central result that Top, YouTomb, and random-topic
+  videos reach 90% of total views at very different fractions of
+  lifetime, which makes the paper a direct precedent for lookback
+  calibration rather than only for descriptive platform history.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical` because this is a peer-reviewed methods
+  paper with original large-scale YouTube data collection and analysis.
+- Tagged the source under `descriptive-deficit` because the registry has
+  no method-page theme slug; the main synthesis target is the new
+  methods page `wiki/methods/lookback_calibration.md`.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/figueiredo_et_al_2011?quick_pull=1
