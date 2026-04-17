@@ -1680,3 +1680,32 @@ sources:
   temporal_scope: Historical internal channel-classification system described in 2013 and deployed on the whole YouTube corpus of that era
   notes: The current registry schema lacks a conference-paper type, so this peer-reviewed WWW Companion paper is slotted into `journal_article`. It is most valuable as a historical description of YouTube's
     internal channel-taxonomy pipeline and the product constraints that shaped it.
+- id: bartl_2018
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'YouTube channels, uploads and views: A statistical analysis of the past 10 years'
+  authors:
+  - Bärtl, Mathias
+  year: 2018
+  venue: 'Convergence: The International Journal of Research into New Media Technologies 24(1)'
+  doi: 10.1177/1354856517736979
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/bartl_2018.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: Historical pre-Shorts channel and video sample covering 2006-2016 uploads and channels retrieved through the YouTube API in 2016-2017
+  notes: This is one of the clearest early peer-reviewed attempts at platform-scale YouTube description. It is especially valuable as counter-evidence to blanket claims that no prior large-scale descriptive
+    studies existed, while still making its API-return, active-channel, and Latin-script sampling limits explicit.

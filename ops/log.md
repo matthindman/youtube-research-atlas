@@ -2570,3 +2570,31 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/simonet_2013?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20simonet_2013&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/simonet_2013.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20historical%20methods%20baseline%20for%20YouTube%27s%20internal%20three-step%20channel-taxonomy%20pipeline%2C%20its%20platform-internal%20data%20dependencies%2C%20and%20its%20reported%20precision%2Fcoverage%20metrics.%0A%0A%23%23%20Pages%0A-%20wiki/sources/simonet_2013.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-17 — ingest bartl_2018
+**Operation:** ingest-source
+**Branch:** ingest/bartl_2018
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/bartl_2018.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+- Verified the archived PDF is the 2018 *Convergence* article with DOI
+  `10.1177/1354856517736979`.
+- Confirmed the abstract sentence that the study provides an "overall
+  characterization of YouTube" from a random sample, which makes it
+  direct counter-evidence to any blanket claim that no prior platform-
+  scale studies existed.
+- Confirmed the concentration result that the top 3% of channels account
+  for 28% of uploads and 85% of views overall, alongside the author's
+  own caveats about API-return and script bias.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; this is a peer-reviewed journal article
+  with original API-based data collection and statistical analysis.
+- Routed the source to `descriptive-deficit` because it provides both
+  early platform-scale baseline evidence and an explicit methodological
+  warning about how API sampling biases shape descriptive conclusions.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/bartl_2018?quick_pull=1

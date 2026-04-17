@@ -6,12 +6,12 @@ status: machine-draft
 temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
-last_refreshed: 2026-04-16
-source_count: 10
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024]
+last_refreshed: 2026-04-17
+source_count: 11
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, bartl_2018]
 split_candidates: []
 verification:
-  machine_extracted: 39
+  machine_extracted: 40
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -34,6 +34,13 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   representative sampling frames; without them, even careful studies
   of specific content types cannot show how common those phenomena are
   on YouTube overall (McGrady et al. 2023, pp. 4-7). [🤖]
+- It is too strong to say that no earlier platform-scale YouTube
+  descriptions existed. Bärtl's 2018 random-sample study already tried
+  to characterize channels, uploads, and views across the platform, but
+  it did so under mid-2010s API constraints and with explicit biases
+  around active-channel filtering, popularity-sorted returns, and
+  undercoverage of non-Latin-script channels (Bärtl 2018, pp. 16,
+  19-22). [🤖]
 - Head-only political YouTube samples can materially understate what is
   happening in smaller channels: Zaitsev and Clark show that much more
   partisan-right and conspiracy content sits below the most visible
@@ -233,6 +240,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[zaitsev_clark_2025]]
 - [[violot_et_al_2024]]
 - [[youtube_2024]]
+- [[bartl_2018]]
 
 ## Cross-References
 
