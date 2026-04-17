@@ -6,12 +6,12 @@ status: machine-draft
 temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
-last_refreshed: 2026-04-16
-source_count: 10
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024]
+last_refreshed: 2026-04-17
+source_count: 11
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, datareportal_time_2024]
 split_candidates: []
 verification:
-  machine_extracted: 39
+  machine_extracted: 40
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -53,6 +53,11 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   million uploads per day, and reaches 2 billion viewers worldwide.
   *[Note: platform self-report, not independently verified.]* (YouTube
   2024, pp. 7-9). [🤖]
+- Public cross-platform rankings also depend on which metric is being
+  used. DataReportal's 2024 synthesis puts YouTube first on total
+  Android-app time spent, but the same article puts TikTok first on
+  average time per user. *[Note: supported only by non-peer-reviewed
+  sources.]* (Kemp 2024, § Total.time; § Average.time.per.user). [🤖]
 - Large-scale YouTube description is constrained not only by
   conceptual gaps but also by infrastructure problems: post-2019 API
   limits, insufficient tooling, uneven compute access, and the
@@ -233,6 +238,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[zaitsev_clark_2025]]
 - [[violot_et_al_2024]]
 - [[youtube_2024]]
+- [[datareportal_time_2024]]
 
 ## Cross-References
 

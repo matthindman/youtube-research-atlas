@@ -1371,6 +1371,26 @@ claims:
   - wiki/themes/descriptive_deficit.md
   - wiki/themes/governance_data_access.md
   verification: machine_extracted
+- id: claim_descriptive_deficit_platform_rankings_depend_on_metric_choice
+  text: Public cross-platform rankings can place YouTube first on total time spent while placing other services first on average time per user, so comparative claims about platform dominance need to name the metric.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Public app-time rankings published in January 2024 and centered on late-2023 Android activity.
+  primary_sources:
+  - datareportal_time_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a non-peer-reviewed DataReportal synthesis of third-party app-use data. It is strongest as a caution about metric choice in public platform comparisons, not as a
+    definitive audit of all-platform attention.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/datareportal_time_2024.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
 - id: claim_creator_economy_platform_documented_monetization_stack
   text: YouTube publicly documents a multi-route creator monetization stack in which ad and subscription revenue sharing sits alongside fan funding, shopping, memberships, ticketing, gifts, and related
     program features.

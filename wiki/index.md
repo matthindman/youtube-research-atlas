@@ -89,6 +89,7 @@ executive synthesis.
 - [[violot_et_al_2024]] — first large-scale Shorts-versus-regular-video comparison showing Shorts changed both upload behavior and engagement baselines
 - [[lee_et_al_2022]] — cross-platform attention study showing that ideological advantage differs between YouTube engagement and Twitter diffusion
 - [[padilla_2026]] — GNU/Linux community-mapping study showing how Search API behavior and sparse public relational data constrain channel discovery and boundary-setting
+- [[datareportal_time_2024]] — DataReportal time-spent synthesis showing YouTube leads on total Android time while TikTok leads on average time per user
 
 ## Paper dossiers
 

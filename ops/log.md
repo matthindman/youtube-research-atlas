@@ -2570,3 +2570,29 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/simonet_2013?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20simonet_2013&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/simonet_2013.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20historical%20methods%20baseline%20for%20YouTube%27s%20internal%20three-step%20channel-taxonomy%20pipeline%2C%20its%20platform-internal%20data%20dependencies%2C%20and%20its%20reported%20precision%2Fcoverage%20metrics.%0A%0A%23%23%20Pages%0A-%20wiki/sources/simonet_2013.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-17 — ingest datareportal_time_2024
+**Operation:** ingest-source
+**Branch:** ingest/datareportal_time_2024
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/datareportal_time_2024.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+- Verified the archived `.mhtml` captures Simon Kemp's January 31, 2024
+  DataReportal article and the exact line that "YouTube tops the
+  ranking by total time spent."
+- Preserved the article's own metric split: YouTube leads on total
+  Android-app time, while TikTok leads on average time per user.
+- Used the existing Wayback snapshot from 2026-03-27 in the source card
+  metadata.
+
+Tier and taxonomy notes:
+
+- Assigned `industry_report`; the source is useful for metric-qualified
+  stage-setting, not for causal or platform-mechanism claims.
+- Added a new cross-cutting methodological claim about metric choice in
+  public platform rankings rather than overloading the existing baseline
+  claim.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/datareportal_time_2024?quick_pull=1

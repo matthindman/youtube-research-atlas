@@ -1680,3 +1680,32 @@ sources:
   temporal_scope: Historical internal channel-classification system described in 2013 and deployed on the whole YouTube corpus of that era
   notes: The current registry schema lacks a conference-paper type, so this peer-reviewed WWW Companion paper is slotted into `journal_article`. It is most valuable as a historical description of YouTube's
     internal channel-taxonomy pipeline and the product constraints that shaped it.
+- id: datareportal_time_2024
+  type: industry_report
+  evidence_tier: industry_report
+  title: 'The time we spend on social media'
+  authors:
+  - Kemp, Simon
+  year: 2024
+  venue: DataReportal – Global Digital Insights
+  doi: null
+  canonical_format: mhtml
+  formats_available:
+  - mhtml
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/datareportal_time_2024.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: Global app-time article published January 31, 2024, using third-party mobile-app measures centered on late-2023 activity
+  notes: Useful for the narrower claim that public app-time rankings can place YouTube first on total time spent while still placing TikTok first on average time per user. It should be cited with the metric
+    named because the ranking is not invariant across measures.
