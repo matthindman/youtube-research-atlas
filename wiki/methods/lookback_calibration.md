@@ -3,7 +3,7 @@ type: method-page
 canonical_name: lookback_calibration
 title: "Lookback Calibration"
 status: machine-draft
-method_family: measurement
+method_family: descriptive
 themes_touched:
   - descriptive-deficit
 project_modules:
