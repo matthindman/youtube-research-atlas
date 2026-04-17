@@ -2570,3 +2570,33 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/simonet_2013?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20simonet_2013&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/simonet_2013.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20historical%20methods%20baseline%20for%20YouTube%27s%20internal%20three-step%20channel-taxonomy%20pipeline%2C%20its%20platform-internal%20data%20dependencies%2C%20and%20its%20reported%20precision%2Fcoverage%20metrics.%0A%0A%23%23%20Pages%0A-%20wiki/sources/simonet_2013.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-17 — ingest socialblade_docs_2025
+**Operation:** ingest-source
+**Branch:** ingest/socialblade_docs_2025
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/socialblade_docs_2025.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+- Attempted live retrieval of the three SocialBlade URLs
+  (`/blog/channels-track/`, `/help/how-often-does-socialblade-update-my-stats`,
+  `/products/subscription/personal`) but all returned Cloudflare `403`
+  on 2026-04-17.
+- Per the ingest prompt fallback, preserved the audit memo's captured
+  verbatim snippets about selective tracking, at-least-daily updates,
+  and historical-data limits, and left the card explicitly
+  machine-draft pending human verification.
+- Did not treat the dated 2014 "3 million channels" figure as a current
+  coverage estimate.
+
+Tier and taxonomy notes:
+
+- Assigned `platform_documentation`; the source is provider
+  documentation about SocialBlade's own benchmark logic, not evidence
+  about YouTube's true platform-wide composition.
+- Added a new cross-cutting methodological claim that commercial
+  benchmarks are partial and history-limited, while flagging the live
+  403 issue in both the source card and claim registry.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/socialblade_docs_2025?quick_pull=1

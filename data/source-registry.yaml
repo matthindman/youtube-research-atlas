@@ -1680,3 +1680,32 @@ sources:
   temporal_scope: Historical internal channel-classification system described in 2013 and deployed on the whole YouTube corpus of that era
   notes: The current registry schema lacks a conference-paper type, so this peer-reviewed WWW Companion paper is slotted into `journal_article`. It is most valuable as a historical description of YouTube's
     internal channel-taxonomy pipeline and the product constraints that shaped it.
+- id: socialblade_docs_2025
+  type: platform_doc
+  evidence_tier: platform_documentation
+  title: SocialBlade documentation on channel tracking, update frequency, and historical data
+  authors:
+  - Social Blade
+  year: 2025
+  venue: Social Blade
+  doi: null
+  canonical_format: html
+  formats_available:
+  - html
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/socialblade_docs_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: low
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: 'Mixed historical/current provider documentation: one March 31, 2014 blog post plus undated FAQ and subscription pages retrieved on 2026-04-17'
+  notes: Live SocialBlade pages returned Cloudflare `403` at ingest time, so this card relies on audit-memo snippets and remains machine-draft pending human verification. It is strongest for the claim that
+    SocialBlade is a partial commercial benchmark with selective tracking, at-least-daily updates, and limited historical depth.

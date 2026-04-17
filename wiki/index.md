@@ -89,6 +89,7 @@ executive synthesis.
 - [[violot_et_al_2024]] — first large-scale Shorts-versus-regular-video comparison showing Shorts changed both upload behavior and engagement baselines
 - [[lee_et_al_2022]] — cross-platform attention study showing that ideological advantage differs between YouTube engagement and Twitter diffusion
 - [[padilla_2026]] — GNU/Linux community-mapping study showing how Search API behavior and sparse public relational data constrain channel discovery and boundary-setting
+- [[socialblade_docs_2025]] — SocialBlade provider documentation showing the commercial benchmark is selective, roughly daily refreshed, and history-limited
 
 ## Paper dossiers
 

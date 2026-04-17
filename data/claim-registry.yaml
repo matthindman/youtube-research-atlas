@@ -1434,3 +1434,23 @@ claims:
   - wiki/sources/simonet_2013.md
   - wiki/methods/channel_classification.md
   verification: machine_extracted
+- id: claim_descriptive_deficit_socialblade_is_partial_benchmark
+  text: SocialBlade is a partial commercial benchmark rather than a YouTube census, because its tracked-channel universe is selective, profile updates vary by popularity, and historical depth is limited by when a profile entered the system and by product constraints.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Mixed documentation from a 2014 tracking post and undated help/subscription pages retrieved in 2026.
+  primary_sources:
+  - socialblade_docs_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from SocialBlade's own platform documentation. Live pages returned `403` at ingest time, so the supporting snippets remain unverified against the live pages and
+    should be treated as machine-draft until a human rechecks them.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/socialblade_docs_2025.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
