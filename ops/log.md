@@ -2570,3 +2570,30 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/simonet_2013?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20simonet_2013&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/simonet_2013.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20historical%20methods%20baseline%20for%20YouTube%27s%20internal%20three-step%20channel-taxonomy%20pipeline%2C%20its%20platform-internal%20data%20dependencies%2C%20and%20its%20reported%20precision%2Fcoverage%20metrics.%0A%0A%23%23%20Pages%0A-%20wiki/sources/simonet_2013.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-17 — ingest borghol_et_al_2012
+**Operation:** ingest-source
+**Branch:** ingest/borghol_et_al_2012
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/borghol_et_al_2012.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+- Confirmed that `sources/papers/borghol2011clones.pdf` is the 2012 KDD
+  conference paper despite the misleading filename.
+- Verified the page-1191 first-mover quote and the accompanying winner-
+  ordering table for upload and search timing.
+- Kept the source scoped as historical evidence about popularity
+  concentration mechanisms rather than as a representative census of
+  YouTube as a whole.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; the paper is peer-reviewed and reports
+  original clone-set data plus statistical analysis.
+- Routed the source to `descriptive-deficit` because it clarifies how
+  public view counts already reflect cumulative visibility dynamics and
+  because it relies on historical API and insight traces that later
+  became harder to access.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/borghol_et_al_2012?quick_pull=1

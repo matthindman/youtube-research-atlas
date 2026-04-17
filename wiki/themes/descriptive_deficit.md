@@ -6,12 +6,12 @@ status: machine-draft
 temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
-last_refreshed: 2026-04-16
-source_count: 10
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024]
+last_refreshed: 2026-04-17
+source_count: 11
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, borghol_et_al_2012]
 split_candidates: []
 verification:
-  machine_extracted: 39
+  machine_extracted: 40
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -59,6 +59,14 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   concentration of technical capacity in a small number of well-funded
   sites (Munger et al. 2025, pp. 3, 8; Norton and Shapiro 2024, pp.
   4-6). [🤖]
+- Historical popularity research also shows that visible attention is
+  not a clean readout of content quality alone. Borghol et al.'s
+  clone-set design found that prior views, first-mover timing, and
+  early search discovery could give near-identical videos durable
+  popularity advantages, which means public view counts already embed
+  path-dependent visibility dynamics before later researchers try to
+  interpret them substantively (Borghol et al. 2012, pp. 1186-1188,
+  1191-1193). [🤖]
 - English-language evidence cannot safely stand in for YouTube as a
   whole. The current multilingual random-sample evidence shows large
   enough cross-language differences to make generalization itself an
@@ -233,6 +241,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[zaitsev_clark_2025]]
 - [[violot_et_al_2024]]
 - [[youtube_2024]]
+- [[borghol_et_al_2012]]
 
 ## Cross-References
 

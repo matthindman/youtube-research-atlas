@@ -1434,3 +1434,23 @@ claims:
   - wiki/sources/simonet_2013.md
   - wiki/methods/channel_classification.md
   verification: machine_extracted
+- id: claim_descriptive_deficit_first_mover_and_search_bias_concentrate_views
+  text: On early YouTube, cumulative views, first-mover timing, and early search discovery could give otherwise similar videos durable popularity advantages independent of content differences.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Historical clone-set evidence collected on early-2010s YouTube with two one-week-apart snapshots and available view-history traces.
+  primary_sources:
+  - borghol_et_al_2012
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from 48 manually identified clone sets of near-identical videos rather than a representative platform-wide sample, and from a historical interface environment with
+    richer public insight data than later researchers could access.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/borghol_et_al_2012.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted

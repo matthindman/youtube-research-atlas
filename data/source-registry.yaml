@@ -1680,3 +1680,36 @@ sources:
   temporal_scope: Historical internal channel-classification system described in 2013 and deployed on the whole YouTube corpus of that era
   notes: The current registry schema lacks a conference-paper type, so this peer-reviewed WWW Companion paper is slotted into `journal_article`. It is most valuable as a historical description of YouTube's
     internal channel-taxonomy pipeline and the product constraints that shaped it.
+- id: borghol_et_al_2012
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'The untold story of the clones: content-agnostic factors that impact YouTube video popularity'
+  authors:
+  - Borghol, Youmna
+  - Ardon, Sebastien
+  - Carlsson, Niklas
+  - Eager, Derek
+  - Mahanti, Anirban
+  year: 2012
+  venue: Proceedings of the 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD '12)
+  doi: 10.1145/2339530.2339717
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/borghol_et_al_2012.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: Historical early-2010s YouTube clone-set data collected with public API fields, HTML scraping, and still-visible insight traces
+  notes: The current registry schema lacks a conference-paper type, so this peer-reviewed KDD paper is slotted into `journal_article`. It is most valuable as historical evidence that first-mover timing,
+    prior views, and search discovery could concentrate attention among otherwise similar videos.
