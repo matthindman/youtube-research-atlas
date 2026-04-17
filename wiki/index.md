@@ -23,6 +23,7 @@ executive synthesis.
 
 - [[ideology_estimation]] — video-level and channel-level approaches for placing political YouTube content in ideological space
 - [[channel_classification]] — scalable approaches for discovering and classifying YouTube channels under changing data-access regimes
+- [[lookback_calibration]] — methods for estimating how much early view history is needed before later popularity comparisons or forecasts stabilize
 - [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
 
 ## Debates
@@ -89,6 +90,7 @@ executive synthesis.
 - [[violot_et_al_2024]] — first large-scale Shorts-versus-regular-video comparison showing Shorts changed both upload behavior and engagement baselines
 - [[lee_et_al_2022]] — cross-platform attention study showing that ideological advantage differs between YouTube engagement and Twitter diffusion
 - [[padilla_2026]] — GNU/Linux community-mapping study showing how Search API behavior and sparse public relational data constrain channel discovery and boundary-setting
+- [[szabo_huberman_2010]] — historical popularity-prediction paper showing YouTube videos needed longer early observation windows than Digg stories to reach comparable forecast accuracy
 
 ## Paper dossiers
 

@@ -2570,3 +2570,31 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/simonet_2013?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20simonet_2013&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/simonet_2013.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20historical%20methods%20baseline%20for%20YouTube%27s%20internal%20three-step%20channel-taxonomy%20pipeline%2C%20its%20platform-internal%20data%20dependencies%2C%20and%20its%20reported%20precision%2Fcoverage%20metrics.%0A%0A%23%23%20Pages%0A-%20wiki/sources/simonet_2013.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-17 — ingest szabo_huberman_2010
+**Operation:** ingest-source
+**Branch:** ingest/szabo_huberman_2010
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/szabo_huberman_2010.md`, created
+`wiki/methods/lookback_calibration.md`, and updated the registries,
+index, and log.
+- Verified the CACM article's historical YouTube sample size (7,146
+  videos), 30-day prediction horizon, and the page-88 line that
+  YouTube videos had to be followed for 10 days to achieve the same
+  10% relative error that Digg reached after two hours.
+- Kept the ingest scoped as methodological calibration evidence rather
+  than as a platform-composition baseline.
+- Built a self-contained `lookback_calibration` method page on this
+  branch because the method page is not yet on `main`.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; the article reports original data
+  collection and model evaluation despite its magazine-style venue.
+- Tagged the source under `descriptive-deficit` in the registry because
+  the atlas lacks a method-theme slug for lookback calibration; the main
+  synthesis target on this branch is `wiki/methods/lookback_calibration.md`.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/szabo_huberman_2010?quick_pull=1
