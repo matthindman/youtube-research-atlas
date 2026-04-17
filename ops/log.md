@@ -2634,3 +2634,32 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/figueiredo_et_al_2011?quick_pull=1
+## 2026-04-17 — ingest goodrow_2017
+**Operation:** ingest-source
+**Branch:** ingest/goodrow_2017
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/goodrow_2017.md` and updated the
+descriptive-deficit theme, registry, index, and log.
+
+Cross-check notes:
+
+- Verified that `sources/papers/goodrow2017billion.htm` and
+  `sources/papers/goodrow2017.mhtml` are duplicate captures of the same
+  YouTube Blog post.
+- Confirmed the exact milestone quote that viewers were watching "a
+  billion hours" of YouTube content every day.
+- Kept the ingest tightly scoped to the platform's own milestone claim
+  and its watch-time framing, not to stronger comparative claims about
+  all digital platforms.
+
+Tier and taxonomy notes:
+
+- Assigned `platform_documentation` because this is a YouTube Blog post
+  stating a platform milestone.
+- Routed the source to `descriptive-deficit` as stage-setting about
+  YouTube's scale, with an explicit self-report caveat.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/goodrow_2017?quick_pull=1

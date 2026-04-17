@@ -12,6 +12,10 @@ key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024,
 split_candidates: []
 verification:
   machine_extracted: 41
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, goodrow_2017]
+split_candidates: []
+verification:
+  machine_extracted: 40
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -53,6 +57,13 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   million uploads per day, and reaches 2 billion viewers worldwide.
   *[Note: platform self-report, not independently verified.]* (YouTube
   2024, pp. 7-9). [🤖]
+- YouTube's earlier milestone posts provide the same kind of scale
+  framing without independent verification: in February 2017 the
+  company said viewers were watching a billion hours of YouTube per
+  day. That is useful for stage-setting about platform importance, not
+  for making independent comparative claims about all digital platforms.
+  *[Note: platform self-report, not independently verified.]* (Goodrow
+  2017, Introduction). [🤖]
 - Large-scale YouTube description is constrained not only by
   conceptual gaps but also by infrastructure problems: post-2019 API
   limits, insufficient tooling, uneven compute access, and the
@@ -247,6 +258,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[violot_et_al_2024]]
 - [[youtube_2024]]
 - [[youtube_shorts_views_2025]]
+- [[goodrow_2017]]
 
 ## Cross-References
 

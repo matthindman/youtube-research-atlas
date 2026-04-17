@@ -1688,6 +1688,14 @@ sources:
   - YouTube Help
   year: 2025
   venue: YouTube Help
+- id: goodrow_2017
+  type: platform_doc
+  evidence_tier: platform_documentation
+  title: You know what's cool? A billion hours
+  authors:
+  - Goodrow, Cristos
+  year: 2017
+  venue: YouTube Blog
   doi: null
   canonical_format: htm
   formats_available:
@@ -1697,6 +1705,7 @@ sources:
   date_ingested: 2026-04-17
   wiki_pages_touched:
   - wiki/sources/youtube_shorts_views_2025.md
+  - wiki/sources/goodrow_2017.md
   - wiki/themes/descriptive_deficit.md
   - wiki/index.md
   tags:
@@ -1743,3 +1752,11 @@ sources:
   - study10-shorts-vs-long-form
   temporal_scope: Popularity histories and referrer traces collected in April 2010 for videos already uploaded to YouTube by that date
   notes: "Peer-reviewed WSDM paper. Main atlas value is methodological: lifetime-normalized view accumulation differs across video classes, so lookback windows should be calibrated rather than assumed."
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: February 2017 platform milestone statement about global daily watch time on pre-Shorts YouTube
+  notes: Platform-authored YouTube Blog milestone post. Strongest for the narrow claim that YouTube said it had reached one billion watch-hours per day, not for any independent ranking against other platforms.
