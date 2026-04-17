@@ -1434,3 +1434,23 @@ claims:
   - wiki/sources/simonet_2013.md
   - wiki/methods/channel_classification.md
   verification: machine_extracted
+- id: claim_descriptive_deficit_shorts_metric_regime_change_2025
+  text: Since March 31, 2025, public Shorts views count starts and replays with no minimum watch time, while YPP eligibility and Shorts ad revenue sharing still rely on the narrower Engaged views metric.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Post-March 31, 2025 Shorts measurement regime.
+  primary_sources:
+  - youtube_shorts_views_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: This is a platform-documented metric-definition change, not independent evidence about how creators, viewers, or recommendation systems responded to the change.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study10-shorts-vs-long-form
+  appears_in:
+  - wiki/sources/youtube_shorts_views_2025.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
