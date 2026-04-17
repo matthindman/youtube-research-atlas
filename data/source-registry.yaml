@@ -1680,3 +1680,34 @@ sources:
   temporal_scope: Historical internal channel-classification system described in 2013 and deployed on the whole YouTube corpus of that era
   notes: The current registry schema lacks a conference-paper type, so this peer-reviewed WWW Companion paper is slotted into `journal_article`. It is most valuable as a historical description of YouTube's
     internal channel-taxonomy pipeline and the product constraints that shaped it.
+- id: figueiredo_et_al_2011
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'The tube over time: characterizing popularity growth of YouTube videos'
+  authors:
+  - Figueiredo, Flavio
+  - Benevenuto, Fabrício
+  - Almeida, Jussara M.
+  year: 2011
+  venue: Proceedings of the Fourth ACM International Conference on Web Search and Data Mining (WSDM '11)
+  doi: 10.1145/1935826.1935925
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/figueiredo_et_al_2011.md
+  - wiki/methods/lookback_calibration.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study10-shorts-vs-long-form
+  temporal_scope: Popularity histories and referrer traces collected in April 2010 for videos already uploaded to YouTube by that date
+  notes: "Peer-reviewed WSDM paper. Main atlas value is methodological: lifetime-normalized view accumulation differs across video classes, so lookback windows should be calibrated rather than assumed."

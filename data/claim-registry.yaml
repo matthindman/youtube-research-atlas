@@ -1434,3 +1434,23 @@ claims:
   - wiki/sources/simonet_2013.md
   - wiki/methods/channel_classification.md
   verification: machine_extracted
+- id: claim_descriptive_deficit_lookback_windows_require_calibration
+  text: Lookback windows for estimating cumulative YouTube attention should be calibrated to video class and platform regime rather than treated as a single universal window.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Pre-2010 YouTube popularity histories observed in April 2010.
+  primary_sources:
+  - figueiredo_et_al_2011
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from lifetime-normalized view histories for Top, copyright-removed, and random-topic videos on pre-2010 YouTube; modern and Shorts-era regimes may need different calibration.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study10-shorts-vs-long-form
+  appears_in:
+  - wiki/sources/figueiredo_et_al_2011.md
+  - wiki/methods/lookback_calibration.md
+  verification: machine_extracted

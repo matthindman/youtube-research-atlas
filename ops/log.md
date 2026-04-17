@@ -2570,3 +2570,34 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/simonet_2013?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20simonet_2013&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/simonet_2013.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20historical%20methods%20baseline%20for%20YouTube%27s%20internal%20three-step%20channel-taxonomy%20pipeline%2C%20its%20platform-internal%20data%20dependencies%2C%20and%20its%20reported%20precision%2Fcoverage%20metrics.%0A%0A%23%23%20Pages%0A-%20wiki/sources/simonet_2013.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-17 — ingest figueiredo_et_al_2011
+**Operation:** ingest-source
+**Branch:** ingest/figueiredo_et_al_2011
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/figueiredo_et_al_2011.md` and a new
+`wiki/methods/lookback_calibration.md` page, then updated the
+registries, index, and log.
+
+Cross-check notes:
+
+- Verified the archived PDF is the WSDM 2011 conference paper with DOI
+  `10.1145/1935826.1935925`.
+- Confirmed the paper's lifetime-normalized calibration logic and the
+  page-748 quotes used in the synthesis memo.
+- Confirmed the central result that Top, YouTomb, and random-topic
+  videos reach 90% of total views at very different fractions of
+  lifetime, which makes the paper a direct precedent for lookback
+  calibration rather than only for descriptive platform history.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical` because this is a peer-reviewed methods
+  paper with original large-scale YouTube data collection and analysis.
+- Tagged the source under `descriptive-deficit` because the registry has
+  no method-page theme slug; the main synthesis target is the new
+  methods page `wiki/methods/lookback_calibration.md`.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/figueiredo_et_al_2011?quick_pull=1
