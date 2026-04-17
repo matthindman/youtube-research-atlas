@@ -1680,3 +1680,32 @@ sources:
   temporal_scope: Historical internal channel-classification system described in 2013 and deployed on the whole YouTube corpus of that era
   notes: The current registry schema lacks a conference-paper type, so this peer-reviewed WWW Companion paper is slotted into `journal_article`. It is most valuable as a historical description of YouTube's
     internal channel-taxonomy pipeline and the product constraints that shaped it.
+- id: datareportal_top_social_2025
+  type: industry_report
+  evidence_tier: industry_report
+  title: 'Digital 2025: top social platforms in 2025'
+  authors:
+  - Kemp, Simon
+  year: 2025
+  venue: DataReportal – Global Digital Insights
+  doi: null
+  canonical_format: mhtml
+  formats_available:
+  - mhtml
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/datareportal_top_social_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Global cross-platform ranking article published February 5, 2025, using third-party app-use sources centered on late-2024 activity
+  notes: DataReportal's headline ranking is useful for softened stage-setting that YouTube remained a top platform in early 2025, but it rests on third-party Android-heavy app-use estimates and explicitly
+    excludes China.

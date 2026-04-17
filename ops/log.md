@@ -2570,3 +2570,30 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/simonet_2013?quick_pull=1&title=%5Bingest-source%5D%20Ingest%20simonet_2013&body=%23%23%20Summary%0A-%20Created%20%60wiki/sources/simonet_2013.md%60.%0A-%20Updated%20%60data/source-registry.yaml%60%2C%20%60data/claim-registry.yaml%60%2C%20%60wiki/methods/channel_classification.md%60%2C%20%60wiki/index.md%60%2C%20and%20%60ops/log.md%60.%0A-%20Added%20a%20historical%20methods%20baseline%20for%20YouTube%27s%20internal%20three-step%20channel-taxonomy%20pipeline%2C%20its%20platform-internal%20data%20dependencies%2C%20and%20its%20reported%20precision%2Fcoverage%20metrics.%0A%0A%23%23%20Pages%0A-%20wiki/sources/simonet_2013.md%0A-%20data/source-registry.yaml%0A-%20data/claim-registry.yaml%0A-%20wiki/methods/channel_classification.md%0A-%20wiki/index.md%0A-%20ops/log.md
+## 2026-04-17 — ingest datareportal_top_social_2025
+**Operation:** ingest-source
+**Branch:** ingest/datareportal_top_social_2025
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/datareportal_top_social_2025.md` and updated the
+descriptive-deficit theme, registry, index, and log.
+- Verified the archived `.mhtml` captures Simon Kemp's February 5, 2025
+  DataReportal article and the exact line that "YouTube is the most
+  used social media platform at the start of 2025."
+- Preserved the article's own scope limits: the ranking depends on
+  third-party Android activity, excludes China, and is not a clean
+  audited global census.
+- Used the existing Wayback snapshot from 2025-11-29 in the source card
+  metadata.
+
+Tier and taxonomy notes:
+
+- Assigned `industry_report`; this is useful for stage-setting and
+  cross-platform orientation, not for causal or mechanism claims.
+- Updated the existing platform-baseline claim rather than creating a
+  duplicate, broadening it from UK-only Ofcom evidence to a mixed
+  industry baseline with clearly stated measurement caveats.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/datareportal_top_social_2025?quick_pull=1
