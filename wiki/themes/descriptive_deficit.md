@@ -6,12 +6,12 @@ status: machine-draft
 temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
-last_refreshed: 2026-04-16
-source_count: 10
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024]
+last_refreshed: 2026-04-17
+source_count: 11
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025]
 split_candidates: []
 verification:
-  machine_extracted: 39
+  machine_extracted: 41
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -155,6 +155,13 @@ evidence about the field and its platform-level claims as framing
   2022, which means descriptive work still centered on regular videos
   can miss major shifts in both supply and engagement (Violot et al.
   2024, pp. 1-4, 9-11). [🤖]
+- Post-March-2025 Shorts measurement adds a second format problem:
+  public Shorts views now count starts and replays with no minimum
+  watch-time threshold, while monetization and eligibility continue to
+  use "Engaged views." That means cross-time Shorts comparisons and
+  Shorts-versus-long-form comparisons require explicit metric
+  qualification (YouTube Help 2025, § Changes.to.Shorts.views.count).
+  [🤖]
 
 ## Measures and Variables Used in the Literature
 
@@ -216,6 +223,12 @@ McGrady et al. 2025, p. 5). [🤖]
   al. had to infer Shorts through redirect behavior because Shorts are
   not natively exposed as a stable public metadata field (Violot et
   al. 2024, pp. 2-4). [🤖]
+- The public measurement layer is also unstable across time: YouTube's
+  March 31, 2025 Shorts-counting change means a "view" is no longer the
+  same event before and after that date, so longitudinal format
+  analysis needs an explicit measurement note even when identification
+  is otherwise sound (YouTube Help 2025, § Changes.to.Shorts.views.count).
+  [🤖]
 - A future full refresh should integrate Ribeiro and West (2021) more
   systematically with the multilingual random-sample papers rather than
   leaving its English-centric infrastructure point as an incremental
@@ -233,6 +246,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[zaitsev_clark_2025]]
 - [[violot_et_al_2024]]
 - [[youtube_2024]]
+- [[youtube_shorts_views_2025]]
 
 ## Cross-References
 

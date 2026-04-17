@@ -1680,3 +1680,35 @@ sources:
   temporal_scope: Historical internal channel-classification system described in 2013 and deployed on the whole YouTube corpus of that era
   notes: The current registry schema lacks a conference-paper type, so this peer-reviewed WWW Companion paper is slotted into `journal_article`. It is most valuable as a historical description of YouTube's
     internal channel-taxonomy pipeline and the product constraints that shaped it.
+- id: youtube_shorts_views_2025
+  type: platform_doc
+  evidence_tier: platform_documentation
+  title: Get started creating YouTube Shorts
+  authors:
+  - YouTube Help
+  year: 2025
+  venue: YouTube Help
+  doi: null
+  canonical_format: htm
+  formats_available:
+  - htm
+  - mhtml
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/youtube_shorts_views_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  - shorts
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study10-shorts-vs-long-form
+  temporal_scope: Post-March 31, 2025 Shorts view-count regime with an additional image-post note added for April 2026
+  notes: Platform-help documentation for the March 31, 2025 Shorts view-count change. The archived `.htm` and `.mhtml` files appear to be duplicate captures of the same Help page. Use for metric-definition facts,
+    not for behavioral claims.
