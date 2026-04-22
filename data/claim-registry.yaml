@@ -1475,6 +1475,17 @@ claims:
   supporting_sources: []
   conflicting_sources: []
   scope_conditions: Current support comes from lifetime-normalized view histories for Top, copyright-removed, and random-topic videos on pre-2010 YouTube; modern and Shorts-era regimes may need different calibration.
+- id: claim_descriptive_deficit_early_platform_scale_samples_found_extreme_concentration
+  text: Peer-reviewed platform-scale YouTube description existed before the current atlas wave, and those early random-sample studies already found extreme concentration of views among a small minority of channels.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Pre-Shorts YouTube channels and uploads from 2006-2016, sampled through the YouTube API in 2016-2017.
+  primary_sources:
+  - bartl_2018
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from an early random-string API sampling design that excludes channels with fewer than five uploads and undercovers non-Latin-script channels; it is stronger as
+    counter-evidence to "no prior platform-scale studies" than as a final census of all YouTube.
   themes:
   - descriptive-deficit
   census_papers:
@@ -1487,5 +1498,7 @@ claims:
   verification: machine_extracted
   appears_in:
   - wiki/sources/borghol_et_al_2012.md
+  appears_in:
+  - wiki/sources/bartl_2018.md
   - wiki/themes/descriptive_deficit.md
   verification: machine_extracted

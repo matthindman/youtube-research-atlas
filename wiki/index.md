@@ -94,6 +94,7 @@ executive synthesis.
 - [[figueiredo_et_al_2011]] — lifetime-normalized popularity-growth study showing that different YouTube video classes reach cumulative-view milestones at different speeds
 - [[goodrow_2017]] — YouTube Blog milestone post claiming viewers were watching a billion hours of YouTube per day by early 2017
 - [[borghol_et_al_2012]] — clone-set study showing that prior views, first-mover timing, and search prominence could create durable popularity advantages on early YouTube
+- [[bartl_2018]] — early random-sample platform description showing both extreme channel-level concentration and the existence of pre-2020 large-scale YouTube baselines
 
 ## Paper dossiers
 

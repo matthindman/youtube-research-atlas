@@ -1745,6 +1745,15 @@ sources:
   year: 2012
   venue: Proceedings of the 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD '12)
   doi: 10.1145/2339530.2339717
+- id: bartl_2018
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'YouTube channels, uploads and views: A statistical analysis of the past 10 years'
+  authors:
+  - Bärtl, Mathias
+  year: 2018
+  venue: 'Convergence: The International Journal of Research into New Media Technologies 24(1)'
+  doi: 10.1177/1354856517736979
   canonical_format: pdf
   formats_available:
   - pdf
@@ -1754,6 +1763,7 @@ sources:
   - wiki/sources/figueiredo_et_al_2011.md
   - wiki/methods/lookback_calibration.md
   - wiki/sources/borghol_et_al_2012.md
+  - wiki/sources/bartl_2018.md
   - wiki/themes/descriptive_deficit.md
   - wiki/index.md
   tags:
@@ -1778,3 +1788,6 @@ sources:
   temporal_scope: Historical early-2010s YouTube clone-set data collected with public API fields, HTML scraping, and still-visible insight traces
   notes: The current registry schema lacks a conference-paper type, so this peer-reviewed KDD paper is slotted into `journal_article`. It is most valuable as historical evidence that first-mover timing,
     prior views, and search discovery could concentrate attention among otherwise similar videos.
+  temporal_scope: Historical pre-Shorts channel and video sample covering 2006-2016 uploads and channels retrieved through the YouTube API in 2016-2017
+  notes: This is one of the clearest early peer-reviewed attempts at platform-scale YouTube description. It is especially valuable as counter-evidence to blanket claims that no prior large-scale descriptive
+    studies existed, while still making its API-return, active-channel, and Latin-script sampling limits explicit.
