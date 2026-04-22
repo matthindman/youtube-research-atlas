@@ -1732,6 +1732,19 @@ sources:
   year: 2011
   venue: Proceedings of the Fourth ACM International Conference on Web Search and Data Mining (WSDM '11)
   doi: 10.1145/1935826.1935925
+- id: borghol_et_al_2012
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'The untold story of the clones: content-agnostic factors that impact YouTube video popularity'
+  authors:
+  - Borghol, Youmna
+  - Ardon, Sebastien
+  - Carlsson, Niklas
+  - Eager, Derek
+  - Mahanti, Anirban
+  year: 2012
+  venue: Proceedings of the 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD '12)
+  doi: 10.1145/2339530.2339717
   canonical_format: pdf
   formats_available:
   - pdf
@@ -1740,6 +1753,8 @@ sources:
   wiki_pages_touched:
   - wiki/sources/figueiredo_et_al_2011.md
   - wiki/methods/lookback_calibration.md
+  - wiki/sources/borghol_et_al_2012.md
+  - wiki/themes/descriptive_deficit.md
   - wiki/index.md
   tags:
   - descriptive-deficit
@@ -1760,3 +1775,6 @@ sources:
   - paper1-attention-economy
   temporal_scope: February 2017 platform milestone statement about global daily watch time on pre-Shorts YouTube
   notes: Platform-authored YouTube Blog milestone post. Strongest for the narrow claim that YouTube said it had reached one billion watch-hours per day, not for any independent ranking against other platforms.
+  temporal_scope: Historical early-2010s YouTube clone-set data collected with public API fields, HTML scraping, and still-visible insight traces
+  notes: The current registry schema lacks a conference-paper type, so this peer-reviewed KDD paper is slotted into `journal_article`. It is most valuable as historical evidence that first-mover timing,
+    prior views, and search discovery could concentrate attention among otherwise similar videos.

@@ -93,6 +93,7 @@ executive synthesis.
 - [[youtube_shorts_views_2025]] — YouTube Help documentation of the March 31, 2025 Shorts view-count rule change and the continued use of Engaged views for monetization
 - [[figueiredo_et_al_2011]] — lifetime-normalized popularity-growth study showing that different YouTube video classes reach cumulative-view milestones at different speeds
 - [[goodrow_2017]] — YouTube Blog milestone post claiming viewers were watching a billion hours of YouTube per day by early 2017
+- [[borghol_et_al_2012]] — clone-set study showing that prior views, first-mover timing, and search prominence could create durable popularity advantages on early YouTube
 
 ## Paper dossiers
 

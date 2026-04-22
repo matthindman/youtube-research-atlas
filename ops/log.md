@@ -2663,3 +2663,30 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/goodrow_2017?quick_pull=1
+## 2026-04-17 — ingest borghol_et_al_2012
+**Operation:** ingest-source
+**Branch:** ingest/borghol_et_al_2012
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/borghol_et_al_2012.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+- Confirmed that `sources/papers/borghol2011clones.pdf` is the 2012 KDD
+  conference paper despite the misleading filename.
+- Verified the page-1191 first-mover quote and the accompanying winner-
+  ordering table for upload and search timing.
+- Kept the source scoped as historical evidence about popularity
+  concentration mechanisms rather than as a representative census of
+  YouTube as a whole.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; the paper is peer-reviewed and reports
+  original clone-set data plus statistical analysis.
+- Routed the source to `descriptive-deficit` because it clarifies how
+  public view counts already reflect cumulative visibility dynamics and
+  because it relies on historical API and insight traces that later
+  became harder to access.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/borghol_et_al_2012?quick_pull=1
