@@ -2794,3 +2794,31 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/nielsen_gauge_2025?quick_pull=1
+## 2026-04-17 — ingest szabo_huberman_2010
+**Operation:** ingest-source
+**Branch:** ingest/szabo_huberman_2010
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/szabo_huberman_2010.md`, created
+`wiki/methods/lookback_calibration.md`, and updated the registries,
+index, and log.
+- Verified the CACM article's historical YouTube sample size (7,146
+  videos), 30-day prediction horizon, and the page-88 line that
+  YouTube videos had to be followed for 10 days to achieve the same
+  10% relative error that Digg reached after two hours.
+- Kept the ingest scoped as methodological calibration evidence rather
+  than as a platform-composition baseline.
+- Built a self-contained `lookback_calibration` method page on this
+  branch because the method page is not yet on `main`.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; the article reports original data
+  collection and model evaluation despite its magazine-style venue.
+- Tagged the source under `descriptive-deficit` in the registry because
+  the atlas lacks a method-theme slug for lookback calibration; the main
+  synthesis target on this branch is `wiki/methods/lookback_calibration.md`.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/szabo_huberman_2010?quick_pull=1

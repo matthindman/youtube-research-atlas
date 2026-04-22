@@ -24,6 +24,7 @@ executive synthesis.
 - [[ideology_estimation]] — video-level and channel-level approaches for placing political YouTube content in ideological space
 - [[channel_classification]] — scalable approaches for discovering and classifying YouTube channels under changing data-access regimes
 - [[lookback_calibration]] — choosing observation windows for estimating cumulative views under changing attention lifecycles
+- [[lookback_calibration]] — methods for estimating how much early view history is needed before later popularity comparisons or forecasts stabilize
 - [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
 
 ## Debates
@@ -98,6 +99,7 @@ executive synthesis.
 - [[datareportal_top_social_2025]] — DataReportal synthesis arguing that YouTube was the most-used social platform at the start of 2025 under a qualified Android-based ranking
 - [[datareportal_time_2024]] — DataReportal time-spent synthesis showing YouTube leads on total Android time while TikTok leads on average time per user
 - [[nielsen_gauge_2025]] — Nielsen Gauge snapshot showing YouTube captured 13.4% of U.S. television-screen viewing in July 2025
+- [[szabo_huberman_2010]] — historical popularity-prediction paper showing YouTube videos needed longer early observation windows than Digg stories to reach comparable forecast accuracy
 
 ## Paper dossiers
 

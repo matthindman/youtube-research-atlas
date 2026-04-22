@@ -1781,6 +1781,16 @@ sources:
   year: 2018
   venue: 'Convergence: The International Journal of Research into New Media Technologies 24(1)'
   doi: 10.1177/1354856517736979
+- id: szabo_huberman_2010
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Predicting the popularity of online content
+  authors:
+  - Szabo, Gabor
+  - Huberman, Bernardo A.
+  year: 2010
+  venue: Communications of the ACM 53(8)
+  doi: 10.1145/1787234.1787254
   canonical_format: pdf
   formats_available:
   - pdf
@@ -1794,6 +1804,8 @@ sources:
   - wiki/sources/datareportal_top_social_2025.md
   - wiki/sources/datareportal_time_2024.md
   - wiki/themes/descriptive_deficit.md
+  - wiki/sources/szabo_huberman_2010.md
+  - wiki/methods/lookback_calibration.md
   - wiki/index.md
   tags:
   - descriptive-deficit
@@ -1838,3 +1850,5 @@ sources:
   - study3-media-system
   temporal_scope: U.S. television-screen viewing share for the July 2025 Nielsen Gauge interval (June 30-July 27, 2025)
   notes: Useful only for a narrow U.S. TV-screen baseline. The article does not measure all-device viewing or global YouTube attention, so those scope limits need to travel with any citation.
+  temporal_scope: Historical YouTube and Digg popularity series collected in 2007-2008 with 30-day outcome windows
+  notes: Foundational historical lookback-calibration source showing that YouTube's longer content life cycle required a much longer observation window than Digg to reach the same forecast accuracy.

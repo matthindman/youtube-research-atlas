@@ -1520,6 +1520,17 @@ claims:
   conflicting_sources: []
   scope_conditions: Current support comes from an early random-string API sampling design that excludes channels with fewer than five uploads and undercovers non-Latin-script channels; it is stronger as
     counter-evidence to "no prior platform-scale studies" than as a final census of all YouTube.
+- id: claim_descriptive_deficit_lookback_windows_require_calibration
+  text: Observation windows for YouTube popularity should be calibrated to content life cycle rather than assumed, because early view counts can remain predictive only after substantially longer windows than on fast-decay platforms.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Historical YouTube and Digg popularity series collected in 2007-2008 with 30-day forecast targets.
+  primary_sources:
+  - szabo_huberman_2010
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a historical Digg-versus-YouTube comparison built on 2008 YouTube view-count series from the "recently added" page. It establishes the need for calibration,
+    not a timeless fixed lookback value for current YouTube.
   themes:
   - descriptive-deficit
   census_papers:
@@ -1535,4 +1546,8 @@ claims:
   appears_in:
   - wiki/sources/bartl_2018.md
   - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+  appears_in:
+  - wiki/sources/szabo_huberman_2010.md
+  - wiki/methods/lookback_calibration.md
   verification: machine_extracted
