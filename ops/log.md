@@ -2732,6 +2732,19 @@ descriptive-deficit theme, registry, index, and log.
   third-party Android activity, excludes China, and is not a clean
   audited global census.
 - Used the existing Wayback snapshot from 2025-11-29 in the source card
+  metadata.
+
+Tier and taxonomy notes:
+
+- Assigned `industry_report`; this is useful for stage-setting and
+  cross-platform orientation, not for causal or mechanism claims.
+- Updated the existing platform-baseline claim rather than creating a
+  duplicate, broadening it from UK-only Ofcom evidence to a mixed
+  industry baseline with clearly stated measurement caveats.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/datareportal_top_social_2025?quick_pull=1
 ## 2026-04-17 — ingest datareportal_time_2024
 **Operation:** ingest-source
 **Branch:** ingest/datareportal_time_2024
@@ -2749,15 +2762,6 @@ descriptive-deficit theme, registries, index, and log.
 
 Tier and taxonomy notes:
 
-- Assigned `industry_report`; this is useful for stage-setting and
-  cross-platform orientation, not for causal or mechanism claims.
-- Updated the existing platform-baseline claim rather than creating a
-  duplicate, broadening it from UK-only Ofcom evidence to a mixed
-  industry baseline with clearly stated measurement caveats.
-
-Prefilled compare URL:
-
-- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/datareportal_top_social_2025?quick_pull=1
 - Assigned `industry_report`; the source is useful for metric-qualified
   stage-setting, not for causal or platform-mechanism claims.
 - Added a new cross-cutting methodological claim about metric choice in

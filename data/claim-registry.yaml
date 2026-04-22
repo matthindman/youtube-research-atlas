@@ -1350,28 +1350,17 @@ claims:
   - wiki/themes/news_ecosystem.md
   verification: machine_extracted
 - id: claim_descriptive_deficit_platform_scale_industry_baselines
-  text: Current industry and regulatory reports can supply national and cross-platform baseline evidence that YouTube remains a top-reach service, even though those baselines are measurement-specific and non-peer-reviewed.
+  text: Current industry and regulatory reports can supply national, cross-platform, and device-specific baseline evidence that YouTube remains a top-reach or top-viewing service, even though those baselines are measurement-specific and non-peer-reviewed.
   claim_type: empirical-descriptive
   evidence_strength: multi-source
-  temporal_scope: UK platform-use baseline in 2025 plus a February 2025 global-ish Android-based cross-platform ranking built from late-2024 app activity.
+  temporal_scope: UK platform-use baseline in 2025; a February 2025 global-ish Android-based cross-platform ranking built from late-2024 app activity; and a July 2025 U.S. television-screen viewing-share baseline.
   primary_sources:
   - ofcom_2025
   supporting_sources:
   - datareportal_top_social_2025
-  conflicting_sources: []
-  scope_conditions: Current support comes from a UK regulatory industry report plus a DataReportal synthesis of third-party app-use sources. It is useful for platform-scale orientation, but should not be
-    treated as evidence about global composition, content exposure, or causal mechanisms, and the comparative ranking depends on Android-heavy measurement that excludes China.
-  text: Current industry and regulatory reports can supply national and device-specific baseline evidence that YouTube remains a top-reach or top-viewing service, even though those baselines are scope-limited and non-peer-reviewed.
-  claim_type: empirical-descriptive
-  evidence_strength: multi-source
-  temporal_scope: UK platform-use baseline in 2025 plus a July 2025 U.S. television-screen viewing-share baseline.
-  primary_sources:
-  - ofcom_2025
-  supporting_sources:
   - nielsen_gauge_2025
   conflicting_sources: []
-  scope_conditions: Current support comes from a UK regulatory industry report plus a Nielsen U.S. television-screen snapshot. It is useful for platform-scale orientation but should not be treated as evidence
-    about global composition, all-device viewing, content exposure, or causal mechanisms.
+  scope_conditions: Current support comes from a UK regulatory industry report, a DataReportal synthesis of third-party app-use sources, and a Nielsen U.S. television-screen snapshot. It is useful for platform-scale orientation but should not be treated as evidence about global composition, all-device viewing, content exposure, or causal mechanisms, and the cross-platform ranking depends on Android-heavy measurement that excludes China.
   themes:
   - descriptive-deficit
   - governance-data-access
@@ -1384,26 +1373,6 @@ claims:
   - wiki/sources/nielsen_gauge_2025.md
   - wiki/themes/descriptive_deficit.md
   - wiki/themes/governance_data_access.md
-  verification: machine_extracted
-- id: claim_descriptive_deficit_platform_rankings_depend_on_metric_choice
-  text: Public cross-platform rankings can place YouTube first on total time spent while placing other services first on average time per user, so comparative claims about platform dominance need to name the metric.
-  claim_type: methodological
-  evidence_strength: single-source
-  temporal_scope: Public app-time rankings published in January 2024 and centered on late-2023 Android activity.
-  primary_sources:
-  - datareportal_time_2024
-  supporting_sources: []
-  conflicting_sources: []
-  scope_conditions: Current support comes from a non-peer-reviewed DataReportal synthesis of third-party app-use data. It is strongest as a caution about metric choice in public platform comparisons, not as a
-    definitive audit of all-platform attention.
-  themes:
-  - descriptive-deficit
-  census_papers:
-  - methods-companion
-  - paper1-attention-economy
-  appears_in:
-  - wiki/sources/datareportal_time_2024.md
-  - wiki/themes/descriptive_deficit.md
   verification: machine_extracted
 - id: claim_creator_economy_platform_documented_monetization_stack
   text: YouTube publicly documents a multi-route creator monetization stack in which ad and subscription revenue sharing sits alongside fan funding, shopping, memberships, ticketing, gifts, and related
@@ -1478,6 +1447,38 @@ claims:
   supporting_sources: []
   conflicting_sources: []
   scope_conditions: This is a platform-documented metric-definition change, not independent evidence about how creators, viewers, or recommendation systems responded to the change.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study10-shorts-vs-long-form
+  appears_in:
+  - wiki/sources/youtube_shorts_views_2025.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_lookback_windows_require_calibration
+  text: Lookback windows for estimating cumulative YouTube attention should be calibrated to video class, content life cycle, and platform regime rather than treated as a single universal window; early view counts on YouTube remain predictive only after substantially longer windows than on fast-decay platforms.
+  claim_type: methodological
+  evidence_strength: multi-source
+  temporal_scope: Pre-2010 YouTube popularity histories observed in April 2010 plus historical YouTube and Digg popularity series collected in 2007-2008 with 30-day forecast targets.
+  primary_sources:
+  - figueiredo_et_al_2011
+  - szabo_huberman_2010
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from lifetime-normalized view histories for Top, copyright-removed, and random-topic videos on pre-2010 YouTube, plus a historical Digg-versus-YouTube comparison built on 2008 YouTube view-count series from the "recently added" page. It establishes the need for calibration, not a timeless fixed lookback value for current YouTube or Shorts-era regimes.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study10-shorts-vs-long-form
+  appears_in:
+  - wiki/sources/figueiredo_et_al_2011.md
+  - wiki/sources/szabo_huberman_2010.md
+  - wiki/methods/lookback_calibration.md
+  verification: machine_extracted
 - id: claim_descriptive_deficit_first_mover_and_search_bias_concentrate_views
   text: On early YouTube, cumulative views, first-mover timing, and early search discovery could give otherwise similar videos durable popularity advantages independent of content differences.
   claim_type: empirical-descriptive
@@ -1489,6 +1490,55 @@ claims:
   conflicting_sources: []
   scope_conditions: Current support comes from 48 manually identified clone sets of near-identical videos rather than a representative platform-wide sample, and from a historical interface environment with
     richer public insight data than later researchers could access.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/borghol_et_al_2012.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_early_platform_scale_samples_found_extreme_concentration
+  text: Peer-reviewed platform-scale YouTube description existed before the current atlas wave, and those early random-sample studies already found extreme concentration of views among a small minority of channels.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: Pre-Shorts YouTube channels and uploads from 2006-2016, sampled through the YouTube API in 2016-2017.
+  primary_sources:
+  - bartl_2018
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from an early random-string API sampling design that excludes channels with fewer than five uploads and undercovers non-Latin-script channels; it is stronger as
+    counter-evidence to "no prior platform-scale studies" than as a final census of all YouTube.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/bartl_2018.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_platform_rankings_depend_on_metric_choice
+  text: Public cross-platform rankings can place YouTube first on total time spent while placing other services first on average time per user, so comparative claims about platform dominance need to name the metric.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Public app-time rankings published in January 2024 and centered on late-2023 Android activity.
+  primary_sources:
+  - datareportal_time_2024
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a non-peer-reviewed DataReportal synthesis of third-party app-use data. It is strongest as a caution about metric choice in public platform comparisons, not as a
+    definitive audit of all-platform attention.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/datareportal_time_2024.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
 - id: claim_descriptive_deficit_socialblade_is_partial_benchmark
   text: SocialBlade is a partial commercial benchmark rather than a YouTube census, because its tracked-channel universe is selective, profile updates vary by popularity, and historical depth is limited by when a profile entered the system and by product constraints.
   claim_type: methodological
@@ -1505,63 +1555,6 @@ claims:
   census_papers:
   - methods-companion
   - paper1-attention-economy
-  - study10-shorts-vs-long-form
-  appears_in:
-  - wiki/sources/youtube_shorts_views_2025.md
-  - wiki/themes/descriptive_deficit.md
-  verification: machine_extracted
-- id: claim_descriptive_deficit_lookback_windows_require_calibration
-  text: Lookback windows for estimating cumulative YouTube attention should be calibrated to video class and platform regime rather than treated as a single universal window.
-  claim_type: methodological
-  evidence_strength: single-source
-  temporal_scope: Pre-2010 YouTube popularity histories observed in April 2010.
-  primary_sources:
-  - figueiredo_et_al_2011
-  supporting_sources: []
-  conflicting_sources: []
-  scope_conditions: Current support comes from lifetime-normalized view histories for Top, copyright-removed, and random-topic videos on pre-2010 YouTube; modern and Shorts-era regimes may need different calibration.
-- id: claim_descriptive_deficit_early_platform_scale_samples_found_extreme_concentration
-  text: Peer-reviewed platform-scale YouTube description existed before the current atlas wave, and those early random-sample studies already found extreme concentration of views among a small minority of channels.
-  claim_type: empirical-descriptive
-  evidence_strength: single-source
-  temporal_scope: Pre-Shorts YouTube channels and uploads from 2006-2016, sampled through the YouTube API in 2016-2017.
-  primary_sources:
-  - bartl_2018
-  supporting_sources: []
-  conflicting_sources: []
-  scope_conditions: Current support comes from an early random-string API sampling design that excludes channels with fewer than five uploads and undercovers non-Latin-script channels; it is stronger as
-    counter-evidence to "no prior platform-scale studies" than as a final census of all YouTube.
-- id: claim_descriptive_deficit_lookback_windows_require_calibration
-  text: Observation windows for YouTube popularity should be calibrated to content life cycle rather than assumed, because early view counts can remain predictive only after substantially longer windows than on fast-decay platforms.
-  claim_type: methodological
-  evidence_strength: single-source
-  temporal_scope: Historical YouTube and Digg popularity series collected in 2007-2008 with 30-day forecast targets.
-  primary_sources:
-  - szabo_huberman_2010
-  supporting_sources: []
-  conflicting_sources: []
-  scope_conditions: Current support comes from a historical Digg-versus-YouTube comparison built on 2008 YouTube view-count series from the "recently added" page. It establishes the need for calibration,
-    not a timeless fixed lookback value for current YouTube.
-  themes:
-  - descriptive-deficit
-  census_papers:
-  - methods-companion
-  - paper1-attention-economy
-  - study10-shorts-vs-long-form
-  appears_in:
-  - wiki/sources/figueiredo_et_al_2011.md
-  - wiki/methods/lookback_calibration.md
-  verification: machine_extracted
-  appears_in:
-  - wiki/sources/borghol_et_al_2012.md
-  appears_in:
-  - wiki/sources/bartl_2018.md
-  - wiki/themes/descriptive_deficit.md
-  verification: machine_extracted
-  appears_in:
-  - wiki/sources/szabo_huberman_2010.md
-  - wiki/methods/lookback_calibration.md
-  verification: machine_extracted
   appears_in:
   - wiki/sources/socialblade_docs_2025.md
   - wiki/themes/descriptive_deficit.md

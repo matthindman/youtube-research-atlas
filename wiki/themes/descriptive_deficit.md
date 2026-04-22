@@ -7,33 +7,11 @@ temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
 last_refreshed: 2026-04-17
-source_count: 11
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025]
+source_count: 18
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025, goodrow_2017, borghol_et_al_2012, bartl_2018, datareportal_top_social_2025, datareportal_time_2024, nielsen_gauge_2025, socialblade_docs_2025]
 split_candidates: []
 verification:
-  machine_extracted: 41
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, goodrow_2017]
-split_candidates: []
-verification:
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, borghol_et_al_2012]
-split_candidates: []
-verification:
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, bartl_2018]
-split_candidates: []
-verification:
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, datareportal_top_social_2025]
-split_candidates: []
-verification:
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, datareportal_time_2024]
-split_candidates: []
-verification:
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, nielsen_gauge_2025]
-split_candidates: []
-verification:
-key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, socialblade_docs_2025]
-split_candidates: []
-verification:
-  machine_extracted: 40
+  machine_extracted: 48
   human_checked: 0
   publication_ready: 0
   needs_citation: 0

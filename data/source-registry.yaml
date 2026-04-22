@@ -1688,51 +1688,15 @@ sources:
   - YouTube Help
   year: 2025
   venue: YouTube Help
-- id: goodrow_2017
-  type: platform_doc
-  evidence_tier: platform_documentation
-  title: You know what's cool? A billion hours
-  authors:
-  - Goodrow, Cristos
-  year: 2017
-  venue: YouTube Blog
   doi: null
   canonical_format: htm
   formats_available:
   - htm
-- id: datareportal_top_social_2025
-  type: industry_report
-  evidence_tier: industry_report
-  title: 'Digital 2025: top social platforms in 2025'
-  authors:
-  - Kemp, Simon
-  year: 2025
-- id: datareportal_time_2024
-  type: industry_report
-  evidence_tier: industry_report
-  title: 'The time we spend on social media'
-  authors:
-  - Kemp, Simon
-  year: 2024
-  venue: DataReportal – Global Digital Insights
-- id: nielsen_gauge_2025
-  type: industry_report
-  evidence_tier: industry_report
-  title: "YouTube, Netflix Ride the Wave of Summer Streaming Highs in Nielsen's Media Distributor Gauge"
-  authors:
-  - Nielsen
-  year: 2025
-  venue: Nielsen
-  doi: null
-  canonical_format: mhtml
-  formats_available:
   - mhtml
   status: ingested
   date_ingested: 2026-04-17
   wiki_pages_touched:
   - wiki/sources/youtube_shorts_views_2025.md
-  - wiki/sources/goodrow_2017.md
-  - wiki/sources/nielsen_gauge_2025.md
   - wiki/themes/descriptive_deficit.md
   - wiki/index.md
   tags:
@@ -1759,6 +1723,55 @@ sources:
   year: 2011
   venue: Proceedings of the Fourth ACM International Conference on Web Search and Data Mining (WSDM '11)
   doi: 10.1145/1935826.1935925
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/figueiredo_et_al_2011.md
+  - wiki/methods/lookback_calibration.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  - study10-shorts-vs-long-form
+  temporal_scope: Popularity histories and referrer traces collected in April 2010 for videos already uploaded to YouTube by that date
+  notes: "Peer-reviewed WSDM paper. Main atlas value is methodological: lifetime-normalized view accumulation differs across video classes, so lookback windows should be calibrated rather than assumed."
+- id: goodrow_2017
+  type: platform_doc
+  evidence_tier: platform_documentation
+  title: You know what's cool? A billion hours
+  authors:
+  - Goodrow, Cristos
+  year: 2017
+  venue: YouTube Blog
+  doi: null
+  canonical_format: htm
+  formats_available:
+  - htm
+  - mhtml
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/goodrow_2017.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: February 2017 platform milestone statement about global daily watch time on pre-Shorts YouTube
+  notes: Platform-authored YouTube Blog milestone post. Strongest for the narrow claim that YouTube said it had reached one billion watch-hours per day, not for any independent ranking against other platforms.
 - id: borghol_et_al_2012
   type: journal_article
   evidence_tier: primary_empirical
@@ -1772,6 +1785,26 @@ sources:
   year: 2012
   venue: Proceedings of the 18th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD '12)
   doi: 10.1145/2339530.2339717
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/borghol_et_al_2012.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: Historical early-2010s YouTube clone-set data collected with public API fields, HTML scraping, and still-visible insight traces
+  notes: The current registry schema lacks a conference-paper type, so this peer-reviewed KDD paper is slotted into `journal_article`. It is most valuable as historical evidence that first-mover timing,
+    prior views, and search discovery could concentrate attention among otherwise similar videos.
 - id: bartl_2018
   type: journal_article
   evidence_tier: primary_empirical
@@ -1781,6 +1814,112 @@ sources:
   year: 2018
   venue: 'Convergence: The International Journal of Research into New Media Technologies 24(1)'
   doi: 10.1177/1354856517736979
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/bartl_2018.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: Historical pre-Shorts channel and video sample covering 2006-2016 uploads and channels retrieved through the YouTube API in 2016-2017
+  notes: This is one of the clearest early peer-reviewed attempts at platform-scale YouTube description. It is especially valuable as counter-evidence to blanket claims that no prior large-scale descriptive
+    studies existed, while still making its API-return, active-channel, and Latin-script sampling limits explicit.
+- id: datareportal_top_social_2025
+  type: industry_report
+  evidence_tier: industry_report
+  title: 'Digital 2025: top social platforms in 2025'
+  authors:
+  - Kemp, Simon
+  year: 2025
+  venue: DataReportal – Global Digital Insights
+  doi: null
+  canonical_format: mhtml
+  formats_available:
+  - mhtml
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/datareportal_top_social_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Global cross-platform ranking article published February 5, 2025, using third-party app-use sources centered on late-2024 activity
+  notes: DataReportal's headline ranking is useful for softened stage-setting that YouTube remained a top platform in early 2025, but it rests on third-party Android-heavy app-use estimates and explicitly
+    excludes China.
+- id: datareportal_time_2024
+  type: industry_report
+  evidence_tier: industry_report
+  title: 'The time we spend on social media'
+  authors:
+  - Kemp, Simon
+  year: 2024
+  venue: DataReportal – Global Digital Insights
+  doi: null
+  canonical_format: mhtml
+  formats_available:
+  - mhtml
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/datareportal_time_2024.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: Global app-time article published January 31, 2024, using third-party mobile-app measures centered on late-2023 activity
+  notes: Useful for the narrower claim that public app-time rankings can place YouTube first on total time spent while still placing TikTok first on average time per user. It should be cited with the metric
+    named because the ranking is not invariant across measures.
+- id: nielsen_gauge_2025
+  type: industry_report
+  evidence_tier: industry_report
+  title: "YouTube, Netflix Ride the Wave of Summer Streaming Highs in Nielsen's Media Distributor Gauge"
+  authors:
+  - Nielsen
+  year: 2025
+  venue: Nielsen
+  doi: null
+  canonical_format: mhtml
+  formats_available:
+  - mhtml
+  status: ingested
+  date_ingested: 2026-04-17
+  wiki_pages_touched:
+  - wiki/sources/nielsen_gauge_2025.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: low
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: U.S. television-screen viewing share for the July 2025 Nielsen Gauge interval (June 30-July 27, 2025)
+  notes: Useful only for a narrow U.S. TV-screen baseline. The article does not measure all-device viewing or global YouTube attention, so those scope limits need to travel with any citation.
 - id: szabo_huberman_2010
   type: journal_article
   evidence_tier: primary_empirical
@@ -1797,15 +1936,19 @@ sources:
   status: ingested
   date_ingested: 2026-04-17
   wiki_pages_touched:
-  - wiki/sources/figueiredo_et_al_2011.md
-  - wiki/methods/lookback_calibration.md
-  - wiki/sources/borghol_et_al_2012.md
-  - wiki/sources/bartl_2018.md
-  - wiki/sources/datareportal_top_social_2025.md
-  - wiki/sources/datareportal_time_2024.md
-  - wiki/themes/descriptive_deficit.md
   - wiki/sources/szabo_huberman_2010.md
   - wiki/methods/lookback_calibration.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: Historical YouTube and Digg popularity series collected in 2007-2008 with 30-day outcome windows
+  notes: Foundational historical lookback-calibration source showing that YouTube's longer content life cycle required a much longer observation window than Digg to reach the same forecast accuracy.
 - id: socialblade_docs_2025
   type: platform_doc
   evidence_tier: platform_documentation
@@ -1828,47 +1971,6 @@ sources:
   - descriptive-deficit
   themes:
   - descriptive-deficit
-  census_relevance: high
-  census_papers:
-  - methods-companion
-  - paper1-attention-economy
-  - study10-shorts-vs-long-form
-  temporal_scope: Popularity histories and referrer traces collected in April 2010 for videos already uploaded to YouTube by that date
-  notes: "Peer-reviewed WSDM paper. Main atlas value is methodological: lifetime-normalized view accumulation differs across video classes, so lookback windows should be calibrated rather than assumed."
-  themes:
-  - descriptive-deficit
-  census_relevance: medium
-  census_papers:
-  - methods-companion
-  - paper1-attention-economy
-  temporal_scope: February 2017 platform milestone statement about global daily watch time on pre-Shorts YouTube
-  notes: Platform-authored YouTube Blog milestone post. Strongest for the narrow claim that YouTube said it had reached one billion watch-hours per day, not for any independent ranking against other platforms.
-  temporal_scope: Historical early-2010s YouTube clone-set data collected with public API fields, HTML scraping, and still-visible insight traces
-  notes: The current registry schema lacks a conference-paper type, so this peer-reviewed KDD paper is slotted into `journal_article`. It is most valuable as historical evidence that first-mover timing,
-    prior views, and search discovery could concentrate attention among otherwise similar videos.
-  temporal_scope: Historical pre-Shorts channel and video sample covering 2006-2016 uploads and channels retrieved through the YouTube API in 2016-2017
-  notes: This is one of the clearest early peer-reviewed attempts at platform-scale YouTube description. It is especially valuable as counter-evidence to blanket claims that no prior large-scale descriptive
-    studies existed, while still making its API-return, active-channel, and Latin-script sampling limits explicit.
-  census_relevance: medium
-  census_papers:
-  - methods-companion
-  - study3-media-system
-  temporal_scope: Global cross-platform ranking article published February 5, 2025, using third-party app-use sources centered on late-2024 activity
-  notes: DataReportal's headline ranking is useful for softened stage-setting that YouTube remained a top platform in early 2025, but it rests on third-party Android-heavy app-use estimates and explicitly
-    excludes China.
-  temporal_scope: Global app-time article published January 31, 2024, using third-party mobile-app measures centered on late-2023 activity
-  notes: Useful for the narrower claim that public app-time rankings can place YouTube first on total time spent while still placing TikTok first on average time per user. It should be cited with the metric
-    named because the ranking is not invariant across measures.
-  themes:
-  - descriptive-deficit
-  census_relevance: low
-  census_papers:
-  - methods-companion
-  - study3-media-system
-  temporal_scope: U.S. television-screen viewing share for the July 2025 Nielsen Gauge interval (June 30-July 27, 2025)
-  notes: Useful only for a narrow U.S. TV-screen baseline. The article does not measure all-device viewing or global YouTube attention, so those scope limits need to travel with any citation.
-  temporal_scope: Historical YouTube and Digg popularity series collected in 2007-2008 with 30-day outcome windows
-  notes: Foundational historical lookback-calibration source showing that YouTube's longer content life cycle required a much longer observation window than Digg to reach the same forecast accuracy.
   census_relevance: low
   census_papers:
   - methods-companion

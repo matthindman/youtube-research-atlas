@@ -24,7 +24,6 @@ executive synthesis.
 - [[ideology_estimation]] — video-level and channel-level approaches for placing political YouTube content in ideological space
 - [[channel_classification]] — scalable approaches for discovering and classifying YouTube channels under changing data-access regimes
 - [[lookback_calibration]] — choosing observation windows for estimating cumulative views under changing attention lifecycles
-- [[lookback_calibration]] — methods for estimating how much early view history is needed before later popularity comparisons or forecasts stabilize
 - [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
 
 ## Debates
