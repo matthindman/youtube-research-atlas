@@ -1700,6 +1700,17 @@ sources:
   canonical_format: htm
   formats_available:
   - htm
+- id: datareportal_top_social_2025
+  type: industry_report
+  evidence_tier: industry_report
+  title: 'Digital 2025: top social platforms in 2025'
+  authors:
+  - Kemp, Simon
+  year: 2025
+  venue: DataReportal – Global Digital Insights
+  doi: null
+  canonical_format: mhtml
+  formats_available:
   - mhtml
   status: ingested
   date_ingested: 2026-04-17
@@ -1764,6 +1775,7 @@ sources:
   - wiki/methods/lookback_calibration.md
   - wiki/sources/borghol_et_al_2012.md
   - wiki/sources/bartl_2018.md
+  - wiki/sources/datareportal_top_social_2025.md
   - wiki/themes/descriptive_deficit.md
   - wiki/index.md
   tags:
@@ -1791,3 +1803,10 @@ sources:
   temporal_scope: Historical pre-Shorts channel and video sample covering 2006-2016 uploads and channels retrieved through the YouTube API in 2016-2017
   notes: This is one of the clearest early peer-reviewed attempts at platform-scale YouTube description. It is especially valuable as counter-evidence to blanket claims that no prior large-scale descriptive
     studies existed, while still making its API-return, active-channel, and Latin-script sampling limits explicit.
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: Global cross-platform ranking article published February 5, 2025, using third-party app-use sources centered on late-2024 activity
+  notes: DataReportal's headline ranking is useful for softened stage-setting that YouTube remained a top platform in early 2025, but it rests on third-party Android-heavy app-use estimates and explicitly
+    excludes China.

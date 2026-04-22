@@ -2718,3 +2718,30 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/bartl_2018?quick_pull=1
+## 2026-04-17 — ingest datareportal_top_social_2025
+**Operation:** ingest-source
+**Branch:** ingest/datareportal_top_social_2025
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/datareportal_top_social_2025.md` and updated the
+descriptive-deficit theme, registry, index, and log.
+- Verified the archived `.mhtml` captures Simon Kemp's February 5, 2025
+  DataReportal article and the exact line that "YouTube is the most
+  used social media platform at the start of 2025."
+- Preserved the article's own scope limits: the ranking depends on
+  third-party Android activity, excludes China, and is not a clean
+  audited global census.
+- Used the existing Wayback snapshot from 2025-11-29 in the source card
+  metadata.
+
+Tier and taxonomy notes:
+
+- Assigned `industry_report`; this is useful for stage-setting and
+  cross-platform orientation, not for causal or mechanism claims.
+- Updated the existing platform-baseline claim rather than creating a
+  duplicate, broadening it from UK-only Ofcom evidence to a mixed
+  industry baseline with clearly stated measurement caveats.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/datareportal_top_social_2025?quick_pull=1

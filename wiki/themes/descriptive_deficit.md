@@ -21,6 +21,9 @@ verification:
 key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, bartl_2018]
 split_candidates: []
 verification:
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, datareportal_top_social_2025]
+split_candidates: []
+verification:
   machine_extracted: 40
   human_checked: 0
   publication_ready: 0
@@ -77,6 +80,13 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   for making independent comparative claims about all digital platforms.
   *[Note: platform self-report, not independently verified.]* (Goodrow
   2017, Introduction). [🤖]
+- Non-peer-reviewed comparative baselines also place YouTube near the
+  top of the current platform landscape, but only with important
+  measurement caveats. DataReportal's 2025 ranking calls YouTube "the
+  most used social media platform" based on third-party Android app
+  activity, while explicitly excluding China and not claiming a full
+  audited census. *[Note: supported only by non-peer-reviewed sources.]*
+  (Kemp 2025, § Top.social.platform.by.active.users). [🤖]
 - Large-scale YouTube description is constrained not only by
   conceptual gaps but also by infrastructure problems: post-2019 API
   limits, insufficient tooling, uneven compute access, and the
@@ -282,6 +292,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[goodrow_2017]]
 - [[borghol_et_al_2012]]
 - [[bartl_2018]]
+- [[datareportal_top_social_2025]]
 
 ## Cross-References
 
