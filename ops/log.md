@@ -2732,6 +2732,19 @@ descriptive-deficit theme, registry, index, and log.
   third-party Android activity, excludes China, and is not a clean
   audited global census.
 - Used the existing Wayback snapshot from 2025-11-29 in the source card
+## 2026-04-17 — ingest datareportal_time_2024
+**Operation:** ingest-source
+**Branch:** ingest/datareportal_time_2024
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/datareportal_time_2024.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+- Verified the archived `.mhtml` captures Simon Kemp's January 31, 2024
+  DataReportal article and the exact line that "YouTube tops the
+  ranking by total time spent."
+- Preserved the article's own metric split: YouTube leads on total
+  Android-app time, while TikTok leads on average time per user.
+- Used the existing Wayback snapshot from 2026-03-27 in the source card
   metadata.
 
 Tier and taxonomy notes:
@@ -2745,3 +2758,12 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/datareportal_top_social_2025?quick_pull=1
+- Assigned `industry_report`; the source is useful for metric-qualified
+  stage-setting, not for causal or platform-mechanism claims.
+- Added a new cross-cutting methodological claim about metric choice in
+  public platform rankings rather than overloading the existing baseline
+  claim.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/datareportal_time_2024?quick_pull=1

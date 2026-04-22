@@ -24,6 +24,9 @@ verification:
 key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, datareportal_top_social_2025]
 split_candidates: []
 verification:
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, datareportal_time_2024]
+split_candidates: []
+verification:
   machine_extracted: 40
   human_checked: 0
   publication_ready: 0
@@ -87,6 +90,11 @@ generalize to the wider platform (McGrady et al. 2023, p. 4; Munger
   activity, while explicitly excluding China and not claiming a full
   audited census. *[Note: supported only by non-peer-reviewed sources.]*
   (Kemp 2025, § Top.social.platform.by.active.users). [🤖]
+- Public cross-platform rankings also depend on which metric is being
+  used. DataReportal's 2024 synthesis puts YouTube first on total
+  Android-app time spent, but the same article puts TikTok first on
+  average time per user. *[Note: supported only by non-peer-reviewed
+  sources.]* (Kemp 2024, § Total.time; § Average.time.per.user). [🤖]
 - Large-scale YouTube description is constrained not only by
   conceptual gaps but also by infrastructure problems: post-2019 API
   limits, insufficient tooling, uneven compute access, and the
@@ -293,6 +301,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[borghol_et_al_2012]]
 - [[bartl_2018]]
 - [[datareportal_top_social_2025]]
+- [[datareportal_time_2024]]
 
 ## Cross-References
 

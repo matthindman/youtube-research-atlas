@@ -1707,6 +1707,13 @@ sources:
   authors:
   - Kemp, Simon
   year: 2025
+- id: datareportal_time_2024
+  type: industry_report
+  evidence_tier: industry_report
+  title: 'The time we spend on social media'
+  authors:
+  - Kemp, Simon
+  year: 2024
   venue: DataReportal – Global Digital Insights
   doi: null
   canonical_format: mhtml
@@ -1776,6 +1783,7 @@ sources:
   - wiki/sources/borghol_et_al_2012.md
   - wiki/sources/bartl_2018.md
   - wiki/sources/datareportal_top_social_2025.md
+  - wiki/sources/datareportal_time_2024.md
   - wiki/themes/descriptive_deficit.md
   - wiki/index.md
   tags:
@@ -1810,3 +1818,6 @@ sources:
   temporal_scope: Global cross-platform ranking article published February 5, 2025, using third-party app-use sources centered on late-2024 activity
   notes: DataReportal's headline ranking is useful for softened stage-setting that YouTube remained a top platform in early 2025, but it rests on third-party Android-heavy app-use estimates and explicitly
     excludes China.
+  temporal_scope: Global app-time article published January 31, 2024, using third-party mobile-app measures centered on late-2023 activity
+  notes: Useful for the narrower claim that public app-time rankings can place YouTube first on total time spent while still placing TikTok first on average time per user. It should be cited with the metric
+    named because the ranking is not invariant across measures.

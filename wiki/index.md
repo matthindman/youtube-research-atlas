@@ -96,6 +96,7 @@ executive synthesis.
 - [[borghol_et_al_2012]] — clone-set study showing that prior views, first-mover timing, and search prominence could create durable popularity advantages on early YouTube
 - [[bartl_2018]] — early random-sample platform description showing both extreme channel-level concentration and the existence of pre-2020 large-scale YouTube baselines
 - [[datareportal_top_social_2025]] — DataReportal synthesis arguing that YouTube was the most-used social platform at the start of 2025 under a qualified Android-based ranking
+- [[datareportal_time_2024]] — DataReportal time-spent synthesis showing YouTube leads on total Android time while TikTok leads on average time per user
 
 ## Paper dossiers
 
