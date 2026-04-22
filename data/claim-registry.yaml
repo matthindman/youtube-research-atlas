@@ -1361,6 +1361,17 @@ claims:
   conflicting_sources: []
   scope_conditions: Current support comes from a UK regulatory industry report plus a DataReportal synthesis of third-party app-use sources. It is useful for platform-scale orientation, but should not be
     treated as evidence about global composition, content exposure, or causal mechanisms, and the comparative ranking depends on Android-heavy measurement that excludes China.
+  text: Current industry and regulatory reports can supply national and device-specific baseline evidence that YouTube remains a top-reach or top-viewing service, even though those baselines are scope-limited and non-peer-reviewed.
+  claim_type: empirical-descriptive
+  evidence_strength: multi-source
+  temporal_scope: UK platform-use baseline in 2025 plus a July 2025 U.S. television-screen viewing-share baseline.
+  primary_sources:
+  - ofcom_2025
+  supporting_sources:
+  - nielsen_gauge_2025
+  conflicting_sources: []
+  scope_conditions: Current support comes from a UK regulatory industry report plus a Nielsen U.S. television-screen snapshot. It is useful for platform-scale orientation but should not be treated as evidence
+    about global composition, all-device viewing, content exposure, or causal mechanisms.
   themes:
   - descriptive-deficit
   - governance-data-access
@@ -1370,6 +1381,7 @@ claims:
   appears_in:
   - wiki/sources/ofcom_2025.md
   - wiki/sources/datareportal_top_social_2025.md
+  - wiki/sources/nielsen_gauge_2025.md
   - wiki/themes/descriptive_deficit.md
   - wiki/themes/governance_data_access.md
   verification: machine_extracted

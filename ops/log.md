@@ -2767,3 +2767,30 @@ Prefilled compare URL:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/datareportal_time_2024?quick_pull=1
+## 2026-04-17 — ingest nielsen_gauge_2025
+**Operation:** ingest-source
+**Branch:** ingest/nielsen_gauge_2025
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/nielsen_gauge_2025.md` and updated the
+descriptive-deficit theme, registries, index, and log.
+- Verified the archived `.mhtml` captures Nielsen's August 26, 2025
+  article and the exact July 2025 headline that YouTube captured 13.4%
+  of TV watch-time.
+- Kept the source tightly scoped as U.S.-only and television-screen-
+  only, consistent with Nielsen's own description of The Gauge.
+- No existing Wayback snapshot was available at ingest time, so the card
+  uses a `wayback_save_url` only.
+
+Tier and taxonomy notes:
+
+- Assigned `industry_report`; this is a monthly measurement release,
+  useful for narrow audience-share orientation rather than for causal or
+  platform-mechanism claims.
+- Updated the existing industry-baseline claim rather than creating a
+  separate duplicate, broadening it to include device-specific U.S. TV
+  evidence with explicit scope limits.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/nielsen_gauge_2025?quick_pull=1

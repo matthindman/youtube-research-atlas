@@ -1715,6 +1715,14 @@ sources:
   - Kemp, Simon
   year: 2024
   venue: DataReportal – Global Digital Insights
+- id: nielsen_gauge_2025
+  type: industry_report
+  evidence_tier: industry_report
+  title: "YouTube, Netflix Ride the Wave of Summer Streaming Highs in Nielsen's Media Distributor Gauge"
+  authors:
+  - Nielsen
+  year: 2025
+  venue: Nielsen
   doi: null
   canonical_format: mhtml
   formats_available:
@@ -1724,6 +1732,7 @@ sources:
   wiki_pages_touched:
   - wiki/sources/youtube_shorts_views_2025.md
   - wiki/sources/goodrow_2017.md
+  - wiki/sources/nielsen_gauge_2025.md
   - wiki/themes/descriptive_deficit.md
   - wiki/index.md
   tags:
@@ -1821,3 +1830,11 @@ sources:
   temporal_scope: Global app-time article published January 31, 2024, using third-party mobile-app measures centered on late-2023 activity
   notes: Useful for the narrower claim that public app-time rankings can place YouTube first on total time spent while still placing TikTok first on average time per user. It should be cited with the metric
     named because the ranking is not invariant across measures.
+  themes:
+  - descriptive-deficit
+  census_relevance: low
+  census_papers:
+  - methods-companion
+  - study3-media-system
+  temporal_scope: U.S. television-screen viewing share for the July 2025 Nielsen Gauge interval (June 30-July 27, 2025)
+  notes: Useful only for a narrow U.S. TV-screen baseline. The article does not measure all-device viewing or global YouTube attention, so those scope limits need to travel with any citation.
