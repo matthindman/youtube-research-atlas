@@ -1489,6 +1489,17 @@ claims:
   conflicting_sources: []
   scope_conditions: Current support comes from 48 manually identified clone sets of near-identical videos rather than a representative platform-wide sample, and from a historical interface environment with
     richer public insight data than later researchers could access.
+- id: claim_descriptive_deficit_socialblade_is_partial_benchmark
+  text: SocialBlade is a partial commercial benchmark rather than a YouTube census, because its tracked-channel universe is selective, profile updates vary by popularity, and historical depth is limited by when a profile entered the system and by product constraints.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Mixed documentation from a 2014 tracking post and undated help/subscription pages retrieved in 2026.
+  primary_sources:
+  - socialblade_docs_2025
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from SocialBlade's own platform documentation. Live pages returned `403` at ingest time, so the supporting snippets remain unverified against the live pages and
+    should be treated as machine-draft until a human rechecks them.
   themes:
   - descriptive-deficit
   census_papers:
@@ -1550,4 +1561,8 @@ claims:
   appears_in:
   - wiki/sources/szabo_huberman_2010.md
   - wiki/methods/lookback_calibration.md
+  verification: machine_extracted
+  appears_in:
+  - wiki/sources/socialblade_docs_2025.md
+  - wiki/themes/descriptive_deficit.md
   verification: machine_extracted
