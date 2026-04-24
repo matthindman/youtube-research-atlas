@@ -2856,3 +2856,33 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/socialblade_docs_2025?quick_pull=1
+
+## 2026-04-24 — ingest akgul_et_al_2022
+**Operation:** ingest-source
+**Branch:** ingest/akgul_et_al_2022
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/akgul_et_al_2022.md` and updated the source
+registry, claim registry, index, descriptive-deficit source list,
+creator-economy theme, and random-video sampling method page.
+- Confirmed the PDF is Omer Akgul, Richard Roberts, Moses Namara, Dave
+  Levin, and Michelle L. Mazurek's 2022 IEEE Symposium on Security and
+  Privacy paper, with no DOI visible in the PDF text.
+- Captured the scale of the RPS baseline: 86.3 million videos, about
+  1.4% of YouTube, before the deeper filtering stage.
+- Flagged the main estimand caveat: the VPN-ad analysis is conditioned
+  on videos with at least 800 views and available English subtitles, so
+  its content-analysis stage is not a uniform video sample.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; this is a peer-reviewed conference
+  paper reporting original platform sampling, metadata collection, and
+  manual qualitative coding.
+- Routed the source to `descriptive-deficit` for RPS design and
+  post-sampling-threshold cautions, and to `creator-economy` for
+  influencer sponsorship and disclosure evidence.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/akgul_et_al_2022?quick_pull=1

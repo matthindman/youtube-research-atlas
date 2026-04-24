@@ -6,8 +6,8 @@ status: machine-draft
 temporal_scope: "Post-Partner-Program era; particularly post-2018"
 themes: [creator-economy]
 census_papers: [paper1-attention-economy]
-last_refreshed: 2026-04-16
-source_count: 9
+last_refreshed: 2026-04-24
+source_count: 10
 key_sources:
   - abou_el_komboz_et_al_2023
   - kumar_2019
@@ -17,6 +17,7 @@ key_sources:
   - ormen_gregersen_2023_engagement
   - newman_et_al_2025
   - youtube_2024
+  - akgul_et_al_2022
 split_candidates: []
 verification:
   machine_extracted: 28
@@ -75,6 +76,12 @@ development. [🤖]
   channels, legacy media, general-industry channels, and
   commentary-driven news creators occupy different niches rather
   than collapsing into a single creator type. [🤖]
+- Influencer sponsorships are another monetization layer with its own
+  measurement and governance problems. Akgul et al. identify 243
+  influencer VPN ad videos with 62.7 million views in a filtered
+  YouTube sample, while also finding that 55 of those videos did not
+  have disclosures the authors treated as at least somewhat guideline-
+  compliant (Akgul et al. 2022, pp. 5, 11-12). [🤖]
 
 ## Main Disagreements
 
@@ -104,6 +111,7 @@ income outcomes. [🤖]
 | YouTube is becoming an interconnected set of marketplaces that privileges commercially valuable engagement. | Ørmen and Gregersen 2023 (Engagement Economy) | Critical document analysis of platform communication and product design | single-source | 2021-2022 documents and features | [🤖] |
 | Commentary-driven creator niches, especially in news, are personality-led and strongly male-skewed. | Newman et al. 2025 | Audience survey plus creator typology across 24 countries | single-source | 2024-2025 | [🤖] |
 | Low production costs, recommendation-driven audience matching, and niche community formation help political creators scale devoted publics on YouTube. | Munger and Phillips 2022 | Affordance framework plus descriptive analysis of right-wing political channels | single-source | 2008-2018 with 2020 update | [🤖] |
+| Influencer VPN sponsorships can reach large audiences while leaving a substantial minority of sponsorships incompletely disclosed. | Akgul et al. 2022 | RPS-based YouTube sample, subtitle search, and manual coding of VPN-ad videos | single-source | Ads posted late 2016-mid 2020; data collected 2020-2021 | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
@@ -165,9 +173,10 @@ BrandConnect, memberships, and shopping integrations. [🤖]
 - [[ormen_gregersen_2023_engagement]]
 - [[newman_et_al_2025]]
 - [[youtube_2024]]
+- [[akgul_et_al_2022]]
 
 ## Cross-References
 
-- **Methods:** _(none yet)_
+- **Methods:** [[random_video_sampling]]
 - **Debates:** _(none yet)_
 - **Papers:** [[paper1_attention_economy_dossier]], [[paper2_mobility_dossier]]

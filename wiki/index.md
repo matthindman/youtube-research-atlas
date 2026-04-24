@@ -24,6 +24,7 @@ executive synthesis.
 - [[ideology_estimation]] — video-level and channel-level approaches for placing political YouTube content in ideological space
 - [[channel_classification]] — scalable approaches for discovering and classifying YouTube channels under changing data-access regimes
 - [[lookback_calibration]] — choosing observation windows for estimating cumulative views under changing attention lifecycles
+- [[random_video_sampling]] — ID-space sampling methods for estimating public YouTube video denominators
 - [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
 
 ## Debates
@@ -100,6 +101,7 @@ executive synthesis.
 - [[nielsen_gauge_2025]] — Nielsen Gauge snapshot showing YouTube captured 13.4% of U.S. television-screen viewing in July 2025
 - [[szabo_huberman_2010]] — historical popularity-prediction paper showing YouTube videos needed longer early observation windows than Digg stories to reach comparable forecast accuracy
 - [[socialblade_docs_2025]] — SocialBlade provider documentation showing the commercial benchmark is selective, roughly daily refreshed, and history-limited
+- [[akgul_et_al_2022]] — large-scale RPS study of influencer VPN ads showing how post-sampling thresholds change the substantive estimand
 
 ## Paper dossiers
 

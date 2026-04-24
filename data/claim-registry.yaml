@@ -1559,3 +1559,40 @@ claims:
   - wiki/sources/socialblade_docs_2025.md
   - wiki/themes/descriptive_deficit.md
   verification: machine_extracted
+- id: claim_descriptive_deficit_thresholded_rps_changes_estimand
+  text: Large Random Prefix Sampling applications can begin from a video-uniform platform baseline but shift to a different estimand when later stages impose view thresholds, subtitle availability, or targeted candidate filters.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: August 2020-March 2021 RPS collection of public YouTube videos with VPN-ad detection focused on videos posted from late 2016-mid 2020.
+  primary_sources:
+  - akgul_et_al_2022
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from one large RPS VPN-ad study whose substantive analysis was conditioned on videos with at least 800 views and available English subtitles; it should be used as a design caution, not as a general claim about all RPS studies.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  appears_in:
+  - wiki/sources/akgul_et_al_2022.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/methods/random_video_sampling.md
+  verification: machine_extracted
+- id: claim_creator_economy_vpn_ads_are_widespread_but_incompletely_disclosed
+  text: Influencer VPN ads on YouTube can reach large audiences while leaving a substantial minority of sponsorships incompletely disclosed under the study's interpretation of FTC disclosure guidance.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: VPN ad videos from late 2016-mid 2020 identified through a 2020-2021 RPS-based YouTube data collection.
+  primary_sources:
+  - akgul_et_al_2022
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The finding is limited to a filtered high-view and English-subtitle-dependent sample, so it is strongest as evidence about visible influencer VPN ads rather than all YouTube sponsorships.
+  themes:
+  - creator-economy
+  census_papers:
+  - methods-companion
+  appears_in:
+  - wiki/sources/akgul_et_al_2022.md
+  - wiki/themes/creator_economy.md
+  verification: machine_extracted
