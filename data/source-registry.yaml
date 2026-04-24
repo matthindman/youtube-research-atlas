@@ -1978,3 +1978,35 @@ sources:
   temporal_scope: 'Mixed historical/current provider documentation: one March 31, 2014 blog post plus undated FAQ and subscription pages retrieved on 2026-04-17'
   notes: Live SocialBlade pages returned Cloudflare `403` at ingest time, so this card relies on audit-memo snippets and remains machine-draft pending human verification. It is strongest for the claim that
     SocialBlade is a partial commercial benchmark with selective tracking, at-least-daily updates, and limited historical depth.
+- id: zhou_et_al_2011
+  type: conference_paper
+  evidence_tier: primary_empirical
+  title: Counting YouTube Videos via Random Prefix Sampling
+  authors:
+  - Zhou, Jia
+  - Li, Yanhua
+  - Adhikari, Vijay Kumar
+  - Zhang, Zhi-Li
+  year: 2011
+  venue: Proceedings of the 2011 ACM SIGCOMM Conference on Internet Measurement Conference (IMC '11)
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-24
+  wiki_pages_touched:
+  - wiki/sources/zhou_et_al_2011.md
+  - wiki/methods/random_video_sampling.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: Live YouTube API sampling through May 12, 2011, with view-count and traffic estimates for April 5-18, 2011
+  notes: Foundational Random Prefix Sampling paper. Strongest current value is formal; it defines the RPS estimator, variance, confidence interval, and sample-size logic, while its 2011 platform-size estimate is historical.

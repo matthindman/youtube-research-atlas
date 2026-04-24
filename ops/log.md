@@ -2856,3 +2856,31 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/socialblade_docs_2025?quick_pull=1
+## 2026-04-24 — ingest zhou_et_al_2011
+**Operation:** ingest-source
+**Branch:** ingest/zhou_et_al_2011
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/zhou_et_al_2011.md` and updated the source
+registry, claim registry, index, descriptive-deficit source list, and
+random-video sampling method page.
+- Confirmed the archived PDF is the IMC 2011 paper by Jia Zhou, Yanhua
+  Li, Vijay Kumar Adhikari, and Zhi-Li Zhang.
+- Captured the formal RPS estimator, variance expression, and sample
+  size guidance from pp. 3-4 because these are the load-bearing method
+  details for the methods companion.
+- Preserved the historical scope of the 2011 estimates: roughly 502
+  million YouTube videos by May 12, 2011, and April 2011 view/traffic
+  estimates, not current platform counts.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; this is a peer-reviewed IMC conference
+  paper with original sampling-method development and live YouTube
+  measurement.
+- Routed the source to `descriptive-deficit` and
+  `random_video_sampling`; no new taxonomy term was needed.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/zhou_et_al_2011?quick_pull=1
