@@ -6,8 +6,8 @@ status: machine-draft
 temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
-last_refreshed: 2026-04-17
-source_count: 18
+last_refreshed: 2026-04-24
+source_count: 19
 key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025, goodrow_2017, borghol_et_al_2012, bartl_2018, datareportal_top_social_2025, datareportal_time_2024, nielsen_gauge_2025, socialblade_docs_2025]
 split_candidates: []
 verification:
@@ -173,6 +173,11 @@ evidence about the field and its platform-level claims as framing
   or recommendation traces that are useful for focused analysis but
   cannot by themselves support platform-wide prevalence claims
   (McGrady et al. 2023, pp. 4-7). [🤖]
+- Video-count denominators can also hide duplicate visual content. Liu
+  et al. estimate a 31.7% duplicate ratio in a July 2013 RPS-based
+  YouTube sample, using title search, visual similarity scoring, and
+  manual validation to move from a random video sample to duplicate-set
+  estimates (Liu et al. 2015, pp. 4-8, 10-11). [🤖]
 - Even very large studies can remain narrow in scope if they are built
   on political-channel universes or public-comment traces rather than
   on a representative platform frame (Munger 2024, pp. 33-34, 46-47;
@@ -303,10 +308,11 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[datareportal_time_2024]]
 - [[nielsen_gauge_2025]]
 - [[socialblade_docs_2025]]
+- [[liu_et_al_2015]]
 
 ## Cross-References
 
 - **Themes:** [[cross_linguistic_variation]], [[governance_data_access]]
-- **Methods:** _(none yet)_
+- **Methods:** [[random_video_sampling]]
 - **Debates:** _(none yet)_
 - **Papers:** [[methods_companion_dossier]], [[paper1_attention_economy_dossier]]

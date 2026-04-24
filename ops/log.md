@@ -2856,3 +2856,32 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/socialblade_docs_2025?quick_pull=1
+
+## 2026-04-24 — ingest liu_et_al_2015
+**Operation:** ingest-source
+**Branch:** ingest/liu_et_al_2015
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/liu_et_al_2015.md` and updated the source
+registry, claim registry, index, descriptive-deficit source list, and
+random-video sampling method page.
+- Confirmed the PDF is the PAM 2015 paper by Yao Liu, Sam Blasiak,
+  Weijun Xiao, Zhenhua Li, and Songqing Chen.
+- Verified the DOI externally as `10.1007/978-3-319-15509-8_18`
+  because it is not visible in the PDF text.
+- Captured the two-stage method: 6,365 RPS-sampled videos, 512,314
+  title-search duplicate candidates, modified DTW scoring, and manual
+  validation.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; this is a peer-reviewed conference
+  paper reporting original sampling, duplicate detection, and manual
+  validation.
+- Routed the source to `descriptive-deficit` for denominator concerns:
+  video counts can include near-duplicate visual content, and title
+  search recall is a scope condition for the duplicate estimate.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/liu_et_al_2015?quick_pull=1

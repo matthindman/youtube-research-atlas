@@ -1978,3 +1978,35 @@ sources:
   temporal_scope: 'Mixed historical/current provider documentation: one March 31, 2014 blog post plus undated FAQ and subscription pages retrieved on 2026-04-17'
   notes: Live SocialBlade pages returned Cloudflare `403` at ingest time, so this card relies on audit-memo snippets and remains machine-draft pending human verification. It is strongest for the claim that
     SocialBlade is a partial commercial benchmark with selective tracking, at-least-daily updates, and limited historical depth.
+- id: liu_et_al_2015
+  type: conference_paper
+  evidence_tier: primary_empirical
+  title: A Quantitative Study of Video Duplicate Levels in YouTube
+  authors:
+  - Liu, Yao
+  - Blasiak, Sam
+  - Xiao, Weijun
+  - Li, Zhenhua
+  - Chen, Songqing
+  year: 2015
+  venue: Passive and Active Measurement - 16th International Conference, PAM 2015
+  doi: 10.1007/978-3-319-15509-8_18
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-24
+  wiki_pages_touched:
+  - wiki/sources/liu_et_al_2015.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/methods/random_video_sampling.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: low
+  census_papers:
+  - methods-companion
+  temporal_scope: Random Prefix Sampling collection conducted July 2013
+  notes: RPS-based duplicate-level study; useful as a two-stage precedent because duplicate candidates are generated through title search and then validated by visual comparison and manual review.
