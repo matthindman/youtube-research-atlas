@@ -1978,3 +1978,34 @@ sources:
   temporal_scope: 'Mixed historical/current provider documentation: one March 31, 2014 blog post plus undated FAQ and subscription pages retrieved on 2026-04-17'
   notes: Live SocialBlade pages returned Cloudflare `403` at ingest time, so this card relies on audit-memo snippets and remains machine-draft pending human verification. It is strongest for the claim that
     SocialBlade is a partial commercial benchmark with selective tracking, at-least-daily updates, and limited historical depth.
+- id: golnari_et_al_2014
+  type: conference_paper
+  evidence_tier: primary_empirical
+  title: What Drives the Growth of YouTube? Measuring and Analyzing the Evolution Dynamics of YouTube Video Uploads
+  authors:
+  - Golnari, Golshan
+  - Li, Yanhua
+  - Zhang, Zhi-Li
+  year: 2014
+  venue: SocialCom 2014
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-24
+  wiki_pages_touched:
+  - wiki/sources/golnari_et_al_2014.md
+  - wiki/methods/random_video_sampling.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  temporal_scope: Random Prefix Sampling crawl from June 30-July 25, 2013 estimating YouTube uploads and uploaders from June 15, 2005 through June 2013
+  notes: Extends Random Prefix Sampling from stock-size estimation to daily upload-flow, uploader-count, category, and uploader-activeness estimators; strongest as historical pre-Shorts method evidence rather than a current upload baseline.

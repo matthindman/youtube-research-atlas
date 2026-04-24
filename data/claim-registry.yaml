@@ -1559,3 +1559,41 @@ claims:
   - wiki/sources/socialblade_docs_2025.md
   - wiki/themes/descriptive_deficit.md
   verification: machine_extracted
+- id: claim_descriptive_deficit_id_space_sampling_public_video_denominators
+  text: Random ID-space sampling can support platform-level estimates for public searchable YouTube videos and upload flows, but the estimand remains bounded by the search interface and by assumptions about ID generation and retrievability.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: RPS-derived estimation applied to YouTube stock and flow questions in early-2010s API conditions.
+  primary_sources:
+  - golnari_et_al_2014
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support on this branch is the 2014 RPS extension; the foundational 2011 RPS paper should be integrated when branches are merged.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/golnari_et_al_2014.md
+  - wiki/methods/random_video_sampling.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_upload_flow_requires_temporal_estimators
+  text: Estimating YouTube's growth requires temporal-flow estimators for uploads and uploaders, not only point estimates of total video stock.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Historical upload and uploader estimates from June 15, 2005 through June 2013.
+  primary_sources:
+  - golnari_et_al_2014
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Strongest as historical method evidence for pre-Shorts upload-flow analysis; current upload-flow estimates need a contemporary re-run.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/golnari_et_al_2014.md
+  - wiki/methods/random_video_sampling.md
+  verification: machine_extracted
