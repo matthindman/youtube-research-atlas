@@ -6,10 +6,11 @@ status: machine-draft
 temporal_scope: "Particularly attentive to the post-DSA, post-API-restriction era"
 themes: [governance-data-access]
 census_papers: [methods-companion]
-last_refreshed: 2026-04-16
-source_count: 10
+last_refreshed: 2026-04-24
+source_count: 11
 key_sources:
   - norton_shapiro_2024
+  - rieder_et_al_2025
   - kumar_2019
   - hallinan_et_al_2025
   - hallinan_reynolds_2024
@@ -21,7 +22,7 @@ key_sources:
   - ribeiro_jhaver_et_al_2025
 split_candidates: []
 verification:
-  machine_extracted: 40
+  machine_extracted: 43
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -57,6 +58,11 @@ pathway. [🤖]
   featured-channel links, and a 50M-unit/day Data API token, but the
   paper already notes that similarly generous tokens were no longer
   being issued for new projects (§ 2.1; note 11-12). [🤖]
+- The official Search API itself can be unstable for research: Rieder,
+  Padilla, and Coromina show that retrievable videos for a fixed
+  publication window can drop sharply after 20-60 days and that
+  identical queries can return different video sets over time (Rieder
+  et al. 2025, pp. 11-21). [🤖]
 - When official channels feel weak, creators use public videos,
   callouts, audits, and signal boosting as informal accountability
   tactics. [🤖]
@@ -135,6 +141,7 @@ pathway. [🤖]
 | Sustained negative mainstream media coverage is associated with more subsequent public-facing policy change across major platforms, including YouTube. | [[marchal_et_al_2025]] | Comparative news-and-policy event analysis | Moderate | 2005/2007-2021 | [🤖] |
 | Governance and ownership changes can alter information quality, but the direct outcome evidence here is comparative rather than YouTube-specific. | [[ozturan_et_al_2025]] | Twitter panel plus global Decahose interrupted time-series analysis | Moderate | January 2022-April 2023 | [🤖] |
 | The DSA creates a post-October-2025 qualified-researcher route to request previously unavailable VLOP/VLOSE data, subject to DSC review. | [[european_commission_2025]] | Official policy announcement | Moderate | Post-October 2025 | [🤖] |
+| YouTube Search API results can decay and vary even with fixed query parameters. | [[rieder_et_al_2025]] | Six-month audit of eleven YouTube Data API search queries plus a European Parliament election case study | Moderate | 2024 search behavior, published 2025 | [🤖] |
 
 ## Methodological Reasons for Disagreement
 
@@ -217,6 +224,7 @@ what YouTube governance "is." [🤖]
 - [[ozturan_et_al_2025]]
 - [[european_commission_2025]]
 - [[rieder_2020]]
+- [[rieder_et_al_2025]]
 - [[ribeiro_jhaver_et_al_2025]]
 
 ## Cross-References

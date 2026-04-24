@@ -1978,3 +1978,36 @@ sources:
   temporal_scope: 'Mixed historical/current provider documentation: one March 31, 2014 blog post plus undated FAQ and subscription pages retrieved on 2026-04-17'
   notes: Live SocialBlade pages returned Cloudflare `403` at ingest time, so this card relies on audit-memo snippets and remains machine-draft pending human verification. It is strongest for the claim that
     SocialBlade is a partial commercial benchmark with selective tracking, at-least-daily updates, and limited historical depth.
+- id: rieder_et_al_2025
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: Forgetful by Design? A Critical Audit of YouTube's Search API for Academic Research
+  authors:
+  - Rieder, Bernhard
+  - Padilla, Adrián
+  - Coromina, Òscar
+  year: 2025
+  venue: Information, Communication & Society
+  doi: 10.1080/1369118X.2025.2591767
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-24
+  wiki_pages_touched:
+  - wiki/sources/rieder_et_al_2025.md
+  - wiki/methods/random_video_sampling.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/themes/governance_data_access.md
+  - wiki/index.md
+  tags:
+  - governance-data-access
+  - descriptive-deficit
+  themes:
+  - governance-data-access
+  - descriptive-deficit
+  census_relevance: high
+  census_papers:
+  - methods-companion
+  temporal_scope: Weekly YouTube Data API v3 searches over six months starting April 2024, with publication windows beginning October 15, 2023
+  notes: Critical audit of official YouTube Data API search. Keep distinct from `rieder_2020` and `rieder_et_al_2023`; this paper is strongest on search retrievability, temporal decay, ranking-parameter effects, query inconsistency, and DSA researcher-access implications.
