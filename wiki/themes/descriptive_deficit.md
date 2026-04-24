@@ -6,8 +6,8 @@ status: machine-draft
 temporal_scope: "2005-present; particularly acute for the current era"
 themes: [descriptive-deficit]
 census_papers: [paper1-attention-economy, methods-companion]
-last_refreshed: 2026-04-17
-source_count: 18
+last_refreshed: 2026-04-24
+source_count: 19
 key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025, goodrow_2017, borghol_et_al_2012, bartl_2018, datareportal_top_social_2025, datareportal_time_2024, nielsen_gauge_2025, socialblade_docs_2025]
 split_candidates: []
 verification:
@@ -173,6 +173,12 @@ evidence about the field and its platform-level claims as framing
   or recommendation traces that are useful for focused analysis but
   cannot by themselves support platform-wide prevalence claims
   (McGrady et al. 2023, pp. 4-7). [🤖]
+- Historical search/browse/crawl designs can recover content evolution
+  that random video samples cannot, but they need to be read as
+  connected-network histories rather than representative denominators.
+  Paolillo et al.'s 76.1M-video, 549.4K-channel crawl is explicitly a
+  small, popular, highly connected fraction of YouTube activity
+  (Paolillo et al. 2019, p. 2). [🤖]
 - Even very large studies can remain narrow in scope if they are built
   on political-channel universes or public-comment traces rather than
   on a representative platform frame (Munger 2024, pp. 33-34, 46-47;
@@ -303,10 +309,11 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[datareportal_time_2024]]
 - [[nielsen_gauge_2025]]
 - [[socialblade_docs_2025]]
+- [[paolillo_et_al_2019]]
 
 ## Cross-References
 
 - **Themes:** [[cross_linguistic_variation]], [[governance_data_access]]
-- **Methods:** _(none yet)_
+- **Methods:** [[random_video_sampling]]
 - **Debates:** _(none yet)_
 - **Papers:** [[methods_companion_dossier]], [[paper1_attention_economy_dossier]]

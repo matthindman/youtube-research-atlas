@@ -1978,3 +1978,33 @@ sources:
   temporal_scope: 'Mixed historical/current provider documentation: one March 31, 2014 blog post plus undated FAQ and subscription pages retrieved on 2026-04-17'
   notes: Live SocialBlade pages returned Cloudflare `403` at ingest time, so this card relies on audit-memo snippets and remains machine-draft pending human verification. It is strongest for the claim that
     SocialBlade is a partial commercial benchmark with selective tracking, at-least-daily updates, and limited historical depth.
+- id: paolillo_et_al_2019
+  type: conference_paper
+  evidence_tier: primary_empirical
+  title: 'A Network View of Social Media Platform History: Social Structure, Dynamics and Content on YouTube'
+  authors:
+  - Paolillo, John C.
+  - Ghule, Sharad
+  - Harper, Brian P.
+  year: 2019
+  venue: Proceedings of the 52nd Hawaii International Conference on System Sciences
+  doi: null
+  canonical_format: pdf
+  formats_available:
+  - pdf
+  status: ingested
+  date_ingested: 2026-04-24
+  wiki_pages_touched:
+  - wiki/sources/paolillo_et_al_2019.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/methods/random_video_sampling.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  themes:
+  - descriptive-deficit
+  census_relevance: low
+  census_papers:
+  - methods-companion
+  temporal_scope: YouTube videos and channel relations covering May 2005-December 2016; search/browse/crawl collection repeated July 2015-March 2017
+  notes: Hybrid search/browse/crawl source useful for historical network interpretation and for anchoring later critique of non-systematic crawl frames; not a representative platform-wide sample.
