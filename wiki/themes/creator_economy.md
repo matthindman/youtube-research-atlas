@@ -6,10 +6,11 @@ status: machine-draft
 temporal_scope: "Post-Partner-Program era; particularly post-2018"
 themes: [creator-economy]
 census_papers: [paper1-attention-economy]
-last_refreshed: 2026-04-16
-source_count: 9
+last_refreshed: 2026-04-24
+source_count: 10
 key_sources:
   - abou_el_komboz_et_al_2023
+  - mathur_et_al_2018
   - kumar_2019
   - rieder_et_al_2023
   - verwiebe_et_al_2025
@@ -19,7 +20,7 @@ key_sources:
   - youtube_2024
 split_candidates: []
 verification:
-  machine_extracted: 28
+  machine_extracted: 30
   human_checked: 0
   publication_ready: 0
   needs_citation: 0
@@ -55,6 +56,12 @@ development. [🤖]
   Cross-platform linking, memberships, marketplaces, digital
   tipping, and other hybrid strategies recur across the evidence
   base. [🤖]
+- Affiliate marketing is one measurable off-platform monetization
+  route, but Mathur, Narayanan, and Chetty find that disclosure was
+  uncommon in a 2017 prefix sample: 3,472 YouTube videos contained
+  affiliate URLs, and only 10.49% of those affiliate videos disclosed
+  the affiliate relationship in descriptions (Mathur et al. 2018, pp.
+  7, 9, 11-12). [🤖]
 - Platform architecture matters. Monetization thresholds,
   marketplace curation, audience metrics, and visibility systems
   all shape which creators can convert attention into durable
@@ -158,6 +165,7 @@ BrandConnect, memberships, and shopping integrations. [🤖]
 ## Sources Consulted
 
 - [[abou_el_komboz_et_al_2023]]
+- [[mathur_et_al_2018]]
 - [[kumar_2019]]
 - [[rieder_et_al_2023]]
 - [[verwiebe_et_al_2025]]

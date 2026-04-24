@@ -100,6 +100,7 @@ executive synthesis.
 - [[nielsen_gauge_2025]] — Nielsen Gauge snapshot showing YouTube captured 13.4% of U.S. television-screen viewing in July 2025
 - [[szabo_huberman_2010]] — historical popularity-prediction paper showing YouTube videos needed longer early observation windows than Digg stories to reach comparable forecast accuracy
 - [[socialblade_docs_2025]] — SocialBlade provider documentation showing the commercial benchmark is selective, roughly daily refreshed, and history-limited
+- [[mathur_et_al_2018]] — RPS-based two-stage study of affiliate marketing disclosures on YouTube and Pinterest
 
 ## Paper dossiers
 

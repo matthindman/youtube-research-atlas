@@ -2856,3 +2856,30 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/socialblade_docs_2025?quick_pull=1
+## 2026-04-24 — ingest mathur_et_al_2018
+**Operation:** ingest-source
+**Branch:** ingest/mathur_et_al_2018
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/mathur_et_al_2018.md` and updated the source
+registry, claim registry, index, descriptive-deficit source list,
+creator-economy theme, and random-video sampling method page.
+- Confirmed the PDF is the 2018 CSCW/Proceedings of the ACM on
+  Human-Computer Interaction article with DOI `10.1145/3274388`.
+- Captured the two-stage design: 515,999 prefix-sampled YouTube videos,
+  affiliate URL-pattern detection, English disclosure extraction, and a
+  randomized user study of disclosure comprehension.
+- Flagged the lower-bound scope conditions around URL frequency
+  thresholds, coupon-code exclusions, English-only disclosure extraction,
+  and median-length video selection for the user experiment.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; this is a peer-reviewed article with
+  original platform sampling, detection, and experimental data.
+- Routed the source to `descriptive-deficit` for method precedent and
+  `creator-economy` for affiliate-link monetization evidence.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/mathur_et_al_2018?quick_pull=1
