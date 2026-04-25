@@ -104,6 +104,7 @@ executive synthesis.
 - [[zhou_et_al_2011]] — foundational Random Prefix Sampling paper deriving an unbiased estimator for YouTube public-video counts
 - [[rieder_et_al_2025]] — Search API audit showing temporal decay, ranking-parameter effects, and inconsistent YouTube query results
 - [[golnari_et_al_2014]] — RPS extension estimating historical YouTube upload flow, uploader growth, and activity concentration
+- [[mathur_et_al_2018]] — RPS-based two-stage study of affiliate marketing disclosures on YouTube and Pinterest
 
 ## Paper dossiers
 

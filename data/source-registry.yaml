@@ -2012,6 +2012,17 @@ sources:
   year: 2014
   venue: SocialCom 2014
   doi: null
+- id: mathur_et_al_2018
+  type: journal_article
+  evidence_tier: primary_empirical
+  title: 'Endorsements on Social Media: An Empirical Study of Affiliate Marketing Disclosures on YouTube and Pinterest'
+  authors:
+  - Mathur, Arunesh
+  - Narayanan, Arvind
+  - Chetty, Marshini
+  year: 2018
+  venue: Proceedings of the ACM on Human-Computer Interaction 2(CSCW)
+  doi: 10.1145/3274388
   canonical_format: pdf
   formats_available:
   - pdf
@@ -2058,3 +2069,19 @@ sources:
   - paper1-attention-economy
   temporal_scope: Random Prefix Sampling crawl from June 30-July 25, 2013 estimating YouTube uploads and uploaders from June 15, 2005 through June 2013
   notes: Extends Random Prefix Sampling from stock-size estimation to daily upload-flow, uploader-count, category, and uploader-activeness estimators; strongest as historical pre-Shorts method evidence rather than a current upload baseline.
+  - wiki/sources/mathur_et_al_2018.md
+  - wiki/methods/random_video_sampling.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/themes/creator_economy.md
+  - wiki/index.md
+  tags:
+  - descriptive-deficit
+  - creator-economy
+  themes:
+  - descriptive-deficit
+  - creator-economy
+  census_relevance: medium
+  census_papers:
+  - methods-companion
+  temporal_scope: YouTube and Pinterest content collected August-September 2017; MTurk disclosure experiments conducted March 2018
+  notes: Useful two-stage precedent: broad prefix-sampled YouTube baseline followed by targeted affiliate URL/disclosure detection. Substantively relevant to creator monetization because affiliate links are one off-platform revenue route.

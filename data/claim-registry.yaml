@@ -1582,6 +1582,16 @@ claims:
   supporting_sources: []
   conflicting_sources: []
   scope_conditions: Current support on this branch is the 2014 RPS extension; the foundational 2011 RPS paper should be integrated when branches are merged.
+- id: claim_descriptive_deficit_two_stage_random_then_targeted_detection
+  text: A video-uniform random baseline can be paired with targeted detection or classification to estimate rare YouTube content types more defensibly than keyword-only search.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: YouTube affiliate marketing content sampled in August-September 2017.
+  primary_sources:
+  - mathur_et_al_2018
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support is strongest for rare content detectable through metadata/description traces; prevalence remains a lower bound when detection misses hidden or non-English signals.
   themes:
   - descriptive-deficit
   census_papers:
@@ -1628,4 +1638,26 @@ claims:
   appears_in:
   - wiki/sources/golnari_et_al_2014.md
   - wiki/methods/random_video_sampling.md
+  appears_in:
+  - wiki/sources/mathur_et_al_2018.md
+  - wiki/methods/random_video_sampling.md
+  verification: machine_extracted
+- id: claim_creator_economy_affiliate_disclosures_are_rare
+  text: In a 2017 YouTube prefix sample, affiliate-link monetization was detectable in a small share of videos, and only a minority of affiliate videos disclosed the affiliate relationship in descriptions.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: YouTube videos sampled in August-September 2017.
+  primary_sources:
+  - mathur_et_al_2018
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Lower-bound estimate because the URL pattern detector excludes lower-frequency patterns, coupon-code programs, and non-English disclosure extraction.
+  themes:
+  - creator-economy
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  appears_in:
+  - wiki/sources/mathur_et_al_2018.md
+  - wiki/themes/creator_economy.md
   verification: machine_extracted
