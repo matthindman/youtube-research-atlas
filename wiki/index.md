@@ -25,6 +25,7 @@ executive synthesis.
 - [[channel_classification]] — scalable approaches for discovering and classifying YouTube channels under changing data-access regimes
 - [[lookback_calibration]] — choosing observation windows for estimating cumulative views under changing attention lifecycles
 - [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
+- [[random_video_sampling]] — ID-space random sampling (RPS, DFV) for platform-wide denominators and its heavy-tail limits
 
 ## Debates
 
@@ -100,6 +101,7 @@ executive synthesis.
 - [[nielsen_gauge_2025]] — Nielsen Gauge snapshot showing YouTube captured 13.4% of U.S. television-screen viewing in July 2025
 - [[szabo_huberman_2010]] — historical popularity-prediction paper showing YouTube videos needed longer early observation windows than Digg stories to reach comparable forecast accuracy
 - [[socialblade_docs_2025]] — SocialBlade provider documentation showing the commercial benchmark is selective, roughly daily refreshed, and history-limited
+- [[zhou_et_al_2011]] — foundational Random Prefix Sampling paper deriving an unbiased estimator for YouTube public-video counts
 
 ## Paper dossiers
 

@@ -7,6 +7,7 @@ claims:
   primary_sources:
   - mcgrady_2023
   supporting_sources:
+  - zhou_et_al_2011
   - zaitsev_clark_2025
   conflicting_sources: []
   scope_conditions: Especially acute for studies built from convenience, seed-based, or recommendation-based samples.
@@ -17,6 +18,7 @@ claims:
   - paper1-attention-economy
   appears_in:
   - wiki/sources/mcgrady_2023.md
+  - wiki/sources/zhou_et_al_2011.md
   - wiki/sources/zaitsev_clark_2025.md
   - wiki/themes/descriptive_deficit.md
   verification: machine_extracted
@@ -1558,4 +1560,23 @@ claims:
   appears_in:
   - wiki/sources/socialblade_docs_2025.md
   - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_id_space_sampling_public_video_denominators
+  text: Random ID-space sampling can support platform-level estimates for public searchable YouTube videos, but the estimand remains bounded by the search interface and by assumptions about ID generation and retrievability.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: Formal method introduced against the 2011 YouTube Search API and later adapted in post-2022 random-video sampling work.
+  primary_sources:
+  - zhou_et_al_2011
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support on this branch is the original RPS paper; later RPS/DFV applications should be added as supporting or scope-limiting evidence as they are ingested.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  - paper1-attention-economy
+  appears_in:
+  - wiki/sources/zhou_et_al_2011.md
+  - wiki/methods/random_video_sampling.md
   verification: machine_extracted
