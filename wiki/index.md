@@ -26,6 +26,7 @@ executive synthesis.
 - [[lookback_calibration]] — choosing observation windows for estimating cumulative views under changing attention lifecycles
 - [[random_video_sampling]] — ID-space sampling methods for estimating public YouTube video denominators
 - [[random_video_sampling]] — ID-space and search-based sampling methods for estimating or critiquing public YouTube video denominators
+- [[random_video_sampling]] — ID-space sampling methods and two-stage designs for estimating public YouTube video denominators
 - [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
 - [[random_video_sampling]] — ID-space random sampling (RPS, DFV) for platform-wide denominators and its heavy-tail limits
 
@@ -109,6 +110,7 @@ executive synthesis.
 - [[mathur_et_al_2018]] — RPS-based two-stage study of affiliate marketing disclosures on YouTube and Pinterest
 - [[akgul_et_al_2022]] — large-scale RPS study of influencer VPN ads showing how post-sampling thresholds change the substantive estimand
 - [[paolillo_et_al_2019]] — historical YouTube channel-network crawl useful for genre history but not representative denominator claims
+- [[liu_et_al_2015]] — RPS duplicate-video study showing how video-count denominators can include repeated visual content
 
 ## Paper dossiers
 

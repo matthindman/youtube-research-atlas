@@ -74,6 +74,7 @@ hit (McGrady et al. 2023, p. 15). [🤖]
 | [[bartl_2018]] | Random letter-string search (ancestor method, not ID-space) | 19,025 channels across four batches | Draws randomness from *query strings*, not IDs; explicitly evaluates sampling bias from popularity-sorted search returns | [🤖] |
 | [[zhou_et_al_2011]] | Random Prefix Sampling | Length-5 random prefixes in the 2011 YouTube Search API | Introduces the RPS estimator `N_hat = (1 / (m p_L)) * sum_i X_i^L`, its variance, and sample-size guidance | [🤖] |
 | [[golnari_et_al_2014]] | RPS extension to upload-flow and uploader dynamics | 7,752,384 length-5 prefix query samples containing 7,977,651 videos | Extends RPS to labeled-video statistics, daily upload flow, and uploader-count estimation | [🤖] |
+| [[liu_et_al_2015]] | RPS baseline plus title-search duplicate candidate retrieval | 6,365 sampled videos from 1,000 prefixes; 512,314 searched-video candidates | Two-stage design: use RPS for the baseline, then title search, visual similarity scoring, and manual validation to estimate near-duplicate content | [🤖] |
 | [[mathur_et_al_2018]] | RPS baseline plus targeted affiliate/disclosure detection | 515,999 unique YouTube videos; 3,472 affiliate-URL videos after filtering | Uses prefix sampling to avoid keyword/related-video bias, then applies URL-pattern and disclosure extraction to estimate a rare monetization practice | [🤖] |
 | [[akgul_et_al_2022]] | RPS baseline plus subtitle/manual VPN-ad detection | 86.3M RPS-sampled videos; 10.7M videos with at least 800 views for deeper metadata; 243 retained VPN-ad videos | Largest RPS application currently ingested, but the substantive analysis shifts to a high-view English-subtitle-dependent rare-content sample | [🤖] |
 | [[paolillo_et_al_2019]] | Hybrid search/browse/API crawl (not ID-space random sampling) | 76,081,372 videos and 549,383 channels in a connected historical network crawl | Useful contrast case: historically rich, but explicitly a small, popular, highly connected fraction rather than a representative denominator | [🤖] |
@@ -140,6 +141,11 @@ et al. use a 515,999-video prefix sample to avoid related-video and
 keyword-sampling bias, then apply affiliate URL-pattern detection and
 English disclosure extraction to estimate affiliate-marketing disclosure
 prevalence (Mathur et al. 2018, pp. 6-9). [🤖]
+
+[LIT] RPS can also serve as the first stage in latent-property designs.
+Liu et al. use a 6,365-video prefix sample as the baseline, then use
+title search, modified Dynamic Time Warping, and manual validation to
+estimate near-duplicate video levels (Liu et al. 2015, pp. 4-8). [🤖]
 
 [LIT] Because IDs are pseudo-random strings rather than human-chosen
 channel names or titles, ID-space sampling sidesteps the critique Rieder
@@ -401,22 +407,19 @@ future refresh work:
    random sample of >20M videos. Not externally reproducible, but the
    only point of comparison we have for an internally-sampled
    denominator.
-4. **Liu, Blasiak, Xiao, Li, & Chen (2015)**, duplicate-video study
-   using RPS. Example of two-stage estimation (probability sample +
-   targeted validation).
-5. **Abu-El-Haija et al. (2016), YouTube-8M**, platform-provided
+4. **Abu-El-Haija et al. (2016), YouTube-8M**, platform-provided
    labeled benchmark. Not a probability sample but a useful reference
    point for internal-access datasets.
-6. **Cheng, Dale, & Liu (2008)**, early large-scale crawl. Historical
+5. **Cheng, Dale, & Liu (2008)**, early large-scale crawl. Historical
    anchor rather than current evidence.
-7. **Wesch (2008) and Hráček (2009)**, recent-uploads feed work.
-    Historical anchor; feed no longer exists.
+6. **Wesch (2008) and Hráček (2009)**, recent-uploads feed work.
+   Historical anchor; feed no longer exists.
 
 ## Cross-References
 
 - **Themes:** [[descriptive_deficit]], [[cross_linguistic_variation]]
 - **Related methods:** [[channel_classification]]
-- **Papers that use this method:** [[zhou_et_al_2011]], [[golnari_et_al_2014]], [[mathur_et_al_2018]], [[akgul_et_al_2022]], [[mcgrady_2023]], [[mcgrady_2025]], [[bartl_2018]]
+- **Papers that use this method:** [[zhou_et_al_2011]], [[golnari_et_al_2014]], [[mathur_et_al_2018]], [[akgul_et_al_2022]], [[liu_et_al_2015]], [[mcgrady_2023]], [[mcgrady_2025]], [[bartl_2018]]
 - **Related sampling designs (contrast cases):** [[paolillo_et_al_2019]]
 - **Papers that inform the critique:** [[rieder_2020]], [[rieder_et_al_2025]], [[ribeiro_west_2021]], [[violot_et_al_2024]]
 - **Debates:** _(none yet — see "Known Weaknesses" for the representativeness concern that would seed one once we have an independent published critique)_

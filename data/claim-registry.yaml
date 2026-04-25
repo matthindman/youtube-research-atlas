@@ -1674,6 +1674,16 @@ claims:
   supporting_sources: []
   conflicting_sources: []
   scope_conditions: Current support comes from one historical YouTube network study that explicitly describes its own sample as a small, popular, highly connected fraction of total activity; use it as a crawl-frame caution rather than a universal result about every crawl.
+- id: claim_descriptive_deficit_video_denominators_can_include_near_duplicates
+  text: Video-level YouTube denominators can include substantial near-duplicate visual content, so counts of videos do not necessarily equal counts of unique media objects.
+  claim_type: empirical-descriptive
+  evidence_strength: single-source
+  temporal_scope: July 2013 YouTube public-video sample using Random Prefix Sampling and title-search duplicate candidate retrieval.
+  primary_sources:
+  - liu_et_al_2015
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from a historical 2013 duplicate-level study whose candidate set depends on title search and top search results; it is strongest as a caution about video-count denominators, not as a current Shorts-era duplicate prevalence estimate.
   themes:
   - descriptive-deficit
   census_papers:
@@ -1704,6 +1714,25 @@ claims:
   - wiki/themes/creator_economy.md
   verification: machine_extracted
   - wiki/sources/paolillo_et_al_2019.md
+  - wiki/sources/liu_et_al_2015.md
+  - wiki/themes/descriptive_deficit.md
+  verification: machine_extracted
+- id: claim_descriptive_deficit_two_stage_rps_can_estimate_latent_video_properties
+  text: Random Prefix Sampling can support two-stage designs for latent video properties when the second stage uses targeted candidate retrieval, automated scoring, and manual validation.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: July 2013 RPS sample and duplicate-candidate validation pipeline.
+  primary_sources:
+  - liu_et_al_2015
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: The candidate stage in the supporting study depends on YouTube title search and top-ranked results, so the claim supports the design pattern while preserving the need to audit candidate recall.
+  themes:
+  - descriptive-deficit
+  census_papers:
+  - methods-companion
+  appears_in:
+  - wiki/sources/liu_et_al_2015.md
   - wiki/themes/descriptive_deficit.md
   - wiki/methods/random_video_sampling.md
   verification: machine_extracted

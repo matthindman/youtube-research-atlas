@@ -2046,6 +2046,19 @@ sources:
   year: 2019
   venue: Proceedings of the 52nd Hawaii International Conference on System Sciences
   doi: null
+- id: liu_et_al_2015
+  type: conference_paper
+  evidence_tier: primary_empirical
+  title: A Quantitative Study of Video Duplicate Levels in YouTube
+  authors:
+  - Liu, Yao
+  - Blasiak, Sam
+  - Xiao, Weijun
+  - Li, Zhenhua
+  - Chen, Songqing
+  year: 2015
+  venue: Passive and Active Measurement - 16th International Conference, PAM 2015
+  doi: 10.1007/978-3-319-15509-8_18
   canonical_format: pdf
   formats_available:
   - pdf
@@ -2100,6 +2113,7 @@ sources:
   - wiki/themes/descriptive_deficit.md
   - wiki/themes/creator_economy.md
   - wiki/sources/paolillo_et_al_2019.md
+  - wiki/sources/liu_et_al_2015.md
   - wiki/themes/descriptive_deficit.md
   - wiki/methods/random_video_sampling.md
   - wiki/index.md
@@ -2123,3 +2137,5 @@ sources:
   - methods-companion
   temporal_scope: YouTube videos and channel relations covering May 2005-December 2016; search/browse/crawl collection repeated July 2015-March 2017
   notes: Hybrid search/browse/crawl source useful for historical network interpretation and for anchoring later critique of non-systematic crawl frames; not a representative platform-wide sample.
+  temporal_scope: Random Prefix Sampling collection conducted July 2013
+  notes: RPS-based duplicate-level study; useful as a two-stage precedent because duplicate candidates are generated through title search and then validated by visual comparison and manual review.

@@ -183,6 +183,11 @@ evidence about the field and its platform-level claims as framing
   Paolillo et al.'s 76.1M-video, 549.4K-channel crawl is explicitly a
   small, popular, highly connected fraction of YouTube activity
   (Paolillo et al. 2019, p. 2). [🤖]
+- Video-count denominators can also hide duplicate visual content. Liu
+  et al. estimate a 31.7% duplicate ratio in a July 2013 RPS-based
+  YouTube sample, using title search, visual similarity scoring, and
+  manual validation to move from a random video sample to duplicate-set
+  estimates (Liu et al. 2015, pp. 4-8, 10-11). [🤖]
 - Even very large studies can remain narrow in scope if they are built
   on political-channel universes or public-comment traces rather than
   on a representative platform frame (Munger 2024, pp. 33-34, 46-47;
@@ -326,6 +331,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[mathur_et_al_2018]]
 - [[akgul_et_al_2022]]
 - [[paolillo_et_al_2019]]
+- [[liu_et_al_2015]]
 
 ## Cross-References
 
