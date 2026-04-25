@@ -10,6 +10,7 @@ last_refreshed: 2026-04-24
 source_count: 19
 key_sources: [mcgrady_2023, zhou_et_al_2011, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025, goodrow_2017, borghol_et_al_2012, bartl_2018, datareportal_top_social_2025, datareportal_time_2024, nielsen_gauge_2025, socialblade_docs_2025]
 key_sources: [mcgrady_2023, rieder_et_al_2025, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025, goodrow_2017, borghol_et_al_2012, bartl_2018, datareportal_top_social_2025, datareportal_time_2024, nielsen_gauge_2025, socialblade_docs_2025]
+key_sources: [mcgrady_2023, golnari_et_al_2014, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025, goodrow_2017, borghol_et_al_2012, bartl_2018, datareportal_top_social_2025, datareportal_time_2024, nielsen_gauge_2025, socialblade_docs_2025]
 split_candidates: []
 verification:
   machine_extracted: 48
@@ -306,6 +307,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[socialblade_docs_2025]]
 - [[zhou_et_al_2011]]
 - [[rieder_et_al_2025]]
+- [[golnari_et_al_2014]]
 
 ## Cross-References
 

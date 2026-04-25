@@ -103,6 +103,7 @@ executive synthesis.
 - [[socialblade_docs_2025]] — SocialBlade provider documentation showing the commercial benchmark is selective, roughly daily refreshed, and history-limited
 - [[zhou_et_al_2011]] — foundational Random Prefix Sampling paper deriving an unbiased estimator for YouTube public-video counts
 - [[rieder_et_al_2025]] — Search API audit showing temporal decay, ranking-parameter effects, and inconsistent YouTube query results
+- [[golnari_et_al_2014]] — RPS extension estimating historical YouTube upload flow, uploader growth, and activity concentration
 
 ## Paper dossiers
 

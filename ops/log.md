@@ -2878,6 +2878,27 @@ Tier and taxonomy notes:
 - Assigned `primary_empirical`; this is a peer-reviewed IMC conference
   paper with original sampling-method development and live YouTube
   measurement.
+## 2026-04-24 — ingest golnari_et_al_2014
+**Operation:** ingest-source
+**Branch:** ingest/golnari_et_al_2014
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/golnari_et_al_2014.md` and updated the source
+registry, claim registry, index, descriptive-deficit source list, and
+random-video sampling method page.
+- Confirmed the PDF is the SocialCom 2014 paper by Golshan Golnari,
+  Yanhua Li, and Zhi-Li Zhang.
+- Captured the RPS extension from stock-size estimation to labeled-video
+  statistics, daily upload-flow estimation, uploader-count estimation,
+  and uploader activeness.
+- Preserved the paper's historical scope: the crawl ran June 30-July
+  25, 2013 and estimates upload/uploaders from YouTube's 2005 inception
+  through June 2013.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; this is a conference paper with original
+  RPS-derived measurement and estimator development.
 - Routed the source to `descriptive-deficit` and
   `random_video_sampling`; no new taxonomy term was needed.
 
@@ -2912,3 +2933,4 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/rieder_et_al_2025?quick_pull=1
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/golnari_et_al_2014?quick_pull=1

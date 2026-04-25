@@ -73,6 +73,7 @@ hit (McGrady et al. 2023, p. 15). [🤖]
 | [[mcgrady_2025]] | RPS at scale with Whisper language detection | 246,381 random videos, yielding 33,772 English, 10,446 Spanish, 17,142 Hindi, 7,031 Russian high-confidence language samples | Uses RPS (not DFV) as the primary frame; treats language classification as part of the estimator via per-language calibrated confidence thresholds | [🤖] |
 | [[bartl_2018]] | Random letter-string search (ancestor method, not ID-space) | 19,025 channels across four batches | Draws randomness from *query strings*, not IDs; explicitly evaluates sampling bias from popularity-sorted search returns | [🤖] |
 | [[zhou_et_al_2011]] | Random Prefix Sampling | Length-5 random prefixes in the 2011 YouTube Search API | Introduces the RPS estimator `N_hat = (1 / (m p_L)) * sum_i X_i^L`, its variance, and sample-size guidance | [🤖] |
+| [[golnari_et_al_2014]] | RPS extension to upload-flow and uploader dynamics | 7,752,384 length-5 prefix query samples containing 7,977,651 videos | Extends RPS to labeled-video statistics, daily upload flow, and uploader-count estimation | [🤖] |
 | [[rieder_et_al_2025]] | Search API audit, not RPS | Eleven weekly repeated Data API search queries over six months | Shows that official search-based retrieval has temporal decay, ranking-parameter differences, and query-to-query instability | [🤖] |
 
 [LIT] The McGrady team is the only group in the atlas corpus currently
@@ -119,6 +120,18 @@ of videos returned for one sampled prefix (Zhou et al. 2011, pp. 3-4).
 larger `m` lowers variance linearly, while longer prefixes make
 variance grow quickly because `p_L` shrinks (Zhou et al. 2011, p. 4).
 [🤖]
+
+[LIT] RPS can estimate more than video stock when sampled videos carry
+labels. Golnari et al. generalize the estimator to labels such as
+upload day, category, or uploader group: `N_hat_l = (1 / (m p_L)) *
+sum_i X_i,l^L`, where `X_i,l^L` counts label-`l` videos in query sample
+`i` (Golnari et al. 2014, p. 3). [🤖]
+
+[LIT] Golnari et al. further derive an uploader estimator by grouping
+uploaders by total upload count `k` and dividing the estimated number
+of sampled videos from that group by `k`; this turns a video sample
+into an estimate of uploader counts and daily new uploaders (Golnari
+et al. 2014, p. 3). [🤖]
 
 [LIT] Because IDs are pseudo-random strings rather than human-chosen
 channel names or titles, ID-space sampling sidesteps the critique Rieder
@@ -354,40 +367,37 @@ future refresh work:
 2. **Karkulahti & Kangasharju (2015)**, "YouTube Revisited." Makes
    sampling bias the object of study across multiple sampling methods;
    the right external reference for the atlas's validation discussion.
-3. **Golnari, Li, & Zhang (2014)**, extension of RPS to estimate upload
-   flow and uploader dynamics. Provides a temporal-flow estimator that
-   complements stock-size estimation.
-4. **Mathur, Narayanan, & Chetty (2018)**, affiliate-disclosure study
+3. **Mathur, Narayanan, & Chetty (2018)**, affiliate-disclosure study
    using RPS at 515,999-video scale. Substantive application useful as
    a precedent for two-stage (random baseline + targeted detection)
    designs.
-5. **Akgul, Roberts, Namara, Levin, & Mazurek (2022)**, influencer
+4. **Akgul, Roberts, Namara, Levin, & Mazurek (2022)**, influencer
    VPN-ad study using ~86 million video RPS. Largest published RPS
    application we have a lead on; their thresholding practices are
    directly relevant to our rare-content estimation questions.
-6. **Brodersen, Scellato, & Wattenhofer (2012)**, Google-internal
+5. **Brodersen, Scellato, & Wattenhofer (2012)**, Google-internal
    random sample of >20M videos. Not externally reproducible, but the
    only point of comparison we have for an internally-sampled
    denominator.
-7. **Paolillo et al. (2019)**, hybrid search/browse/crawl of 549,383
+6. **Paolillo et al. (2019)**, hybrid search/browse/crawl of 549,383
    channels. Criticized in Rieder et al. 2020 § 2.1 for being
    "neither systematic" nor explicit about biases — ingest primarily
    to anchor the critique.
-8. **Liu, Blasiak, Xiao, Li, & Chen (2015)**, duplicate-video study
+7. **Liu, Blasiak, Xiao, Li, & Chen (2015)**, duplicate-video study
    using RPS. Example of two-stage estimation (probability sample +
    targeted validation).
-9. **Abu-El-Haija et al. (2016), YouTube-8M**, platform-provided
+8. **Abu-El-Haija et al. (2016), YouTube-8M**, platform-provided
    labeled benchmark. Not a probability sample but a useful reference
    point for internal-access datasets.
-10. **Cheng, Dale, & Liu (2008)**, early large-scale crawl. Historical
-    anchor rather than current evidence.
-11. **Wesch (2008) and Hráček (2009)**, recent-uploads feed work.
+9. **Cheng, Dale, & Liu (2008)**, early large-scale crawl. Historical
+   anchor rather than current evidence.
+10. **Wesch (2008) and Hráček (2009)**, recent-uploads feed work.
     Historical anchor; feed no longer exists.
 
 ## Cross-References
 
 - **Themes:** [[descriptive_deficit]], [[cross_linguistic_variation]]
 - **Related methods:** [[channel_classification]]
-- **Papers that use this method:** [[zhou_et_al_2011]], [[mcgrady_2023]], [[mcgrady_2025]], [[bartl_2018]]
+- **Papers that use this method:** [[zhou_et_al_2011]], [[golnari_et_al_2014]], [[mcgrady_2023]], [[mcgrady_2025]], [[bartl_2018]]
 - **Papers that inform the critique:** [[rieder_2020]], [[rieder_et_al_2025]], [[ribeiro_west_2021]], [[violot_et_al_2024]]
 - **Debates:** _(none yet — see "Known Weaknesses" for the representativeness concern that would seed one once we have an independent published critique)_
