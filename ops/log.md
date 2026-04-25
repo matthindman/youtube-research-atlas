@@ -2991,3 +2991,31 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/akgul_et_al_2022?quick_pull=1
+
+## 2026-04-24 — ingest paolillo_et_al_2019
+**Operation:** ingest-source
+**Branch:** ingest/paolillo_et_al_2019
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/paolillo_et_al_2019.md` and updated the source
+registry, claim registry, index, descriptive-deficit source list, and
+random-video sampling method page.
+- Confirmed the PDF first page lists John C. Paolillo, Sharad Ghule,
+  and Brian P. Harper as authors.
+- Used the printed paper title, "A Network View of Social Media
+  Platform History: Social Structure, Dynamics and Content on YouTube,"
+  rather than the PDF metadata shorthand "YouTube Content History."
+- Captured the method as a hybrid search/browse/API crawl of 76.1M
+  videos and 549.4K channels, not as an ID-space probability sample.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; the paper reports original crawl,
+  network, clustering, and historical interpretation work.
+- Routed the source to `descriptive-deficit` and `discovery-
+  completeness` as a contrast case for historically rich but
+  non-representative YouTube crawl designs.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/paolillo_et_al_2019?quick_pull=1

@@ -177,6 +177,12 @@ evidence about the field and its platform-level claims as framing
   or recommendation traces that are useful for focused analysis but
   cannot by themselves support platform-wide prevalence claims
   (McGrady et al. 2023, pp. 4-7). [🤖]
+- Historical search/browse/crawl designs can recover content evolution
+  that random video samples cannot, but they need to be read as
+  connected-network histories rather than representative denominators.
+  Paolillo et al.'s 76.1M-video, 549.4K-channel crawl is explicitly a
+  small, popular, highly connected fraction of YouTube activity
+  (Paolillo et al. 2019, p. 2). [🤖]
 - Even very large studies can remain narrow in scope if they are built
   on political-channel universes or public-comment traces rather than
   on a representative platform frame (Munger 2024, pp. 33-34, 46-47;
@@ -319,6 +325,7 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[golnari_et_al_2014]]
 - [[mathur_et_al_2018]]
 - [[akgul_et_al_2022]]
+- [[paolillo_et_al_2019]]
 
 ## Cross-References
 

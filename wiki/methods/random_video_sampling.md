@@ -76,6 +76,7 @@ hit (McGrady et al. 2023, p. 15). [🤖]
 | [[golnari_et_al_2014]] | RPS extension to upload-flow and uploader dynamics | 7,752,384 length-5 prefix query samples containing 7,977,651 videos | Extends RPS to labeled-video statistics, daily upload flow, and uploader-count estimation | [🤖] |
 | [[mathur_et_al_2018]] | RPS baseline plus targeted affiliate/disclosure detection | 515,999 unique YouTube videos; 3,472 affiliate-URL videos after filtering | Uses prefix sampling to avoid keyword/related-video bias, then applies URL-pattern and disclosure extraction to estimate a rare monetization practice | [🤖] |
 | [[akgul_et_al_2022]] | RPS baseline plus subtitle/manual VPN-ad detection | 86.3M RPS-sampled videos; 10.7M videos with at least 800 views for deeper metadata; 243 retained VPN-ad videos | Largest RPS application currently ingested, but the substantive analysis shifts to a high-view English-subtitle-dependent rare-content sample | [🤖] |
+| [[paolillo_et_al_2019]] | Hybrid search/browse/API crawl (not ID-space random sampling) | 76,081,372 videos and 549,383 channels in a connected historical network crawl | Useful contrast case: historically rich, but explicitly a small, popular, highly connected fraction rather than a representative denominator | [🤖] |
 | [[rieder_et_al_2025]] | Search API audit, not RPS | Eleven weekly repeated Data API search queries over six months | Shows that official search-based retrieval has temporal decay, ranking-parameter differences, and query-to-query instability | [🤖] |
 
 [LIT] The McGrady team is the only group in the atlas corpus currently
@@ -315,6 +316,13 @@ al. 2020, § 2.1), and Ribeiro and West warn that YouNiverse is "likely
 to over-emphasize features associated with English-language channels"
 (Ribeiro and West 2021, p. 6). [🤖]
 
+[LIT] Paolillo et al. 2019 are especially useful as a contrast case.
+Their search/browse/API crawl supports a historical reading of genre
+and channel-network evolution, but the authors describe the database as
+a small, popular, highly connected fraction of YouTube activity after
+search/browse/crawl collection produced 76,081,372 videos and 549,383
+channels (Paolillo et al. 2019, p. 2). [🤖]
+
 [LIT] Crawls give relational structure that random-ID methods do not;
 random-ID methods give a defensible denominator that crawls do not. The
 two families are complementary, not competing, because they answer
@@ -393,19 +401,15 @@ future refresh work:
    random sample of >20M videos. Not externally reproducible, but the
    only point of comparison we have for an internally-sampled
    denominator.
-4. **Paolillo et al. (2019)**, hybrid search/browse/crawl of 549,383
-   channels. Criticized in Rieder et al. 2020 § 2.1 for being
-   "neither systematic" nor explicit about biases — ingest primarily
-   to anchor the critique.
-5. **Liu, Blasiak, Xiao, Li, & Chen (2015)**, duplicate-video study
+4. **Liu, Blasiak, Xiao, Li, & Chen (2015)**, duplicate-video study
    using RPS. Example of two-stage estimation (probability sample +
    targeted validation).
-6. **Abu-El-Haija et al. (2016), YouTube-8M**, platform-provided
+5. **Abu-El-Haija et al. (2016), YouTube-8M**, platform-provided
    labeled benchmark. Not a probability sample but a useful reference
    point for internal-access datasets.
-7. **Cheng, Dale, & Liu (2008)**, early large-scale crawl. Historical
+6. **Cheng, Dale, & Liu (2008)**, early large-scale crawl. Historical
    anchor rather than current evidence.
-8. **Wesch (2008) and Hráček (2009)**, recent-uploads feed work.
+7. **Wesch (2008) and Hráček (2009)**, recent-uploads feed work.
     Historical anchor; feed no longer exists.
 
 ## Cross-References
@@ -413,5 +417,6 @@ future refresh work:
 - **Themes:** [[descriptive_deficit]], [[cross_linguistic_variation]]
 - **Related methods:** [[channel_classification]]
 - **Papers that use this method:** [[zhou_et_al_2011]], [[golnari_et_al_2014]], [[mathur_et_al_2018]], [[akgul_et_al_2022]], [[mcgrady_2023]], [[mcgrady_2025]], [[bartl_2018]]
+- **Related sampling designs (contrast cases):** [[paolillo_et_al_2019]]
 - **Papers that inform the critique:** [[rieder_2020]], [[rieder_et_al_2025]], [[ribeiro_west_2021]], [[violot_et_al_2024]]
 - **Debates:** _(none yet — see "Known Weaknesses" for the representativeness concern that would seed one once we have an independent published critique)_

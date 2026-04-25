@@ -1664,6 +1664,17 @@ claims:
   scope_conditions: Lower-bound estimate because the URL pattern detector excludes lower-frequency patterns, coupon-code programs, and non-English disclosure extraction.
   themes:
   - creator-economy
+- id: claim_descriptive_deficit_hybrid_crawls_are_historically_rich_but_not_representative
+  text: Hybrid YouTube search, browsing, and crawl designs can recover historically informative channel networks while still falling short of representative platform-wide sampling because they over-represent connected, discoverable, and API-visible activity.
+  claim_type: methodological
+  evidence_strength: single-source
+  temporal_scope: YouTube network reconstruction covering 2005-2016 from a search/browse/crawl process repeated July 2015-March 2017.
+  primary_sources:
+  - paolillo_et_al_2019
+  supporting_sources: []
+  conflicting_sources: []
+  scope_conditions: Current support comes from one historical YouTube network study that explicitly describes its own sample as a small, popular, highly connected fraction of total activity; use it as a crawl-frame caution rather than a universal result about every crawl.
+  themes:
   - descriptive-deficit
   census_papers:
   - methods-companion
@@ -1691,4 +1702,8 @@ claims:
   appears_in:
   - wiki/sources/akgul_et_al_2022.md
   - wiki/themes/creator_economy.md
+  verification: machine_extracted
+  - wiki/sources/paolillo_et_al_2019.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/methods/random_video_sampling.md
   verification: machine_extracted
