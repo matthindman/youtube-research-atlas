@@ -73,6 +73,7 @@ hit (McGrady et al. 2023, p. 15). [🤖]
 | [[mcgrady_2025]] | RPS at scale with Whisper language detection | 246,381 random videos, yielding 33,772 English, 10,446 Spanish, 17,142 Hindi, 7,031 Russian high-confidence language samples | Uses RPS (not DFV) as the primary frame; treats language classification as part of the estimator via per-language calibrated confidence thresholds | [🤖] |
 | [[bartl_2018]] | Random letter-string search (ancestor method, not ID-space) | 19,025 channels across four batches | Draws randomness from *query strings*, not IDs; explicitly evaluates sampling bias from popularity-sorted search returns | [🤖] |
 | [[zhou_et_al_2011]] | Random Prefix Sampling | Length-5 random prefixes in the 2011 YouTube Search API | Introduces the RPS estimator `N_hat = (1 / (m p_L)) * sum_i X_i^L`, its variance, and sample-size guidance | [🤖] |
+| [[rieder_et_al_2025]] | Search API audit, not RPS | Eleven weekly repeated Data API search queries over six months | Shows that official search-based retrieval has temporal decay, ranking-parameter differences, and query-to-query instability | [🤖] |
 
 [LIT] The McGrady team is the only group in the atlas corpus currently
 producing ID-space random samples at research scale. Other uses of RPS
@@ -245,6 +246,26 @@ Shorts changed both supply and engagement baselines by 2021-2022
 well, and neither paper addresses the March 31, 2025 change to how
 Shorts views are counted ([[youtube_shorts_views_2025]]). [🤖]
 
+### Search API decay and repeatability
+
+[LIT] The official Data API search endpoint is not a stable archival
+retrieval system. Rieder, Padilla, and Coromina find that videos
+retrievable for a fixed publication window can drop sharply within
+20-60 days, even when those videos remain available on YouTube (Rieder
+et al. 2025, pp. 11-13, 19-21). [🤖]
+
+[LIT] Search ranking parameters also change the sample. In the audit's
+European Parliament election query, `relevance` returned 72,767 videos
+with 17.2% keyword precision, while `date` returned 8,933 videos with
+57.6% precision before keyword filtering (Rieder et al. 2025, pp.
+9-10). [🤖]
+
+[LIT] Repeated identical searches are not fully reproducible: the
+authors show that the same query parameters can omit previously
+retrieved videos and add new ones for the same publication window,
+which weakens replication claims for topic/event samples built from
+search (Rieder et al. 2025, pp. 13-15, 19). [🤖]
+
 ## Related Approaches (Not Random Video Sampling)
 
 [LIT] Network crawls such as Rieder et al. 2020 and Ribeiro and West
@@ -330,41 +351,37 @@ future refresh work:
    ~15 billion public-video estimate attributed in McGrady et al. 2025,
    p. 7. Infrastructure rather than a conventional article, but the
    number is load-bearing.
-2. **Rieder, Padilla, & Coromina (2025), "Forgetful by design?"** A
-   critical audit of YouTube's Data API search endpoint. Directly
-   relevant to whether any search-based sampling method (RPS or DFV)
-   can be trusted for temporal consistency.
-3. **Karkulahti & Kangasharju (2015)**, "YouTube Revisited." Makes
+2. **Karkulahti & Kangasharju (2015)**, "YouTube Revisited." Makes
    sampling bias the object of study across multiple sampling methods;
    the right external reference for the atlas's validation discussion.
-4. **Golnari, Li, & Zhang (2014)**, extension of RPS to estimate upload
+3. **Golnari, Li, & Zhang (2014)**, extension of RPS to estimate upload
    flow and uploader dynamics. Provides a temporal-flow estimator that
    complements stock-size estimation.
-5. **Mathur, Narayanan, & Chetty (2018)**, affiliate-disclosure study
+4. **Mathur, Narayanan, & Chetty (2018)**, affiliate-disclosure study
    using RPS at 515,999-video scale. Substantive application useful as
    a precedent for two-stage (random baseline + targeted detection)
    designs.
-6. **Akgul, Roberts, Namara, Levin, & Mazurek (2022)**, influencer
+5. **Akgul, Roberts, Namara, Levin, & Mazurek (2022)**, influencer
    VPN-ad study using ~86 million video RPS. Largest published RPS
    application we have a lead on; their thresholding practices are
    directly relevant to our rare-content estimation questions.
-7. **Brodersen, Scellato, & Wattenhofer (2012)**, Google-internal
+6. **Brodersen, Scellato, & Wattenhofer (2012)**, Google-internal
    random sample of >20M videos. Not externally reproducible, but the
    only point of comparison we have for an internally-sampled
    denominator.
-8. **Paolillo et al. (2019)**, hybrid search/browse/crawl of 549,383
+7. **Paolillo et al. (2019)**, hybrid search/browse/crawl of 549,383
    channels. Criticized in Rieder et al. 2020 § 2.1 for being
    "neither systematic" nor explicit about biases — ingest primarily
    to anchor the critique.
-9. **Liu, Blasiak, Xiao, Li, & Chen (2015)**, duplicate-video study
-    using RPS. Example of two-stage estimation (probability sample +
-    targeted validation).
-10. **Abu-El-Haija et al. (2016), YouTube-8M**, platform-provided
-    labeled benchmark. Not a probability sample but a useful reference
-    point for internal-access datasets.
-11. **Cheng, Dale, & Liu (2008)**, early large-scale crawl. Historical
+8. **Liu, Blasiak, Xiao, Li, & Chen (2015)**, duplicate-video study
+   using RPS. Example of two-stage estimation (probability sample +
+   targeted validation).
+9. **Abu-El-Haija et al. (2016), YouTube-8M**, platform-provided
+   labeled benchmark. Not a probability sample but a useful reference
+   point for internal-access datasets.
+10. **Cheng, Dale, & Liu (2008)**, early large-scale crawl. Historical
     anchor rather than current evidence.
-12. **Wesch (2008) and Hráček (2009)**, recent-uploads feed work.
+11. **Wesch (2008) and Hráček (2009)**, recent-uploads feed work.
     Historical anchor; feed no longer exists.
 
 ## Cross-References
@@ -372,5 +389,5 @@ future refresh work:
 - **Themes:** [[descriptive_deficit]], [[cross_linguistic_variation]]
 - **Related methods:** [[channel_classification]]
 - **Papers that use this method:** [[zhou_et_al_2011]], [[mcgrady_2023]], [[mcgrady_2025]], [[bartl_2018]]
-- **Papers that inform the critique:** [[rieder_2020]], [[ribeiro_west_2021]], [[violot_et_al_2024]]
+- **Papers that inform the critique:** [[rieder_2020]], [[rieder_et_al_2025]], [[ribeiro_west_2021]], [[violot_et_al_2024]]
 - **Debates:** _(none yet — see "Known Weaknesses" for the representativeness concern that would seed one once we have an independent published critique)_

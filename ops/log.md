@@ -2884,3 +2884,31 @@ Tier and taxonomy notes:
 Prefilled compare URL:
 
 - https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/zhou_et_al_2011?quick_pull=1
+## 2026-04-24 — ingest rieder_et_al_2025
+**Operation:** ingest-source
+**Branch:** ingest/rieder_et_al_2025
+**By:** Codex (GPT-5)
+
+Created `wiki/sources/rieder_et_al_2025.md` and updated the source
+registry, claim registry, index, descriptive-deficit source list,
+governance-data-access theme, and random-video sampling method page.
+- Confirmed the PDF is arXiv v3 with a Version of Record note for
+  *Information, Communication & Society* on 2025-11-30 and DOI
+  `10.1080/1369118X.2025.2591767`.
+- Captured the audit's three central search-endpoint problems:
+  ranking-parameter differences, 20-60 day temporal decay in
+  retrievability, and instability across repeated identical queries.
+- Kept the paper distinct from `rieder_2020` and `rieder_et_al_2023`;
+  this source is a 2024 Data API search audit, not the Mapping YouTube
+  crawl or creator-economy linking study.
+
+Tier and taxonomy notes:
+
+- Assigned `primary_empirical`; this is a peer-reviewed journal article
+  with original repeated API data collection and audit analysis.
+- Routed the source to `governance-data-access` and
+  `descriptive-deficit`; no new taxonomy term was needed.
+
+Prefilled compare URL:
+
+- https://github.com/matthindman/youtube-research-atlas/compare/main...ingest/rieder_et_al_2025?quick_pull=1
