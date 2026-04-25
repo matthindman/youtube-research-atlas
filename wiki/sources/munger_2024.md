@@ -75,7 +75,7 @@ The agenda-setting argument is meant as a diagnosis of the field in the early 20
 
 > "YouTube, the platform for which the ratio of academic attention to social and political importance seems to me to be the most out of whack." (p. 2). [✓]
 
-> "qualitative description must be complemented by rigorous quantitative description as the second stage of the academic research process." (p. 24). [✓]
+> "qualitative description must be complemented by rigorous quantitative description as the second stage of the academic research process." (p. 18). [✓]
 
 ## Relation to This Project
 

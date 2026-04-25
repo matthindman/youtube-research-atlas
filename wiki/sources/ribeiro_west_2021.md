@@ -80,7 +80,7 @@ This paper is a pre-2020 snapshot of YouTube infrastructure. It predates Shorts,
 
 > "this dataset represents the largest collection of YouTube metadata made publicly available to date." (p. 1) [🤖]
 
-> "our dataset focuses on English-language YouTube channels ... we are likely to over-emphasize features associated with English-language channels." (p. 7) [🤖]
+> "our dataset focuses on English-language YouTube channels ... we are likely to over-emphasize features associated with English-language channels." (p. 6) [🤖]
 
 ## Relation to This Project
 
