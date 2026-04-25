@@ -12,6 +12,7 @@ key_sources: [mcgrady_2023, zhou_et_al_2011, munger_2024, munger_et_al_2025, nor
 key_sources: [mcgrady_2023, rieder_et_al_2025, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025, goodrow_2017, borghol_et_al_2012, bartl_2018, datareportal_top_social_2025, datareportal_time_2024, nielsen_gauge_2025, socialblade_docs_2025]
 key_sources: [mcgrady_2023, golnari_et_al_2014, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025, goodrow_2017, borghol_et_al_2012, bartl_2018, datareportal_top_social_2025, datareportal_time_2024, nielsen_gauge_2025, socialblade_docs_2025]
 key_sources: [mcgrady_2023, mathur_et_al_2018, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025, goodrow_2017, borghol_et_al_2012, bartl_2018, datareportal_top_social_2025, datareportal_time_2024, nielsen_gauge_2025, socialblade_docs_2025]
+key_sources: [mcgrady_2023, munger_2024, munger_et_al_2025, norton_shapiro_2024, mcgrady_2025, ribeiro_west_2021, reveilhac_2024, zaitsev_clark_2025, violot_et_al_2024, youtube_2024, youtube_shorts_views_2025, goodrow_2017, borghol_et_al_2012, bartl_2018, datareportal_top_social_2025, datareportal_time_2024, nielsen_gauge_2025, socialblade_docs_2025]
 split_candidates: []
 verification:
   machine_extracted: 48
@@ -207,6 +208,13 @@ evidence about the field and its platform-level claims as framing
   2022, which means descriptive work still centered on regular videos
   can miss major shifts in both supply and engagement (Violot et al.
   2024, pp. 1-4, 9-11). [🤖]
+- Random-sample designs can still drift away from video-uniform
+  inference after the first-stage draw. Akgul et al.'s VPN-ad study
+  starts from 86.3 million RPS-sampled videos, but the substantive
+  content-analysis stage keeps videos with at least 800 views and
+  depends on available English subtitles, so its rare-content estimates
+  are lower-bound and visibility-conditioned rather than a pure
+  all-video prevalence estimate (Akgul et al. 2022, pp. 3-5). [🤖]
 - Post-March-2025 Shorts measurement adds a second format problem:
   public Shorts views now count starts and replays with no minimum
   watch-time threshold, while monetization and eligibility continue to
@@ -310,10 +318,11 @@ McGrady et al. 2025, p. 5). [🤖]
 - [[rieder_et_al_2025]]
 - [[golnari_et_al_2014]]
 - [[mathur_et_al_2018]]
+- [[akgul_et_al_2022]]
 
 ## Cross-References
 
 - **Themes:** [[cross_linguistic_variation]], [[governance_data_access]]
-- **Methods:** _(none yet)_
+- **Methods:** [[random_video_sampling]]
 - **Debates:** _(none yet)_
 - **Papers:** [[methods_companion_dossier]], [[paper1_attention_economy_dossier]]

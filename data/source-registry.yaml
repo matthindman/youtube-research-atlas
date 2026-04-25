@@ -2023,6 +2023,19 @@ sources:
   year: 2018
   venue: Proceedings of the ACM on Human-Computer Interaction 2(CSCW)
   doi: 10.1145/3274388
+- id: akgul_et_al_2022
+  type: conference_paper
+  evidence_tier: primary_empirical
+  title: Investigating Influencer VPN Ads on YouTube
+  authors:
+  - Akgul, Omer
+  - Roberts, Richard
+  - Namara, Moses
+  - Levin, Dave
+  - Mazurek, Michelle L.
+  year: 2022
+  venue: IEEE Symposium on Security and Privacy
+  doi: null
   canonical_format: pdf
   formats_available:
   - pdf
@@ -2073,6 +2086,10 @@ sources:
   - wiki/methods/random_video_sampling.md
   - wiki/themes/descriptive_deficit.md
   - wiki/themes/creator_economy.md
+  - wiki/sources/akgul_et_al_2022.md
+  - wiki/themes/descriptive_deficit.md
+  - wiki/themes/creator_economy.md
+  - wiki/methods/random_video_sampling.md
   - wiki/index.md
   tags:
   - descriptive-deficit
@@ -2085,3 +2102,5 @@ sources:
   - methods-companion
   temporal_scope: YouTube and Pinterest content collected August-September 2017; MTurk disclosure experiments conducted March 2018
   notes: Useful two-stage precedent: broad prefix-sampled YouTube baseline followed by targeted affiliate URL/disclosure detection. Substantively relevant to creator monetization because affiliate links are one off-platform revenue route.
+  temporal_scope: Random Prefix Sampling scrape conducted August 2020-March 2021; VPN ad videos analyzed from late 2016-mid 2020
+  notes: Very large RPS application, but the substantive VPN-ad analysis is conditioned on at least 800 views and English subtitle availability, so it should be cited as a lower-bound rare-content study rather than a uniform all-video prevalence estimate.

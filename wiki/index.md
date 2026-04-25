@@ -24,6 +24,7 @@ executive synthesis.
 - [[ideology_estimation]] — video-level and channel-level approaches for placing political YouTube content in ideological space
 - [[channel_classification]] — scalable approaches for discovering and classifying YouTube channels under changing data-access regimes
 - [[lookback_calibration]] — choosing observation windows for estimating cumulative views under changing attention lifecycles
+- [[random_video_sampling]] — ID-space sampling methods for estimating public YouTube video denominators
 - [[recommendation_audit]] — audit designs for capturing YouTube recommendation outputs under controlled user states
 - [[random_video_sampling]] — ID-space random sampling (RPS, DFV) for platform-wide denominators and its heavy-tail limits
 
@@ -105,6 +106,7 @@ executive synthesis.
 - [[rieder_et_al_2025]] — Search API audit showing temporal decay, ranking-parameter effects, and inconsistent YouTube query results
 - [[golnari_et_al_2014]] — RPS extension estimating historical YouTube upload flow, uploader growth, and activity concentration
 - [[mathur_et_al_2018]] — RPS-based two-stage study of affiliate marketing disclosures on YouTube and Pinterest
+- [[akgul_et_al_2022]] — large-scale RPS study of influencer VPN ads showing how post-sampling thresholds change the substantive estimand
 
 ## Paper dossiers
 

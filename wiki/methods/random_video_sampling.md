@@ -75,13 +75,14 @@ hit (McGrady et al. 2023, p. 15). [🤖]
 | [[zhou_et_al_2011]] | Random Prefix Sampling | Length-5 random prefixes in the 2011 YouTube Search API | Introduces the RPS estimator `N_hat = (1 / (m p_L)) * sum_i X_i^L`, its variance, and sample-size guidance | [🤖] |
 | [[golnari_et_al_2014]] | RPS extension to upload-flow and uploader dynamics | 7,752,384 length-5 prefix query samples containing 7,977,651 videos | Extends RPS to labeled-video statistics, daily upload flow, and uploader-count estimation | [🤖] |
 | [[mathur_et_al_2018]] | RPS baseline plus targeted affiliate/disclosure detection | 515,999 unique YouTube videos; 3,472 affiliate-URL videos after filtering | Uses prefix sampling to avoid keyword/related-video bias, then applies URL-pattern and disclosure extraction to estimate a rare monetization practice | [🤖] |
+| [[akgul_et_al_2022]] | RPS baseline plus subtitle/manual VPN-ad detection | 86.3M RPS-sampled videos; 10.7M videos with at least 800 views for deeper metadata; 243 retained VPN-ad videos | Largest RPS application currently ingested, but the substantive analysis shifts to a high-view English-subtitle-dependent rare-content sample | [🤖] |
 | [[rieder_et_al_2025]] | Search API audit, not RPS | Eleven weekly repeated Data API search queries over six months | Shows that official search-based retrieval has temporal decay, ranking-parameter differences, and query-to-query instability | [🤖] |
 
 [LIT] The McGrady team is the only group in the atlas corpus currently
 producing ID-space random samples at research scale. Other uses of RPS
-or related designs (e.g., Akgul et al. 2022, Zheng et al. 2024) are
-referenced in the McGrady papers but are not yet ingested into the
-atlas. See the Open Holes section below. [🤖]
+or related designs (e.g., Zheng et al. 2024) are referenced in the
+McGrady papers but are not yet ingested into the atlas. See the Open
+Holes section below. [🤖]
 
 ## Target Population (What These Methods Actually Estimate)
 
@@ -180,6 +181,21 @@ which McGrady et al. describe as "an unusual feature (or, more likely,
 a bug)" (McGrady et al. 2025, p. 3). A one-line indexer fix on YouTube's
 side would eliminate the entire method, and researchers would likely
 not be told in advance. [🤖]
+
+### Post-sampling filters can change the estimand
+
+[LIT] Akgul et al. show that an RPS design can begin with a very large
+video-uniform baseline and then shift to a narrower substantive
+population during analysis. Their initial sample contains 86.3 million
+videos, but the deeper metadata collection keeps videos with at least
+800 views and the VPN-ad detection stage depends on available English
+subtitles (Akgul et al. 2022, pp. 3-5). [🤖]
+
+[LIT] This makes the VPN-ad study valuable for rare-content estimation
+and scale, but not a simple uniform estimate of VPN-ad prevalence among
+all YouTube videos. The authors explicitly frame their estimates as
+lower bounds and note limits from the minimum-view and English-subtitle
+filters (Akgul et al. 2022, p. 5). [🤖]
 
 ### Heavy-tail inference and the central-limit problem
 
@@ -373,33 +389,29 @@ future refresh work:
 2. **Karkulahti & Kangasharju (2015)**, "YouTube Revisited." Makes
    sampling bias the object of study across multiple sampling methods;
    the right external reference for the atlas's validation discussion.
-3. **Akgul, Roberts, Namara, Levin, & Mazurek (2022)**, influencer
-   VPN-ad study using ~86 million video RPS. Largest published RPS
-   application we have a lead on; their thresholding practices are
-   directly relevant to our rare-content estimation questions.
-4. **Brodersen, Scellato, & Wattenhofer (2012)**, Google-internal
+3. **Brodersen, Scellato, & Wattenhofer (2012)**, Google-internal
    random sample of >20M videos. Not externally reproducible, but the
    only point of comparison we have for an internally-sampled
    denominator.
-5. **Paolillo et al. (2019)**, hybrid search/browse/crawl of 549,383
+4. **Paolillo et al. (2019)**, hybrid search/browse/crawl of 549,383
    channels. Criticized in Rieder et al. 2020 § 2.1 for being
    "neither systematic" nor explicit about biases — ingest primarily
    to anchor the critique.
-6. **Liu, Blasiak, Xiao, Li, & Chen (2015)**, duplicate-video study
+5. **Liu, Blasiak, Xiao, Li, & Chen (2015)**, duplicate-video study
    using RPS. Example of two-stage estimation (probability sample +
    targeted validation).
-7. **Abu-El-Haija et al. (2016), YouTube-8M**, platform-provided
+6. **Abu-El-Haija et al. (2016), YouTube-8M**, platform-provided
    labeled benchmark. Not a probability sample but a useful reference
    point for internal-access datasets.
-8. **Cheng, Dale, & Liu (2008)**, early large-scale crawl. Historical
+7. **Cheng, Dale, & Liu (2008)**, early large-scale crawl. Historical
    anchor rather than current evidence.
-9. **Wesch (2008) and Hráček (2009)**, recent-uploads feed work.
+8. **Wesch (2008) and Hráček (2009)**, recent-uploads feed work.
     Historical anchor; feed no longer exists.
 
 ## Cross-References
 
 - **Themes:** [[descriptive_deficit]], [[cross_linguistic_variation]]
 - **Related methods:** [[channel_classification]]
-- **Papers that use this method:** [[zhou_et_al_2011]], [[golnari_et_al_2014]], [[mathur_et_al_2018]], [[mcgrady_2023]], [[mcgrady_2025]], [[bartl_2018]]
+- **Papers that use this method:** [[zhou_et_al_2011]], [[golnari_et_al_2014]], [[mathur_et_al_2018]], [[akgul_et_al_2022]], [[mcgrady_2023]], [[mcgrady_2025]], [[bartl_2018]]
 - **Papers that inform the critique:** [[rieder_2020]], [[rieder_et_al_2025]], [[ribeiro_west_2021]], [[violot_et_al_2024]]
 - **Debates:** _(none yet — see "Known Weaknesses" for the representativeness concern that would seed one once we have an independent published critique)_
